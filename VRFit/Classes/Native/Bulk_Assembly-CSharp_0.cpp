@@ -1,0 +1,23927 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+// BaseScrollEffect
+struct BaseScrollEffect_t2855282033;
+// BaseTile
+struct BaseTile_t3549052087;
+// ChildrenPageProvider
+struct ChildrenPageProvider_t958136491;
+// UnityEngine.RectTransform
+struct RectTransform_t3349966182;
+// System.Object
+struct Il2CppObject;
+// DemoInputManager
+struct DemoInputManager_t2776755480;
+// DemoSceneManager
+struct DemoSceneManager_t779426248;
+// FadeScrollEffect
+struct FadeScrollEffect_t2128935010;
+// FloatTile
+struct FloatTile_t645192174;
+// UnityEngine.EventSystems.PointerEventData
+struct PointerEventData_t1599784723;
+// GameObjectPool
+struct GameObjectPool_t4074206773;
+// UnityEngine.GameObject
+struct GameObject_t1756533147;
+// GameObjectPoolController
+struct GameObjectPoolController_t2109978193;
+// GVR.Events.PositionSwapper
+struct PositionSwapper_t2793617445;
+// GVR.Events.ToggleAction
+struct ToggleAction_t2865238344;
+// GVR.Input.AppButtonInput
+struct AppButtonInput_t1324551885;
+// GVR.Input.BoolEvent
+struct BoolEvent_t555382268;
+// GVR.Input.ButtonEvent
+struct ButtonEvent_t3014361476;
+// GVR.Input.FloatEvent
+struct FloatEvent_t2213495270;
+// GVR.Input.GameObjectEvent
+struct GameObjectEvent_t3653055841;
+// GVR.Input.TouchPadEvent
+struct TouchPadEvent_t1647781410;
+// GVR.Input.TransformEvent
+struct TransformEvent_t206501054;
+// GVR.Input.Vector2Event
+struct Vector2Event_t2806928513;
+// GVR.Input.Vector3Event
+struct Vector3Event_t2806921088;
+// Gvr.Internal.AndroidNativeControllerProvider
+struct AndroidNativeControllerProvider_t1389606029;
+// Gvr.Internal.BaseVRDevice
+struct BaseVRDevice_t4004462063;
+// GvrProfile
+struct GvrProfile_t2070273202;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_t1398341365;
+// UnityEngine.RenderTexture
+struct RenderTexture_t2666733923;
+// System.Uri
+struct Uri_t19570940;
+// Pose3D
+struct Pose3D_t3872859958;
+// proto.PhoneEvent/Types/AccelerometerEvent
+struct AccelerometerEvent_t1893725728;
+// proto.PhoneEvent/Types/KeyEvent
+struct KeyEvent_t639576718;
+// Gvr.Internal.EmulatorClientSocket
+struct EmulatorClientSocket_t2001911543;
+// Gvr.Internal.EmulatorManager
+struct EmulatorManager_t3364249716;
+// System.Net.Sockets.TcpClient
+struct TcpClient_t408947970;
+// System.Net.Sockets.NetworkStream
+struct NetworkStream_t581172200;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
+// Gvr.Internal.EmulatorConfig
+struct EmulatorConfig_t616150261;
+// proto.PhoneEvent/Types/GyroscopeEvent
+struct GyroscopeEvent_t182225200;
+// Gvr.Internal.EmulatorManager/OnGyroEvent
+struct OnGyroEvent_t1804908545;
+// Gvr.Internal.EmulatorManager/OnAccelEvent
+struct OnAccelEvent_t1967739812;
+// Gvr.Internal.EmulatorManager/OnTouchEvent
+struct OnTouchEvent_t4143287487;
+// Gvr.Internal.EmulatorManager/OnOrientationEvent
+struct OnOrientationEvent_t602701282;
+// Gvr.Internal.EmulatorManager/OnButtonEvent
+struct OnButtonEvent_t358370788;
+// System.Collections.IEnumerator
+struct IEnumerator_t1466026749;
+// proto.PhoneEvent
+struct PhoneEvent_t2572128318;
+// Gvr.Internal.EmulatorManager/<EndOfFrame>c__Iterator0
+struct U3CEndOfFrameU3Ec__Iterator0_t4253624923;
+// System.IAsyncResult
+struct IAsyncResult_t1999651008;
+// System.AsyncCallback
+struct AsyncCallback_t163412349;
+// proto.PhoneEvent/Types/OrientationEvent
+struct OrientationEvent_t2038376807;
+// proto.PhoneEvent/Types/MotionEvent
+struct MotionEvent_t4072706903;
+// System.Collections.Generic.List`1<Gvr.Internal.EmulatorTouchEvent/Pointer>
+struct List_1_t2369806134;
+// System.String
+struct String_t;
+// Gvr.Internal.GvrDevice
+struct GvrDevice_t635821333;
+// System.Single[]
+struct SingleU5BU5D_t577127397;
+// Gvr.Internal.iOSDevice
+struct iOSDevice_t1373308423;
+// GvrArmModel
+struct GvrArmModel_t1664224602;
+// GvrArmModelOffsets
+struct GvrArmModelOffsets_t2241056642;
+// GvrAudioListener
+struct GvrAudioListener_t1521766837;
+// GvrAudioSoundfield
+struct GvrAudioSoundfield_t1301118448;
+// GvrAudioSource
+struct GvrAudioSource_t2307460312;
+// GvrAudioRoom
+struct GvrAudioRoom_t1253442178;
+// UnityEngine.Transform
+struct Transform_t3275118058;
+// UnityEngine.Vector2[]
+struct Vector2U5BU5D_t686124026;
+// UnityEngine.AudioClip
+struct AudioClip_t1932558630;
+// UnityEngine.AudioSource
+struct AudioSource_t1135106623;
+// GvrBaseControllerVisual
+struct GvrBaseControllerVisual_t4093442088;
+// GvrBasePointer
+struct GvrBasePointer_t2150122635;
+// GvrBasePointerRaycaster
+struct GvrBasePointerRaycaster_t1189534163;
+// GvrBatteryIndicator
+struct GvrBatteryIndicator_t1573734297;
+// GvrCameraUtils
+struct GvrCameraUtils_t3683962711;
+// GvrController
+struct GvrController_t1602869021;
+// GvrControllerVisual
+struct GvrControllerVisual_t3328916665;
+// GvrControllerVisualManager
+struct GvrControllerVisualManager_t1857939020;
+// GvrDaydreamApi
+struct GvrDaydreamApi_t4123913920;
+// GVRDemoManager
+struct GVRDemoManager_t2690453893;
+// GvrDropdown
+struct GvrDropdown_t2234606196;
+// UnityEngine.EventSystems.BaseEventData
+struct BaseEventData_t2681005625;
+// UnityEngine.Canvas
+struct Canvas_t209405766;
+// UnityEngine.UI.GraphicRaycaster
+struct GraphicRaycaster_t410733016;
+// GvrPointerGraphicRaycaster
+struct GvrPointerGraphicRaycaster_t1649506702;
+// IGvrPointerHoverHandler
+struct IGvrPointerHoverHandler_t1683868601;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<IGvrPointerHoverHandler>
+struct EventFunction_1_t181019251;
+// GvrEye
+struct GvrEye_t3930157106;
+// StereoController
+struct StereoController_t3144380552;
+// GvrHead
+struct GvrHead_t3923315805;
+// UnityEngine.Camera
+struct Camera_t189460977;
+// StereoRenderEffect
+struct StereoRenderEffect_t958489249;
+// UnityEngine.Skybox
+struct Skybox_t2033495038;
+// GvrFPS
+struct GvrFPS_t750935016;
+// UnityEngine.UI.Text
+struct Text_t356221433;
+// GvrGaze
+struct GvrGaze_t2249568644;
+// GvrBasePointer[]
+struct GvrBasePointerU5BU5D_t1099995370;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// System.Collections.Generic.IEnumerable`1<GvrBasePointer>
+struct IEnumerable_1_t2442249680;
+// System.Func`2<GvrBasePointer,GvrBasePointer>
+struct Func_2_t4066506053;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_t2981576340;
+// System.Func`2<System.Object,System.Object>
+struct Func_2_t2825504181;
+// System.Func`2<GvrBasePointer,System.Boolean>
+struct Func_2_t1446990840;
+// System.Func`2<System.Object,System.Boolean>
+struct Func_2_t3961629604;
+// IGvrGazeResponder
+struct IGvrGazeResponder_t1981717083;
+// UnityEngine.Collider
+struct Collider_t3497673348;
+// GvrHead/HeadUpdatedDelegate
+struct HeadUpdatedDelegate_t1289521902;
+// GvrLaserPointer
+struct GvrLaserPointer_t2879974839;
+// GvrLaserPointerImpl
+struct GvrLaserPointerImpl_t2141976067;
+// UnityEngine.LineRenderer
+struct LineRenderer_t849157671;
+// UnityEngine.MeshFilter
+struct MeshFilter_t3026937449;
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
+struct List_1_t3685274804;
+// System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
+struct List_1_t1795346708;
+// UnityEngine.UI.Graphic
+struct Graphic_t2426225576;
+// GvrPointerInputModule
+struct GvrPointerInputModule_t1603976810;
+// GvrPointerScrollInput
+struct GvrPointerScrollInput_t4200958609;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IUpdateSelectedHandler>
+struct EventFunction_1_t2276060003;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<System.Object>
+struct EventFunction_1_t1186599945;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IBeginDragHandler>
+struct EventFunction_1_t1632278510;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerUpHandler>
+struct EventFunction_1_t344915111;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IDragHandler>
+struct EventFunction_1_t1081143969;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler>
+struct EventFunction_1_t2888287612;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IDropHandler>
+struct EventFunction_1_t887251860;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>
+struct EventFunction_1_t4141241546;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IPointerDownHandler>
+struct EventFunction_1_t2426197568;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler>
+struct EventFunction_1_t1847959737;
+// GvrPointerManager
+struct GvrPointerManager_t2205699129;
+// GvrPointerPhysicsRaycaster
+struct GvrPointerPhysicsRaycaster_t2558158517;
+// UnityEngine.RaycastHit[]
+struct RaycastHitU5BU5D_t1214023521;
+// System.Comparison`1<UnityEngine.RaycastHit>
+struct Comparison_1_t1348919171;
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IScrollHandler>
+struct EventFunction_1_t2331828160;
+// GvrPointerScrollInput/ScrollInfo
+struct ScrollInfo_t361410461;
+// GvrPostRender
+struct GvrPostRender_t3118402863;
+// UnityEngine.Vector3[]
+struct Vector3U5BU5D_t1172311765;
+// UnityEngine.Color[]
+struct ColorU5BU5D_t672350442;
+// System.Int32[]
+struct Int32U5BU5D_t3030399641;
+// GvrPreRender
+struct GvrPreRender_t2074710158;
+// System.Double[]
+struct DoubleU5BU5D_t1889952540;
+// System.Double[0...,0...]
+struct DoubleU5B0___U2C0___U5D_t1889952541;
+// GvrRecenterOnlyController
+struct GvrRecenterOnlyController_t2745329441;
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "AssemblyU2DCSharp_U3CModuleU3E3783534214.h"
+#include "AssemblyU2DCSharp_U3CModuleU3E3783534214MethodDeclarations.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1486305137MethodDeclarations.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1568637717.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU1568637717MethodDeclarations.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3894236545.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU3894236545MethodDeclarations.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU2731437132.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU2731437132MethodDeclarations.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU2375206772.h"
+#include "AssemblyU2DCSharp_U3CPrivateImplementationDetailsU2375206772MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BaseScrollEffect2855282033.h"
+#include "AssemblyU2DCSharp_BaseScrollEffect2855282033MethodDeclarations.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972MethodDeclarations.h"
+#include "AssemblyU2DCSharp_BaseTile3549052087.h"
+#include "AssemblyU2DCSharp_BaseTile3549052087MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ChildrenPageProvider958136491.h"
+#include "AssemblyU2DCSharp_ChildrenPageProvider958136491MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2644239190MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2644239190.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "UnityEngine_UnityEngine_RectTransform3349966182.h"
+#include "UnityEngine_UnityEngine_Component3819376471MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RectTransform3349966182MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UnityEngine_Component3819376471.h"
+#include "UnityEngine_UnityEngine_Vector22243707579MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "UnityEngine_UnityEngine_Transform3275118058MethodDeclarations.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "AssemblyU2DCSharp_DemoInputManager2776755480.h"
+#include "AssemblyU2DCSharp_DemoInputManager2776755480MethodDeclarations.h"
+#include "mscorlib_System_String2029220233.h"
+#include "AssemblyU2DCSharp_DemoSceneManager779426248.h"
+#include "AssemblyU2DCSharp_DemoSceneManager779426248MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Input1785128008MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Application354826772MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_KeyCode2283395152.h"
+#include "AssemblyU2DCSharp_FadeScrollEffect2128935010.h"
+#include "AssemblyU2DCSharp_FadeScrollEffect2128935010MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FloatTile645192174.h"
+#include "AssemblyU2DCSharp_FloatTile645192174MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve1599784723.h"
+#include "AssemblyU2DCSharp_GameObjectPool4074206773.h"
+#include "AssemblyU2DCSharp_GameObjectPool4074206773MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ObjectPool_1_gen3376809258MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Assertions_Assert1268281556MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
+#include "mscorlib_System_String2029220233MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GameObjectPoolController2109978193MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Assertions_Assert1268281556.h"
+#include "AssemblyU2DCSharp_GameObjectPoolController2109978193.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "UnityEngine_UnityEngine_Vector32243707580MethodDeclarations.h"
+#include "System_System_Collections_Generic_Stack_1_gen2844261301MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
+#include "System_System_Collections_Generic_Stack_1_gen2844261301.h"
+#include "System_System_Collections_Generic_Stack_1_Enumerat3494259661.h"
+#include "System_System_Collections_Generic_Stack_1_Enumerat3494259661MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVR_Events_PositionSwapper2793617445.h"
+#include "AssemblyU2DCSharp_GVR_Events_PositionSwapper2793617445MethodDeclarations.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "AssemblyU2DCSharp_GVR_Events_ToggleAction2865238344.h"
+#include "AssemblyU2DCSharp_GVR_Events_ToggleAction2865238344MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Time31991979MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent408735097MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent408735097.h"
+#include "AssemblyU2DCSharp_GVR_Input_AppButtonInput1324551885.h"
+#include "AssemblyU2DCSharp_GVR_Input_AppButtonInput1324551885MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVR_Input_BoolEvent555382268.h"
+#include "AssemblyU2DCSharp_GVR_Input_BoolEvent555382268MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen3863924733MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVR_Input_ButtonEvent3014361476.h"
+#include "AssemblyU2DCSharp_GVR_Input_ButtonEvent3014361476MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVR_Input_FloatEvent2213495270.h"
+#include "AssemblyU2DCSharp_GVR_Input_FloatEvent2213495270MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen2114859947MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVR_Input_GameObjectEvent3653055841.h"
+#include "AssemblyU2DCSharp_GVR_Input_GameObjectEvent3653055841MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen1794883162MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVR_Input_TouchPadEvent1647781410.h"
+#include "AssemblyU2DCSharp_GVR_Input_TouchPadEvent1647781410MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVR_Input_TransformEvent206501054.h"
+#include "AssemblyU2DCSharp_GVR_Input_TransformEvent206501054MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen3313468073MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVR_Input_Vector2Event2806928513.h"
+#include "AssemblyU2DCSharp_GVR_Input_Vector2Event2806928513MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen2282057594MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVR_Input_Vector3Event2806921088.h"
+#include "AssemblyU2DCSharp_GVR_Input_Vector3Event2806921088MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen2282057595MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_AndroidNativeContro1389606029.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_AndroidNativeContro1389606029MethodDeclarations.h"
+#include "mscorlib_System_Object2689449295MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_BaseVRDevice4004462063.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_BaseVRDevice4004462063MethodDeclarations.h"
+#include "AssemblyU2DCSharp_MutablePose3D1015643808MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrProfile2070273202MethodDeclarations.h"
+#include "AssemblyU2DCSharp_MutablePose3D1015643808.h"
+#include "AssemblyU2DCSharp_GvrProfile2070273202.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365.h"
+#include "UnityEngine_UnityEngine_RenderTexture2666733923.h"
+#include "AssemblyU2DCSharp_GvrViewer2583885279MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Screen786852042MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Mathf2336485820MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RenderTexture2666733923MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2243626319MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_QualitySettings3238033062MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrViewer2583885279.h"
+#include "UnityEngine_UnityEngine_RenderTextureFormat3360518468.h"
+#include "System_System_Uri19570940.h"
+#include "AssemblyU2DCSharp_Pose3D3872859958.h"
+#include "AssemblyU2DCSharp_GvrViewer_Eye1346324485.h"
+#include "UnityEngine_UnityEngine_Matrix4x42933234003.h"
+#include "AssemblyU2DCSharp_GvrViewer_Distortion351632083.h"
+#include "UnityEngine_UnityEngine_Matrix4x42933234003MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "mscorlib_ArrayTypes.h"
+#include "AssemblyU2DCSharp_GvrProfile_Viewer1642017539.h"
+#include "AssemblyU2DCSharp_GvrProfile_Lenses2112994543.h"
+#include "UnityEngine_UnityEngine_Rect3681755626MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_iOSDevice1373308423MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_iOSDevice1373308423.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorAccelEvent621139879.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorAccelEvent621139879MethodDeclarations.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Accelerom1893725728.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Accelerom1893725728MethodDeclarations.h"
+#include "mscorlib_System_Int64909078037.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorButtonEvent156276569.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorButtonEvent156276569MethodDeclarations.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_KeyEvent639576718.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_KeyEvent639576718MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorButtonEvent4043921137.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorButtonEvent4043921137MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorClientSocke2001911543.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorClientSocke2001911543MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager3364249716.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorConfig616150261MethodDeclarations.h"
+#include "mscorlib_System_Threading_ThreadStart3437517264MethodDeclarations.h"
+#include "mscorlib_System_Threading_Thread241561612MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorConfig616150261.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorConfig_Mode1624619217.h"
+#include "mscorlib_System_Threading_ThreadStart3437517264.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "mscorlib_System_Threading_Thread241561612.h"
+#include "mscorlib_System_DateTime693205669MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
+#include "mscorlib_System_DateTime693205669.h"
+#include "mscorlib_System_Exception1927440687.h"
+#include "mscorlib_System_TimeSpan3430258949.h"
+#include "mscorlib_System_Exception1927440687MethodDeclarations.h"
+#include "mscorlib_System_TimeSpan3430258949MethodDeclarations.h"
+#include "mscorlib_System_Double4078015681.h"
+#include "System_System_Net_Sockets_TcpClient408947970MethodDeclarations.h"
+#include "System_System_Net_Sockets_TcpClient408947970.h"
+#include "System_System_Diagnostics_Process1448008787MethodDeclarations.h"
+#include "System_System_Diagnostics_ProcessStartInfo2898458543MethodDeclarations.h"
+#include "System_System_Diagnostics_Process1448008787.h"
+#include "System_System_Diagnostics_ProcessStartInfo2898458543.h"
+#include "mscorlib_System_IO_StreamReader2360341767.h"
+#include "mscorlib_System_IO_TextReader1561828458MethodDeclarations.h"
+#include "mscorlib_System_IO_TextReader1561828458.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent2572128318MethodDeclarations.h"
+#include "Google_ProtocolBuffers_Google_ProtocolBuffers_Abst1613679102MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager3364249716MethodDeclarations.h"
+#include "mscorlib_System_Byte3683104436.h"
+#include "System_System_Net_Sockets_NetworkStream581172200.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent2572128318.h"
+#include "mscorlib_System_IO_Stream3255436806MethodDeclarations.h"
+#include "mscorlib_System_IO_Stream3255436806.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Builder2537253112.h"
+#include "Google_ProtocolBuffers_Google_ProtocolBuffers_Abst1613679102.h"
+#include "mscorlib_System_IO_IOException2458421087.h"
+#include "mscorlib_System_ObjectDisposedException2695136451.h"
+#include "mscorlib_System_Array3829468939MethodDeclarations.h"
+#include "mscorlib_System_BitConverter3195628829.h"
+#include "mscorlib_System_BitConverter3195628829MethodDeclarations.h"
+#include "mscorlib_System_Type1303803226MethodDeclarations.h"
+#include "Assembly-CSharp_ArrayTypes.h"
+#include "mscorlib_System_Type1303803226.h"
+#include "mscorlib_System_RuntimeTypeHandle2330101084.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorConfig_Mode1624619217MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorGyroEvent1858389926.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorGyroEvent1858389926MethodDeclarations.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_GyroscopeE182225200.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_GyroscopeE182225200MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WaitForEndOfFrame1785723201MethodDeclarations.h"
+#include "mscorlib_System_Collections_Queue1288490777MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WaitForEndOfFrame1785723201.h"
+#include "mscorlib_System_Collections_Queue1288490777.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnG1804908545.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnG1804908545MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnA1967739812.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnA1967739812MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnT4143287487.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnT4143287487MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorTouchEvent1122923020.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2369806134.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnOr602701282.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnOr602701282MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorOrientation4153005117.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnBu358370788.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_OnBu358370788MethodDeclarations.h"
+#include "mscorlib_System_Delegate3022476291MethodDeclarations.h"
+#include "mscorlib_System_Delegate3022476291.h"
+#include "mscorlib_System_Threading_Interlocked1625106012MethodDeclarations.h"
+#include "mscorlib_System_Threading_Interlocked1625106012.h"
+#include "UnityEngine_UnityEngine_Behaviour955675639MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Coroutine2299508840.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_U3C4253624923MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorManager_U3C4253624923.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_MotionEve4072706903MethodDeclarations.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Type1530480861.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_MotionEve4072706903.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorTouchEvent1122923020MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorTouchEvent_A936529327.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Orientati2038376807.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorOrientation4153005117MethodDeclarations.h"
+#include "mscorlib_System_Threading_Monitor3228523394MethodDeclarations.h"
+#include "mscorlib_System_UInt322149682021.h"
+#include "mscorlib_System_NotSupportedException1793819818MethodDeclarations.h"
+#include "mscorlib_System_NotSupportedException1793819818.h"
+#include "mscorlib_System_AsyncCallback163412349.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_Orientati2038376807MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen2369806134MethodDeclarations.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_MotionEve1211758263MethodDeclarations.h"
+#include "AssemblyU2DCSharp_proto_PhoneEvent_Types_MotionEve1211758263.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorTouchEvent_3000685002.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorTouchEvent_3000685002MethodDeclarations.h"
+#include "mscorlib_System_Text_StringBuilder1221177846MethodDeclarations.h"
+#include "mscorlib_System_Text_StringBuilder1221177846.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_EmulatorTouchEvent_A936529327MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_GvrDevice635821333.h"
+#include "AssemblyU2DCSharp_Gvr_Internal_GvrDevice635821333MethodDeclarations.h"
+#include "mscorlib_System_Text_Encoding663144255MethodDeclarations.h"
+#include "mscorlib_System_Text_Encoding663144255.h"
+#include "mscorlib_System_IntPtr2504060609MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GL1765937205MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrProfile_Screen839756045.h"
+#include "AssemblyU2DCSharp_GvrProfile_MaxFOV1743211906.h"
+#include "AssemblyU2DCSharp_GvrProfile_Distortion550060296.h"
+#include "AssemblyU2DCSharp_GvrProfile_Distortion550060296MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1398341365MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrActivityHelper1610839920.h"
+#include "AssemblyU2DCSharp_GvrActivityHelper1610839920MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrArmModel1664224602.h"
+#include "AssemblyU2DCSharp_GvrArmModel1664224602MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrArmModelOffsets2241056642.h"
+#include "AssemblyU2DCSharp_GvrArmModelOffsets2241056642MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudio2627885619.h"
+#include "AssemblyU2DCSharp_GvrAudio2627885619MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudioListener1521766837.h"
+#include "AssemblyU2DCSharp_GvrAudio_Quality2125366261.h"
+#include "UnityEngine_UnityEngine_AudioSettings3144015719MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioConfiguration2879378008.h"
+#include "UnityEngine_UnityEngine_AudioSpeakerMode3732987812.h"
+#include "UnityEngine_UnityEngine_LayerMask3188175821.h"
+#include "UnityEngine_UnityEngine_LayerMask3188175821MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudioSoundfield1301118448.h"
+#include "AssemblyU2DCSharp_GvrAudioSource2307460312.h"
+#include "AssemblyU2DCSharp_GvrAudioRoom1253442178.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen622563310MethodDeclarations.h"
+#include "mscorlib_System_Runtime_InteropServices_Marshal785896760MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudio_RoomProperties2834448096.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen622563310.h"
+#include "UnityEngine_UnityEngine_Physics634932869MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RaycastHit87180320.h"
+#include "UnityEngine_UnityEngine_RaycastHit87180320MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Bounds3033363703.h"
+#include "UnityEngine_UnityEngine_Bounds3033363703MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Pose3D3872859958MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudioRoom_SurfaceMaterial3590751945.h"
+#include "UnityEngine_UnityEngine_Color2020392075MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+#include "AssemblyU2DCSharp_GvrAudio_Quality2125366261MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudio_RoomProperties2834448096MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudio_SpatializerData1929858338.h"
+#include "AssemblyU2DCSharp_GvrAudio_SpatializerData1929858338MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudio_SpatializerType3348390394.h"
+#include "AssemblyU2DCSharp_GvrAudio_SpatializerType3348390394MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudioListener1521766837MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudioRoom1253442178MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Gizmos2256232573MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudioRoom_SurfaceMaterial3590751945MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrAudioSoundfield1301118448MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioClip1932558630.h"
+#include "UnityEngine_UnityEngine_AudioSource1135106623.h"
+#include "UnityEngine_UnityEngine_AudioSource1135106623MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Resources339470017MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixer3244290001MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixer3244290001.h"
+#include "UnityEngine_UnityEngine_HideFlags1434274199.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixerGroup959546644.h"
+#include "AssemblyU2DCSharp_GvrAudioSource2307460312MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioRolloffMode2229549515.h"
+#include "UnityEngine_UnityEngine_AnimationCurve3306541151MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AnimationCurve3306541151.h"
+#include "UnityEngine_UnityEngine_AudioSourceCurveType4181799310.h"
+#include "UnityEngine_UnityEngine_FFTWindow2870052902.h"
+#include "UnityEngine_UnityEngine_Mesh1356156583MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Mesh1356156583.h"
+#include "AssemblyU2DCSharp_GvrBaseControllerVisual4093442088.h"
+#include "AssemblyU2DCSharp_GvrBaseControllerVisual4093442088MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrBasePointer2150122635.h"
+#include "AssemblyU2DCSharp_GvrBasePointer2150122635MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrPointerManager2205699129MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrBasePointerRaycaster1189534163.h"
+#include "AssemblyU2DCSharp_GvrBasePointerRaycaster1189534163MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycas2336171397MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrBasePointerRaycaster_RaycastM3965091944.h"
+#include "UnityEngine_UnityEngine_Ray2469606224.h"
+#include "UnityEngine_UnityEngine_Camera189460977MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Camera189460977.h"
+#include "UnityEngine_UnityEngine_Ray2469606224MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrBasePointerRaycaster_RaycastM3965091944MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrBatteryIndicator1573734297.h"
+#include "AssemblyU2DCSharp_GvrBatteryIndicator1573734297MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrCameraUtils3683962711.h"
+#include "AssemblyU2DCSharp_GvrCameraUtils3683962711MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrController1602869021.h"
+#include "AssemblyU2DCSharp_GvrController1602869021MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrControllerVisual3328916665.h"
+#include "AssemblyU2DCSharp_GvrControllerVisual3328916665MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrControllerVisualManager1857939020.h"
+#include "AssemblyU2DCSharp_GvrControllerVisualManager1857939020MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrDaydreamApi4123913920.h"
+#include "AssemblyU2DCSharp_GvrDaydreamApi4123913920MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GVRDemoManager2690453893.h"
+#include "AssemblyU2DCSharp_GVRDemoManager2690453893MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrDropdown2234606196.h"
+#include "AssemblyU2DCSharp_GvrDropdown2234606196MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Dropdown1985816271MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Dropdown1985816271.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_BaseEventD2681005625.h"
+#include "UnityEngine_UnityEngine_Canvas209405766.h"
+#include "UnityEngine_UI_UnityEngine_UI_GraphicRaycaster410733016.h"
+#include "AssemblyU2DCSharp_GvrPointerGraphicRaycaster1649506702.h"
+#include "AssemblyU2DCSharp_GvrPointerGraphicRaycaster_Block4215129352.h"
+#include "AssemblyU2DCSharp_GvrExecuteEventsExtension3083691626.h"
+#include "AssemblyU2DCSharp_GvrExecuteEventsExtension3083691626MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve1693084770MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve1693084770.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEven181019251.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEven181019251MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrEye3930157106.h"
+#include "AssemblyU2DCSharp_GvrEye3930157106MethodDeclarations.h"
+#include "AssemblyU2DCSharp_StereoController3144380552.h"
+#include "AssemblyU2DCSharp_GvrHead3923315805.h"
+#include "AssemblyU2DCSharp_StereoController3144380552MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Shader2430389951MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrViewer_DistortionCorrectionMe1613770858.h"
+#include "AssemblyU2DCSharp_StereoRenderEffect958489249.h"
+#include "UnityEngine_UnityEngine_Skybox2033495038MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Skybox2033495038.h"
+#include "UnityEngine_UnityEngine_Material193706927.h"
+#include "AssemblyU2DCSharp_GvrFPS750935016.h"
+#include "AssemblyU2DCSharp_GvrFPS750935016MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
+#include "mscorlib_System_Single2076509932MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text356221433MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrGaze2249568644.h"
+#include "AssemblyU2DCSharp_GvrGaze2249568644MethodDeclarations.h"
+#include "System_Core_System_Func_2_gen4066506053MethodDeclarations.h"
+#include "System_Core_System_Linq_Enumerable2148412300MethodDeclarations.h"
+#include "System_Core_System_Func_2_gen1446990840MethodDeclarations.h"
+#include "System_Core_System_Func_2_gen4066506053.h"
+#include "System_Core_System_Linq_Enumerable2148412300.h"
+#include "System_Core_System_Func_2_gen1446990840.h"
+#include "UnityEngine_UnityEngine_Collider3497673348.h"
+#include "UnityEngine_UnityEngine_Collider3497673348MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrHead3923315805MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrHead_HeadUpdatedDelegate1289521902.h"
+#include "AssemblyU2DCSharp_GvrHead_HeadUpdatedDelegate1289521902MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrIntent542233401.h"
+#include "AssemblyU2DCSharp_GvrIntent542233401MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrLaserPointer2879974839.h"
+#include "AssemblyU2DCSharp_GvrLaserPointer2879974839MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrLaserPointerImpl2141976067.h"
+#include "AssemblyU2DCSharp_GvrLaserPointerImpl2141976067MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_LineRenderer849157671.h"
+#include "UnityEngine_UnityEngine_MeshFilter3026937449MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MeshFilter3026937449.h"
+#include "AssemblyU2DCSharp_GvrPointerGraphicRaycaster1649506702MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1795346708MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1795346708.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3685274804.h"
+#include "UnityEngine_UnityEngine_Canvas209405766MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Physics2D2540166467MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen3685274804MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic2426225576MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RaycastHit2D4063908774.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResul21186376.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycas2336171397.h"
+#include "UnityEngine_UnityEngine_RenderMode4280533217.h"
+#include "UnityEngine_UnityEngine_RaycastHit2D4063908774MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Collider2D646061738.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic2426225576.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResul21186376MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_GraphicRegistry377833367MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RectTransformUtility2941082270MethodDeclarations.h"
+#include "mscorlib_System_Comparison_1_gen3687964427MethodDeclarations.h"
+#include "mscorlib_System_Comparison_1_gen3687964427.h"
+#include "mscorlib_System_Int322071877448MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrPointerGraphicRaycaster_Block4215129352MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrPointerInputModule1603976810.h"
+#include "AssemblyU2DCSharp_GvrPointerInputModule1603976810MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrPointerScrollInput4200958609MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_BaseInputM1295781545MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrPointerScrollInput4200958609.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_BaseInputM1295781545.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_EventSyste3466835263MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_EventSyste3466835263.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve1599784723MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_AbstractEv1333959294MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_AbstractEv1333959294.h"
+#include "AssemblyU2DCSharp_GvrPointerPhysicsRaycaster2558158517.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve2276060003.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve1632278510.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEven344915111.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve1081143969.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve2888287612.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEven887251860.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve4141241546.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve2426197568.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve1847959737.h"
+#include "UnityEngine_UnityEngine_Mathf2336485820.h"
+#include "AssemblyU2DCSharp_GvrPointerManager2205699129.h"
+#include "AssemblyU2DCSharp_GvrPointerPhysicsRaycaster2558158517MethodDeclarations.h"
+#include "mscorlib_System_Comparison_1_gen1348919171MethodDeclarations.h"
+#include "mscorlib_System_Comparison_1_gen1348919171.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3691755905MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1125654279MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3691755905.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1125654279.h"
+#include "AssemblyU2DCSharp_GvrPointerScrollInput_ScrollInfo361410461.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve2331828160.h"
+#include "AssemblyU2DCSharp_GvrPointerScrollInput_ScrollInfo361410461MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrPostRender3118402863.h"
+#include "AssemblyU2DCSharp_GvrPostRender3118402863MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_CameraClearFlags452084705.h"
+#include "UnityEngine_UnityEngine_Material193706927MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Shader2430389951.h"
+#include "UnityEngine_UnityEngine_Graphics2412809155MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2243626319.h"
+#include "mscorlib_System_Runtime_CompilerServices_RuntimeHel266230107MethodDeclarations.h"
+#include "mscorlib_System_RuntimeFieldHandle2331729674.h"
+#include "AssemblyU2DCSharp_GvrPreRender2074710158.h"
+#include "AssemblyU2DCSharp_GvrPreRender2074710158MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrProfile_ScreenSizes2720173411.h"
+#include "AssemblyU2DCSharp_GvrProfile_ViewerTypes2891453798.h"
+#include "mscorlib_System_Math2022911894MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrProfile_Lenses2112994543MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrProfile_MaxFOV1743211906MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrProfile_Screen839756045MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrProfile_ScreenSizes2720173411MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrProfile_Viewer1642017539MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrProfile_ViewerTypes2891453798MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GvrRecenterOnlyController2745329441.h"
+#include "AssemblyU2DCSharp_GvrRecenterOnlyController2745329441MethodDeclarations.h"
+
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisIl2CppObject_m4109961936(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.RectTransform>()
+#define Component_GetComponent_TisRectTransform_t3349966182_m1310250299(__this, method) ((  RectTransform_t3349966182 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Void UnityEngine.Assertions.Assert::IsNotNull<System.Object>(!!0)
+extern "C"  void Assert_IsNotNull_TisIl2CppObject_m1908536573_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+#define Assert_IsNotNull_TisIl2CppObject_m1908536573(__this /* static, unused */, p0, method) ((  void (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Assert_IsNotNull_TisIl2CppObject_m1908536573_gshared)(__this /* static, unused */, p0, method)
+// System.Void UnityEngine.Assertions.Assert::IsNotNull<UnityEngine.GameObject>(!!0)
+#define Assert_IsNotNull_TisGameObject_t1756533147_m1577831727(__this /* static, unused */, p0, method) ((  void (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, const MethodInfo*))Assert_IsNotNull_TisIl2CppObject_m1908536573_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisIl2CppObject_m3813873105(__this, method) ((  Il2CppObject * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<GameObjectPoolController>()
+#define GameObject_AddComponent_TisGameObjectPoolController_t2109978193_m1099290807(__this, method) ((  GameObjectPoolController_t2109978193 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
+extern "C"  Il2CppObject * Object_Instantiate_TisIl2CppObject_m447919519_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
+#define Object_Instantiate_TisIl2CppObject_m447919519(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m447919519_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0)
+#define Object_Instantiate_TisGameObject_t1756533147_m3664764861(__this /* static, unused */, p0, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, const MethodInfo*))Object_Instantiate_TisIl2CppObject_m447919519_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.GameObject::AddComponent<Gvr.Internal.EmulatorConfig>()
+#define GameObject_AddComponent_TisEmulatorConfig_t616150261_m639623939(__this, method) ((  EmulatorConfig_t616150261 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<Gvr.Internal.EmulatorManager>()
+#define GameObject_AddComponent_TisEmulatorManager_t3364249716_m3658772290(__this, method) ((  EmulatorManager_t3364249716 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 System.Threading.Interlocked::CompareExchange<System.Object>(!!0&,!!0,!!0)
+extern "C"  Il2CppObject * Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject ** p0, Il2CppObject * p1, Il2CppObject * p2, const MethodInfo* method);
+#define Interlocked_CompareExchange_TisIl2CppObject_m2145889806(__this /* static, unused */, p0, p1, p2, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject **, Il2CppObject *, Il2CppObject *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<Gvr.Internal.EmulatorManager/OnGyroEvent>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisOnGyroEvent_t1804908545_m595897038(__this /* static, unused */, p0, p1, p2, method) ((  OnGyroEvent_t1804908545 * (*) (Il2CppObject * /* static, unused */, OnGyroEvent_t1804908545 **, OnGyroEvent_t1804908545 *, OnGyroEvent_t1804908545 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<Gvr.Internal.EmulatorManager/OnAccelEvent>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisOnAccelEvent_t1967739812_m1355592641(__this /* static, unused */, p0, p1, p2, method) ((  OnAccelEvent_t1967739812 * (*) (Il2CppObject * /* static, unused */, OnAccelEvent_t1967739812 **, OnAccelEvent_t1967739812 *, OnAccelEvent_t1967739812 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<Gvr.Internal.EmulatorManager/OnTouchEvent>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisOnTouchEvent_t4143287487_m1783529806(__this /* static, unused */, p0, p1, p2, method) ((  OnTouchEvent_t4143287487 * (*) (Il2CppObject * /* static, unused */, OnTouchEvent_t4143287487 **, OnTouchEvent_t4143287487 *, OnTouchEvent_t4143287487 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<Gvr.Internal.EmulatorManager/OnOrientationEvent>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisOnOrientationEvent_t602701282_m2050646459(__this /* static, unused */, p0, p1, p2, method) ((  OnOrientationEvent_t602701282 * (*) (Il2CppObject * /* static, unused */, OnOrientationEvent_t602701282 **, OnOrientationEvent_t602701282 *, OnOrientationEvent_t602701282 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 System.Threading.Interlocked::CompareExchange<Gvr.Internal.EmulatorManager/OnButtonEvent>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisOnButtonEvent_t358370788_m4080650035(__this /* static, unused */, p0, p1, p2, method) ((  OnButtonEvent_t358370788 * (*) (Il2CppObject * /* static, unused */, OnButtonEvent_t358370788 **, OnButtonEvent_t358370788 *, OnButtonEvent_t358370788 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.GameObject::AddComponent<Gvr.Internal.EmulatorClientSocket>()
+#define GameObject_AddComponent_TisEmulatorClientSocket_t2001911543_m760771621(__this, method) ((  EmulatorClientSocket_t2001911543 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.AudioSource>()
+#define GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270(__this, method) ((  AudioSource_t1135106623 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
+extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m483057723_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+#define Object_FindObjectOfType_TisIl2CppObject_m483057723(__this /* static, unused */, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m483057723_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.Object::FindObjectOfType<GvrAudioListener>()
+#define Object_FindObjectOfType_TisGvrAudioListener_t1521766837_m1334356948(__this /* static, unused */, method) ((  GvrAudioListener_t1521766837 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m483057723_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisIl2CppObject_m2812611596(__this, method) ((  Il2CppObject * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.GraphicRaycaster>()
+#define GameObject_GetComponent_TisGraphicRaycaster_t410733016_m3518220980(__this, method) ((  GraphicRaycaster_t410733016 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
+// T GvrDropdown::GetOrAddComponent<System.Object>(UnityEngine.GameObject,System.Boolean&)
+extern "C"  Il2CppObject * GvrDropdown_GetOrAddComponent_TisIl2CppObject_m1936808774_gshared (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * ___go0, bool* ___addedComponent1, const MethodInfo* method);
+#define GvrDropdown_GetOrAddComponent_TisIl2CppObject_m1936808774(__this /* static, unused */, ___go0, ___addedComponent1, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, bool*, const MethodInfo*))GvrDropdown_GetOrAddComponent_TisIl2CppObject_m1936808774_gshared)(__this /* static, unused */, ___go0, ___addedComponent1, method)
+// T GvrDropdown::GetOrAddComponent<GvrPointerGraphicRaycaster>(UnityEngine.GameObject,System.Boolean&)
+#define GvrDropdown_GetOrAddComponent_TisGvrPointerGraphicRaycaster_t1649506702_m553117666(__this /* static, unused */, ___go0, ___addedComponent1, method) ((  GvrPointerGraphicRaycaster_t1649506702 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, bool*, const MethodInfo*))GvrDropdown_GetOrAddComponent_TisIl2CppObject_m1936808774_gshared)(__this /* static, unused */, ___go0, ___addedComponent1, method)
+// !!0 UnityEngine.Component::GetComponent<GvrPointerGraphicRaycaster>()
+#define Component_GetComponent_TisGvrPointerGraphicRaycaster_t1649506702_m1701133637(__this, method) ((  GvrPointerGraphicRaycaster_t1649506702 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.EventSystems.ExecuteEvents::ValidateEventData<System.Object>(UnityEngine.EventSystems.BaseEventData)
+extern "C"  Il2CppObject * ExecuteEvents_ValidateEventData_TisIl2CppObject_m3838331218_gshared (Il2CppObject * __this /* static, unused */, BaseEventData_t2681005625 * p0, const MethodInfo* method);
+#define ExecuteEvents_ValidateEventData_TisIl2CppObject_m3838331218(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, BaseEventData_t2681005625 *, const MethodInfo*))ExecuteEvents_ValidateEventData_TisIl2CppObject_m3838331218_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.EventSystems.ExecuteEvents::ValidateEventData<UnityEngine.EventSystems.PointerEventData>(UnityEngine.EventSystems.BaseEventData)
+#define ExecuteEvents_ValidateEventData_TisPointerEventData_t1599784723_m1649947406(__this /* static, unused */, p0, method) ((  PointerEventData_t1599784723 * (*) (Il2CppObject * /* static, unused */, BaseEventData_t2681005625 *, const MethodInfo*))ExecuteEvents_ValidateEventData_TisIl2CppObject_m3838331218_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Component::GetComponentInParent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponentInParent_TisIl2CppObject_m2509612665_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+#define Component_GetComponentInParent_TisIl2CppObject_m2509612665(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInParent_TisIl2CppObject_m2509612665_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponentInParent<StereoController>()
+#define Component_GetComponentInParent_TisStereoController_t3144380552_m2336069850(__this, method) ((  StereoController_t3144380552 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInParent_TisIl2CppObject_m2509612665_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponentInParent<GvrHead>()
+#define Component_GetComponentInParent_TisGvrHead_t3923315805_m3169667995(__this, method) ((  GvrHead_t3923315805 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInParent_TisIl2CppObject_m2509612665_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
+#define Component_GetComponent_TisCamera_t189460977_m3276577584(__this, method) ((  Camera_t189460977 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<StereoRenderEffect>()
+#define Component_GetComponent_TisStereoRenderEffect_t958489249_m1966852222(__this, method) ((  StereoRenderEffect_t958489249 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<StereoRenderEffect>()
+#define GameObject_AddComponent_TisStereoRenderEffect_t958489249_m37465255(__this, method) ((  StereoRenderEffect_t958489249 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Skybox>()
+#define Component_GetComponent_TisSkybox_t2033495038_m3670937650(__this, method) ((  Skybox_t2033495038 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.Skybox>()
+#define GameObject_AddComponent_TisSkybox_t2033495038_m2686912083(__this, method) ((  Skybox_t2033495038 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Text>()
+#define Component_GetComponent_TisText_t356221433_m1342661039(__this, method) ((  Text_t356221433 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Transform>()
+#define Component_GetComponent_TisTransform_t3275118058_m235623703(__this, method) ((  Transform_t3275118058 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponents<System.Object>()
+extern "C"  ObjectU5BU5D_t3614634134* GameObject_GetComponents_TisIl2CppObject_m890532490_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+#define GameObject_GetComponents_TisIl2CppObject_m890532490(__this, method) ((  ObjectU5BU5D_t3614634134* (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponents_TisIl2CppObject_m890532490_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponents<GvrBasePointer>()
+#define GameObject_GetComponents_TisGvrBasePointer_t2150122635_m1452367859(__this, method) ((  GvrBasePointerU5BU5D_t1099995370* (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponents_TisIl2CppObject_m890532490_gshared)(__this, method)
+// System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
+extern "C"  Il2CppObject* Enumerable_Select_TisIl2CppObject_TisIl2CppObject_m3383050844_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, Func_2_t2825504181 * p1, const MethodInfo* method);
+#define Enumerable_Select_TisIl2CppObject_TisIl2CppObject_m3383050844(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t2825504181 *, const MethodInfo*))Enumerable_Select_TisIl2CppObject_TisIl2CppObject_m3383050844_gshared)(__this /* static, unused */, p0, p1, method)
+// System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<GvrBasePointer,GvrBasePointer>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
+#define Enumerable_Select_TisGvrBasePointer_t2150122635_TisGvrBasePointer_t2150122635_m521725718(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t4066506053 *, const MethodInfo*))Enumerable_Select_TisIl2CppObject_TisIl2CppObject_m3383050844_gshared)(__this /* static, unused */, p0, p1, method)
+// System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Where<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
+extern "C"  Il2CppObject* Enumerable_Where_TisIl2CppObject_m4266917885_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, Func_2_t3961629604 * p1, const MethodInfo* method);
+#define Enumerable_Where_TisIl2CppObject_m4266917885(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t3961629604 *, const MethodInfo*))Enumerable_Where_TisIl2CppObject_m4266917885_gshared)(__this /* static, unused */, p0, p1, method)
+// System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Where<GvrBasePointer>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)
+#define Enumerable_Where_TisGvrBasePointer_t2150122635_m2431521749(__this /* static, unused */, p0, p1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t1446990840 *, const MethodInfo*))Enumerable_Where_TisIl2CppObject_m4266917885_gshared)(__this /* static, unused */, p0, p1, method)
+// !!0 System.Linq.Enumerable::FirstOrDefault<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  Il2CppObject * Enumerable_FirstOrDefault_TisIl2CppObject_m3734406196_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* p0, const MethodInfo* method);
+#define Enumerable_FirstOrDefault_TisIl2CppObject_m3734406196(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_FirstOrDefault_TisIl2CppObject_m3734406196_gshared)(__this /* static, unused */, p0, method)
+// !!0 System.Linq.Enumerable::FirstOrDefault<GvrBasePointer>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_FirstOrDefault_TisGvrBasePointer_t2150122635_m1473023921(__this /* static, unused */, p0, method) ((  GvrBasePointer_t2150122635 * (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Enumerable_FirstOrDefault_TisIl2CppObject_m3734406196_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Collider>()
+#define GameObject_GetComponent_TisCollider_t3497673348_m2914479322(__this, method) ((  Collider_t3497673348 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
+// !!0 System.Threading.Interlocked::CompareExchange<GvrHead/HeadUpdatedDelegate>(!!0&,!!0,!!0)
+#define Interlocked_CompareExchange_TisHeadUpdatedDelegate_t1289521902_m1622568055(__this /* static, unused */, p0, p1, p2, method) ((  HeadUpdatedDelegate_t1289521902 * (*) (Il2CppObject * /* static, unused */, HeadUpdatedDelegate_t1289521902 **, HeadUpdatedDelegate_t1289521902 *, HeadUpdatedDelegate_t1289521902 *, const MethodInfo*))Interlocked_CompareExchange_TisIl2CppObject_m2145889806_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.MeshFilter>()
+#define GameObject_GetComponent_TisMeshFilter_t3026937449_m1019809839(__this, method) ((  MeshFilter_t3026937449 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Canvas>()
+#define Component_GetComponent_TisCanvas_t209405766_m3588040191(__this, method) ((  Canvas_t209405766 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::GetEventHandler<System.Object>(UnityEngine.GameObject)
+extern "C"  GameObject_t1756533147 * ExecuteEvents_GetEventHandler_TisIl2CppObject_m3333041576_gshared (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * p0, const MethodInfo* method);
+#define ExecuteEvents_GetEventHandler_TisIl2CppObject_m3333041576(__this /* static, unused */, p0, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, const MethodInfo*))ExecuteEvents_GetEventHandler_TisIl2CppObject_m3333041576_gshared)(__this /* static, unused */, p0, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::GetEventHandler<UnityEngine.EventSystems.ISelectHandler>(UnityEngine.GameObject)
+#define ExecuteEvents_GetEventHandler_TisISelectHandler_t2812555161_m2748459510(__this /* static, unused */, p0, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, const MethodInfo*))ExecuteEvents_GetEventHandler_TisIl2CppObject_m3333041576_gshared)(__this /* static, unused */, p0, method)
+// System.Boolean UnityEngine.EventSystems.ExecuteEvents::Execute<System.Object>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+extern "C"  bool ExecuteEvents_Execute_TisIl2CppObject_m4168308247_gshared (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * p0, BaseEventData_t2681005625 * p1, EventFunction_1_t1186599945 * p2, const MethodInfo* method);
+#define ExecuteEvents_Execute_TisIl2CppObject_m4168308247(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t1186599945 *, const MethodInfo*))ExecuteEvents_Execute_TisIl2CppObject_m4168308247_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Boolean UnityEngine.EventSystems.ExecuteEvents::Execute<UnityEngine.EventSystems.IUpdateSelectedHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_Execute_TisIUpdateSelectedHandler_t3778909353_m3262129831(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t2276060003 *, const MethodInfo*))ExecuteEvents_Execute_TisIl2CppObject_m4168308247_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::ExecuteHierarchy<System.Object>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+extern "C"  GameObject_t1756533147 * ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2541874163_gshared (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * p0, BaseEventData_t2681005625 * p1, EventFunction_1_t1186599945 * p2, const MethodInfo* method);
+#define ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2541874163(__this /* static, unused */, p0, p1, p2, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t1186599945 *, const MethodInfo*))ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2541874163_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::ExecuteHierarchy<IGvrPointerHoverHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_ExecuteHierarchy_TisIGvrPointerHoverHandler_t1683868601_m728071249(__this /* static, unused */, p0, p1, p2, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t181019251 *, const MethodInfo*))ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2541874163_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::GetEventHandler<UnityEngine.EventSystems.IPointerClickHandler>(UnityEngine.GameObject)
+#define ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327(__this /* static, unused */, p0, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, const MethodInfo*))ExecuteEvents_GetEventHandler_TisIl2CppObject_m3333041576_gshared)(__this /* static, unused */, p0, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::GetEventHandler<UnityEngine.EventSystems.IDragHandler>(UnityEngine.GameObject)
+#define ExecuteEvents_GetEventHandler_TisIDragHandler_t2583993319_m3720979028(__this /* static, unused */, p0, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, const MethodInfo*))ExecuteEvents_GetEventHandler_TisIl2CppObject_m3333041576_gshared)(__this /* static, unused */, p0, method)
+// System.Boolean UnityEngine.EventSystems.ExecuteEvents::Execute<UnityEngine.EventSystems.IBeginDragHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_Execute_TisIBeginDragHandler_t3135127860_m3631672494(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t1632278510 *, const MethodInfo*))ExecuteEvents_Execute_TisIl2CppObject_m4168308247_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Boolean UnityEngine.EventSystems.ExecuteEvents::Execute<UnityEngine.EventSystems.IPointerUpHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_Execute_TisIPointerUpHandler_t1847764461_m885031125(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t344915111 *, const MethodInfo*))ExecuteEvents_Execute_TisIl2CppObject_m4168308247_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Boolean UnityEngine.EventSystems.ExecuteEvents::Execute<UnityEngine.EventSystems.IDragHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_Execute_TisIDragHandler_t2583993319_m799081747(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t1081143969 *, const MethodInfo*))ExecuteEvents_Execute_TisIl2CppObject_m4168308247_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Boolean UnityEngine.EventSystems.ExecuteEvents::Execute<UnityEngine.EventSystems.IPointerClickHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_Execute_TisIPointerClickHandler_t96169666_m907812816(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t2888287612 *, const MethodInfo*))ExecuteEvents_Execute_TisIl2CppObject_m4168308247_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::ExecuteHierarchy<UnityEngine.EventSystems.IDropHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_ExecuteHierarchy_TisIDropHandler_t2390101210_m4291895312(__this /* static, unused */, p0, p1, p2, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t887251860 *, const MethodInfo*))ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2541874163_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Boolean UnityEngine.EventSystems.ExecuteEvents::Execute<UnityEngine.EventSystems.IEndDragHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_Execute_TisIEndDragHandler_t1349123600_m4238380530(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t4141241546 *, const MethodInfo*))ExecuteEvents_Execute_TisIl2CppObject_m4168308247_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::ExecuteHierarchy<UnityEngine.EventSystems.IPointerDownHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t3929046918_m462226506(__this /* static, unused */, p0, p1, p2, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t2426197568 *, const MethodInfo*))ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2541874163_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Boolean UnityEngine.EventSystems.ExecuteEvents::Execute<UnityEngine.EventSystems.IInitializePotentialDragHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_Execute_TisIInitializePotentialDragHandler_t3350809087_m2193269739(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t1847959737 *, const MethodInfo*))ExecuteEvents_Execute_TisIl2CppObject_m4168308247_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Void System.Array::Sort<UnityEngine.RaycastHit>(!!0[],System.Comparison`1<!!0>)
+extern "C"  void Array_Sort_TisRaycastHit_t87180320_m3369192280_gshared (Il2CppObject * __this /* static, unused */, RaycastHitU5BU5D_t1214023521* p0, Comparison_1_t1348919171 * p1, const MethodInfo* method);
+#define Array_Sort_TisRaycastHit_t87180320_m3369192280(__this /* static, unused */, p0, p1, method) ((  void (*) (Il2CppObject * /* static, unused */, RaycastHitU5BU5D_t1214023521*, Comparison_1_t1348919171 *, const MethodInfo*))Array_Sort_TisRaycastHit_t87180320_m3369192280_gshared)(__this /* static, unused */, p0, p1, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::GetEventHandler<UnityEngine.EventSystems.IScrollHandler>(UnityEngine.GameObject)
+#define ExecuteEvents_GetEventHandler_TisIScrollHandler_t3834677510_m1788515243(__this /* static, unused */, p0, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, const MethodInfo*))ExecuteEvents_GetEventHandler_TisIl2CppObject_m3333041576_gshared)(__this /* static, unused */, p0, method)
+// UnityEngine.GameObject UnityEngine.EventSystems.ExecuteEvents::ExecuteHierarchy<UnityEngine.EventSystems.IScrollHandler>(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<!!0>)
+#define ExecuteEvents_ExecuteHierarchy_TisIScrollHandler_t3834677510_m3398003692(__this /* static, unused */, p0, p1, p2, method) ((  GameObject_t1756533147 * (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, BaseEventData_t2681005625 *, EventFunction_1_t2331828160 *, const MethodInfo*))ExecuteEvents_ExecuteHierarchy_TisIl2CppObject_m2541874163_gshared)(__this /* static, unused */, p0, p1, p2, method)
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void BaseScrollEffect::.ctor()
+extern "C"  void BaseScrollEffect__ctor_m560937132 (BaseScrollEffect_t2855282033 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void BaseTile::.ctor()
+extern "C"  void BaseTile__ctor_m3313659900 (BaseTile_t3549052087 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ChildrenPageProvider::.ctor()
+extern Il2CppClass* List_1_t2644239190_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m833109890_MethodInfo_var;
+extern const uint32_t ChildrenPageProvider__ctor_m3435118708_MetadataUsageId;
+extern "C"  void ChildrenPageProvider__ctor_m3435118708 (ChildrenPageProvider_t958136491 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ChildrenPageProvider__ctor_m3435118708_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t2644239190 * L_0 = (List_1_t2644239190 *)il2cpp_codegen_object_new(List_1_t2644239190_il2cpp_TypeInfo_var);
+		List_1__ctor_m833109890(L_0, /*hidden argument*/List_1__ctor_m833109890_MethodInfo_var);
+		__this->set_pages_2(L_0);
+		__this->set_spacing_3((2000.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single ChildrenPageProvider::GetSpacing()
+extern "C"  float ChildrenPageProvider_GetSpacing_m3278955327 (ChildrenPageProvider_t958136491 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_spacing_3();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Int32 ChildrenPageProvider::GetNumberOfPages()
+extern const MethodInfo* List_1_get_Count_m1995107056_MethodInfo_var;
+extern const uint32_t ChildrenPageProvider_GetNumberOfPages_m2165365796_MetadataUsageId;
+extern "C"  int32_t ChildrenPageProvider_GetNumberOfPages_m2165365796 (ChildrenPageProvider_t958136491 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ChildrenPageProvider_GetNumberOfPages_m2165365796_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		List_1_t2644239190 * L_0 = __this->get_pages_2();
+		NullCheck(L_0);
+		int32_t L_1 = List_1_get_Count_m1995107056(L_0, /*hidden argument*/List_1_get_Count_m1995107056_MethodInfo_var);
+		V_0 = L_1;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// UnityEngine.RectTransform ChildrenPageProvider::ProvidePage(System.Int32)
+extern const MethodInfo* List_1_get_Item_m3391702501_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisRectTransform_t3349966182_m1310250299_MethodInfo_var;
+extern const uint32_t ChildrenPageProvider_ProvidePage_m3434407371_MetadataUsageId;
+extern "C"  RectTransform_t3349966182 * ChildrenPageProvider_ProvidePage_m3434407371 (ChildrenPageProvider_t958136491 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ChildrenPageProvider_ProvidePage_m3434407371_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Transform_t3275118058 * V_0 = NULL;
+	RectTransform_t3349966182 * V_1 = NULL;
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	RectTransform_t3349966182 * V_3 = NULL;
+	{
+		List_1_t2644239190 * L_0 = __this->get_pages_2();
+		int32_t L_1 = ___index0;
+		NullCheck(L_0);
+		Transform_t3275118058 * L_2 = List_1_get_Item_m3391702501(L_0, L_1, /*hidden argument*/List_1_get_Item_m3391702501_MethodInfo_var);
+		V_0 = L_2;
+		Transform_t3275118058 * L_3 = V_0;
+		NullCheck(L_3);
+		RectTransform_t3349966182 * L_4 = Component_GetComponent_TisRectTransform_t3349966182_m1310250299(L_3, /*hidden argument*/Component_GetComponent_TisRectTransform_t3349966182_m1310250299_MethodInfo_var);
+		V_1 = L_4;
+		Vector2__ctor_m3067419446((&V_2), (0.5f), (0.5f), /*hidden argument*/NULL);
+		RectTransform_t3349966182 * L_5 = V_1;
+		Vector2_t2243707579  L_6 = V_2;
+		NullCheck(L_5);
+		RectTransform_set_anchorMax_m2955899993(L_5, L_6, /*hidden argument*/NULL);
+		RectTransform_t3349966182 * L_7 = V_1;
+		Vector2_t2243707579  L_8 = V_2;
+		NullCheck(L_7);
+		RectTransform_set_anchorMin_m4247668187(L_7, L_8, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_9 = V_0;
+		NullCheck(L_9);
+		GameObject_t1756533147 * L_10 = Component_get_gameObject_m3105766835(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		GameObject_SetActive_m2887581199(L_10, (bool)1, /*hidden argument*/NULL);
+		RectTransform_t3349966182 * L_11 = V_1;
+		V_3 = L_11;
+		goto IL_0047;
+	}
+
+IL_0047:
+	{
+		RectTransform_t3349966182 * L_12 = V_3;
+		return L_12;
+	}
+}
+// System.Void ChildrenPageProvider::RemovePage(System.Int32,UnityEngine.RectTransform)
+extern "C"  void ChildrenPageProvider_RemovePage_m2093049637 (ChildrenPageProvider_t958136491 * __this, int32_t ___index0, RectTransform_t3349966182 * ___page1, const MethodInfo* method)
+{
+	{
+		RectTransform_t3349966182 * L_0 = ___page1;
+		NullCheck(L_0);
+		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GameObject_SetActive_m2887581199(L_1, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ChildrenPageProvider::Awake()
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* Transform_t3275118058_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Add_m4081083670_MethodInfo_var;
+extern const uint32_t ChildrenPageProvider_Awake_m4066496487_MetadataUsageId;
+extern "C"  void ChildrenPageProvider_Awake_m4066496487 (ChildrenPageProvider_t958136491 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ChildrenPageProvider_Awake_m4066496487_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Transform_t3275118058 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	Il2CppObject * V_2 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Transform_t3275118058 * L_0 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Il2CppObject * L_1 = Transform_GetEnumerator_m3479720613(L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+	}
+
+IL_000e:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0039;
+		}
+
+IL_0013:
+		{
+			Il2CppObject * L_2 = V_1;
+			NullCheck(L_2);
+			Il2CppObject * L_3 = InterfaceFuncInvoker0< Il2CppObject * >::Invoke(0 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_2);
+			V_0 = ((Transform_t3275118058 *)CastclassClass(L_3, Transform_t3275118058_il2cpp_TypeInfo_var));
+			Transform_t3275118058 * L_4 = V_0;
+			NullCheck(L_4);
+			GameObject_t1756533147 * L_5 = Component_get_gameObject_m3105766835(L_4, /*hidden argument*/NULL);
+			NullCheck(L_5);
+			GameObject_SetActive_m2887581199(L_5, (bool)0, /*hidden argument*/NULL);
+			List_1_t2644239190 * L_6 = __this->get_pages_2();
+			Transform_t3275118058 * L_7 = V_0;
+			NullCheck(L_6);
+			List_1_Add_m4081083670(L_6, L_7, /*hidden argument*/List_1_Add_m4081083670_MethodInfo_var);
+		}
+
+IL_0039:
+		{
+			Il2CppObject * L_8 = V_1;
+			NullCheck(L_8);
+			bool L_9 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_8);
+			if (L_9)
+			{
+				goto IL_0013;
+			}
+		}
+
+IL_0044:
+		{
+			IL2CPP_LEAVE(0x5D, FINALLY_0049);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0049;
+	}
+
+FINALLY_0049:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject * L_10 = V_1;
+			Il2CppObject * L_11 = ((Il2CppObject *)IsInst(L_10, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_2 = L_11;
+			if (!L_11)
+			{
+				goto IL_005c;
+			}
+		}
+
+IL_0056:
+		{
+			Il2CppObject * L_12 = V_2;
+			NullCheck(L_12);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_12);
+		}
+
+IL_005c:
+		{
+			IL2CPP_END_FINALLY(73)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(73)
+	{
+		IL2CPP_JUMP_TBL(0x5D, IL_005d)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_005d:
+	{
+		return;
+	}
+}
+// System.Void DemoInputManager::.ctor()
+extern "C"  void DemoInputManager__ctor_m9619453 (DemoInputManager_t2776755480 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void DemoInputManager::Start()
+extern Il2CppCodeGenString* _stringLiteral482864659;
+extern const uint32_t DemoInputManager_Start_m50976037_MetadataUsageId;
+extern "C"  void DemoInputManager_Start_m50976037 (DemoInputManager_t2776755480 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DemoInputManager_Start_m50976037_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Transform_t3275118058 * L_0 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = Transform_Find_m3323476454(L_0, _stringLiteral482864659, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_2 = Component_get_gameObject_m3105766835(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		NullCheck(L_3);
+		GameObject_SetActive_m2887581199(L_3, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void DemoSceneManager::.ctor()
+extern "C"  void DemoSceneManager__ctor_m238314145 (DemoSceneManager_t779426248 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void DemoSceneManager::Update()
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern const uint32_t DemoSceneManager_Update_m3480481970_MetadataUsageId;
+extern "C"  void DemoSceneManager_Update_m3480481970 (DemoSceneManager_t779426248 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (DemoSceneManager_Update_m3480481970_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_0 = Input_GetKeyDown_m1771960377(NULL /*static, unused*/, ((int32_t)27), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Application_Quit_m3885595876(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0014:
+	{
+		return;
+	}
+}
+// System.Void FadeScrollEffect::.ctor()
+extern "C"  void FadeScrollEffect__ctor_m3546210939 (FadeScrollEffect_t2128935010 * __this, const MethodInfo* method)
+{
+	{
+		BaseScrollEffect__ctor_m560937132(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FloatTile::.ctor()
+extern "C"  void FloatTile__ctor_m967607759 (FloatTile_t645192174 * __this, const MethodInfo* method)
+{
+	{
+		BaseTile__ctor_m3313659900(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FloatTile::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void FloatTile_OnPointerEnter_m1843985537 (FloatTile_t645192174 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void FloatTile::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void FloatTile_OnPointerExit_m3847484989 (FloatTile_t645192174 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void FloatTile::OnGvrPointerHover(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void FloatTile_OnGvrPointerHover_m4020376646 (FloatTile_t645192174 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GameObjectPool::.ctor(UnityEngine.GameObject,System.Int32)
+extern "C"  void GameObjectPool__ctor_m486088741 (GameObjectPool_t4074206773 * __this, GameObject_t1756533147 * ___prefab0, int32_t ___capacity1, const MethodInfo* method)
+{
+	{
+		GameObject_t1756533147 * L_0 = ___prefab0;
+		int32_t L_1 = ___capacity1;
+		GameObjectPool__ctor_m986672534(__this, L_0, L_1, 0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameObjectPool::.ctor(UnityEngine.GameObject,System.Int32,System.Int32)
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* ObjectPool_1__ctor_m2836333181_MethodInfo_var;
+extern const MethodInfo* Assert_IsNotNull_TisGameObject_t1756533147_m1577831727_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisGameObjectPoolController_t2109978193_m1099290807_MethodInfo_var;
+extern const MethodInfo* ObjectPool_1_Initialize_m756943073_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3376747656;
+extern const uint32_t GameObjectPool__ctor_m986672534_MetadataUsageId;
+extern "C"  void GameObjectPool__ctor_m986672534 (GameObjectPool_t4074206773 * __this, GameObject_t1756533147 * ___prefab0, int32_t ___capacity1, int32_t ___preAllocateAmount2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObjectPool__ctor_m986672534_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		ObjectPool_1__ctor_m2836333181(__this, /*hidden argument*/ObjectPool_1__ctor_m2836333181_MethodInfo_var);
+		GameObject_t1756533147 * L_0 = ___prefab0;
+		Assert_IsNotNull_TisGameObject_t1756533147_m1577831727(NULL /*static, unused*/, L_0, /*hidden argument*/Assert_IsNotNull_TisGameObject_t1756533147_m1577831727_MethodInfo_var);
+		GameObject_t1756533147 * L_1 = ___prefab0;
+		__this->set_prefab_2(L_1);
+		GameObject_t1756533147 * L_2 = ___prefab0;
+		NullCheck(L_2);
+		String_t* L_3 = Object_get_name_m2079638459(L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, L_3, _stringLiteral3376747656, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_5 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_5, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		GameObject_t1756533147 * L_6 = V_0;
+		NullCheck(L_6);
+		GameObjectPoolController_t2109978193 * L_7 = GameObject_AddComponent_TisGameObjectPoolController_t2109978193_m1099290807(L_6, /*hidden argument*/GameObject_AddComponent_TisGameObjectPoolController_t2109978193_m1099290807_MethodInfo_var);
+		__this->set_poolController_3(L_7);
+		GameObjectPoolController_t2109978193 * L_8 = __this->get_poolController_3();
+		int32_t L_9 = ___capacity1;
+		NullCheck(L_8);
+		GameObjectPoolController_Initialize_m1707273073(L_8, L_9, /*hidden argument*/NULL);
+		int32_t L_10 = ___capacity1;
+		int32_t L_11 = ___preAllocateAmount2;
+		ObjectPool_1_Initialize_m756943073(__this, L_10, L_11, /*hidden argument*/ObjectPool_1_Initialize_m756943073_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GameObjectPool::Dispose()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GameObjectPool_Dispose_m2174999751_MetadataUsageId;
+extern "C"  void GameObjectPool_Dispose_m2174999751 (GameObjectPool_t4074206773 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObjectPool_Dispose_m2174999751_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObjectPoolController_t2109978193 * L_0 = __this->get_poolController_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		GameObjectPoolController_t2109978193 * L_2 = __this->get_poolController_3();
+		NullCheck(L_2);
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0024:
+	{
+		return;
+	}
+}
+// System.Void GameObjectPool::OnBorrowed(UnityEngine.GameObject)
+extern "C"  void GameObjectPool_OnBorrowed_m830573541 (GameObjectPool_t4074206773 * __this, GameObject_t1756533147 * ___borrowedObject0, const MethodInfo* method)
+{
+	{
+		GameObjectPoolController_t2109978193 * L_0 = __this->get_poolController_3();
+		GameObject_t1756533147 * L_1 = ___borrowedObject0;
+		NullCheck(L_0);
+		GameObjectPoolController_OnBorrowed_m2449510917(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameObjectPool::OnPooled(UnityEngine.GameObject)
+extern "C"  void GameObjectPool_OnPooled_m3997689112 (GameObjectPool_t4074206773 * __this, GameObject_t1756533147 * ___pooledObject0, const MethodInfo* method)
+{
+	{
+		GameObjectPoolController_t2109978193 * L_0 = __this->get_poolController_3();
+		GameObject_t1756533147 * L_1 = ___pooledObject0;
+		NullCheck(L_0);
+		GameObjectPoolController_OnPooled_m393555592(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameObjectPool::OnUnableToReturn(UnityEngine.GameObject)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GameObjectPool_OnUnableToReturn_m2801959349_MetadataUsageId;
+extern "C"  void GameObjectPool_OnUnableToReturn_m2801959349 (GameObjectPool_t4074206773 * __this, GameObject_t1756533147 * ___returnedObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObjectPool_OnUnableToReturn_m2801959349_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___returnedObject0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.GameObject GameObjectPool::AllocateObject()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisGameObject_t1756533147_m3664764861_MethodInfo_var;
+extern const uint32_t GameObjectPool_AllocateObject_m372494399_MetadataUsageId;
+extern "C"  GameObject_t1756533147 * GameObjectPool_AllocateObject_m372494399 (GameObjectPool_t4074206773 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObjectPool_AllocateObject_m372494399_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = __this->get_prefab_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_1 = Object_Instantiate_TisGameObject_t1756533147_m3664764861(NULL /*static, unused*/, L_0, /*hidden argument*/Object_Instantiate_TisGameObject_t1756533147_m3664764861_MethodInfo_var);
+		V_0 = L_1;
+		GameObject_t1756533147 * L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		GameObject_t1756533147 * L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void GameObjectPoolController::.ctor()
+extern "C"  void GameObjectPoolController__ctor_m3740921134 (GameObjectPoolController_t2109978193 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameObjectPoolController::Initialize(System.Int32)
+extern Il2CppClass* Stack_1_t2844261301_il2cpp_TypeInfo_var;
+extern const MethodInfo* Stack_1__ctor_m2311023734_MethodInfo_var;
+extern const uint32_t GameObjectPoolController_Initialize_m1707273073_MetadataUsageId;
+extern "C"  void GameObjectPoolController_Initialize_m1707273073 (GameObjectPoolController_t2109978193 * __this, int32_t ___capacity0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObjectPoolController_Initialize_m1707273073_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Transform_t3275118058 * L_0 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_1 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_set_localScale_m2325460848(L_0, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = ___capacity0;
+		Stack_1_t2844261301 * L_3 = (Stack_1_t2844261301 *)il2cpp_codegen_object_new(Stack_1_t2844261301_il2cpp_TypeInfo_var);
+		Stack_1__ctor_m2311023734(L_3, L_2, /*hidden argument*/Stack_1__ctor_m2311023734_MethodInfo_var);
+		__this->set_toReparentStack_2(L_3);
+		return;
+	}
+}
+// System.Void GameObjectPoolController::OnBorrowed(UnityEngine.GameObject)
+extern const MethodInfo* Stack_1_get_Count_m335565545_MethodInfo_var;
+extern const MethodInfo* Stack_1_Pop_m2665221936_MethodInfo_var;
+extern const uint32_t GameObjectPoolController_OnBorrowed_m2449510917_MetadataUsageId;
+extern "C"  void GameObjectPoolController_OnBorrowed_m2449510917 (GameObjectPoolController_t2109978193 * __this, GameObject_t1756533147 * ___borrowedObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObjectPoolController_OnBorrowed_m2449510917_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Stack_1_t2844261301 * L_0 = __this->get_toReparentStack_2();
+		NullCheck(L_0);
+		int32_t L_1 = Stack_1_get_Count_m335565545(L_0, /*hidden argument*/Stack_1_get_Count_m335565545_MethodInfo_var);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		Stack_1_t2844261301 * L_2 = __this->get_toReparentStack_2();
+		NullCheck(L_2);
+		Stack_1_Pop_m2665221936(L_2, /*hidden argument*/Stack_1_Pop_m2665221936_MethodInfo_var);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Void GameObjectPoolController::OnPooled(UnityEngine.GameObject)
+extern const MethodInfo* Stack_1_Push_m3004012536_MethodInfo_var;
+extern const uint32_t GameObjectPoolController_OnPooled_m393555592_MetadataUsageId;
+extern "C"  void GameObjectPoolController_OnPooled_m393555592 (GameObjectPoolController_t2109978193 * __this, GameObject_t1756533147 * ___pooledObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObjectPoolController_OnPooled_m393555592_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Stack_1_t2844261301 * L_0 = __this->get_toReparentStack_2();
+		GameObject_t1756533147 * L_1 = ___pooledObject0;
+		NullCheck(L_0);
+		Stack_1_Push_m3004012536(L_0, L_1, /*hidden argument*/Stack_1_Push_m3004012536_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GameObjectPoolController::LateUpdate()
+extern const MethodInfo* Stack_1_get_Count_m335565545_MethodInfo_var;
+extern const MethodInfo* Stack_1_GetEnumerator_m1128032924_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1118913844_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m992638478_MethodInfo_var;
+extern const MethodInfo* Stack_1_Clear_m3891488846_MethodInfo_var;
+extern const uint32_t GameObjectPoolController_LateUpdate_m3552926721_MetadataUsageId;
+extern "C"  void GameObjectPoolController_LateUpdate_m3552926721 (GameObjectPoolController_t2109978193 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObjectPoolController_LateUpdate_m3552926721_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t3494259661  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		Stack_1_t2844261301 * L_0 = __this->get_toReparentStack_2();
+		NullCheck(L_0);
+		int32_t L_1 = Stack_1_get_Count_m335565545(L_0, /*hidden argument*/Stack_1_get_Count_m335565545_MethodInfo_var);
+		if ((((int32_t)L_1) <= ((int32_t)0)))
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		Stack_1_t2844261301 * L_2 = __this->get_toReparentStack_2();
+		NullCheck(L_2);
+		Enumerator_t3494259661  L_3 = Stack_1_GetEnumerator_m1128032924(L_2, /*hidden argument*/Stack_1_GetEnumerator_m1128032924_MethodInfo_var);
+		V_0 = L_3;
+		goto IL_0040;
+	}
+
+IL_0024:
+	{
+		GameObject_t1756533147 * L_4 = Enumerator_get_Current_m1118913844((&V_0), /*hidden argument*/Enumerator_get_Current_m1118913844_MethodInfo_var);
+		V_1 = L_4;
+		GameObject_t1756533147 * L_5 = V_1;
+		NullCheck(L_5);
+		Transform_t3275118058 * L_6 = GameObject_get_transform_m909382139(L_5, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_7 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Transform_SetParent_m1963830867(L_6, L_7, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0040:
+	{
+		bool L_8 = Enumerator_MoveNext_m992638478((&V_0), /*hidden argument*/Enumerator_MoveNext_m992638478_MethodInfo_var);
+		if (L_8)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		Stack_1_t2844261301 * L_9 = __this->get_toReparentStack_2();
+		NullCheck(L_9);
+		Stack_1_Clear_m3891488846(L_9, /*hidden argument*/Stack_1_Clear_m3891488846_MethodInfo_var);
+	}
+
+IL_0058:
+	{
+		return;
+	}
+}
+// System.Void GVR.Events.PositionSwapper::.ctor()
+extern Il2CppClass* Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var;
+extern const uint32_t PositionSwapper__ctor_m983052788_MetadataUsageId;
+extern "C"  void PositionSwapper__ctor_m983052788 (PositionSwapper_t2793617445 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PositionSwapper__ctor_m983052788_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_currentIndex_2((-1));
+		__this->set_Positions_3(((Vector3U5BU5D_t1172311765*)SZArrayNew(Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var, (uint32_t)0)));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GVR.Events.PositionSwapper::SetConstraint(System.Int32)
+extern "C"  void PositionSwapper_SetConstraint_m520123626 (PositionSwapper_t2793617445 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GVR.Events.PositionSwapper::SetPosition(System.Int32)
+extern "C"  void PositionSwapper_SetPosition_m1298722950 (PositionSwapper_t2793617445 * __this, int32_t ___index0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		Vector3U5BU5D_t1172311765* L_1 = __this->get_Positions_3();
+		NullCheck(L_1);
+		__this->set_currentIndex_2(((int32_t)((int32_t)L_0%(int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length)))))));
+		Transform_t3275118058 * L_2 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3U5BU5D_t1172311765* L_3 = __this->get_Positions_3();
+		int32_t L_4 = __this->get_currentIndex_2();
+		NullCheck(L_3);
+		NullCheck(L_2);
+		Transform_set_localPosition_m1026930133(L_2, (*(Vector3_t2243707580 *)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GVR.Events.ToggleAction::.ctor()
+extern "C"  void ToggleAction__ctor_m1487284959 (ToggleAction_t2865238344 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GVR.Events.ToggleAction::Start()
+extern "C"  void ToggleAction_Start_m1766399539 (ToggleAction_t2865238344 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_InitialState_6();
+		__this->set_on_3(L_0);
+		bool L_1 = __this->get_RaiseEventForInitialState_7();
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		bool L_2 = __this->get_on_3();
+		ToggleAction_RaiseToggleEvent_m3929023862(__this, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void GVR.Events.ToggleAction::Toggle()
+extern "C"  void ToggleAction_Toggle_m2354549425 (ToggleAction_t2865238344 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = Time_get_time_m2216684562(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_1 = __this->get_lastUsage_2();
+		float L_2 = __this->get_Cooldown_8();
+		if ((!(((float)((float)((float)L_0-(float)L_1))) < ((float)L_2))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		goto IL_0044;
+	}
+
+IL_001e:
+	{
+		float L_3 = Time_get_time_m2216684562(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_lastUsage_2(L_3);
+		bool L_4 = __this->get_on_3();
+		__this->set_on_3((bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0));
+		bool L_5 = __this->get_on_3();
+		ToggleAction_RaiseToggleEvent_m3929023862(__this, L_5, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		return;
+	}
+}
+// System.Void GVR.Events.ToggleAction::Set(System.Boolean)
+extern "C"  void ToggleAction_Set_m2917802110 (ToggleAction_t2865238344 * __this, bool ___on0, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_on_3();
+		bool L_1 = ___on0;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0021;
+	}
+
+IL_0013:
+	{
+		bool L_2 = ___on0;
+		__this->set_on_3(L_2);
+		bool L_3 = ___on0;
+		ToggleAction_RaiseToggleEvent_m3929023862(__this, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void GVR.Events.ToggleAction::RaiseToggleEvent(System.Boolean)
+extern "C"  void ToggleAction_RaiseToggleEvent_m3929023862 (ToggleAction_t2865238344 * __this, bool ___on0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___on0;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		UnityEvent_t408735097 * L_1 = __this->get_OnToggleOn_4();
+		NullCheck(L_1);
+		UnityEvent_Invoke_m4163344491(L_1, /*hidden argument*/NULL);
+		goto IL_0026;
+	}
+
+IL_0019:
+	{
+		UnityEvent_t408735097 * L_2 = __this->get_OnToggleOff_5();
+		NullCheck(L_2);
+		UnityEvent_Invoke_m4163344491(L_2, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void GVR.Input.AppButtonInput::.ctor()
+extern "C"  void AppButtonInput__ctor_m2465222827 (AppButtonInput_t1324551885 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GVR.Input.BoolEvent::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m4051141261_MethodInfo_var;
+extern const uint32_t BoolEvent__ctor_m3444785988_MetadataUsageId;
+extern "C"  void BoolEvent__ctor_m3444785988 (BoolEvent_t555382268 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BoolEvent__ctor_m3444785988_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m4051141261(__this, /*hidden argument*/UnityEvent_1__ctor_m4051141261_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GVR.Input.ButtonEvent::.ctor()
+extern "C"  void ButtonEvent__ctor_m1676339476 (ButtonEvent_t3014361476 * __this, const MethodInfo* method)
+{
+	{
+		UnityEvent__ctor_m588741179(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GVR.Input.FloatEvent::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m29611311_MethodInfo_var;
+extern const uint32_t FloatEvent__ctor_m920471060_MetadataUsageId;
+extern "C"  void FloatEvent__ctor_m920471060 (FloatEvent_t2213495270 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (FloatEvent__ctor_m920471060_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m29611311(__this, /*hidden argument*/UnityEvent_1__ctor_m29611311_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GVR.Input.GameObjectEvent::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m4008513313_MethodInfo_var;
+extern const uint32_t GameObjectEvent__ctor_m3285908993_MetadataUsageId;
+extern "C"  void GameObjectEvent__ctor_m3285908993 (GameObjectEvent_t3653055841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObjectEvent__ctor_m3285908993_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m4008513313(__this, /*hidden argument*/UnityEvent_1__ctor_m4008513313_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GVR.Input.TouchPadEvent::.ctor()
+extern "C"  void TouchPadEvent__ctor_m971226180 (TouchPadEvent_t1647781410 * __this, const MethodInfo* method)
+{
+	{
+		UnityEvent__ctor_m588741179(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GVR.Input.TransformEvent::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m2774475680_MethodInfo_var;
+extern const uint32_t TransformEvent__ctor_m4078659930_MetadataUsageId;
+extern "C"  void TransformEvent__ctor_m4078659930 (TransformEvent_t206501054 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TransformEvent__ctor_m4078659930_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2774475680(__this, /*hidden argument*/UnityEvent_1__ctor_m2774475680_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GVR.Input.Vector2Event::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m3317039790_MethodInfo_var;
+extern const uint32_t Vector2Event__ctor_m2692025845_MetadataUsageId;
+extern "C"  void Vector2Event__ctor_m2692025845 (Vector2Event_t2806928513 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Vector2Event__ctor_m2692025845_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m3317039790(__this, /*hidden argument*/UnityEvent_1__ctor_m3317039790_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GVR.Input.Vector3Event::.ctor()
+extern const MethodInfo* UnityEvent_1__ctor_m2176906728_MethodInfo_var;
+extern const uint32_t Vector3Event__ctor_m4093400854_MetadataUsageId;
+extern "C"  void Vector3Event__ctor_m4093400854 (Vector3Event_t2806921088 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Vector3Event__ctor_m4093400854_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2176906728(__this, /*hidden argument*/UnityEvent_1__ctor_m2176906728_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Gvr.Internal.AndroidNativeControllerProvider::.ctor()
+extern "C"  void AndroidNativeControllerProvider__ctor_m1272877542 (AndroidNativeControllerProvider_t1389606029 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.AndroidNativeControllerProvider::Dispose()
+extern "C"  void AndroidNativeControllerProvider_Dispose_m1718654779 (AndroidNativeControllerProvider_t1389606029 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.BaseVRDevice::.ctor()
+extern Il2CppClass* MutablePose3D_t1015643808_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern const uint32_t BaseVRDevice__ctor_m2114718288_MetadataUsageId;
+extern "C"  void BaseVRDevice__ctor_m2114718288 (BaseVRDevice_t4004462063 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BaseVRDevice__ctor_m2114718288_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MutablePose3D_t1015643808 * L_0 = (MutablePose3D_t1015643808 *)il2cpp_codegen_object_new(MutablePose3D_t1015643808_il2cpp_TypeInfo_var);
+		MutablePose3D__ctor_m2869278687(L_0, /*hidden argument*/NULL);
+		__this->set_headPose_2(L_0);
+		MutablePose3D_t1015643808 * L_1 = (MutablePose3D_t1015643808 *)il2cpp_codegen_object_new(MutablePose3D_t1015643808_il2cpp_TypeInfo_var);
+		MutablePose3D__ctor_m2869278687(L_1, /*hidden argument*/NULL);
+		__this->set_leftEyePose_3(L_1);
+		MutablePose3D_t1015643808 * L_2 = (MutablePose3D_t1015643808 *)il2cpp_codegen_object_new(MutablePose3D_t1015643808_il2cpp_TypeInfo_var);
+		MutablePose3D__ctor_m2869278687(L_2, /*hidden argument*/NULL);
+		__this->set_rightEyePose_4(L_2);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		GvrProfile_t2070273202 * L_3 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_Default_14();
+		NullCheck(L_3);
+		GvrProfile_t2070273202 * L_4 = GvrProfile_Clone_m2256084799(L_3, /*hidden argument*/NULL);
+		BaseVRDevice_set_Profile_m4204813444(__this, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GvrProfile Gvr.Internal.BaseVRDevice::get_Profile()
+extern "C"  GvrProfile_t2070273202 * BaseVRDevice_get_Profile_m1157035047 (BaseVRDevice_t4004462063 * __this, const MethodInfo* method)
+{
+	GvrProfile_t2070273202 * V_0 = NULL;
+	{
+		GvrProfile_t2070273202 * L_0 = __this->get_U3CProfileU3Ek__BackingField_1();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		GvrProfile_t2070273202 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void Gvr.Internal.BaseVRDevice::set_Profile(GvrProfile)
+extern "C"  void BaseVRDevice_set_Profile_m4204813444 (BaseVRDevice_t4004462063 * __this, GvrProfile_t2070273202 * ___value0, const MethodInfo* method)
+{
+	{
+		GvrProfile_t2070273202 * L_0 = ___value0;
+		__this->set_U3CProfileU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
+// System.Boolean Gvr.Internal.BaseVRDevice::SupportsNativeDistortionCorrection(System.Collections.Generic.List`1<System.String>)
+extern "C"  bool BaseVRDevice_SupportsNativeDistortionCorrection_m2363225724 (BaseVRDevice_t4004462063 * __this, List_1_t1398341365 * ___diagnostics0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		V_0 = (bool)1;
+		goto IL_0008;
+	}
+
+IL_0008:
+	{
+		bool L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Boolean Gvr.Internal.BaseVRDevice::RequiresNativeDistortionCorrection()
+extern "C"  bool BaseVRDevice_RequiresNativeDistortionCorrection_m2350131224 (BaseVRDevice_t4004462063 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = __this->get_leftEyeOrientation_14();
+		if (L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_1 = __this->get_rightEyeOrientation_15();
+		G_B3_0 = ((((int32_t)((((int32_t)L_1) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_001b;
+	}
+
+IL_001a:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_001b:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean Gvr.Internal.BaseVRDevice::SupportsNativeUILayer(System.Collections.Generic.List`1<System.String>)
+extern "C"  bool BaseVRDevice_SupportsNativeUILayer_m2643593608 (BaseVRDevice_t4004462063 * __this, List_1_t1398341365 * ___diagnostics0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		V_0 = (bool)1;
+		goto IL_0008;
+	}
+
+IL_0008:
+	{
+		bool L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Boolean Gvr.Internal.BaseVRDevice::ShouldRecreateStereoScreen(System.Int32,System.Int32)
+extern "C"  bool BaseVRDevice_ShouldRecreateStereoScreen_m4008575022 (BaseVRDevice_t4004462063 * __this, int32_t ___curWidth0, int32_t ___curHeight1, const MethodInfo* method)
+{
+	bool V_0 = false;
+	int32_t G_B4_0 = 0;
+	int32_t G_B6_0 = 0;
+	{
+		bool L_0 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Gvr.Internal.BaseVRDevice::RequiresNativeDistortionCorrection() */, __this);
+		if (!L_0)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		int32_t L_1 = ___curWidth0;
+		Vector2_t2243707579 * L_2 = __this->get_address_of_recommendedTextureSize_13();
+		float L_3 = Vector2_get_Item_m2792130561(L_2, 0, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)(((int32_t)((int32_t)L_3)))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_4 = ___curHeight1;
+		Vector2_t2243707579 * L_5 = __this->get_address_of_recommendedTextureSize_13();
+		float L_6 = Vector2_get_Item_m2792130561(L_5, 1, /*hidden argument*/NULL);
+		G_B4_0 = ((((int32_t)((((int32_t)L_4) == ((int32_t)(((int32_t)((int32_t)L_6)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0035;
+	}
+
+IL_0034:
+	{
+		G_B4_0 = 1;
+	}
+
+IL_0035:
+	{
+		G_B6_0 = G_B4_0;
+		goto IL_0038;
+	}
+
+IL_0037:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_0038:
+	{
+		V_0 = (bool)G_B6_0;
+		goto IL_003e;
+	}
+
+IL_003e:
+	{
+		bool L_7 = V_0;
+		return L_7;
+	}
+}
+// UnityEngine.RenderTexture Gvr.Internal.BaseVRDevice::CreateStereoScreen()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppClass* RenderTexture_t2666733923_il2cpp_TypeInfo_var;
+extern const uint32_t BaseVRDevice_CreateStereoScreen_m192774273_MetadataUsageId;
+extern "C"  RenderTexture_t2666733923 * BaseVRDevice_CreateStereoScreen_m192774273 (BaseVRDevice_t4004462063 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BaseVRDevice_CreateStereoScreen_m192774273_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	RenderTexture_t2666733923 * V_3 = NULL;
+	RenderTexture_t2666733923 * V_4 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_0 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		float L_1 = GvrViewer_get_StereoScreenScale_m2881733151(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		int32_t L_4 = Mathf_RoundToInt_m2927198556(NULL /*static, unused*/, ((float)((float)(((float)((float)L_2)))*(float)L_3)), /*hidden argument*/NULL);
+		V_1 = L_4;
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_6 = V_0;
+		int32_t L_7 = Mathf_RoundToInt_m2927198556(NULL /*static, unused*/, ((float)((float)(((float)((float)L_5)))*(float)L_6)), /*hidden argument*/NULL);
+		V_2 = L_7;
+		bool L_8 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean Gvr.Internal.BaseVRDevice::RequiresNativeDistortionCorrection() */, __this);
+		if (!L_8)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		Vector2_t2243707579 * L_9 = __this->get_address_of_recommendedTextureSize_13();
+		float L_10 = Vector2_get_Item_m2792130561(L_9, 0, /*hidden argument*/NULL);
+		V_1 = (((int32_t)((int32_t)L_10)));
+		Vector2_t2243707579 * L_11 = __this->get_address_of_recommendedTextureSize_13();
+		float L_12 = Vector2_get_Item_m2792130561(L_11, 1, /*hidden argument*/NULL);
+		V_2 = (((int32_t)((int32_t)L_12)));
+	}
+
+IL_0051:
+	{
+		int32_t L_13 = V_1;
+		int32_t L_14 = V_2;
+		RenderTexture_t2666733923 * L_15 = (RenderTexture_t2666733923 *)il2cpp_codegen_object_new(RenderTexture_t2666733923_il2cpp_TypeInfo_var);
+		RenderTexture__ctor_m2960228168(L_15, L_13, L_14, ((int32_t)24), 7, /*hidden argument*/NULL);
+		V_3 = L_15;
+		RenderTexture_t2666733923 * L_16 = V_3;
+		NullCheck(L_16);
+		Texture_set_anisoLevel_m4242988344(L_16, 0, /*hidden argument*/NULL);
+		RenderTexture_t2666733923 * L_17 = V_3;
+		int32_t L_18 = QualitySettings_get_antiAliasing_m1084683812(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		int32_t L_19 = Mathf_Max_m1875893177(NULL /*static, unused*/, L_18, 1, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		RenderTexture_set_antiAliasing_m1838970818(L_17, L_19, /*hidden argument*/NULL);
+		RenderTexture_t2666733923 * L_20 = V_3;
+		V_4 = L_20;
+		goto IL_007c;
+	}
+
+IL_007c:
+	{
+		RenderTexture_t2666733923 * L_21 = V_4;
+		return L_21;
+	}
+}
+// System.Boolean Gvr.Internal.BaseVRDevice::SetDefaultDeviceProfile(System.Uri)
+extern "C"  bool BaseVRDevice_SetDefaultDeviceProfile_m2612652693 (BaseVRDevice_t4004462063 * __this, Uri_t19570940 * ___uri0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		V_0 = (bool)0;
+		goto IL_0008;
+	}
+
+IL_0008:
+	{
+		bool L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void Gvr.Internal.BaseVRDevice::ShowSettingsDialog()
+extern "C"  void BaseVRDevice_ShowSettingsDialog_m1510674166 (BaseVRDevice_t4004462063 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// Pose3D Gvr.Internal.BaseVRDevice::GetHeadPose()
+extern "C"  Pose3D_t3872859958 * BaseVRDevice_GetHeadPose_m3383699254 (BaseVRDevice_t4004462063 * __this, const MethodInfo* method)
+{
+	Pose3D_t3872859958 * V_0 = NULL;
+	{
+		MutablePose3D_t1015643808 * L_0 = __this->get_headPose_2();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Pose3D_t3872859958 * L_1 = V_0;
+		return L_1;
+	}
+}
+// Pose3D Gvr.Internal.BaseVRDevice::GetEyePose(GvrViewer/Eye)
+extern "C"  Pose3D_t3872859958 * BaseVRDevice_GetEyePose_m814777462 (BaseVRDevice_t4004462063 * __this, int32_t ___eye0, const MethodInfo* method)
+{
+	Pose3D_t3872859958 * V_0 = NULL;
+	{
+		int32_t L_0 = ___eye0;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_1 = ___eye0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		goto IL_002b;
+	}
+
+IL_0013:
+	{
+		MutablePose3D_t1015643808 * L_2 = __this->get_leftEyePose_3();
+		V_0 = L_2;
+		goto IL_0032;
+	}
+
+IL_001f:
+	{
+		MutablePose3D_t1015643808 * L_3 = __this->get_rightEyePose_4();
+		V_0 = L_3;
+		goto IL_0032;
+	}
+
+IL_002b:
+	{
+		V_0 = (Pose3D_t3872859958 *)NULL;
+		goto IL_0032;
+	}
+
+IL_0032:
+	{
+		Pose3D_t3872859958 * L_4 = V_0;
+		return L_4;
+	}
+}
+// UnityEngine.Matrix4x4 Gvr.Internal.BaseVRDevice::GetProjection(GvrViewer/Eye,GvrViewer/Distortion)
+extern "C"  Matrix4x4_t2933234003  BaseVRDevice_GetProjection_m1620340802 (BaseVRDevice_t4004462063 * __this, int32_t ___eye0, int32_t ___distortion1, const MethodInfo* method)
+{
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Matrix4x4_t2933234003  G_B6_0;
+	memset(&G_B6_0, 0, sizeof(G_B6_0));
+	Matrix4x4_t2933234003  G_B10_0;
+	memset(&G_B10_0, 0, sizeof(G_B10_0));
+	{
+		int32_t L_0 = ___eye0;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_1 = ___eye0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		goto IL_004d;
+	}
+
+IL_0013:
+	{
+		int32_t L_2 = ___distortion1;
+		if (L_2)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		Matrix4x4_t2933234003  L_3 = __this->get_leftEyeDistortedProjection_5();
+		G_B6_0 = L_3;
+		goto IL_002a;
+	}
+
+IL_0024:
+	{
+		Matrix4x4_t2933234003  L_4 = __this->get_leftEyeUndistortedProjection_7();
+		G_B6_0 = L_4;
+	}
+
+IL_002a:
+	{
+		V_0 = G_B6_0;
+		goto IL_0058;
+	}
+
+IL_0030:
+	{
+		int32_t L_5 = ___distortion1;
+		if (L_5)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Matrix4x4_t2933234003  L_6 = __this->get_rightEyeDistortedProjection_6();
+		G_B10_0 = L_6;
+		goto IL_0047;
+	}
+
+IL_0041:
+	{
+		Matrix4x4_t2933234003  L_7 = __this->get_rightEyeUndistortedProjection_8();
+		G_B10_0 = L_7;
+	}
+
+IL_0047:
+	{
+		V_0 = G_B10_0;
+		goto IL_0058;
+	}
+
+IL_004d:
+	{
+		Matrix4x4_t2933234003  L_8 = Matrix4x4_get_identity_m3039560904(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_8;
+		goto IL_0058;
+	}
+
+IL_0058:
+	{
+		Matrix4x4_t2933234003  L_9 = V_0;
+		return L_9;
+	}
+}
+// UnityEngine.Rect Gvr.Internal.BaseVRDevice::GetViewport(GvrViewer/Eye,GvrViewer/Distortion)
+extern Il2CppClass* Rect_t3681755626_il2cpp_TypeInfo_var;
+extern const uint32_t BaseVRDevice_GetViewport_m3788720810_MetadataUsageId;
+extern "C"  Rect_t3681755626  BaseVRDevice_GetViewport_m3788720810 (BaseVRDevice_t4004462063 * __this, int32_t ___eye0, int32_t ___distortion1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BaseVRDevice_GetViewport_m3788720810_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Rect_t3681755626  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Rect_t3681755626  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Rect_t3681755626  G_B6_0;
+	memset(&G_B6_0, 0, sizeof(G_B6_0));
+	Rect_t3681755626  G_B10_0;
+	memset(&G_B10_0, 0, sizeof(G_B10_0));
+	{
+		int32_t L_0 = ___eye0;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_1 = ___eye0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		goto IL_004d;
+	}
+
+IL_0013:
+	{
+		int32_t L_2 = ___distortion1;
+		if (L_2)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		Rect_t3681755626  L_3 = __this->get_leftEyeDistortedViewport_9();
+		G_B6_0 = L_3;
+		goto IL_002a;
+	}
+
+IL_0024:
+	{
+		Rect_t3681755626  L_4 = __this->get_leftEyeUndistortedViewport_11();
+		G_B6_0 = L_4;
+	}
+
+IL_002a:
+	{
+		V_0 = G_B6_0;
+		goto IL_005c;
+	}
+
+IL_0030:
+	{
+		int32_t L_5 = ___distortion1;
+		if (L_5)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Rect_t3681755626  L_6 = __this->get_rightEyeDistortedViewport_10();
+		G_B10_0 = L_6;
+		goto IL_0047;
+	}
+
+IL_0041:
+	{
+		Rect_t3681755626  L_7 = __this->get_rightEyeUndistortedViewport_12();
+		G_B10_0 = L_7;
+	}
+
+IL_0047:
+	{
+		V_0 = G_B10_0;
+		goto IL_005c;
+	}
+
+IL_004d:
+	{
+		Initobj (Rect_t3681755626_il2cpp_TypeInfo_var, (&V_1));
+		Rect_t3681755626  L_8 = V_1;
+		V_0 = L_8;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		Rect_t3681755626  L_9 = V_0;
+		return L_9;
+	}
+}
+// System.Void Gvr.Internal.BaseVRDevice::OnPause(System.Boolean)
+extern "C"  void BaseVRDevice_OnPause_m964515384 (BaseVRDevice_t4004462063 * __this, bool ___pause0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___pause0;
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		VirtActionInvoker0::Invoke(16 /* System.Void Gvr.Internal.BaseVRDevice::UpdateScreenData() */, __this);
+	}
+
+IL_000f:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.BaseVRDevice::OnFocus(System.Boolean)
+extern "C"  void BaseVRDevice_OnFocus_m3542632174 (BaseVRDevice_t4004462063 * __this, bool ___focus0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.BaseVRDevice::OnApplicationQuit()
+extern "C"  void BaseVRDevice_OnApplicationQuit_m3712496750 (BaseVRDevice_t4004462063 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.BaseVRDevice::Destroy()
+extern Il2CppClass* BaseVRDevice_t4004462063_il2cpp_TypeInfo_var;
+extern const uint32_t BaseVRDevice_Destroy_m997398142_MetadataUsageId;
+extern "C"  void BaseVRDevice_Destroy_m997398142 (BaseVRDevice_t4004462063 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BaseVRDevice_Destroy_m997398142_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BaseVRDevice_t4004462063_il2cpp_TypeInfo_var);
+		BaseVRDevice_t4004462063 * L_0 = ((BaseVRDevice_t4004462063_StaticFields*)BaseVRDevice_t4004462063_il2cpp_TypeInfo_var->static_fields)->get_device_0();
+		if ((!(((Il2CppObject*)(BaseVRDevice_t4004462063 *)L_0) == ((Il2CppObject*)(BaseVRDevice_t4004462063 *)__this))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BaseVRDevice_t4004462063_il2cpp_TypeInfo_var);
+		((BaseVRDevice_t4004462063_StaticFields*)BaseVRDevice_t4004462063_il2cpp_TypeInfo_var->static_fields)->set_device_0((BaseVRDevice_t4004462063 *)NULL);
+	}
+
+IL_0014:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.BaseVRDevice::ComputeEyesFromProfile()
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppClass* BaseVRDevice_t4004462063_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t BaseVRDevice_ComputeEyesFromProfile_m3886822498_MetadataUsageId;
+extern "C"  void BaseVRDevice_ComputeEyesFromProfile_m3886822498 (BaseVRDevice_t4004462063 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BaseVRDevice_ComputeEyesFromProfile_m3886822498_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	SingleU5BU5D_t577127397* V_1 = NULL;
+	Matrix4x4_t2933234003  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Matrix4x4_t2933234003 * V_3 = NULL;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	{
+		Matrix4x4_t2933234003  L_0 = Matrix4x4_get_identity_m3039560904(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		GvrProfile_t2070273202 * L_1 = BaseVRDevice_get_Profile_m1157035047(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Viewer_t1642017539 * L_2 = L_1->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_3 = L_2->get_address_of_lenses_0();
+		float L_4 = L_3->get_separation_0();
+		Matrix4x4_set_Item_m1035113911((&V_0), 0, 3, ((float)((float)((-L_4))/(float)(2.0f))), /*hidden argument*/NULL);
+		MutablePose3D_t1015643808 * L_5 = __this->get_leftEyePose_3();
+		Matrix4x4_t2933234003  L_6 = V_0;
+		NullCheck(L_5);
+		MutablePose3D_Set_m3496782089(L_5, L_6, /*hidden argument*/NULL);
+		V_1 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)4));
+		GvrProfile_t2070273202 * L_7 = BaseVRDevice_get_Profile_m1157035047(__this, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_8 = V_1;
+		NullCheck(L_7);
+		GvrProfile_GetLeftEyeVisibleTanAngles_m163412083(L_7, L_8, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_9 = V_1;
+		NullCheck(L_9);
+		int32_t L_10 = 0;
+		float L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		SingleU5BU5D_t577127397* L_12 = V_1;
+		NullCheck(L_12);
+		int32_t L_13 = 1;
+		float L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		SingleU5BU5D_t577127397* L_15 = V_1;
+		NullCheck(L_15);
+		int32_t L_16 = 2;
+		float L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		SingleU5BU5D_t577127397* L_18 = V_1;
+		NullCheck(L_18);
+		int32_t L_19 = 3;
+		float L_20 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		IL2CPP_RUNTIME_CLASS_INIT(BaseVRDevice_t4004462063_il2cpp_TypeInfo_var);
+		Matrix4x4_t2933234003  L_21 = BaseVRDevice_MakeProjection_m3456433502(NULL /*static, unused*/, L_11, L_14, L_17, L_20, (1.0f), (1000.0f), /*hidden argument*/NULL);
+		__this->set_leftEyeDistortedProjection_5(L_21);
+		GvrProfile_t2070273202 * L_22 = BaseVRDevice_get_Profile_m1157035047(__this, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_23 = V_1;
+		NullCheck(L_22);
+		GvrProfile_GetLeftEyeNoLensTanAngles_m1542233222(L_22, L_23, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_24 = V_1;
+		NullCheck(L_24);
+		int32_t L_25 = 0;
+		float L_26 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		SingleU5BU5D_t577127397* L_27 = V_1;
+		NullCheck(L_27);
+		int32_t L_28 = 1;
+		float L_29 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		SingleU5BU5D_t577127397* L_30 = V_1;
+		NullCheck(L_30);
+		int32_t L_31 = 2;
+		float L_32 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
+		SingleU5BU5D_t577127397* L_33 = V_1;
+		NullCheck(L_33);
+		int32_t L_34 = 3;
+		float L_35 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		Matrix4x4_t2933234003  L_36 = BaseVRDevice_MakeProjection_m3456433502(NULL /*static, unused*/, L_26, L_29, L_32, L_35, (1.0f), (1000.0f), /*hidden argument*/NULL);
+		__this->set_leftEyeUndistortedProjection_7(L_36);
+		GvrProfile_t2070273202 * L_37 = BaseVRDevice_get_Profile_m1157035047(__this, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_38 = V_1;
+		NullCheck(L_37);
+		Rect_t3681755626  L_39 = GvrProfile_GetLeftEyeVisibleScreenRect_m1327064272(L_37, L_38, /*hidden argument*/NULL);
+		__this->set_leftEyeUndistortedViewport_11(L_39);
+		Rect_t3681755626  L_40 = __this->get_leftEyeUndistortedViewport_11();
+		__this->set_leftEyeDistortedViewport_9(L_40);
+		Matrix4x4_t2933234003  L_41 = V_0;
+		V_2 = L_41;
+		Matrix4x4_t2933234003 * L_42 = (&V_2);
+		V_3 = (Matrix4x4_t2933234003 *)L_42;
+		Matrix4x4_t2933234003 * L_43 = V_3;
+		float L_44 = Matrix4x4_get_Item_m312280350(L_43, 0, 3, /*hidden argument*/NULL);
+		Matrix4x4_set_Item_m1035113911(L_42, 0, 3, ((float)((float)L_44*(float)(-1.0f))), /*hidden argument*/NULL);
+		MutablePose3D_t1015643808 * L_45 = __this->get_rightEyePose_4();
+		Matrix4x4_t2933234003  L_46 = V_2;
+		NullCheck(L_45);
+		MutablePose3D_Set_m3496782089(L_45, L_46, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_47 = __this->get_leftEyeDistortedProjection_5();
+		__this->set_rightEyeDistortedProjection_6(L_47);
+		Matrix4x4_t2933234003 * L_48 = __this->get_address_of_rightEyeDistortedProjection_6();
+		Matrix4x4_t2933234003 * L_49 = L_48;
+		V_3 = (Matrix4x4_t2933234003 *)L_49;
+		Matrix4x4_t2933234003 * L_50 = V_3;
+		float L_51 = Matrix4x4_get_Item_m312280350(L_50, 0, 2, /*hidden argument*/NULL);
+		Matrix4x4_set_Item_m1035113911(L_49, 0, 2, ((float)((float)L_51*(float)(-1.0f))), /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_52 = __this->get_leftEyeUndistortedProjection_7();
+		__this->set_rightEyeUndistortedProjection_8(L_52);
+		Matrix4x4_t2933234003 * L_53 = __this->get_address_of_rightEyeUndistortedProjection_8();
+		Matrix4x4_t2933234003 * L_54 = L_53;
+		V_3 = (Matrix4x4_t2933234003 *)L_54;
+		Matrix4x4_t2933234003 * L_55 = V_3;
+		float L_56 = Matrix4x4_get_Item_m312280350(L_55, 0, 2, /*hidden argument*/NULL);
+		Matrix4x4_set_Item_m1035113911(L_54, 0, 2, ((float)((float)L_56*(float)(-1.0f))), /*hidden argument*/NULL);
+		Rect_t3681755626  L_57 = __this->get_leftEyeUndistortedViewport_11();
+		__this->set_rightEyeUndistortedViewport_12(L_57);
+		Rect_t3681755626 * L_58 = __this->get_address_of_rightEyeUndistortedViewport_12();
+		Rect_t3681755626 * L_59 = __this->get_address_of_rightEyeUndistortedViewport_12();
+		float L_60 = Rect_get_xMax_m2915145014(L_59, /*hidden argument*/NULL);
+		Rect_set_x_m3783700513(L_58, ((float)((float)(1.0f)-(float)L_60)), /*hidden argument*/NULL);
+		Rect_t3681755626  L_61 = __this->get_rightEyeUndistortedViewport_12();
+		__this->set_rightEyeDistortedViewport_10(L_61);
+		int32_t L_62 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626 * L_63 = __this->get_address_of_leftEyeUndistortedViewport_11();
+		float L_64 = Rect_get_width_m1138015702(L_63, /*hidden argument*/NULL);
+		Rect_t3681755626 * L_65 = __this->get_address_of_rightEyeDistortedViewport_10();
+		float L_66 = Rect_get_width_m1138015702(L_65, /*hidden argument*/NULL);
+		V_4 = ((float)((float)(((float)((float)L_62)))*(float)((float)((float)L_64+(float)L_66))));
+		int32_t L_67 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626 * L_68 = __this->get_address_of_leftEyeUndistortedViewport_11();
+		float L_69 = Rect_get_height_m3128694305(L_68, /*hidden argument*/NULL);
+		Rect_t3681755626 * L_70 = __this->get_address_of_rightEyeUndistortedViewport_12();
+		float L_71 = Rect_get_height_m3128694305(L_70, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_72 = Mathf_Max_m2564622569(NULL /*static, unused*/, L_69, L_71, /*hidden argument*/NULL);
+		V_5 = ((float)((float)(((float)((float)L_67)))*(float)L_72));
+		float L_73 = V_4;
+		float L_74 = V_5;
+		Vector2_t2243707579  L_75;
+		memset(&L_75, 0, sizeof(L_75));
+		Vector2__ctor_m3067419446(&L_75, L_73, L_74, /*hidden argument*/NULL);
+		__this->set_recommendedTextureSize_13(L_75);
+		return;
+	}
+}
+// UnityEngine.Matrix4x4 Gvr.Internal.BaseVRDevice::MakeProjection(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+extern "C"  Matrix4x4_t2933234003  BaseVRDevice_MakeProjection_m3456433502 (Il2CppObject * __this /* static, unused */, float ___l0, float ___t1, float ___r2, float ___b3, float ___n4, float ___f5, const MethodInfo* method)
+{
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Matrix4x4_t2933234003  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Matrix4x4_t2933234003  L_0 = Matrix4x4_get_zero_m2893472556(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = ___n4;
+		float L_2 = ___r2;
+		float L_3 = ___l0;
+		Matrix4x4_set_Item_m1035113911((&V_0), 0, 0, ((float)((float)((float)((float)(2.0f)*(float)L_1))/(float)((float)((float)L_2-(float)L_3)))), /*hidden argument*/NULL);
+		float L_4 = ___n4;
+		float L_5 = ___t1;
+		float L_6 = ___b3;
+		Matrix4x4_set_Item_m1035113911((&V_0), 1, 1, ((float)((float)((float)((float)(2.0f)*(float)L_4))/(float)((float)((float)L_5-(float)L_6)))), /*hidden argument*/NULL);
+		float L_7 = ___r2;
+		float L_8 = ___l0;
+		float L_9 = ___r2;
+		float L_10 = ___l0;
+		Matrix4x4_set_Item_m1035113911((&V_0), 0, 2, ((float)((float)((float)((float)L_7+(float)L_8))/(float)((float)((float)L_9-(float)L_10)))), /*hidden argument*/NULL);
+		float L_11 = ___t1;
+		float L_12 = ___b3;
+		float L_13 = ___t1;
+		float L_14 = ___b3;
+		Matrix4x4_set_Item_m1035113911((&V_0), 1, 2, ((float)((float)((float)((float)L_11+(float)L_12))/(float)((float)((float)L_13-(float)L_14)))), /*hidden argument*/NULL);
+		float L_15 = ___n4;
+		float L_16 = ___f5;
+		float L_17 = ___n4;
+		float L_18 = ___f5;
+		Matrix4x4_set_Item_m1035113911((&V_0), 2, 2, ((float)((float)((float)((float)L_15+(float)L_16))/(float)((float)((float)L_17-(float)L_18)))), /*hidden argument*/NULL);
+		float L_19 = ___n4;
+		float L_20 = ___f5;
+		float L_21 = ___n4;
+		float L_22 = ___f5;
+		Matrix4x4_set_Item_m1035113911((&V_0), 2, 3, ((float)((float)((float)((float)((float)((float)(2.0f)*(float)L_19))*(float)L_20))/(float)((float)((float)L_21-(float)L_22)))), /*hidden argument*/NULL);
+		Matrix4x4_set_Item_m1035113911((&V_0), 3, 2, (-1.0f), /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_23 = V_0;
+		V_1 = L_23;
+		goto IL_0094;
+	}
+
+IL_0094:
+	{
+		Matrix4x4_t2933234003  L_24 = V_1;
+		return L_24;
+	}
+}
+// Gvr.Internal.BaseVRDevice Gvr.Internal.BaseVRDevice::GetDevice()
+extern Il2CppClass* BaseVRDevice_t4004462063_il2cpp_TypeInfo_var;
+extern Il2CppClass* iOSDevice_t1373308423_il2cpp_TypeInfo_var;
+extern const uint32_t BaseVRDevice_GetDevice_m1593781808_MetadataUsageId;
+extern "C"  BaseVRDevice_t4004462063 * BaseVRDevice_GetDevice_m1593781808 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BaseVRDevice_GetDevice_m1593781808_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BaseVRDevice_t4004462063 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BaseVRDevice_t4004462063_il2cpp_TypeInfo_var);
+		BaseVRDevice_t4004462063 * L_0 = ((BaseVRDevice_t4004462063_StaticFields*)BaseVRDevice_t4004462063_il2cpp_TypeInfo_var->static_fields)->get_device_0();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		iOSDevice_t1373308423 * L_1 = (iOSDevice_t1373308423 *)il2cpp_codegen_object_new(iOSDevice_t1373308423_il2cpp_TypeInfo_var);
+		iOSDevice__ctor_m1152826412(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(BaseVRDevice_t4004462063_il2cpp_TypeInfo_var);
+		((BaseVRDevice_t4004462063_StaticFields*)BaseVRDevice_t4004462063_il2cpp_TypeInfo_var->static_fields)->set_device_0(L_1);
+	}
+
+IL_0017:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BaseVRDevice_t4004462063_il2cpp_TypeInfo_var);
+		BaseVRDevice_t4004462063 * L_2 = ((BaseVRDevice_t4004462063_StaticFields*)BaseVRDevice_t4004462063_il2cpp_TypeInfo_var->static_fields)->get_device_0();
+		V_0 = L_2;
+		goto IL_0022;
+	}
+
+IL_0022:
+	{
+		BaseVRDevice_t4004462063 * L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Void Gvr.Internal.BaseVRDevice::.cctor()
+extern Il2CppClass* BaseVRDevice_t4004462063_il2cpp_TypeInfo_var;
+extern const uint32_t BaseVRDevice__cctor_m3983729249_MetadataUsageId;
+extern "C"  void BaseVRDevice__cctor_m3983729249 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BaseVRDevice__cctor_m3983729249_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((BaseVRDevice_t4004462063_StaticFields*)BaseVRDevice_t4004462063_il2cpp_TypeInfo_var->static_fields)->set_device_0((BaseVRDevice_t4004462063 *)NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorAccelEvent::.ctor(proto.PhoneEvent/Types/AccelerometerEvent)
+extern "C"  void EmulatorAccelEvent__ctor_m1068393322 (EmulatorAccelEvent_t621139879 * __this, AccelerometerEvent_t1893725728 * ___proto0, const MethodInfo* method)
+{
+	{
+		AccelerometerEvent_t1893725728 * L_0 = ___proto0;
+		NullCheck(L_0);
+		int64_t L_1 = AccelerometerEvent_get_Timestamp_m3620699521(L_0, /*hidden argument*/NULL);
+		__this->set_timestamp_0(L_1);
+		AccelerometerEvent_t1893725728 * L_2 = ___proto0;
+		NullCheck(L_2);
+		float L_3 = AccelerometerEvent_get_X_m790034322(L_2, /*hidden argument*/NULL);
+		AccelerometerEvent_t1893725728 * L_4 = ___proto0;
+		NullCheck(L_4);
+		float L_5 = AccelerometerEvent_get_Y_m648871821(L_4, /*hidden argument*/NULL);
+		AccelerometerEvent_t1893725728 * L_6 = ___proto0;
+		NullCheck(L_6);
+		float L_7 = AccelerometerEvent_get_Z_m507709320(L_6, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		Vector3__ctor_m2638739322(&L_8, L_3, L_5, L_7, /*hidden argument*/NULL);
+		__this->set_value_1(L_8);
+		return;
+	}
+}
+extern "C"  void EmulatorAccelEvent__ctor_m1068393322_AdjustorThunk (Il2CppObject * __this, AccelerometerEvent_t1893725728 * ___proto0, const MethodInfo* method)
+{
+	EmulatorAccelEvent_t621139879 * _thisAdjusted = reinterpret_cast<EmulatorAccelEvent_t621139879 *>(__this + 1);
+	EmulatorAccelEvent__ctor_m1068393322(_thisAdjusted, ___proto0, method);
+}
+// System.Void Gvr.Internal.EmulatorButtonEvent::.ctor(proto.PhoneEvent/Types/KeyEvent)
+extern "C"  void EmulatorButtonEvent__ctor_m1309920830 (EmulatorButtonEvent_t156276569 * __this, KeyEvent_t639576718 * ___proto0, const MethodInfo* method)
+{
+	{
+		KeyEvent_t639576718 * L_0 = ___proto0;
+		NullCheck(L_0);
+		int32_t L_1 = KeyEvent_get_Code_m4093277921(L_0, /*hidden argument*/NULL);
+		__this->set_code_0(L_1);
+		KeyEvent_t639576718 * L_2 = ___proto0;
+		NullCheck(L_2);
+		int32_t L_3 = KeyEvent_get_Action_m3103875472(L_2, /*hidden argument*/NULL);
+		__this->set_down_1((bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0));
+		return;
+	}
+}
+extern "C"  void EmulatorButtonEvent__ctor_m1309920830_AdjustorThunk (Il2CppObject * __this, KeyEvent_t639576718 * ___proto0, const MethodInfo* method)
+{
+	EmulatorButtonEvent_t156276569 * _thisAdjusted = reinterpret_cast<EmulatorButtonEvent_t156276569 *>(__this + 1);
+	EmulatorButtonEvent__ctor_m1309920830(_thisAdjusted, ___proto0, method);
+}
+// Conversion methods for marshalling of: Gvr.Internal.EmulatorButtonEvent
+extern "C" void EmulatorButtonEvent_t156276569_marshal_pinvoke(const EmulatorButtonEvent_t156276569& unmarshaled, EmulatorButtonEvent_t156276569_marshaled_pinvoke& marshaled)
+{
+	marshaled.___code_0 = unmarshaled.get_code_0();
+	marshaled.___down_1 = static_cast<int32_t>(unmarshaled.get_down_1());
+}
+extern "C" void EmulatorButtonEvent_t156276569_marshal_pinvoke_back(const EmulatorButtonEvent_t156276569_marshaled_pinvoke& marshaled, EmulatorButtonEvent_t156276569& unmarshaled)
+{
+	int32_t unmarshaled_code_temp_0 = 0;
+	unmarshaled_code_temp_0 = marshaled.___code_0;
+	unmarshaled.set_code_0(unmarshaled_code_temp_0);
+	bool unmarshaled_down_temp_1 = false;
+	unmarshaled_down_temp_1 = static_cast<bool>(marshaled.___down_1);
+	unmarshaled.set_down_1(unmarshaled_down_temp_1);
+}
+// Conversion method for clean up from marshalling of: Gvr.Internal.EmulatorButtonEvent
+extern "C" void EmulatorButtonEvent_t156276569_marshal_pinvoke_cleanup(EmulatorButtonEvent_t156276569_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Gvr.Internal.EmulatorButtonEvent
+extern "C" void EmulatorButtonEvent_t156276569_marshal_com(const EmulatorButtonEvent_t156276569& unmarshaled, EmulatorButtonEvent_t156276569_marshaled_com& marshaled)
+{
+	marshaled.___code_0 = unmarshaled.get_code_0();
+	marshaled.___down_1 = static_cast<int32_t>(unmarshaled.get_down_1());
+}
+extern "C" void EmulatorButtonEvent_t156276569_marshal_com_back(const EmulatorButtonEvent_t156276569_marshaled_com& marshaled, EmulatorButtonEvent_t156276569& unmarshaled)
+{
+	int32_t unmarshaled_code_temp_0 = 0;
+	unmarshaled_code_temp_0 = marshaled.___code_0;
+	unmarshaled.set_code_0(unmarshaled_code_temp_0);
+	bool unmarshaled_down_temp_1 = false;
+	unmarshaled_down_temp_1 = static_cast<bool>(marshaled.___down_1);
+	unmarshaled.set_down_1(unmarshaled_down_temp_1);
+}
+// Conversion method for clean up from marshalling of: Gvr.Internal.EmulatorButtonEvent
+extern "C" void EmulatorButtonEvent_t156276569_marshal_com_cleanup(EmulatorButtonEvent_t156276569_marshaled_com& marshaled)
+{
+}
+// System.Void Gvr.Internal.EmulatorClientSocket::.ctor()
+extern "C"  void EmulatorClientSocket__ctor_m2223632350 (EmulatorClientSocket_t2001911543 * __this, const MethodInfo* method)
+{
+	{
+		il2cpp_codegen_memory_barrier();
+		__this->set_shouldStop_7(0);
+		il2cpp_codegen_memory_barrier();
+		__this->set_lastConnectionAttemptWasSuccessful_8(1);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Gvr.Internal.EmulatorClientSocket::get_connected()
+extern "C"  bool EmulatorClientSocket_get_connected_m887135136 (EmulatorClientSocket_t2001911543 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		bool L_0 = __this->get_U3CconnectedU3Ek__BackingField_10();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void Gvr.Internal.EmulatorClientSocket::set_connected(System.Boolean)
+extern "C"  void EmulatorClientSocket_set_connected_m3484293743 (EmulatorClientSocket_t2001911543 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CconnectedU3Ek__BackingField_10(L_0);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorClientSocket::Init(Gvr.Internal.EmulatorManager)
+extern Il2CppClass* EmulatorConfig_t616150261_il2cpp_TypeInfo_var;
+extern Il2CppClass* ThreadStart_t3437517264_il2cpp_TypeInfo_var;
+extern Il2CppClass* Thread_t241561612_il2cpp_TypeInfo_var;
+extern const MethodInfo* EmulatorClientSocket_phoneEventSocketLoop_m1408520055_MethodInfo_var;
+extern const uint32_t EmulatorClientSocket_Init_m4171573166_MetadataUsageId;
+extern "C"  void EmulatorClientSocket_Init_m4171573166 (EmulatorClientSocket_t2001911543 * __this, EmulatorManager_t3364249716 * ___remote0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorClientSocket_Init_m4171573166_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		EmulatorManager_t3364249716 * L_0 = ___remote0;
+		__this->set_phoneRemote_9(L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+		EmulatorConfig_t616150261 * L_1 = EmulatorConfig_get_Instance_m410425010(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		int32_t L_2 = L_1->get_PHONE_EVENT_MODE_3();
+		if (!L_2)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		IntPtr_t L_3;
+		L_3.set_m_value_0((void*)(void*)EmulatorClientSocket_phoneEventSocketLoop_m1408520055_MethodInfo_var);
+		ThreadStart_t3437517264 * L_4 = (ThreadStart_t3437517264 *)il2cpp_codegen_object_new(ThreadStart_t3437517264_il2cpp_TypeInfo_var);
+		ThreadStart__ctor_m3015256841(L_4, __this, L_3, /*hidden argument*/NULL);
+		Thread_t241561612 * L_5 = (Thread_t241561612 *)il2cpp_codegen_object_new(Thread_t241561612_il2cpp_TypeInfo_var);
+		Thread__ctor_m4175494164(L_5, L_4, /*hidden argument*/NULL);
+		__this->set_phoneEventThread_6(L_5);
+		Thread_t241561612 * L_6 = __this->get_phoneEventThread_6();
+		NullCheck(L_6);
+		Thread_set_IsBackground_m2222126055(L_6, (bool)1, /*hidden argument*/NULL);
+		Thread_t241561612 * L_7 = __this->get_phoneEventThread_6();
+		NullCheck(L_7);
+		Thread_Start_m1419497481(L_7, /*hidden argument*/NULL);
+	}
+
+IL_0047:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorClientSocket::phoneEventSocketLoop()
+extern Il2CppClass* DateTime_t693205669_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Thread_t241561612_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1296085355;
+extern const uint32_t EmulatorClientSocket_phoneEventSocketLoop_m1408520055_MetadataUsageId;
+extern "C"  void EmulatorClientSocket_phoneEventSocketLoop_m1408520055 (EmulatorClientSocket_t2001911543 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorClientSocket_phoneEventSocketLoop_m1408520055_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	DateTime_t693205669  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * V_2 = NULL;
+	TimeSpan_t3430258949  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	DateTime_t693205669  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	float V_5 = 0.0f;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		goto IL_00a8;
+	}
+
+IL_0006:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_0 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_0;
+		int64_t L_1 = DateTime_get_Ticks_m310281298((&V_1), /*hidden argument*/NULL);
+		V_0 = L_1;
+	}
+
+IL_0015:
+	try
+	{ // begin try (depth: 1)
+		EmulatorClientSocket_phoneConnect_m3583139274(__this, /*hidden argument*/NULL);
+		goto IL_0064;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0022;
+		throw e;
+	}
+
+CATCH_0022:
+	{ // begin catch(System.Exception)
+		{
+			V_2 = ((Exception_t1927440687 *)__exception_local);
+			bool L_2 = __this->get_lastConnectionAttemptWasSuccessful_8();
+			il2cpp_codegen_memory_barrier();
+			if (!L_2)
+			{
+				goto IL_005e;
+			}
+		}
+
+IL_0031:
+		{
+			ObjectU5BU5D_t3614634134* L_3 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+			Exception_t1927440687 * L_4 = V_2;
+			NullCheck(L_4);
+			String_t* L_5 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_4);
+			NullCheck(L_3);
+			ArrayElementTypeCheck (L_3, L_5);
+			(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+			ObjectU5BU5D_t3614634134* L_6 = L_3;
+			Exception_t1927440687 * L_7 = V_2;
+			NullCheck(L_7);
+			String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Exception::get_StackTrace() */, L_7);
+			NullCheck(L_6);
+			ArrayElementTypeCheck (L_6, L_8);
+			(L_6)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_8);
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+			Debug_LogWarningFormat_m2130157695(NULL /*static, unused*/, _stringLiteral1296085355, L_6, /*hidden argument*/NULL);
+			il2cpp_codegen_memory_barrier();
+			__this->set_lastConnectionAttemptWasSuccessful_8(0);
+		}
+
+IL_005e:
+		{
+			goto IL_0064;
+		}
+	} // end catch (depth: 1)
+
+IL_0064:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t693205669_il2cpp_TypeInfo_var);
+		DateTime_t693205669  L_9 = DateTime_get_Now_m24136300(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_4 = L_9;
+		int64_t L_10 = DateTime_get_Ticks_m310281298((&V_4), /*hidden argument*/NULL);
+		int64_t L_11 = V_0;
+		TimeSpan__ctor_m96381766((&V_3), ((int64_t)((int64_t)L_10-(int64_t)L_11)), /*hidden argument*/NULL);
+		double L_12 = TimeSpan_get_TotalSeconds_m1295026915((&V_3), /*hidden argument*/NULL);
+		V_5 = ((float)((float)(1.0f)-(float)(((float)((float)L_12)))));
+		float L_13 = V_5;
+		if ((!(((float)L_13) > ((float)(0.0f)))))
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		float L_14 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t241561612_il2cpp_TypeInfo_var);
+		Thread_Sleep_m1248422015(NULL /*static, unused*/, (((int32_t)((int32_t)((float)((float)L_14*(float)(1000.0f)))))), /*hidden argument*/NULL);
+	}
+
+IL_00a7:
+	{
+	}
+
+IL_00a8:
+	{
+		bool L_15 = __this->get_shouldStop_7();
+		il2cpp_codegen_memory_barrier();
+		if (!L_15)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorClientSocket::phoneConnect()
+extern Il2CppClass* EmulatorConfig_t616150261_il2cpp_TypeInfo_var;
+extern Il2CppClass* EmulatorClientSocket_t2001911543_il2cpp_TypeInfo_var;
+extern Il2CppClass* TcpClient_t408947970_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorClientSocket_phoneConnect_m3583139274_MetadataUsageId;
+extern "C"  void EmulatorClientSocket_phoneConnect_m3583139274 (EmulatorClientSocket_t2001911543 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorClientSocket_phoneConnect_m3583139274_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	TcpClient_t408947970 * V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	String_t* G_B3_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+		EmulatorConfig_t616150261 * L_0 = EmulatorConfig_get_Instance_m410425010(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = L_0->get_PHONE_EVENT_MODE_3();
+		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->get_USB_SERVER_IP_4();
+		G_B3_0 = L_2;
+		goto IL_0020;
+	}
+
+IL_001b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->get_WIFI_SERVER_IP_5();
+		G_B3_0 = L_3;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B3_0;
+	}
+
+IL_0021:
+	try
+	{ // begin try (depth: 1)
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+			EmulatorConfig_t616150261 * L_4 = EmulatorConfig_get_Instance_m410425010(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_4);
+			int32_t L_5 = L_4->get_PHONE_EVENT_MODE_3();
+			if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+			{
+				goto IL_003f;
+			}
+		}
+
+IL_0032:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(EmulatorClientSocket_t2001911543_il2cpp_TypeInfo_var);
+			int32_t L_6 = ((EmulatorClientSocket_t2001911543_StaticFields*)EmulatorClientSocket_t2001911543_il2cpp_TypeInfo_var->static_fields)->get_kPhoneEventPort_2();
+			EmulatorClientSocket_setupPortForwarding_m693595422(__this, L_6, /*hidden argument*/NULL);
+		}
+
+IL_003f:
+		{
+			String_t* L_7 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(EmulatorClientSocket_t2001911543_il2cpp_TypeInfo_var);
+			int32_t L_8 = ((EmulatorClientSocket_t2001911543_StaticFields*)EmulatorClientSocket_t2001911543_il2cpp_TypeInfo_var->static_fields)->get_kPhoneEventPort_2();
+			TcpClient_t408947970 * L_9 = (TcpClient_t408947970 *)il2cpp_codegen_object_new(TcpClient_t408947970_il2cpp_TypeInfo_var);
+			TcpClient__ctor_m4115769373(L_9, L_7, L_8, /*hidden argument*/NULL);
+			V_1 = L_9;
+			EmulatorClientSocket_set_connected_m3484293743(__this, (bool)1, /*hidden argument*/NULL);
+			TcpClient_t408947970 * L_10 = V_1;
+			EmulatorClientSocket_ProcessConnection_m2203714527(__this, L_10, /*hidden argument*/NULL);
+			TcpClient_t408947970 * L_11 = V_1;
+			NullCheck(L_11);
+			TcpClient_Close_m4260227760(L_11, /*hidden argument*/NULL);
+			IL2CPP_LEAVE(0x6F, FINALLY_0065);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0065;
+	}
+
+FINALLY_0065:
+	{ // begin finally (depth: 1)
+		EmulatorClientSocket_set_connected_m3484293743(__this, (bool)0, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(101)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(101)
+	{
+		IL2CPP_JUMP_TBL(0x6F, IL_006f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_006f:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorClientSocket::setupPortForwarding(System.Int32)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Process_t1448008787_il2cpp_TypeInfo_var;
+extern Il2CppClass* ProcessStartInfo_t2898458543_il2cpp_TypeInfo_var;
+extern Il2CppClass* Thread_t241561612_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1373918990;
+extern Il2CppCodeGenString* _stringLiteral2375273008;
+extern Il2CppCodeGenString* _stringLiteral1992102629;
+extern Il2CppCodeGenString* _stringLiteral794328206;
+extern Il2CppCodeGenString* _stringLiteral3824521097;
+extern const uint32_t EmulatorClientSocket_setupPortForwarding_m693595422_MetadataUsageId;
+extern "C"  void EmulatorClientSocket_setupPortForwarding_m693595422 (EmulatorClientSocket_t2001911543 * __this, int32_t ___port0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorClientSocket_setupPortForwarding_m693595422_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Process_t1448008787 * V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	ProcessStartInfo_t2898458543 * V_5 = NULL;
+	int32_t V_6 = 0;
+	String_t* V_7 = NULL;
+	{
+		int32_t L_0 = ___port0;
+		int32_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral1373918990, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Process_t1448008787 * L_4 = (Process_t1448008787 *)il2cpp_codegen_object_new(Process_t1448008787_il2cpp_TypeInfo_var);
+		Process__ctor_m699031546(L_4, /*hidden argument*/NULL);
+		V_1 = L_4;
+		V_2 = _stringLiteral2375273008;
+		String_t* L_5 = V_0;
+		String_t* L_6 = String_Format_m2024975688(NULL /*static, unused*/, _stringLiteral1992102629, L_5, /*hidden argument*/NULL);
+		V_3 = L_6;
+		V_4 = ((int32_t)127);
+		String_t* L_7 = V_2;
+		String_t* L_8 = V_3;
+		ProcessStartInfo_t2898458543 * L_9 = (ProcessStartInfo_t2898458543 *)il2cpp_codegen_object_new(ProcessStartInfo_t2898458543_il2cpp_TypeInfo_var);
+		ProcessStartInfo__ctor_m1871457906(L_9, L_7, L_8, /*hidden argument*/NULL);
+		V_5 = L_9;
+		ProcessStartInfo_t2898458543 * L_10 = V_5;
+		NullCheck(L_10);
+		ProcessStartInfo_set_UseShellExecute_m2714645304(L_10, (bool)0, /*hidden argument*/NULL);
+		ProcessStartInfo_t2898458543 * L_11 = V_5;
+		NullCheck(L_11);
+		ProcessStartInfo_set_RedirectStandardError_m871400493(L_11, (bool)1, /*hidden argument*/NULL);
+		ProcessStartInfo_t2898458543 * L_12 = V_5;
+		NullCheck(L_12);
+		ProcessStartInfo_set_CreateNoWindow_m2521430833(L_12, (bool)1, /*hidden argument*/NULL);
+		Process_t1448008787 * L_13 = V_1;
+		ProcessStartInfo_t2898458543 * L_14 = V_5;
+		NullCheck(L_13);
+		Process_set_StartInfo_m364158131(L_13, L_14, /*hidden argument*/NULL);
+		Process_t1448008787 * L_15 = V_1;
+		NullCheck(L_15);
+		Process_Start_m2737551206(L_15, /*hidden argument*/NULL);
+		Process_t1448008787 * L_16 = V_1;
+		NullCheck(L_16);
+		Process_WaitForExit_m1494961306(L_16, /*hidden argument*/NULL);
+		goto IL_0071;
+	}
+
+IL_0069:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t241561612_il2cpp_TypeInfo_var);
+		Thread_Sleep_m1248422015(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+	}
+
+IL_0071:
+	{
+		Process_t1448008787 * L_17 = V_1;
+		NullCheck(L_17);
+		bool L_18 = Process_get_HasExited_m594007172(L_17, /*hidden argument*/NULL);
+		if (!L_18)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		Process_t1448008787 * L_19 = V_1;
+		NullCheck(L_19);
+		int32_t L_20 = Process_get_ExitCode_m1259516068(L_19, /*hidden argument*/NULL);
+		V_6 = L_20;
+		Process_t1448008787 * L_21 = V_1;
+		NullCheck(L_21);
+		StreamReader_t2360341767 * L_22 = Process_get_StandardError_m221148315(L_21, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		String_t* L_23 = VirtFuncInvoker0< String_t* >::Invoke(11 /* System.String System.IO.TextReader::ReadToEnd() */, L_22);
+		V_7 = L_23;
+		Process_t1448008787 * L_24 = V_1;
+		NullCheck(L_24);
+		Process_Close_m2239215458(L_24, /*hidden argument*/NULL);
+		int32_t L_25 = V_6;
+		if (L_25)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		goto IL_00e6;
+	}
+
+IL_00a4:
+	{
+		int32_t L_26 = V_6;
+		int32_t L_27 = V_4;
+		if ((!(((uint32_t)L_26) == ((uint32_t)L_27))))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		Exception_t1927440687 * L_28 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_28, _stringLiteral794328206, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_28);
+	}
+
+IL_00b9:
+	{
+		ObjectU5BU5D_t3614634134* L_29 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
+		int32_t L_30 = V_6;
+		int32_t L_31 = L_30;
+		Il2CppObject * L_32 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_31);
+		NullCheck(L_29);
+		ArrayElementTypeCheck (L_29, L_32);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_32);
+		ObjectU5BU5D_t3614634134* L_33 = L_29;
+		String_t* L_34 = V_2;
+		NullCheck(L_33);
+		ArrayElementTypeCheck (L_33, L_34);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_34);
+		ObjectU5BU5D_t3614634134* L_35 = L_33;
+		String_t* L_36 = V_3;
+		NullCheck(L_35);
+		ArrayElementTypeCheck (L_35, L_36);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_36);
+		ObjectU5BU5D_t3614634134* L_37 = L_35;
+		String_t* L_38 = V_7;
+		NullCheck(L_37);
+		ArrayElementTypeCheck (L_37, L_38);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_38);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_39 = String_Format_m1263743648(NULL /*static, unused*/, _stringLiteral3824521097, L_37, /*hidden argument*/NULL);
+		Exception_t1927440687 * L_40 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_40, L_39, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_40);
+	}
+
+IL_00e6:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorClientSocket::ProcessConnection(System.Net.Sockets.TcpClient)
+extern Il2CppClass* ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
+extern Il2CppClass* EmulatorClientSocket_t2001911543_il2cpp_TypeInfo_var;
+extern Il2CppClass* PhoneEvent_t2572128318_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* AbstractBuilderLite_2_MergeFrom_m705343286_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral830690597;
+extern Il2CppCodeGenString* _stringLiteral2095212411;
+extern const uint32_t EmulatorClientSocket_ProcessConnection_m2203714527_MetadataUsageId;
+extern "C"  void EmulatorClientSocket_ProcessConnection_m2203714527 (EmulatorClientSocket_t2001911543 * __this, TcpClient_t408947970 * ___tcpClient0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorClientSocket_ProcessConnection_m2203714527_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	NetworkStream_t581172200 * V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	ByteU5BU5D_t3397334013* V_4 = NULL;
+	PhoneEvent_t2572128318 * V_5 = NULL;
+	{
+		V_0 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)4));
+		TcpClient_t408947970 * L_0 = ___tcpClient0;
+		NullCheck(L_0);
+		NetworkStream_t581172200 * L_1 = TcpClient_GetStream_m872175179(L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+		NetworkStream_t581172200 * L_2 = V_1;
+		NullCheck(L_2);
+		VirtActionInvoker1< int32_t >::Invoke(13 /* System.Void System.IO.Stream::set_ReadTimeout(System.Int32) */, L_2, ((int32_t)5000));
+		TcpClient_t408947970 * L_3 = ___tcpClient0;
+		NullCheck(L_3);
+		TcpClient_set_ReceiveTimeout_m4062746526(L_3, ((int32_t)5000), /*hidden argument*/NULL);
+		goto IL_00c1;
+	}
+
+IL_002a:
+	{
+		NetworkStream_t581172200 * L_4 = V_1;
+		ByteU5BU5D_t3397334013* L_5 = V_0;
+		int32_t L_6 = EmulatorClientSocket_blockingRead_m3410398218(__this, L_4, L_5, 0, 4, /*hidden argument*/NULL);
+		V_2 = L_6;
+		int32_t L_7 = V_2;
+		if ((((int32_t)L_7) >= ((int32_t)4)))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		Exception_t1927440687 * L_8 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_8, _stringLiteral830690597, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8);
+	}
+
+IL_0049:
+	{
+		ByteU5BU5D_t3397334013* L_9 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorClientSocket_t2001911543_il2cpp_TypeInfo_var);
+		ByteU5BU5D_t3397334013* L_10 = EmulatorClientSocket_correctEndianness_m336142497(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		int32_t L_11 = EmulatorClientSocket_unpack32bits_m1885594369(__this, L_10, 0, /*hidden argument*/NULL);
+		V_3 = L_11;
+		int32_t L_12 = V_3;
+		V_4 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)L_12));
+		NetworkStream_t581172200 * L_13 = V_1;
+		ByteU5BU5D_t3397334013* L_14 = V_4;
+		int32_t L_15 = V_3;
+		int32_t L_16 = EmulatorClientSocket_blockingRead_m3410398218(__this, L_13, L_14, 0, L_15, /*hidden argument*/NULL);
+		V_2 = L_16;
+		int32_t L_17 = V_2;
+		int32_t L_18 = V_3;
+		if ((((int32_t)L_17) >= ((int32_t)L_18)))
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		Exception_t1927440687 * L_19 = (Exception_t1927440687 *)il2cpp_codegen_object_new(Exception_t1927440687_il2cpp_TypeInfo_var);
+		Exception__ctor_m485833136(L_19, _stringLiteral830690597, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19);
+	}
+
+IL_007e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(PhoneEvent_t2572128318_il2cpp_TypeInfo_var);
+		Builder_t2537253112 * L_20 = PhoneEvent_CreateBuilder_m1484593355(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ByteU5BU5D_t3397334013* L_21 = V_4;
+		NullCheck(L_20);
+		Builder_t2537253112 * L_22 = AbstractBuilderLite_2_MergeFrom_m705343286(L_20, L_21, /*hidden argument*/AbstractBuilderLite_2_MergeFrom_m705343286_MethodInfo_var);
+		NullCheck(L_22);
+		PhoneEvent_t2572128318 * L_23 = VirtFuncInvoker0< PhoneEvent_t2572128318 * >::Invoke(12 /* !0 Google.ProtocolBuffers.AbstractBuilderLite`2<proto.PhoneEvent,proto.PhoneEvent/Builder>::Build() */, L_22);
+		V_5 = L_23;
+		EmulatorManager_t3364249716 * L_24 = __this->get_phoneRemote_9();
+		PhoneEvent_t2572128318 * L_25 = V_5;
+		NullCheck(L_24);
+		EmulatorManager_OnPhoneEvent_m187935926(L_24, L_25, /*hidden argument*/NULL);
+		bool L_26 = __this->get_lastConnectionAttemptWasSuccessful_8();
+		il2cpp_codegen_memory_barrier();
+		if (L_26)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral2095212411, /*hidden argument*/NULL);
+		il2cpp_codegen_memory_barrier();
+		__this->set_lastConnectionAttemptWasSuccessful_8(1);
+	}
+
+IL_00c0:
+	{
+	}
+
+IL_00c1:
+	{
+		bool L_27 = __this->get_shouldStop_7();
+		il2cpp_codegen_memory_barrier();
+		if (!L_27)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Int32 Gvr.Internal.EmulatorClientSocket::blockingRead(System.Net.Sockets.NetworkStream,System.Byte[],System.Int32,System.Int32)
+extern Il2CppClass* IOException_t2458421087_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorClientSocket_blockingRead_m3410398218_MetadataUsageId;
+extern "C"  int32_t EmulatorClientSocket_blockingRead_m3410398218 (EmulatorClientSocket_t2001911543 * __this, NetworkStream_t581172200 * ___stream0, ByteU5BU5D_t3397334013* ___buffer1, int32_t ___index2, int32_t ___count3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorClientSocket_blockingRead_m3410398218_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		V_0 = 0;
+		goto IL_0045;
+	}
+
+IL_0008:
+	{
+	}
+
+IL_0009:
+	try
+	{ // begin try (depth: 1)
+		{
+			NetworkStream_t581172200 * L_0 = ___stream0;
+			ByteU5BU5D_t3397334013* L_1 = ___buffer1;
+			int32_t L_2 = ___index2;
+			int32_t L_3 = V_0;
+			int32_t L_4 = ___count3;
+			int32_t L_5 = V_0;
+			NullCheck(L_0);
+			int32_t L_6 = VirtFuncInvoker3< int32_t, ByteU5BU5D_t3397334013*, int32_t, int32_t >::Invoke(15 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_0, L_1, ((int32_t)((int32_t)L_2+(int32_t)L_3)), ((int32_t)((int32_t)L_4-(int32_t)L_5)));
+			V_1 = L_6;
+			int32_t L_7 = V_1;
+			if ((((int32_t)L_7) > ((int32_t)0)))
+			{
+				goto IL_0028;
+			}
+		}
+
+IL_0020:
+		{
+			V_2 = (-1);
+			goto IL_0061;
+		}
+
+IL_0028:
+		{
+			int32_t L_8 = V_0;
+			int32_t L_9 = V_1;
+			V_0 = ((int32_t)((int32_t)L_8+(int32_t)L_9));
+			goto IL_0044;
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (IOException_t2458421087_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_0032;
+		if(il2cpp_codegen_class_is_assignable_from (ObjectDisposedException_t2695136451_il2cpp_TypeInfo_var, e.ex->object.klass))
+			goto CATCH_003b;
+		throw e;
+	}
+
+CATCH_0032:
+	{ // begin catch(System.IO.IOException)
+		V_2 = (-1);
+		goto IL_0061;
+	} // end catch (depth: 1)
+
+CATCH_003b:
+	{ // begin catch(System.ObjectDisposedException)
+		V_2 = (-1);
+		goto IL_0061;
+	} // end catch (depth: 1)
+
+IL_0044:
+	{
+	}
+
+IL_0045:
+	{
+		bool L_10 = __this->get_shouldStop_7();
+		il2cpp_codegen_memory_barrier();
+		if (L_10)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		int32_t L_11 = V_0;
+		int32_t L_12 = ___count3;
+		if ((((int32_t)L_11) < ((int32_t)L_12)))
+		{
+			goto IL_0008;
+		}
+	}
+
+IL_005a:
+	{
+		int32_t L_13 = V_0;
+		V_2 = L_13;
+		goto IL_0061;
+	}
+
+IL_0061:
+	{
+		int32_t L_14 = V_2;
+		return L_14;
+	}
+}
+// System.Void Gvr.Internal.EmulatorClientSocket::OnDestroy()
+extern "C"  void EmulatorClientSocket_OnDestroy_m1902642189 (EmulatorClientSocket_t2001911543 * __this, const MethodInfo* method)
+{
+	{
+		il2cpp_codegen_memory_barrier();
+		__this->set_shouldStop_7(1);
+		TcpClient_t408947970 * L_0 = __this->get_phoneMirroringSocket_5();
+		if (!L_0)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		TcpClient_t408947970 * L_1 = __this->get_phoneMirroringSocket_5();
+		NullCheck(L_1);
+		TcpClient_Close_m4260227760(L_1, /*hidden argument*/NULL);
+		__this->set_phoneMirroringSocket_5((TcpClient_t408947970 *)NULL);
+	}
+
+IL_0029:
+	{
+		Thread_t241561612 * L_2 = __this->get_phoneEventThread_6();
+		if (!L_2)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Thread_t241561612 * L_3 = __this->get_phoneEventThread_6();
+		NullCheck(L_3);
+		Thread_Join_m4266176203(L_3, /*hidden argument*/NULL);
+	}
+
+IL_0041:
+	{
+		return;
+	}
+}
+// System.Int32 Gvr.Internal.EmulatorClientSocket::unpack32bits(System.Byte[],System.Int32)
+extern "C"  int32_t EmulatorClientSocket_unpack32bits_m1885594369 (EmulatorClientSocket_t2001911543 * __this, ByteU5BU5D_t3397334013* ___array0, int32_t ___offset1, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		V_0 = 0;
+		V_1 = 0;
+		goto IL_001f;
+	}
+
+IL_000a:
+	{
+		int32_t L_0 = V_0;
+		ByteU5BU5D_t3397334013* L_1 = ___array0;
+		int32_t L_2 = ___offset1;
+		int32_t L_3 = V_1;
+		NullCheck(L_1);
+		int32_t L_4 = ((int32_t)((int32_t)L_2+(int32_t)L_3));
+		uint8_t L_5 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		int32_t L_6 = V_1;
+		V_0 = ((int32_t)((int32_t)L_0+(int32_t)((int32_t)((int32_t)L_5<<(int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_6*(int32_t)8))&(int32_t)((int32_t)31)))))));
+		int32_t L_7 = V_1;
+		V_1 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_001f:
+	{
+		int32_t L_8 = V_1;
+		if ((((int32_t)L_8) < ((int32_t)4)))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		int32_t L_9 = V_0;
+		V_2 = L_9;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		int32_t L_10 = V_2;
+		return L_10;
+	}
+}
+// System.Byte[] Gvr.Internal.EmulatorClientSocket::correctEndianness(System.Byte[])
+extern Il2CppClass* BitConverter_t3195628829_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorClientSocket_correctEndianness_m336142497_MetadataUsageId;
+extern "C"  ByteU5BU5D_t3397334013* EmulatorClientSocket_correctEndianness_m336142497 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___array0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorClientSocket_correctEndianness_m336142497_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_t3195628829_il2cpp_TypeInfo_var);
+		bool L_0 = ((BitConverter_t3195628829_StaticFields*)BitConverter_t3195628829_il2cpp_TypeInfo_var->static_fields)->get_IsLittleEndian_1();
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		ByteU5BU5D_t3397334013* L_1 = ___array0;
+		Array_Reverse_m3883292526(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_1, /*hidden argument*/NULL);
+	}
+
+IL_0011:
+	{
+		ByteU5BU5D_t3397334013* L_2 = ___array0;
+		V_0 = L_2;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		ByteU5BU5D_t3397334013* L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Void Gvr.Internal.EmulatorClientSocket::.cctor()
+extern Il2CppClass* EmulatorClientSocket_t2001911543_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorClientSocket__cctor_m288133801_MetadataUsageId;
+extern "C"  void EmulatorClientSocket__cctor_m288133801 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorClientSocket__cctor_m288133801_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((EmulatorClientSocket_t2001911543_StaticFields*)EmulatorClientSocket_t2001911543_il2cpp_TypeInfo_var->static_fields)->set_kPhoneEventPort_2(((int32_t)7003));
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorConfig::.ctor()
+extern "C"  void EmulatorConfig__ctor_m1856438434 (EmulatorConfig_t616150261 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_PHONE_EVENT_MODE_3(1);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Gvr.Internal.EmulatorConfig Gvr.Internal.EmulatorConfig::get_Instance()
+extern const Il2CppType* EmulatorConfig_t616150261_0_0_0_var;
+extern Il2CppClass* EmulatorConfig_t616150261_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* EmulatorConfigU5BU5D_t1923274648_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisEmulatorConfig_t616150261_m639623939_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral115638372;
+extern Il2CppCodeGenString* _stringLiteral2267280474;
+extern const uint32_t EmulatorConfig_get_Instance_m410425010_MetadataUsageId;
+extern "C"  EmulatorConfig_t616150261 * EmulatorConfig_get_Instance_m410425010 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorConfig_get_Instance_m410425010_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	EmulatorConfigU5BU5D_t1923274648* V_0 = NULL;
+	GameObject_t1756533147 * V_1 = NULL;
+	EmulatorConfig_t616150261 * V_2 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+		EmulatorConfig_t616150261 * L_0 = ((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_2 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(EmulatorConfig_t616150261_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		ObjectU5BU5D_t4217747464* L_3 = Object_FindObjectsOfType_m2121813744(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_0 = ((EmulatorConfigU5BU5D_t1923274648*)Castclass(L_3, EmulatorConfigU5BU5D_t1923274648_il2cpp_TypeInfo_var));
+		EmulatorConfigU5BU5D_t1923274648* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_4)->max_length))))) == ((uint32_t)1))))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		EmulatorConfigU5BU5D_t1923274648* L_5 = V_0;
+		NullCheck(L_5);
+		int32_t L_6 = 0;
+		EmulatorConfig_t616150261 * L_7 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+		((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->set_instance_2(L_7);
+		goto IL_0054;
+	}
+
+IL_003f:
+	{
+		EmulatorConfigU5BU5D_t1923274648* L_8 = V_0;
+		NullCheck(L_8);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length))))) <= ((int32_t)1)))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral115638372, /*hidden argument*/NULL);
+	}
+
+IL_0054:
+	{
+	}
+
+IL_0055:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+		EmulatorConfig_t616150261 * L_9 = ((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_10 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_9, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_11 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_11, _stringLiteral2267280474, /*hidden argument*/NULL);
+		V_1 = L_11;
+		GameObject_t1756533147 * L_12 = V_1;
+		NullCheck(L_12);
+		EmulatorConfig_t616150261 * L_13 = GameObject_AddComponent_TisEmulatorConfig_t616150261_m639623939(L_12, /*hidden argument*/GameObject_AddComponent_TisEmulatorConfig_t616150261_m639623939_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+		((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->set_instance_2(L_13);
+	}
+
+IL_007d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorConfig_t616150261_il2cpp_TypeInfo_var);
+		EmulatorConfig_t616150261 * L_14 = ((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		V_2 = L_14;
+		goto IL_0088;
+	}
+
+IL_0088:
+	{
+		EmulatorConfig_t616150261 * L_15 = V_2;
+		return L_15;
+	}
+}
+// System.Void Gvr.Internal.EmulatorConfig::.cctor()
+extern Il2CppClass* EmulatorConfig_t616150261_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2524945039;
+extern Il2CppCodeGenString* _stringLiteral825751485;
+extern const uint32_t EmulatorConfig__cctor_m2606221763_MetadataUsageId;
+extern "C"  void EmulatorConfig__cctor_m2606221763 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorConfig__cctor_m2606221763_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->set_instance_2((EmulatorConfig_t616150261 *)NULL);
+		((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->set_USB_SERVER_IP_4(_stringLiteral2524945039);
+		((EmulatorConfig_t616150261_StaticFields*)EmulatorConfig_t616150261_il2cpp_TypeInfo_var->static_fields)->set_WIFI_SERVER_IP_5(_stringLiteral825751485);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorGyroEvent::.ctor(proto.PhoneEvent/Types/GyroscopeEvent)
+extern "C"  void EmulatorGyroEvent__ctor_m3973423935 (EmulatorGyroEvent_t1858389926 * __this, GyroscopeEvent_t182225200 * ___proto0, const MethodInfo* method)
+{
+	{
+		GyroscopeEvent_t182225200 * L_0 = ___proto0;
+		NullCheck(L_0);
+		int64_t L_1 = GyroscopeEvent_get_Timestamp_m2387672579(L_0, /*hidden argument*/NULL);
+		__this->set_timestamp_0(L_1);
+		GyroscopeEvent_t182225200 * L_2 = ___proto0;
+		NullCheck(L_2);
+		float L_3 = GyroscopeEvent_get_X_m2559913650(L_2, /*hidden argument*/NULL);
+		GyroscopeEvent_t182225200 * L_4 = ___proto0;
+		NullCheck(L_4);
+		float L_5 = GyroscopeEvent_get_Y_m2701076151(L_4, /*hidden argument*/NULL);
+		GyroscopeEvent_t182225200 * L_6 = ___proto0;
+		NullCheck(L_6);
+		float L_7 = GyroscopeEvent_get_Z_m2842238652(L_6, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_8;
+		memset(&L_8, 0, sizeof(L_8));
+		Vector3__ctor_m2638739322(&L_8, L_3, L_5, L_7, /*hidden argument*/NULL);
+		__this->set_value_1(L_8);
+		return;
+	}
+}
+extern "C"  void EmulatorGyroEvent__ctor_m3973423935_AdjustorThunk (Il2CppObject * __this, GyroscopeEvent_t182225200 * ___proto0, const MethodInfo* method)
+{
+	EmulatorGyroEvent_t1858389926 * _thisAdjusted = reinterpret_cast<EmulatorGyroEvent_t1858389926 *>(__this + 1);
+	EmulatorGyroEvent__ctor_m3973423935(_thisAdjusted, ___proto0, method);
+}
+// System.Void Gvr.Internal.EmulatorManager::.ctor()
+extern Il2CppClass* WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var;
+extern Il2CppClass* Queue_t1288490777_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager__ctor_m2902830753_MetadataUsageId;
+extern "C"  void EmulatorManager__ctor_m2902830753 (EmulatorManager_t3364249716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager__ctor_m2902830753_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WaitForEndOfFrame_t1785723201 * L_0 = (WaitForEndOfFrame_t1785723201 *)il2cpp_codegen_object_new(WaitForEndOfFrame_t1785723201_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m3062480170(L_0, /*hidden argument*/NULL);
+		__this->set_waitForEndOfFrame_3(L_0);
+		Queue_t1288490777 * L_1 = (Queue_t1288490777 *)il2cpp_codegen_object_new(Queue_t1288490777_il2cpp_TypeInfo_var);
+		Queue__ctor_m3347147485(L_1, /*hidden argument*/NULL);
+		Queue_t1288490777 * L_2 = Queue_Synchronized_m4254509198(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		__this->set_pendingEvents_15(L_2);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Gvr.Internal.EmulatorManager Gvr.Internal.EmulatorManager::get_Instance()
+extern Il2CppClass* EmulatorManager_t3364249716_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisEmulatorManager_t3364249716_m3658772290_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4181646808;
+extern const uint32_t EmulatorManager_get_Instance_m2672610894_MetadataUsageId;
+extern "C"  EmulatorManager_t3364249716 * EmulatorManager_get_Instance_m2672610894 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_get_Instance_m2672610894_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	EmulatorManager_t3364249716 * V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorManager_t3364249716_il2cpp_TypeInfo_var);
+		EmulatorManager_t3364249716 * L_0 = ((EmulatorManager_t3364249716_StaticFields*)EmulatorManager_t3364249716_il2cpp_TypeInfo_var->static_fields)->get_instance_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_2, _stringLiteral4181646808, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		NullCheck(L_3);
+		EmulatorManager_t3364249716 * L_4 = GameObject_AddComponent_TisEmulatorManager_t3364249716_m3658772290(L_3, /*hidden argument*/GameObject_AddComponent_TisEmulatorManager_t3364249716_m3658772290_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorManager_t3364249716_il2cpp_TypeInfo_var);
+		((EmulatorManager_t3364249716_StaticFields*)EmulatorManager_t3364249716_il2cpp_TypeInfo_var->static_fields)->set_instance_4(L_4);
+		EmulatorManager_t3364249716 * L_5 = ((EmulatorManager_t3364249716_StaticFields*)EmulatorManager_t3364249716_il2cpp_TypeInfo_var->static_fields)->get_instance_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m2330762974(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+	}
+
+IL_0033:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorManager_t3364249716_il2cpp_TypeInfo_var);
+		EmulatorManager_t3364249716 * L_6 = ((EmulatorManager_t3364249716_StaticFields*)EmulatorManager_t3364249716_il2cpp_TypeInfo_var->static_fields)->get_instance_4();
+		V_1 = L_6;
+		goto IL_003e;
+	}
+
+IL_003e:
+	{
+		EmulatorManager_t3364249716 * L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_gyroEventListeners(Gvr.Internal.EmulatorManager/OnGyroEvent)
+extern "C"  void EmulatorManager_add_gyroEventListeners_m3470864766 (EmulatorManager_t3364249716 * __this, OnGyroEvent_t1804908545 * ___value0, const MethodInfo* method)
+{
+	{
+		OnGyroEvent_t1804908545 * L_0 = ___value0;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		OnGyroEvent_t1804908545 * L_1 = ___value0;
+		EmulatorGyroEvent_t1858389926  L_2 = __this->get_currentGyroEvent_5();
+		NullCheck(L_1);
+		OnGyroEvent_Invoke_m3195722476(L_1, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0015:
+	{
+		OnGyroEvent_t1804908545 * L_3 = ___value0;
+		EmulatorManager_add_gyroEventListenersInternal_m3017450141(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_gyroEventListeners(Gvr.Internal.EmulatorManager/OnGyroEvent)
+extern "C"  void EmulatorManager_remove_gyroEventListeners_m2633060857 (EmulatorManager_t3364249716 * __this, OnGyroEvent_t1804908545 * ___value0, const MethodInfo* method)
+{
+	{
+		OnGyroEvent_t1804908545 * L_0 = ___value0;
+		EmulatorManager_remove_gyroEventListenersInternal_m1959037462(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_accelEventListeners(Gvr.Internal.EmulatorManager/OnAccelEvent)
+extern "C"  void EmulatorManager_add_accelEventListeners_m270640740 (EmulatorManager_t3364249716 * __this, OnAccelEvent_t1967739812 * ___value0, const MethodInfo* method)
+{
+	{
+		OnAccelEvent_t1967739812 * L_0 = ___value0;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		OnAccelEvent_t1967739812 * L_1 = ___value0;
+		EmulatorAccelEvent_t621139879  L_2 = __this->get_currentAccelEvent_6();
+		NullCheck(L_1);
+		OnAccelEvent_Invoke_m1734383268(L_1, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0015:
+	{
+		OnAccelEvent_t1967739812 * L_3 = ___value0;
+		EmulatorManager_add_accelEventListenersInternal_m3372572737(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_accelEventListeners(Gvr.Internal.EmulatorManager/OnAccelEvent)
+extern "C"  void EmulatorManager_remove_accelEventListeners_m2032519549 (EmulatorManager_t3364249716 * __this, OnAccelEvent_t1967739812 * ___value0, const MethodInfo* method)
+{
+	{
+		OnAccelEvent_t1967739812 * L_0 = ___value0;
+		EmulatorManager_remove_accelEventListenersInternal_m2962477662(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_touchEventListeners(Gvr.Internal.EmulatorManager/OnTouchEvent)
+extern "C"  void EmulatorManager_add_touchEventListeners_m1614012878 (EmulatorManager_t3364249716 * __this, OnTouchEvent_t4143287487 * ___value0, const MethodInfo* method)
+{
+	{
+		OnTouchEvent_t4143287487 * L_0 = ___value0;
+		if (!L_0)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		EmulatorTouchEvent_t1122923020 * L_1 = __this->get_address_of_currentTouchEvent_7();
+		List_1_t2369806134 * L_2 = L_1->get_pointers_2();
+		if (!L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		OnTouchEvent_t4143287487 * L_3 = ___value0;
+		EmulatorTouchEvent_t1122923020  L_4 = __this->get_currentTouchEvent_7();
+		NullCheck(L_3);
+		OnTouchEvent_Invoke_m1749858212(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0025:
+	{
+		OnTouchEvent_t4143287487 * L_5 = ___value0;
+		EmulatorManager_add_touchEventListenersInternal_m4176544517(__this, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_touchEventListeners(Gvr.Internal.EmulatorManager/OnTouchEvent)
+extern "C"  void EmulatorManager_remove_touchEventListeners_m2841481457 (EmulatorManager_t3364249716 * __this, OnTouchEvent_t4143287487 * ___value0, const MethodInfo* method)
+{
+	{
+		OnTouchEvent_t4143287487 * L_0 = ___value0;
+		EmulatorManager_remove_touchEventListenersInternal_m1405523860(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_orientationEventListeners(Gvr.Internal.EmulatorManager/OnOrientationEvent)
+extern "C"  void EmulatorManager_add_orientationEventListeners_m354605180 (EmulatorManager_t3364249716 * __this, OnOrientationEvent_t602701282 * ___value0, const MethodInfo* method)
+{
+	{
+		OnOrientationEvent_t602701282 * L_0 = ___value0;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		OnOrientationEvent_t602701282 * L_1 = ___value0;
+		EmulatorOrientationEvent_t4153005117  L_2 = __this->get_currentOrientationEvent_8();
+		NullCheck(L_1);
+		OnOrientationEvent_Invoke_m1547755396(L_1, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0015:
+	{
+		OnOrientationEvent_t602701282 * L_3 = ___value0;
+		EmulatorManager_add_orientationEventListenersInternal_m3579286333(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_orientationEventListeners(Gvr.Internal.EmulatorManager/OnOrientationEvent)
+extern "C"  void EmulatorManager_remove_orientationEventListeners_m4008957729 (EmulatorManager_t3364249716 * __this, OnOrientationEvent_t602701282 * ___value0, const MethodInfo* method)
+{
+	{
+		OnOrientationEvent_t602701282 * L_0 = ___value0;
+		EmulatorManager_remove_orientationEventListenersInternal_m3190711766(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_buttonEventListeners(Gvr.Internal.EmulatorManager/OnButtonEvent)
+extern "C"  void EmulatorManager_add_buttonEventListeners_m2575451646 (EmulatorManager_t3364249716 * __this, OnButtonEvent_t358370788 * ___value0, const MethodInfo* method)
+{
+	{
+		OnButtonEvent_t358370788 * L_0 = ___value0;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		OnButtonEvent_t358370788 * L_1 = ___value0;
+		EmulatorButtonEvent_t156276569  L_2 = __this->get_currentButtonEvent_9();
+		NullCheck(L_1);
+		OnButtonEvent_Invoke_m3526811670(L_1, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0015:
+	{
+		OnButtonEvent_t358370788 * L_3 = ___value0;
+		EmulatorManager_add_buttonEventListenersInternal_m1124036221(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_buttonEventListeners(Gvr.Internal.EmulatorManager/OnButtonEvent)
+extern "C"  void EmulatorManager_remove_buttonEventListeners_m3693896249 (EmulatorManager_t3364249716 * __this, OnButtonEvent_t358370788 * ___value0, const MethodInfo* method)
+{
+	{
+		OnButtonEvent_t358370788 * L_0 = ___value0;
+		EmulatorManager_remove_buttonEventListenersInternal_m1787312118(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::onGyroEvent(Gvr.Internal.EmulatorGyroEvent)
+extern "C"  void EmulatorManager_onGyroEvent_m4150320277 (EmulatorManager_t3364249716 * __this, EmulatorGyroEvent_t1858389926  ___e0, const MethodInfo* method)
+{
+	{
+		EmulatorGyroEvent_t1858389926  L_0 = ___e0;
+		__this->set_currentGyroEvent_5(L_0);
+		OnGyroEvent_t1804908545 * L_1 = __this->get_gyroEventListenersInternal_10();
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		OnGyroEvent_t1804908545 * L_2 = __this->get_gyroEventListenersInternal_10();
+		EmulatorGyroEvent_t1858389926  L_3 = ___e0;
+		NullCheck(L_2);
+		OnGyroEvent_Invoke_m3195722476(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::onAccelEvent(Gvr.Internal.EmulatorAccelEvent)
+extern "C"  void EmulatorManager_onAccelEvent_m2853352313 (EmulatorManager_t3364249716 * __this, EmulatorAccelEvent_t621139879  ___e0, const MethodInfo* method)
+{
+	{
+		EmulatorAccelEvent_t621139879  L_0 = ___e0;
+		__this->set_currentAccelEvent_6(L_0);
+		OnAccelEvent_t1967739812 * L_1 = __this->get_accelEventListenersInternal_11();
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		OnAccelEvent_t1967739812 * L_2 = __this->get_accelEventListenersInternal_11();
+		EmulatorAccelEvent_t621139879  L_3 = ___e0;
+		NullCheck(L_2);
+		OnAccelEvent_Invoke_m1734383268(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::onTouchEvent(Gvr.Internal.EmulatorTouchEvent)
+extern "C"  void EmulatorManager_onTouchEvent_m4049017849 (EmulatorManager_t3364249716 * __this, EmulatorTouchEvent_t1122923020  ___e0, const MethodInfo* method)
+{
+	{
+		EmulatorTouchEvent_t1122923020  L_0 = ___e0;
+		__this->set_currentTouchEvent_7(L_0);
+		OnTouchEvent_t4143287487 * L_1 = __this->get_touchEventListenersInternal_12();
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		OnTouchEvent_t4143287487 * L_2 = __this->get_touchEventListenersInternal_12();
+		EmulatorTouchEvent_t1122923020  L_3 = ___e0;
+		NullCheck(L_2);
+		OnTouchEvent_Invoke_m1749858212(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::onOrientationEvent(Gvr.Internal.EmulatorOrientationEvent)
+extern "C"  void EmulatorManager_onOrientationEvent_m1122700761 (EmulatorManager_t3364249716 * __this, EmulatorOrientationEvent_t4153005117  ___e0, const MethodInfo* method)
+{
+	{
+		EmulatorOrientationEvent_t4153005117  L_0 = ___e0;
+		__this->set_currentOrientationEvent_8(L_0);
+		OnOrientationEvent_t602701282 * L_1 = __this->get_orientationEventListenersInternal_13();
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		OnOrientationEvent_t602701282 * L_2 = __this->get_orientationEventListenersInternal_13();
+		EmulatorOrientationEvent_t4153005117  L_3 = ___e0;
+		NullCheck(L_2);
+		OnOrientationEvent_Invoke_m1547755396(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::onButtonEvent(Gvr.Internal.EmulatorButtonEvent)
+extern "C"  void EmulatorManager_onButtonEvent_m3245651489 (EmulatorManager_t3364249716 * __this, EmulatorButtonEvent_t156276569  ___e0, const MethodInfo* method)
+{
+	{
+		EmulatorButtonEvent_t156276569  L_0 = ___e0;
+		__this->set_currentButtonEvent_9(L_0);
+		OnButtonEvent_t358370788 * L_1 = __this->get_buttonEventListenersInternal_14();
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		OnButtonEvent_t358370788 * L_2 = __this->get_buttonEventListenersInternal_14();
+		EmulatorButtonEvent_t156276569  L_3 = ___e0;
+		NullCheck(L_2);
+		OnButtonEvent_Invoke_m3526811670(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_gyroEventListenersInternal(Gvr.Internal.EmulatorManager/OnGyroEvent)
+extern Il2CppClass* OnGyroEvent_t1804908545_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_add_gyroEventListenersInternal_m3017450141_MetadataUsageId;
+extern "C"  void EmulatorManager_add_gyroEventListenersInternal_m3017450141 (EmulatorManager_t3364249716 * __this, OnGyroEvent_t1804908545 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_add_gyroEventListenersInternal_m3017450141_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnGyroEvent_t1804908545 * V_0 = NULL;
+	OnGyroEvent_t1804908545 * V_1 = NULL;
+	{
+		OnGyroEvent_t1804908545 * L_0 = __this->get_gyroEventListenersInternal_10();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnGyroEvent_t1804908545 * L_1 = V_0;
+		V_1 = L_1;
+		OnGyroEvent_t1804908545 ** L_2 = __this->get_address_of_gyroEventListenersInternal_10();
+		OnGyroEvent_t1804908545 * L_3 = V_1;
+		OnGyroEvent_t1804908545 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnGyroEvent_t1804908545 * L_6 = V_0;
+		OnGyroEvent_t1804908545 * L_7 = InterlockedCompareExchangeImpl<OnGyroEvent_t1804908545 *>(L_2, ((OnGyroEvent_t1804908545 *)CastclassSealed(L_5, OnGyroEvent_t1804908545_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnGyroEvent_t1804908545 * L_8 = V_0;
+		OnGyroEvent_t1804908545 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnGyroEvent_t1804908545 *)L_8) == ((Il2CppObject*)(OnGyroEvent_t1804908545 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_gyroEventListenersInternal(Gvr.Internal.EmulatorManager/OnGyroEvent)
+extern Il2CppClass* OnGyroEvent_t1804908545_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_remove_gyroEventListenersInternal_m1959037462_MetadataUsageId;
+extern "C"  void EmulatorManager_remove_gyroEventListenersInternal_m1959037462 (EmulatorManager_t3364249716 * __this, OnGyroEvent_t1804908545 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_remove_gyroEventListenersInternal_m1959037462_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnGyroEvent_t1804908545 * V_0 = NULL;
+	OnGyroEvent_t1804908545 * V_1 = NULL;
+	{
+		OnGyroEvent_t1804908545 * L_0 = __this->get_gyroEventListenersInternal_10();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnGyroEvent_t1804908545 * L_1 = V_0;
+		V_1 = L_1;
+		OnGyroEvent_t1804908545 ** L_2 = __this->get_address_of_gyroEventListenersInternal_10();
+		OnGyroEvent_t1804908545 * L_3 = V_1;
+		OnGyroEvent_t1804908545 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnGyroEvent_t1804908545 * L_6 = V_0;
+		OnGyroEvent_t1804908545 * L_7 = InterlockedCompareExchangeImpl<OnGyroEvent_t1804908545 *>(L_2, ((OnGyroEvent_t1804908545 *)CastclassSealed(L_5, OnGyroEvent_t1804908545_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnGyroEvent_t1804908545 * L_8 = V_0;
+		OnGyroEvent_t1804908545 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnGyroEvent_t1804908545 *)L_8) == ((Il2CppObject*)(OnGyroEvent_t1804908545 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_accelEventListenersInternal(Gvr.Internal.EmulatorManager/OnAccelEvent)
+extern Il2CppClass* OnAccelEvent_t1967739812_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_add_accelEventListenersInternal_m3372572737_MetadataUsageId;
+extern "C"  void EmulatorManager_add_accelEventListenersInternal_m3372572737 (EmulatorManager_t3364249716 * __this, OnAccelEvent_t1967739812 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_add_accelEventListenersInternal_m3372572737_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnAccelEvent_t1967739812 * V_0 = NULL;
+	OnAccelEvent_t1967739812 * V_1 = NULL;
+	{
+		OnAccelEvent_t1967739812 * L_0 = __this->get_accelEventListenersInternal_11();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnAccelEvent_t1967739812 * L_1 = V_0;
+		V_1 = L_1;
+		OnAccelEvent_t1967739812 ** L_2 = __this->get_address_of_accelEventListenersInternal_11();
+		OnAccelEvent_t1967739812 * L_3 = V_1;
+		OnAccelEvent_t1967739812 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnAccelEvent_t1967739812 * L_6 = V_0;
+		OnAccelEvent_t1967739812 * L_7 = InterlockedCompareExchangeImpl<OnAccelEvent_t1967739812 *>(L_2, ((OnAccelEvent_t1967739812 *)CastclassSealed(L_5, OnAccelEvent_t1967739812_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnAccelEvent_t1967739812 * L_8 = V_0;
+		OnAccelEvent_t1967739812 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnAccelEvent_t1967739812 *)L_8) == ((Il2CppObject*)(OnAccelEvent_t1967739812 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_accelEventListenersInternal(Gvr.Internal.EmulatorManager/OnAccelEvent)
+extern Il2CppClass* OnAccelEvent_t1967739812_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_remove_accelEventListenersInternal_m2962477662_MetadataUsageId;
+extern "C"  void EmulatorManager_remove_accelEventListenersInternal_m2962477662 (EmulatorManager_t3364249716 * __this, OnAccelEvent_t1967739812 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_remove_accelEventListenersInternal_m2962477662_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnAccelEvent_t1967739812 * V_0 = NULL;
+	OnAccelEvent_t1967739812 * V_1 = NULL;
+	{
+		OnAccelEvent_t1967739812 * L_0 = __this->get_accelEventListenersInternal_11();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnAccelEvent_t1967739812 * L_1 = V_0;
+		V_1 = L_1;
+		OnAccelEvent_t1967739812 ** L_2 = __this->get_address_of_accelEventListenersInternal_11();
+		OnAccelEvent_t1967739812 * L_3 = V_1;
+		OnAccelEvent_t1967739812 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnAccelEvent_t1967739812 * L_6 = V_0;
+		OnAccelEvent_t1967739812 * L_7 = InterlockedCompareExchangeImpl<OnAccelEvent_t1967739812 *>(L_2, ((OnAccelEvent_t1967739812 *)CastclassSealed(L_5, OnAccelEvent_t1967739812_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnAccelEvent_t1967739812 * L_8 = V_0;
+		OnAccelEvent_t1967739812 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnAccelEvent_t1967739812 *)L_8) == ((Il2CppObject*)(OnAccelEvent_t1967739812 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_touchEventListenersInternal(Gvr.Internal.EmulatorManager/OnTouchEvent)
+extern Il2CppClass* OnTouchEvent_t4143287487_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_add_touchEventListenersInternal_m4176544517_MetadataUsageId;
+extern "C"  void EmulatorManager_add_touchEventListenersInternal_m4176544517 (EmulatorManager_t3364249716 * __this, OnTouchEvent_t4143287487 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_add_touchEventListenersInternal_m4176544517_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnTouchEvent_t4143287487 * V_0 = NULL;
+	OnTouchEvent_t4143287487 * V_1 = NULL;
+	{
+		OnTouchEvent_t4143287487 * L_0 = __this->get_touchEventListenersInternal_12();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnTouchEvent_t4143287487 * L_1 = V_0;
+		V_1 = L_1;
+		OnTouchEvent_t4143287487 ** L_2 = __this->get_address_of_touchEventListenersInternal_12();
+		OnTouchEvent_t4143287487 * L_3 = V_1;
+		OnTouchEvent_t4143287487 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnTouchEvent_t4143287487 * L_6 = V_0;
+		OnTouchEvent_t4143287487 * L_7 = InterlockedCompareExchangeImpl<OnTouchEvent_t4143287487 *>(L_2, ((OnTouchEvent_t4143287487 *)CastclassSealed(L_5, OnTouchEvent_t4143287487_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnTouchEvent_t4143287487 * L_8 = V_0;
+		OnTouchEvent_t4143287487 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnTouchEvent_t4143287487 *)L_8) == ((Il2CppObject*)(OnTouchEvent_t4143287487 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_touchEventListenersInternal(Gvr.Internal.EmulatorManager/OnTouchEvent)
+extern Il2CppClass* OnTouchEvent_t4143287487_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_remove_touchEventListenersInternal_m1405523860_MetadataUsageId;
+extern "C"  void EmulatorManager_remove_touchEventListenersInternal_m1405523860 (EmulatorManager_t3364249716 * __this, OnTouchEvent_t4143287487 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_remove_touchEventListenersInternal_m1405523860_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnTouchEvent_t4143287487 * V_0 = NULL;
+	OnTouchEvent_t4143287487 * V_1 = NULL;
+	{
+		OnTouchEvent_t4143287487 * L_0 = __this->get_touchEventListenersInternal_12();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnTouchEvent_t4143287487 * L_1 = V_0;
+		V_1 = L_1;
+		OnTouchEvent_t4143287487 ** L_2 = __this->get_address_of_touchEventListenersInternal_12();
+		OnTouchEvent_t4143287487 * L_3 = V_1;
+		OnTouchEvent_t4143287487 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnTouchEvent_t4143287487 * L_6 = V_0;
+		OnTouchEvent_t4143287487 * L_7 = InterlockedCompareExchangeImpl<OnTouchEvent_t4143287487 *>(L_2, ((OnTouchEvent_t4143287487 *)CastclassSealed(L_5, OnTouchEvent_t4143287487_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnTouchEvent_t4143287487 * L_8 = V_0;
+		OnTouchEvent_t4143287487 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnTouchEvent_t4143287487 *)L_8) == ((Il2CppObject*)(OnTouchEvent_t4143287487 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_orientationEventListenersInternal(Gvr.Internal.EmulatorManager/OnOrientationEvent)
+extern Il2CppClass* OnOrientationEvent_t602701282_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_add_orientationEventListenersInternal_m3579286333_MetadataUsageId;
+extern "C"  void EmulatorManager_add_orientationEventListenersInternal_m3579286333 (EmulatorManager_t3364249716 * __this, OnOrientationEvent_t602701282 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_add_orientationEventListenersInternal_m3579286333_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnOrientationEvent_t602701282 * V_0 = NULL;
+	OnOrientationEvent_t602701282 * V_1 = NULL;
+	{
+		OnOrientationEvent_t602701282 * L_0 = __this->get_orientationEventListenersInternal_13();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnOrientationEvent_t602701282 * L_1 = V_0;
+		V_1 = L_1;
+		OnOrientationEvent_t602701282 ** L_2 = __this->get_address_of_orientationEventListenersInternal_13();
+		OnOrientationEvent_t602701282 * L_3 = V_1;
+		OnOrientationEvent_t602701282 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnOrientationEvent_t602701282 * L_6 = V_0;
+		OnOrientationEvent_t602701282 * L_7 = InterlockedCompareExchangeImpl<OnOrientationEvent_t602701282 *>(L_2, ((OnOrientationEvent_t602701282 *)CastclassSealed(L_5, OnOrientationEvent_t602701282_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnOrientationEvent_t602701282 * L_8 = V_0;
+		OnOrientationEvent_t602701282 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnOrientationEvent_t602701282 *)L_8) == ((Il2CppObject*)(OnOrientationEvent_t602701282 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_orientationEventListenersInternal(Gvr.Internal.EmulatorManager/OnOrientationEvent)
+extern Il2CppClass* OnOrientationEvent_t602701282_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_remove_orientationEventListenersInternal_m3190711766_MetadataUsageId;
+extern "C"  void EmulatorManager_remove_orientationEventListenersInternal_m3190711766 (EmulatorManager_t3364249716 * __this, OnOrientationEvent_t602701282 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_remove_orientationEventListenersInternal_m3190711766_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnOrientationEvent_t602701282 * V_0 = NULL;
+	OnOrientationEvent_t602701282 * V_1 = NULL;
+	{
+		OnOrientationEvent_t602701282 * L_0 = __this->get_orientationEventListenersInternal_13();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnOrientationEvent_t602701282 * L_1 = V_0;
+		V_1 = L_1;
+		OnOrientationEvent_t602701282 ** L_2 = __this->get_address_of_orientationEventListenersInternal_13();
+		OnOrientationEvent_t602701282 * L_3 = V_1;
+		OnOrientationEvent_t602701282 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnOrientationEvent_t602701282 * L_6 = V_0;
+		OnOrientationEvent_t602701282 * L_7 = InterlockedCompareExchangeImpl<OnOrientationEvent_t602701282 *>(L_2, ((OnOrientationEvent_t602701282 *)CastclassSealed(L_5, OnOrientationEvent_t602701282_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnOrientationEvent_t602701282 * L_8 = V_0;
+		OnOrientationEvent_t602701282 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnOrientationEvent_t602701282 *)L_8) == ((Il2CppObject*)(OnOrientationEvent_t602701282 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::add_buttonEventListenersInternal(Gvr.Internal.EmulatorManager/OnButtonEvent)
+extern Il2CppClass* OnButtonEvent_t358370788_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_add_buttonEventListenersInternal_m1124036221_MetadataUsageId;
+extern "C"  void EmulatorManager_add_buttonEventListenersInternal_m1124036221 (EmulatorManager_t3364249716 * __this, OnButtonEvent_t358370788 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_add_buttonEventListenersInternal_m1124036221_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnButtonEvent_t358370788 * V_0 = NULL;
+	OnButtonEvent_t358370788 * V_1 = NULL;
+	{
+		OnButtonEvent_t358370788 * L_0 = __this->get_buttonEventListenersInternal_14();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnButtonEvent_t358370788 * L_1 = V_0;
+		V_1 = L_1;
+		OnButtonEvent_t358370788 ** L_2 = __this->get_address_of_buttonEventListenersInternal_14();
+		OnButtonEvent_t358370788 * L_3 = V_1;
+		OnButtonEvent_t358370788 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnButtonEvent_t358370788 * L_6 = V_0;
+		OnButtonEvent_t358370788 * L_7 = InterlockedCompareExchangeImpl<OnButtonEvent_t358370788 *>(L_2, ((OnButtonEvent_t358370788 *)CastclassSealed(L_5, OnButtonEvent_t358370788_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnButtonEvent_t358370788 * L_8 = V_0;
+		OnButtonEvent_t358370788 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnButtonEvent_t358370788 *)L_8) == ((Il2CppObject*)(OnButtonEvent_t358370788 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::remove_buttonEventListenersInternal(Gvr.Internal.EmulatorManager/OnButtonEvent)
+extern Il2CppClass* OnButtonEvent_t358370788_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_remove_buttonEventListenersInternal_m1787312118_MetadataUsageId;
+extern "C"  void EmulatorManager_remove_buttonEventListenersInternal_m1787312118 (EmulatorManager_t3364249716 * __this, OnButtonEvent_t358370788 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_remove_buttonEventListenersInternal_m1787312118_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	OnButtonEvent_t358370788 * V_0 = NULL;
+	OnButtonEvent_t358370788 * V_1 = NULL;
+	{
+		OnButtonEvent_t358370788 * L_0 = __this->get_buttonEventListenersInternal_14();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		OnButtonEvent_t358370788 * L_1 = V_0;
+		V_1 = L_1;
+		OnButtonEvent_t358370788 ** L_2 = __this->get_address_of_buttonEventListenersInternal_14();
+		OnButtonEvent_t358370788 * L_3 = V_1;
+		OnButtonEvent_t358370788 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		OnButtonEvent_t358370788 * L_6 = V_0;
+		OnButtonEvent_t358370788 * L_7 = InterlockedCompareExchangeImpl<OnButtonEvent_t358370788 *>(L_2, ((OnButtonEvent_t358370788 *)CastclassSealed(L_5, OnButtonEvent_t358370788_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		OnButtonEvent_t358370788 * L_8 = V_0;
+		OnButtonEvent_t358370788 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(OnButtonEvent_t358370788 *)L_8) == ((Il2CppObject*)(OnButtonEvent_t358370788 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Boolean Gvr.Internal.EmulatorManager::get_Connected()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_get_Connected_m2151749703_MetadataUsageId;
+extern "C"  bool EmulatorManager_get_Connected_m2151749703 (EmulatorManager_t3364249716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_get_Connected_m2151749703_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		EmulatorClientSocket_t2001911543 * L_0 = __this->get_socket_16();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		EmulatorClientSocket_t2001911543 * L_2 = __this->get_socket_16();
+		NullCheck(L_2);
+		bool L_3 = EmulatorClientSocket_get_connected_m887135136(L_2, /*hidden argument*/NULL);
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_0020;
+	}
+
+IL_001f:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0020:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::Awake()
+extern Il2CppClass* EmulatorManager_t3364249716_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3114425798;
+extern const uint32_t EmulatorManager_Awake_m2269357796_MetadataUsageId;
+extern "C"  void EmulatorManager_Awake_m2269357796 (EmulatorManager_t3364249716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_Awake_m2269357796_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorManager_t3364249716_il2cpp_TypeInfo_var);
+		EmulatorManager_t3364249716 * L_0 = ((EmulatorManager_t3364249716_StaticFields*)EmulatorManager_t3364249716_il2cpp_TypeInfo_var->static_fields)->get_instance_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorManager_t3364249716_il2cpp_TypeInfo_var);
+		((EmulatorManager_t3364249716_StaticFields*)EmulatorManager_t3364249716_il2cpp_TypeInfo_var->static_fields)->set_instance_4(__this);
+	}
+
+IL_0019:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorManager_t3364249716_il2cpp_TypeInfo_var);
+		EmulatorManager_t3364249716 * L_2 = ((EmulatorManager_t3364249716_StaticFields*)EmulatorManager_t3364249716_il2cpp_TypeInfo_var->static_fields)->get_instance_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, __this, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral3114425798, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m1796096907(__this, (bool)0, /*hidden argument*/NULL);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::Start()
+extern const MethodInfo* GameObject_AddComponent_TisEmulatorClientSocket_t2001911543_m760771621_MethodInfo_var;
+extern const uint32_t EmulatorManager_Start_m411591913_MetadataUsageId;
+extern "C"  void EmulatorManager_Start_m411591913 (EmulatorManager_t3364249716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_Start_m411591913_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		EmulatorClientSocket_t2001911543 * L_1 = GameObject_AddComponent_TisEmulatorClientSocket_t2001911543_m760771621(L_0, /*hidden argument*/GameObject_AddComponent_TisEmulatorClientSocket_t2001911543_m760771621_MethodInfo_var);
+		__this->set_socket_16(L_1);
+		EmulatorClientSocket_t2001911543 * L_2 = __this->get_socket_16();
+		NullCheck(L_2);
+		EmulatorClientSocket_Init_m4171573166(L_2, __this, /*hidden argument*/NULL);
+		Il2CppObject * L_3 = EmulatorManager_EndOfFrame_m2267188258(__this, /*hidden argument*/NULL);
+		__this->set_emulatorUpdate_2(L_3);
+		Il2CppObject * L_4 = __this->get_emulatorUpdate_2();
+		MonoBehaviour_StartCoroutine_m2470621050(__this, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator Gvr.Internal.EmulatorManager::EndOfFrame()
+extern Il2CppClass* U3CEndOfFrameU3Ec__Iterator0_t4253624923_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager_EndOfFrame_m2267188258_MetadataUsageId;
+extern "C"  Il2CppObject * EmulatorManager_EndOfFrame_m2267188258 (EmulatorManager_t3364249716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_EndOfFrame_m2267188258_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CEndOfFrameU3Ec__Iterator0_t4253624923 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	{
+		U3CEndOfFrameU3Ec__Iterator0_t4253624923 * L_0 = (U3CEndOfFrameU3Ec__Iterator0_t4253624923 *)il2cpp_codegen_object_new(U3CEndOfFrameU3Ec__Iterator0_t4253624923_il2cpp_TypeInfo_var);
+		U3CEndOfFrameU3Ec__Iterator0__ctor_m3544899542(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CEndOfFrameU3Ec__Iterator0_t4253624923 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U24this_1(__this);
+		U3CEndOfFrameU3Ec__Iterator0_t4253624923 * L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		Il2CppObject * L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::OnPhoneEvent(proto.PhoneEvent)
+extern "C"  void EmulatorManager_OnPhoneEvent_m187935926 (EmulatorManager_t3364249716 * __this, PhoneEvent_t2572128318 * ___e0, const MethodInfo* method)
+{
+	{
+		Queue_t1288490777 * L_0 = __this->get_pendingEvents_15();
+		PhoneEvent_t2572128318 * L_1 = ___e0;
+		NullCheck(L_0);
+		VirtActionInvoker1< Il2CppObject * >::Invoke(18 /* System.Void System.Collections.Queue::Enqueue(System.Object) */, L_0, L_1);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::ProcessEventAtEndOfFrame(proto.PhoneEvent)
+extern Il2CppClass* Type_t1530480861_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral329175675;
+extern const uint32_t EmulatorManager_ProcessEventAtEndOfFrame_m2018354264_MetadataUsageId;
+extern "C"  void EmulatorManager_ProcessEventAtEndOfFrame_m2018354264 (EmulatorManager_t3364249716 * __this, PhoneEvent_t2572128318 * ___e0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager_ProcessEventAtEndOfFrame_m2018354264_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	EmulatorTouchEvent_t1122923020  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	EmulatorGyroEvent_t1858389926  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	EmulatorAccelEvent_t621139879  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	EmulatorOrientationEvent_t4153005117  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	EmulatorButtonEvent_t156276569  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	{
+		PhoneEvent_t2572128318 * L_0 = ___e0;
+		NullCheck(L_0);
+		int32_t L_1 = PhoneEvent_get_Type_m1181486342(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if (((int32_t)((int32_t)L_2-(int32_t)1)) == 0)
+		{
+			goto IL_002d;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)1)) == 1)
+		{
+			goto IL_006b;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)1)) == 2)
+		{
+			goto IL_0084;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)1)) == 3)
+		{
+			goto IL_00d1;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)1)) == 4)
+		{
+			goto IL_009d;
+		}
+		if (((int32_t)((int32_t)L_2-(int32_t)1)) == 5)
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		goto IL_00d1;
+	}
+
+IL_002d:
+	{
+		PhoneEvent_t2572128318 * L_3 = ___e0;
+		NullCheck(L_3);
+		MotionEvent_t4072706903 * L_4 = PhoneEvent_get_MotionEvent_m3484505676(L_3, /*hidden argument*/NULL);
+		int64_t L_5 = __this->get_lastDownTimeMs_17();
+		EmulatorTouchEvent__ctor_m2652666916((&V_1), L_4, L_5, /*hidden argument*/NULL);
+		EmulatorTouchEvent_t1122923020  L_6 = V_1;
+		EmulatorManager_onTouchEvent_m4049017849(__this, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = EmulatorTouchEvent_getActionMasked_m1031363438((&V_1), /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		PhoneEvent_t2572128318 * L_8 = ___e0;
+		NullCheck(L_8);
+		MotionEvent_t4072706903 * L_9 = PhoneEvent_get_MotionEvent_m3484505676(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		int64_t L_10 = MotionEvent_get_Timestamp_m123845168(L_9, /*hidden argument*/NULL);
+		__this->set_lastDownTimeMs_17(L_10);
+	}
+
+IL_0066:
+	{
+		goto IL_00f0;
+	}
+
+IL_006b:
+	{
+		PhoneEvent_t2572128318 * L_11 = ___e0;
+		NullCheck(L_11);
+		GyroscopeEvent_t182225200 * L_12 = PhoneEvent_get_GyroscopeEvent_m1865959868(L_11, /*hidden argument*/NULL);
+		EmulatorGyroEvent__ctor_m3973423935((&V_2), L_12, /*hidden argument*/NULL);
+		EmulatorGyroEvent_t1858389926  L_13 = V_2;
+		EmulatorManager_onGyroEvent_m4150320277(__this, L_13, /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_0084:
+	{
+		PhoneEvent_t2572128318 * L_14 = ___e0;
+		NullCheck(L_14);
+		AccelerometerEvent_t1893725728 * L_15 = PhoneEvent_get_AccelerometerEvent_m1704173460(L_14, /*hidden argument*/NULL);
+		EmulatorAccelEvent__ctor_m1068393322((&V_3), L_15, /*hidden argument*/NULL);
+		EmulatorAccelEvent_t621139879  L_16 = V_3;
+		EmulatorManager_onAccelEvent_m2853352313(__this, L_16, /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_009d:
+	{
+		PhoneEvent_t2572128318 * L_17 = ___e0;
+		NullCheck(L_17);
+		OrientationEvent_t2038376807 * L_18 = PhoneEvent_get_OrientationEvent_m2639978046(L_17, /*hidden argument*/NULL);
+		EmulatorOrientationEvent__ctor_m4227833381((&V_4), L_18, /*hidden argument*/NULL);
+		EmulatorOrientationEvent_t4153005117  L_19 = V_4;
+		EmulatorManager_onOrientationEvent_m1122700761(__this, L_19, /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_00b7:
+	{
+		PhoneEvent_t2572128318 * L_20 = ___e0;
+		NullCheck(L_20);
+		KeyEvent_t639576718 * L_21 = PhoneEvent_get_KeyEvent_m1764388548(L_20, /*hidden argument*/NULL);
+		EmulatorButtonEvent__ctor_m1309920830((&V_5), L_21, /*hidden argument*/NULL);
+		EmulatorButtonEvent_t156276569  L_22 = V_5;
+		EmulatorManager_onButtonEvent_m3245651489(__this, L_22, /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_00d1:
+	{
+		PhoneEvent_t2572128318 * L_23 = ___e0;
+		NullCheck(L_23);
+		int32_t L_24 = PhoneEvent_get_Type_m1181486342(L_23, /*hidden argument*/NULL);
+		int32_t L_25 = L_24;
+		Il2CppObject * L_26 = Box(Type_t1530480861_il2cpp_TypeInfo_var, &L_25);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_27 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral329175675, L_26, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_00f0:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager::.cctor()
+extern Il2CppClass* EmulatorManager_t3364249716_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorManager__cctor_m2262768450_MetadataUsageId;
+extern "C"  void EmulatorManager__cctor_m2262768450 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorManager__cctor_m2262768450_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((EmulatorManager_t3364249716_StaticFields*)EmulatorManager_t3364249716_il2cpp_TypeInfo_var->static_fields)->set_instance_4((EmulatorManager_t3364249716 *)NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager/<EndOfFrame>c__Iterator0::.ctor()
+extern "C"  void U3CEndOfFrameU3Ec__Iterator0__ctor_m3544899542 (U3CEndOfFrameU3Ec__Iterator0_t4253624923 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Gvr.Internal.EmulatorManager/<EndOfFrame>c__Iterator0::MoveNext()
+extern Il2CppClass* PhoneEvent_t2572128318_il2cpp_TypeInfo_var;
+extern const uint32_t U3CEndOfFrameU3Ec__Iterator0_MoveNext_m1061821778_MetadataUsageId;
+extern "C"  bool U3CEndOfFrameU3Ec__Iterator0_MoveNext_m1061821778 (U3CEndOfFrameU3Ec__Iterator0_t4253624923 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CEndOfFrameU3Ec__Iterator0_MoveNext_m1061821778_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	PhoneEvent_t2572128318 * V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		int32_t L_0 = __this->get_U24PC_4();
+		V_0 = L_0;
+		__this->set_U24PC_4((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		goto IL_00c9;
+	}
+
+IL_0021:
+	{
+	}
+
+IL_0022:
+	{
+		EmulatorManager_t3364249716 * L_2 = __this->get_U24this_1();
+		NullCheck(L_2);
+		WaitForEndOfFrame_t1785723201 * L_3 = L_2->get_waitForEndOfFrame_3();
+		__this->set_U24current_2(L_3);
+		bool L_4 = __this->get_U24disposing_3();
+		if (L_4)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		__this->set_U24PC_4(1);
+	}
+
+IL_0044:
+	{
+		goto IL_00cb;
+	}
+
+IL_0049:
+	{
+		EmulatorManager_t3364249716 * L_5 = __this->get_U24this_1();
+		NullCheck(L_5);
+		Queue_t1288490777 * L_6 = L_5->get_pendingEvents_15();
+		NullCheck(L_6);
+		Il2CppObject * L_7 = VirtFuncInvoker0< Il2CppObject * >::Invoke(12 /* System.Object System.Collections.Queue::get_SyncRoot() */, L_6);
+		__this->set_U24locvar0_0(L_7);
+		Il2CppObject * L_8 = __this->get_U24locvar0_0();
+		Monitor_Enter_m2136705809(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+	}
+
+IL_006a:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0094;
+		}
+
+IL_0070:
+		{
+			EmulatorManager_t3364249716 * L_9 = __this->get_U24this_1();
+			NullCheck(L_9);
+			Queue_t1288490777 * L_10 = L_9->get_pendingEvents_15();
+			NullCheck(L_10);
+			Il2CppObject * L_11 = VirtFuncInvoker0< Il2CppObject * >::Invoke(17 /* System.Object System.Collections.Queue::Dequeue() */, L_10);
+			V_1 = ((PhoneEvent_t2572128318 *)CastclassSealed(L_11, PhoneEvent_t2572128318_il2cpp_TypeInfo_var));
+			EmulatorManager_t3364249716 * L_12 = __this->get_U24this_1();
+			PhoneEvent_t2572128318 * L_13 = V_1;
+			NullCheck(L_12);
+			EmulatorManager_ProcessEventAtEndOfFrame_m2018354264(L_12, L_13, /*hidden argument*/NULL);
+		}
+
+IL_0094:
+		{
+			EmulatorManager_t3364249716 * L_14 = __this->get_U24this_1();
+			NullCheck(L_14);
+			Queue_t1288490777 * L_15 = L_14->get_pendingEvents_15();
+			NullCheck(L_15);
+			int32_t L_16 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Queue::get_Count() */, L_15);
+			if ((((int32_t)L_16) > ((int32_t)0)))
+			{
+				goto IL_0070;
+			}
+		}
+
+IL_00aa:
+		{
+			IL2CPP_LEAVE(0xBC, FINALLY_00b0);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00b0;
+	}
+
+FINALLY_00b0:
+	{ // begin finally (depth: 1)
+		Il2CppObject * L_17 = __this->get_U24locvar0_0();
+		Monitor_Exit_m2677760297(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(176)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(176)
+	{
+		IL2CPP_JUMP_TBL(0xBC, IL_00bc)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00bc:
+	{
+		goto IL_0022;
+	}
+	// Dead block : IL_00c2: ldarg.0
+
+IL_00c9:
+	{
+		return (bool)0;
+	}
+
+IL_00cb:
+	{
+		return (bool)1;
+	}
+}
+// System.Object Gvr.Internal.EmulatorManager/<EndOfFrame>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CEndOfFrameU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1825900 (U3CEndOfFrameU3Ec__Iterator0_t4253624923 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Object Gvr.Internal.EmulatorManager/<EndOfFrame>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CEndOfFrameU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1283979844 (U3CEndOfFrameU3Ec__Iterator0_t4253624923 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_2();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager/<EndOfFrame>c__Iterator0::Dispose()
+extern "C"  void U3CEndOfFrameU3Ec__Iterator0_Dispose_m1839376797 (U3CEndOfFrameU3Ec__Iterator0_t4253624923 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_3((bool)1);
+		__this->set_U24PC_4((-1));
+		return;
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager/<EndOfFrame>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CEndOfFrameU3Ec__Iterator0_Reset_m1527123899_MetadataUsageId;
+extern "C"  void U3CEndOfFrameU3Ec__Iterator0_Reset_m1527123899 (U3CEndOfFrameU3Ec__Iterator0_t4253624923 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CEndOfFrameU3Ec__Iterator0_Reset_m1527123899_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void Gvr.Internal.EmulatorManager/OnAccelEvent::.ctor(System.Object,System.IntPtr)
+extern "C"  void OnAccelEvent__ctor_m2435154167 (OnAccelEvent_t1967739812 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnAccelEvent::Invoke(Gvr.Internal.EmulatorAccelEvent)
+extern "C"  void OnAccelEvent_Invoke_m1734383268 (OnAccelEvent_t1967739812 * __this, EmulatorAccelEvent_t621139879  ___accelEvent0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		OnAccelEvent_Invoke_m1734383268((OnAccelEvent_t1967739812 *)__this->get_prev_9(),___accelEvent0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, EmulatorAccelEvent_t621139879  ___accelEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___accelEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, EmulatorAccelEvent_t621139879  ___accelEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___accelEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C"  void DelegatePInvokeWrapper_OnAccelEvent_t1967739812 (OnAccelEvent_t1967739812 * __this, EmulatorAccelEvent_t621139879  ___accelEvent0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(EmulatorAccelEvent_t621139879 );
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Native function invocation
+	il2cppPInvokeFunc(___accelEvent0);
+
+}
+// System.IAsyncResult Gvr.Internal.EmulatorManager/OnAccelEvent::BeginInvoke(Gvr.Internal.EmulatorAccelEvent,System.AsyncCallback,System.Object)
+extern Il2CppClass* EmulatorAccelEvent_t621139879_il2cpp_TypeInfo_var;
+extern const uint32_t OnAccelEvent_BeginInvoke_m1032300737_MetadataUsageId;
+extern "C"  Il2CppObject * OnAccelEvent_BeginInvoke_m1032300737 (OnAccelEvent_t1967739812 * __this, EmulatorAccelEvent_t621139879  ___accelEvent0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnAccelEvent_BeginInvoke_m1032300737_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(EmulatorAccelEvent_t621139879_il2cpp_TypeInfo_var, &___accelEvent0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnAccelEvent::EndInvoke(System.IAsyncResult)
+extern "C"  void OnAccelEvent_EndInvoke_m64792645 (OnAccelEvent_t1967739812 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnButtonEvent::.ctor(System.Object,System.IntPtr)
+extern "C"  void OnButtonEvent__ctor_m3778410729 (OnButtonEvent_t358370788 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnButtonEvent::Invoke(Gvr.Internal.EmulatorButtonEvent)
+extern "C"  void OnButtonEvent_Invoke_m3526811670 (OnButtonEvent_t358370788 * __this, EmulatorButtonEvent_t156276569  ___buttonEvent0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		OnButtonEvent_Invoke_m3526811670((OnButtonEvent_t358370788 *)__this->get_prev_9(),___buttonEvent0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, EmulatorButtonEvent_t156276569  ___buttonEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___buttonEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, EmulatorButtonEvent_t156276569  ___buttonEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___buttonEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C"  void DelegatePInvokeWrapper_OnButtonEvent_t358370788 (OnButtonEvent_t358370788 * __this, EmulatorButtonEvent_t156276569  ___buttonEvent0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(EmulatorButtonEvent_t156276569_marshaled_pinvoke);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Marshaling of parameter '___buttonEvent0' to native representation
+	EmulatorButtonEvent_t156276569_marshaled_pinvoke ____buttonEvent0_marshaled = { };
+	EmulatorButtonEvent_t156276569_marshal_pinvoke(___buttonEvent0, ____buttonEvent0_marshaled);
+
+	// Native function invocation
+	il2cppPInvokeFunc(____buttonEvent0_marshaled);
+
+	// Marshaling cleanup of parameter '___buttonEvent0' native representation
+	EmulatorButtonEvent_t156276569_marshal_pinvoke_cleanup(____buttonEvent0_marshaled);
+
+}
+// System.IAsyncResult Gvr.Internal.EmulatorManager/OnButtonEvent::BeginInvoke(Gvr.Internal.EmulatorButtonEvent,System.AsyncCallback,System.Object)
+extern Il2CppClass* EmulatorButtonEvent_t156276569_il2cpp_TypeInfo_var;
+extern const uint32_t OnButtonEvent_BeginInvoke_m354434029_MetadataUsageId;
+extern "C"  Il2CppObject * OnButtonEvent_BeginInvoke_m354434029 (OnButtonEvent_t358370788 * __this, EmulatorButtonEvent_t156276569  ___buttonEvent0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnButtonEvent_BeginInvoke_m354434029_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(EmulatorButtonEvent_t156276569_il2cpp_TypeInfo_var, &___buttonEvent0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnButtonEvent::EndInvoke(System.IAsyncResult)
+extern "C"  void OnButtonEvent_EndInvoke_m1937632587 (OnButtonEvent_t358370788 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnGyroEvent::.ctor(System.Object,System.IntPtr)
+extern "C"  void OnGyroEvent__ctor_m2855559188 (OnGyroEvent_t1804908545 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnGyroEvent::Invoke(Gvr.Internal.EmulatorGyroEvent)
+extern "C"  void OnGyroEvent_Invoke_m3195722476 (OnGyroEvent_t1804908545 * __this, EmulatorGyroEvent_t1858389926  ___gyroEvent0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		OnGyroEvent_Invoke_m3195722476((OnGyroEvent_t1804908545 *)__this->get_prev_9(),___gyroEvent0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, EmulatorGyroEvent_t1858389926  ___gyroEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___gyroEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, EmulatorGyroEvent_t1858389926  ___gyroEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___gyroEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C"  void DelegatePInvokeWrapper_OnGyroEvent_t1804908545 (OnGyroEvent_t1804908545 * __this, EmulatorGyroEvent_t1858389926  ___gyroEvent0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(EmulatorGyroEvent_t1858389926 );
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Native function invocation
+	il2cppPInvokeFunc(___gyroEvent0);
+
+}
+// System.IAsyncResult Gvr.Internal.EmulatorManager/OnGyroEvent::BeginInvoke(Gvr.Internal.EmulatorGyroEvent,System.AsyncCallback,System.Object)
+extern Il2CppClass* EmulatorGyroEvent_t1858389926_il2cpp_TypeInfo_var;
+extern const uint32_t OnGyroEvent_BeginInvoke_m635063469_MetadataUsageId;
+extern "C"  Il2CppObject * OnGyroEvent_BeginInvoke_m635063469 (OnGyroEvent_t1804908545 * __this, EmulatorGyroEvent_t1858389926  ___gyroEvent0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnGyroEvent_BeginInvoke_m635063469_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(EmulatorGyroEvent_t1858389926_il2cpp_TypeInfo_var, &___gyroEvent0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnGyroEvent::EndInvoke(System.IAsyncResult)
+extern "C"  void OnGyroEvent_EndInvoke_m2486377070 (OnGyroEvent_t1804908545 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnOrientationEvent::.ctor(System.Object,System.IntPtr)
+extern "C"  void OnOrientationEvent__ctor_m3139561141 (OnOrientationEvent_t602701282 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnOrientationEvent::Invoke(Gvr.Internal.EmulatorOrientationEvent)
+extern "C"  void OnOrientationEvent_Invoke_m1547755396 (OnOrientationEvent_t602701282 * __this, EmulatorOrientationEvent_t4153005117  ___orientationEvent0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		OnOrientationEvent_Invoke_m1547755396((OnOrientationEvent_t602701282 *)__this->get_prev_9(),___orientationEvent0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, EmulatorOrientationEvent_t4153005117  ___orientationEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___orientationEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, EmulatorOrientationEvent_t4153005117  ___orientationEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___orientationEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+extern "C"  void DelegatePInvokeWrapper_OnOrientationEvent_t602701282 (OnOrientationEvent_t602701282 * __this, EmulatorOrientationEvent_t4153005117  ___orientationEvent0, const MethodInfo* method)
+{
+	typedef void (STDCALL *PInvokeFunc)(EmulatorOrientationEvent_t4153005117 );
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((Il2CppDelegate*)__this)->method->methodPointer);
+
+	// Native function invocation
+	il2cppPInvokeFunc(___orientationEvent0);
+
+}
+// System.IAsyncResult Gvr.Internal.EmulatorManager/OnOrientationEvent::BeginInvoke(Gvr.Internal.EmulatorOrientationEvent,System.AsyncCallback,System.Object)
+extern Il2CppClass* EmulatorOrientationEvent_t4153005117_il2cpp_TypeInfo_var;
+extern const uint32_t OnOrientationEvent_BeginInvoke_m2079793085_MetadataUsageId;
+extern "C"  Il2CppObject * OnOrientationEvent_BeginInvoke_m2079793085 (OnOrientationEvent_t602701282 * __this, EmulatorOrientationEvent_t4153005117  ___orientationEvent0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnOrientationEvent_BeginInvoke_m2079793085_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(EmulatorOrientationEvent_t4153005117_il2cpp_TypeInfo_var, &___orientationEvent0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnOrientationEvent::EndInvoke(System.IAsyncResult)
+extern "C"  void OnOrientationEvent_EndInvoke_m2079597163 (OnOrientationEvent_t602701282 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnTouchEvent::.ctor(System.Object,System.IntPtr)
+extern "C"  void OnTouchEvent__ctor_m3994445320 (OnTouchEvent_t4143287487 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnTouchEvent::Invoke(Gvr.Internal.EmulatorTouchEvent)
+extern "C"  void OnTouchEvent_Invoke_m1749858212 (OnTouchEvent_t4143287487 * __this, EmulatorTouchEvent_t1122923020  ___touchEvent0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		OnTouchEvent_Invoke_m1749858212((OnTouchEvent_t4143287487 *)__this->get_prev_9(),___touchEvent0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, EmulatorTouchEvent_t1122923020  ___touchEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___touchEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, EmulatorTouchEvent_t1122923020  ___touchEvent0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___touchEvent0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult Gvr.Internal.EmulatorManager/OnTouchEvent::BeginInvoke(Gvr.Internal.EmulatorTouchEvent,System.AsyncCallback,System.Object)
+extern Il2CppClass* EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var;
+extern const uint32_t OnTouchEvent_BeginInvoke_m625390245_MetadataUsageId;
+extern "C"  Il2CppObject * OnTouchEvent_BeginInvoke_m625390245 (OnTouchEvent_t4143287487 * __this, EmulatorTouchEvent_t1122923020  ___touchEvent0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnTouchEvent_BeginInvoke_m625390245_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var, &___touchEvent0);
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void Gvr.Internal.EmulatorManager/OnTouchEvent::EndInvoke(System.IAsyncResult)
+extern "C"  void OnTouchEvent_EndInvoke_m2905934786 (OnTouchEvent_t4143287487 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.Void Gvr.Internal.EmulatorOrientationEvent::.ctor(proto.PhoneEvent/Types/OrientationEvent)
+extern "C"  void EmulatorOrientationEvent__ctor_m4227833381 (EmulatorOrientationEvent_t4153005117 * __this, OrientationEvent_t2038376807 * ___proto0, const MethodInfo* method)
+{
+	{
+		OrientationEvent_t2038376807 * L_0 = ___proto0;
+		NullCheck(L_0);
+		int64_t L_1 = OrientationEvent_get_Timestamp_m127113700(L_0, /*hidden argument*/NULL);
+		__this->set_timestamp_0(L_1);
+		OrientationEvent_t2038376807 * L_2 = ___proto0;
+		NullCheck(L_2);
+		float L_3 = OrientationEvent_get_X_m3329194961(L_2, /*hidden argument*/NULL);
+		OrientationEvent_t2038376807 * L_4 = ___proto0;
+		NullCheck(L_4);
+		float L_5 = OrientationEvent_get_Y_m3470357462(L_4, /*hidden argument*/NULL);
+		OrientationEvent_t2038376807 * L_6 = ___proto0;
+		NullCheck(L_6);
+		float L_7 = OrientationEvent_get_Z_m3046869959(L_6, /*hidden argument*/NULL);
+		OrientationEvent_t2038376807 * L_8 = ___proto0;
+		NullCheck(L_8);
+		float L_9 = OrientationEvent_get_W_m170175888(L_8, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_10;
+		memset(&L_10, 0, sizeof(L_10));
+		Quaternion__ctor_m3196903881(&L_10, L_3, L_5, ((-L_7)), L_9, /*hidden argument*/NULL);
+		__this->set_orientation_1(L_10);
+		return;
+	}
+}
+extern "C"  void EmulatorOrientationEvent__ctor_m4227833381_AdjustorThunk (Il2CppObject * __this, OrientationEvent_t2038376807 * ___proto0, const MethodInfo* method)
+{
+	EmulatorOrientationEvent_t4153005117 * _thisAdjusted = reinterpret_cast<EmulatorOrientationEvent_t4153005117 *>(__this + 1);
+	EmulatorOrientationEvent__ctor_m4227833381(_thisAdjusted, ___proto0, method);
+}
+// System.Void Gvr.Internal.EmulatorTouchEvent::.ctor(proto.PhoneEvent/Types/MotionEvent,System.Int64)
+extern Il2CppClass* EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t2369806134_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerable_1_t1503885308_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_1_t2982249386_il2cpp_TypeInfo_var;
+extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m3832883665_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3606111453_MethodInfo_var;
+extern const uint32_t EmulatorTouchEvent__ctor_m2652666916_MetadataUsageId;
+extern "C"  void EmulatorTouchEvent__ctor_m2652666916 (EmulatorTouchEvent_t1122923020 * __this, MotionEvent_t4072706903 * ___proto0, int64_t ___lastDownTimeMs1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorTouchEvent__ctor_m2652666916_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Pointer_t1211758263 * V_0 = NULL;
+	Il2CppObject* V_1 = NULL;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	EmulatorTouchEvent_t1122923020 * G_B2_0 = NULL;
+	EmulatorTouchEvent_t1122923020 * G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	EmulatorTouchEvent_t1122923020 * G_B3_1 = NULL;
+	{
+		MotionEvent_t4072706903 * L_0 = ___proto0;
+		NullCheck(L_0);
+		int32_t L_1 = MotionEvent_get_Action_m469056995(L_0, /*hidden argument*/NULL);
+		__this->set_action_0(L_1);
+		MotionEvent_t4072706903 * L_2 = ___proto0;
+		NullCheck(L_2);
+		int32_t L_3 = MotionEvent_get_Action_m469056995(L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var);
+		int32_t L_4 = ((EmulatorTouchEvent_t1122923020_StaticFields*)EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var->static_fields)->get_ACTION_MASK_5();
+		G_B1_0 = __this;
+		if (((int32_t)((int32_t)L_3&(int32_t)L_4)))
+		{
+			G_B2_0 = __this;
+			goto IL_0025;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B1_0;
+		goto IL_002e;
+	}
+
+IL_0025:
+	{
+		MotionEvent_t4072706903 * L_5 = ___proto0;
+		NullCheck(L_5);
+		int64_t L_6 = MotionEvent_get_Timestamp_m123845168(L_5, /*hidden argument*/NULL);
+		int64_t L_7 = ___lastDownTimeMs1;
+		G_B3_0 = (((int32_t)((int32_t)((int64_t)((int64_t)L_6-(int64_t)L_7)))));
+		G_B3_1 = G_B2_0;
+	}
+
+IL_002e:
+	{
+		G_B3_1->set_relativeTimestamp_1(G_B3_0);
+		List_1_t2369806134 * L_8 = (List_1_t2369806134 *)il2cpp_codegen_object_new(List_1_t2369806134_il2cpp_TypeInfo_var);
+		List_1__ctor_m3832883665(L_8, /*hidden argument*/List_1__ctor_m3832883665_MethodInfo_var);
+		__this->set_pointers_2(L_8);
+		MotionEvent_t4072706903 * L_9 = ___proto0;
+		NullCheck(L_9);
+		Il2CppObject* L_10 = MotionEvent_get_PointersList_m1139498144(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Il2CppObject* L_11 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<proto.PhoneEvent/Types/MotionEvent/Types/Pointer>::GetEnumerator() */, IEnumerable_1_t1503885308_il2cpp_TypeInfo_var, L_10);
+		V_1 = L_11;
+	}
+
+IL_004b:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_007b;
+		}
+
+IL_0050:
+		{
+			Il2CppObject* L_12 = V_1;
+			NullCheck(L_12);
+			Pointer_t1211758263 * L_13 = InterfaceFuncInvoker0< Pointer_t1211758263 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<proto.PhoneEvent/Types/MotionEvent/Types/Pointer>::get_Current() */, IEnumerator_1_t2982249386_il2cpp_TypeInfo_var, L_12);
+			V_0 = L_13;
+			List_1_t2369806134 * L_14 = __this->get_pointers_2();
+			Pointer_t1211758263 * L_15 = V_0;
+			NullCheck(L_15);
+			int32_t L_16 = Pointer_get_Id_m1713731598(L_15, /*hidden argument*/NULL);
+			Pointer_t1211758263 * L_17 = V_0;
+			NullCheck(L_17);
+			float L_18 = Pointer_get_NormalizedX_m3399516264(L_17, /*hidden argument*/NULL);
+			Pointer_t1211758263 * L_19 = V_0;
+			NullCheck(L_19);
+			float L_20 = Pointer_get_NormalizedY_m3399516297(L_19, /*hidden argument*/NULL);
+			Pointer_t3000685002  L_21;
+			memset(&L_21, 0, sizeof(L_21));
+			Pointer__ctor_m631654956(&L_21, L_16, L_18, L_20, /*hidden argument*/NULL);
+			NullCheck(L_14);
+			List_1_Add_m3606111453(L_14, L_21, /*hidden argument*/List_1_Add_m3606111453_MethodInfo_var);
+		}
+
+IL_007b:
+		{
+			Il2CppObject* L_22 = V_1;
+			NullCheck(L_22);
+			bool L_23 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_22);
+			if (L_23)
+			{
+				goto IL_0050;
+			}
+		}
+
+IL_0086:
+		{
+			IL2CPP_LEAVE(0x98, FINALLY_008b);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_008b;
+	}
+
+FINALLY_008b:
+	{ // begin finally (depth: 1)
+		{
+			Il2CppObject* L_24 = V_1;
+			if (!L_24)
+			{
+				goto IL_0097;
+			}
+		}
+
+IL_0091:
+		{
+			Il2CppObject* L_25 = V_1;
+			NullCheck(L_25);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_25);
+		}
+
+IL_0097:
+		{
+			IL2CPP_END_FINALLY(139)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(139)
+	{
+		IL2CPP_JUMP_TBL(0x98, IL_0098)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0098:
+	{
+		return;
+	}
+}
+extern "C"  void EmulatorTouchEvent__ctor_m2652666916_AdjustorThunk (Il2CppObject * __this, MotionEvent_t4072706903 * ___proto0, int64_t ___lastDownTimeMs1, const MethodInfo* method)
+{
+	EmulatorTouchEvent_t1122923020 * _thisAdjusted = reinterpret_cast<EmulatorTouchEvent_t1122923020 *>(__this + 1);
+	EmulatorTouchEvent__ctor_m2652666916(_thisAdjusted, ___proto0, ___lastDownTimeMs1, method);
+}
+// System.Void Gvr.Internal.EmulatorTouchEvent::.ctor(Gvr.Internal.EmulatorTouchEvent/Action,System.Int32,System.Int32,System.Collections.Generic.List`1<Gvr.Internal.EmulatorTouchEvent/Pointer>)
+extern Il2CppClass* EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral185337353;
+extern Il2CppCodeGenString* _stringLiteral212532649;
+extern const uint32_t EmulatorTouchEvent__ctor_m41442020_MetadataUsageId;
+extern "C"  void EmulatorTouchEvent__ctor_m41442020 (EmulatorTouchEvent_t1122923020 * __this, int32_t ___action0, int32_t ___pointerId1, int32_t ___relativeTimestamp2, List_1_t2369806134 * ___pointers3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorTouchEvent__ctor_m41442020_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		int32_t L_0 = ___action0;
+		if ((((int32_t)L_0) == ((int32_t)5)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		int32_t L_1 = ___action0;
+		if ((!(((uint32_t)L_1) == ((uint32_t)6))))
+		{
+			goto IL_0041;
+		}
+	}
+
+IL_0011:
+	{
+		int32_t L_2 = ___pointerId1;
+		List_1_t2369806134 * L_3 = ___pointers3;
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var);
+		int32_t L_4 = EmulatorTouchEvent_findPointerIndex_m3522089136(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		if ((!(((uint32_t)L_5) == ((uint32_t)(-1)))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		int32_t L_6 = ___pointerId1;
+		int32_t L_7 = L_6;
+		Il2CppObject * L_8 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_7);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral185337353, L_8, _stringLiteral212532649, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_0 = 0;
+	}
+
+IL_0040:
+	{
+	}
+
+IL_0041:
+	{
+		int32_t L_10 = ___action0;
+		int32_t L_11 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var);
+		int32_t L_12 = EmulatorTouchEvent_getActionUnmasked_m2794616263(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		__this->set_action_0(L_12);
+		int32_t L_13 = ___relativeTimestamp2;
+		__this->set_relativeTimestamp_1(L_13);
+		List_1_t2369806134 * L_14 = ___pointers3;
+		__this->set_pointers_2(L_14);
+		return;
+	}
+}
+extern "C"  void EmulatorTouchEvent__ctor_m41442020_AdjustorThunk (Il2CppObject * __this, int32_t ___action0, int32_t ___pointerId1, int32_t ___relativeTimestamp2, List_1_t2369806134 * ___pointers3, const MethodInfo* method)
+{
+	EmulatorTouchEvent_t1122923020 * _thisAdjusted = reinterpret_cast<EmulatorTouchEvent_t1122923020 *>(__this + 1);
+	EmulatorTouchEvent__ctor_m41442020(_thisAdjusted, ___action0, ___pointerId1, ___relativeTimestamp2, ___pointers3, method);
+}
+// Gvr.Internal.EmulatorTouchEvent/Action Gvr.Internal.EmulatorTouchEvent::getActionMasked()
+extern Il2CppClass* EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorTouchEvent_getActionMasked_m1031363438_MetadataUsageId;
+extern "C"  int32_t EmulatorTouchEvent_getActionMasked_m1031363438 (EmulatorTouchEvent_t1122923020 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorTouchEvent_getActionMasked_m1031363438_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_action_0();
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var);
+		int32_t L_1 = ((EmulatorTouchEvent_t1122923020_StaticFields*)EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var->static_fields)->get_ACTION_MASK_5();
+		V_0 = ((int32_t)((int32_t)L_0&(int32_t)L_1));
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+extern "C"  int32_t EmulatorTouchEvent_getActionMasked_m1031363438_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	EmulatorTouchEvent_t1122923020 * _thisAdjusted = reinterpret_cast<EmulatorTouchEvent_t1122923020 *>(__this + 1);
+	return EmulatorTouchEvent_getActionMasked_m1031363438(_thisAdjusted, method);
+}
+// Gvr.Internal.EmulatorTouchEvent/Pointer Gvr.Internal.EmulatorTouchEvent::getActionPointer()
+extern Il2CppClass* EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m3841572302_MethodInfo_var;
+extern const uint32_t EmulatorTouchEvent_getActionPointer_m3109644827_MetadataUsageId;
+extern "C"  Pointer_t3000685002  EmulatorTouchEvent_getActionPointer_m3109644827 (EmulatorTouchEvent_t1122923020 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorTouchEvent_getActionPointer_m3109644827_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Pointer_t3000685002  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		int32_t L_0 = __this->get_action_0();
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var);
+		int32_t L_1 = ((EmulatorTouchEvent_t1122923020_StaticFields*)EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var->static_fields)->get_ACTION_POINTER_INDEX_MASK_4();
+		int32_t L_2 = ((EmulatorTouchEvent_t1122923020_StaticFields*)EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var->static_fields)->get_ACTION_POINTER_INDEX_SHIFT_3();
+		V_0 = ((int32_t)((int32_t)((int32_t)((int32_t)L_0&(int32_t)L_1))>>(int32_t)((int32_t)((int32_t)L_2&(int32_t)((int32_t)31)))));
+		List_1_t2369806134 * L_3 = __this->get_pointers_2();
+		int32_t L_4 = V_0;
+		NullCheck(L_3);
+		Pointer_t3000685002  L_5 = List_1_get_Item_m3841572302(L_3, L_4, /*hidden argument*/List_1_get_Item_m3841572302_MethodInfo_var);
+		V_1 = L_5;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		Pointer_t3000685002  L_6 = V_1;
+		return L_6;
+	}
+}
+extern "C"  Pointer_t3000685002  EmulatorTouchEvent_getActionPointer_m3109644827_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	EmulatorTouchEvent_t1122923020 * _thisAdjusted = reinterpret_cast<EmulatorTouchEvent_t1122923020 *>(__this + 1);
+	return EmulatorTouchEvent_getActionPointer_m3109644827(_thisAdjusted, method);
+}
+// System.Int32 Gvr.Internal.EmulatorTouchEvent::getActionUnmasked(Gvr.Internal.EmulatorTouchEvent/Action,System.Int32)
+extern Il2CppClass* EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorTouchEvent_getActionUnmasked_m2794616263_MetadataUsageId;
+extern "C"  int32_t EmulatorTouchEvent_getActionUnmasked_m2794616263 (Il2CppObject * __this /* static, unused */, int32_t ___action0, int32_t ___fingerIndex1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorTouchEvent_getActionUnmasked_m2794616263_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___action0;
+		int32_t L_1 = ___fingerIndex1;
+		IL2CPP_RUNTIME_CLASS_INIT(EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var);
+		int32_t L_2 = ((EmulatorTouchEvent_t1122923020_StaticFields*)EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var->static_fields)->get_ACTION_POINTER_INDEX_SHIFT_3();
+		V_0 = ((int32_t)((int32_t)L_0|(int32_t)((int32_t)((int32_t)L_1<<(int32_t)((int32_t)((int32_t)L_2&(int32_t)((int32_t)31)))))));
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		int32_t L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Int32 Gvr.Internal.EmulatorTouchEvent::findPointerIndex(System.Int32,System.Collections.Generic.List`1<Gvr.Internal.EmulatorTouchEvent/Pointer>)
+extern const MethodInfo* List_1_get_Item_m3841572302_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m915271181_MethodInfo_var;
+extern const uint32_t EmulatorTouchEvent_findPointerIndex_m3522089136_MetadataUsageId;
+extern "C"  int32_t EmulatorTouchEvent_findPointerIndex_m3522089136 (Il2CppObject * __this /* static, unused */, int32_t ___fingerId0, List_1_t2369806134 * ___pointers1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorTouchEvent_findPointerIndex_m3522089136_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Pointer_t3000685002  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	{
+		V_0 = (-1);
+		V_1 = 0;
+		goto IL_002d;
+	}
+
+IL_000a:
+	{
+		int32_t L_0 = ___fingerId0;
+		List_1_t2369806134 * L_1 = ___pointers1;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		Pointer_t3000685002  L_3 = List_1_get_Item_m3841572302(L_1, L_2, /*hidden argument*/List_1_get_Item_m3841572302_MethodInfo_var);
+		V_2 = L_3;
+		int32_t L_4 = (&V_2)->get_fingerId_0();
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_4))))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		V_0 = L_5;
+		goto IL_0039;
+	}
+
+IL_0028:
+	{
+		int32_t L_6 = V_1;
+		V_1 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_002d:
+	{
+		int32_t L_7 = V_1;
+		List_1_t2369806134 * L_8 = ___pointers1;
+		NullCheck(L_8);
+		int32_t L_9 = List_1_get_Count_m915271181(L_8, /*hidden argument*/List_1_get_Count_m915271181_MethodInfo_var);
+		if ((((int32_t)L_7) < ((int32_t)L_9)))
+		{
+			goto IL_000a;
+		}
+	}
+
+IL_0039:
+	{
+		int32_t L_10 = V_0;
+		V_3 = L_10;
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		int32_t L_11 = V_3;
+		return L_11;
+	}
+}
+// System.String Gvr.Internal.EmulatorTouchEvent::ToString()
+extern Il2CppClass* StringBuilder_t1221177846_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* Action_t936529327_il2cpp_TypeInfo_var;
+extern Il2CppClass* Pointer_t3000685002_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Count_m915271181_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m3841572302_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral840853824;
+extern Il2CppCodeGenString* _stringLiteral811305474;
+extern Il2CppCodeGenString* _stringLiteral372029425;
+extern const uint32_t EmulatorTouchEvent_ToString_m1236062672_MetadataUsageId;
+extern "C"  String_t* EmulatorTouchEvent_ToString_m1236062672 (EmulatorTouchEvent_t1122923020 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorTouchEvent_ToString_m1236062672_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t1221177846 * V_0 = NULL;
+	Pointer_t3000685002  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	{
+		StringBuilder_t1221177846 * L_0 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m3946851802(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		StringBuilder_t1221177846 * L_1 = V_0;
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
+		int32_t L_3 = __this->get_relativeTimestamp_1();
+		int32_t L_4 = L_3;
+		Il2CppObject * L_5 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_4);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_5);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_5);
+		ObjectU5BU5D_t3614634134* L_6 = L_2;
+		int32_t L_7 = EmulatorTouchEvent_getActionMasked_m1031363438(__this, /*hidden argument*/NULL);
+		int32_t L_8 = L_7;
+		Il2CppObject * L_9 = Box(Action_t936529327_il2cpp_TypeInfo_var, &L_8);
+		NullCheck(L_6);
+		ArrayElementTypeCheck (L_6, L_9);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_9);
+		ObjectU5BU5D_t3614634134* L_10 = L_6;
+		Pointer_t3000685002  L_11 = EmulatorTouchEvent_getActionPointer_m3109644827(__this, /*hidden argument*/NULL);
+		V_1 = L_11;
+		int32_t L_12 = (&V_1)->get_fingerId_0();
+		int32_t L_13 = L_12;
+		Il2CppObject * L_14 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_13);
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, L_14);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_14);
+		ObjectU5BU5D_t3614634134* L_15 = L_10;
+		List_1_t2369806134 * L_16 = __this->get_pointers_2();
+		NullCheck(L_16);
+		int32_t L_17 = List_1_get_Count_m915271181(L_16, /*hidden argument*/List_1_get_Count_m915271181_MethodInfo_var);
+		int32_t L_18 = L_17;
+		Il2CppObject * L_19 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_18);
+		NullCheck(L_15);
+		ArrayElementTypeCheck (L_15, L_19);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_19);
+		NullCheck(L_1);
+		StringBuilder_AppendFormat_m1879616656(L_1, _stringLiteral840853824, L_15, /*hidden argument*/NULL);
+		V_2 = 0;
+		goto IL_008d;
+	}
+
+IL_0065:
+	{
+		StringBuilder_t1221177846 * L_20 = V_0;
+		List_1_t2369806134 * L_21 = __this->get_pointers_2();
+		int32_t L_22 = V_2;
+		NullCheck(L_21);
+		Pointer_t3000685002  L_23 = List_1_get_Item_m3841572302(L_21, L_22, /*hidden argument*/List_1_get_Item_m3841572302_MethodInfo_var);
+		Pointer_t3000685002  L_24 = L_23;
+		Il2CppObject * L_25 = Box(Pointer_t3000685002_il2cpp_TypeInfo_var, &L_24);
+		NullCheck(L_20);
+		StringBuilder_t1221177846 * L_26 = StringBuilder_Append_m3541816491(L_20, L_25, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		StringBuilder_Append_m3636508479(L_26, _stringLiteral811305474, /*hidden argument*/NULL);
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)((int32_t)L_27+(int32_t)1));
+	}
+
+IL_008d:
+	{
+		int32_t L_28 = V_2;
+		List_1_t2369806134 * L_29 = __this->get_pointers_2();
+		NullCheck(L_29);
+		int32_t L_30 = List_1_get_Count_m915271181(L_29, /*hidden argument*/List_1_get_Count_m915271181_MethodInfo_var);
+		if ((((int32_t)L_28) < ((int32_t)L_30)))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_31 = V_0;
+		NullCheck(L_31);
+		StringBuilder_Append_m3636508479(L_31, _stringLiteral372029425, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_32 = V_0;
+		NullCheck(L_32);
+		String_t* L_33 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_32);
+		V_3 = L_33;
+		goto IL_00b6;
+	}
+
+IL_00b6:
+	{
+		String_t* L_34 = V_3;
+		return L_34;
+	}
+}
+extern "C"  String_t* EmulatorTouchEvent_ToString_m1236062672_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	EmulatorTouchEvent_t1122923020 * _thisAdjusted = reinterpret_cast<EmulatorTouchEvent_t1122923020 *>(__this + 1);
+	return EmulatorTouchEvent_ToString_m1236062672(_thisAdjusted, method);
+}
+// System.Void Gvr.Internal.EmulatorTouchEvent::.cctor()
+extern Il2CppClass* EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var;
+extern const uint32_t EmulatorTouchEvent__cctor_m3766555102_MetadataUsageId;
+extern "C"  void EmulatorTouchEvent__cctor_m3766555102 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EmulatorTouchEvent__cctor_m3766555102_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((EmulatorTouchEvent_t1122923020_StaticFields*)EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var->static_fields)->set_ACTION_POINTER_INDEX_SHIFT_3(8);
+		((EmulatorTouchEvent_t1122923020_StaticFields*)EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var->static_fields)->set_ACTION_POINTER_INDEX_MASK_4(((int32_t)65280));
+		((EmulatorTouchEvent_t1122923020_StaticFields*)EmulatorTouchEvent_t1122923020_il2cpp_TypeInfo_var->static_fields)->set_ACTION_MASK_5(((int32_t)255));
+		return;
+	}
+}
+// Conversion methods for marshalling of: Gvr.Internal.EmulatorTouchEvent
+extern "C" void EmulatorTouchEvent_t1122923020_marshal_pinvoke(const EmulatorTouchEvent_t1122923020& unmarshaled, EmulatorTouchEvent_t1122923020_marshaled_pinvoke& marshaled)
+{
+	Il2CppCodeGenException* ___pointers_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'pointers' of type 'EmulatorTouchEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___pointers_2Exception);
+}
+extern "C" void EmulatorTouchEvent_t1122923020_marshal_pinvoke_back(const EmulatorTouchEvent_t1122923020_marshaled_pinvoke& marshaled, EmulatorTouchEvent_t1122923020& unmarshaled)
+{
+	Il2CppCodeGenException* ___pointers_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'pointers' of type 'EmulatorTouchEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___pointers_2Exception);
+}
+// Conversion method for clean up from marshalling of: Gvr.Internal.EmulatorTouchEvent
+extern "C" void EmulatorTouchEvent_t1122923020_marshal_pinvoke_cleanup(EmulatorTouchEvent_t1122923020_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Gvr.Internal.EmulatorTouchEvent
+extern "C" void EmulatorTouchEvent_t1122923020_marshal_com(const EmulatorTouchEvent_t1122923020& unmarshaled, EmulatorTouchEvent_t1122923020_marshaled_com& marshaled)
+{
+	Il2CppCodeGenException* ___pointers_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'pointers' of type 'EmulatorTouchEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___pointers_2Exception);
+}
+extern "C" void EmulatorTouchEvent_t1122923020_marshal_com_back(const EmulatorTouchEvent_t1122923020_marshaled_com& marshaled, EmulatorTouchEvent_t1122923020& unmarshaled)
+{
+	Il2CppCodeGenException* ___pointers_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'pointers' of type 'EmulatorTouchEvent'.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___pointers_2Exception);
+}
+// Conversion method for clean up from marshalling of: Gvr.Internal.EmulatorTouchEvent
+extern "C" void EmulatorTouchEvent_t1122923020_marshal_com_cleanup(EmulatorTouchEvent_t1122923020_marshaled_com& marshaled)
+{
+}
+// System.Void Gvr.Internal.EmulatorTouchEvent/Pointer::.ctor(System.Int32,System.Single,System.Single)
+extern "C"  void Pointer__ctor_m631654956 (Pointer_t3000685002 * __this, int32_t ___fingerId0, float ___normalizedX1, float ___normalizedY2, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___fingerId0;
+		__this->set_fingerId_0(L_0);
+		float L_1 = ___normalizedX1;
+		__this->set_normalizedX_1(L_1);
+		float L_2 = ___normalizedY2;
+		__this->set_normalizedY_2(L_2);
+		return;
+	}
+}
+extern "C"  void Pointer__ctor_m631654956_AdjustorThunk (Il2CppObject * __this, int32_t ___fingerId0, float ___normalizedX1, float ___normalizedY2, const MethodInfo* method)
+{
+	Pointer_t3000685002 * _thisAdjusted = reinterpret_cast<Pointer_t3000685002 *>(__this + 1);
+	Pointer__ctor_m631654956(_thisAdjusted, ___fingerId0, ___normalizedX1, ___normalizedY2, method);
+}
+// System.String Gvr.Internal.EmulatorTouchEvent/Pointer::ToString()
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* Single_t2076509932_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3239507012;
+extern const uint32_t Pointer_ToString_m1485079150_MetadataUsageId;
+extern "C"  String_t* Pointer_ToString_m1485079150 (Pointer_t3000685002 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Pointer_ToString_m1485079150_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	{
+		int32_t L_0 = __this->get_fingerId_0();
+		int32_t L_1 = L_0;
+		Il2CppObject * L_2 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_1);
+		float L_3 = __this->get_normalizedX_1();
+		float L_4 = L_3;
+		Il2CppObject * L_5 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_4);
+		float L_6 = __this->get_normalizedY_2();
+		float L_7 = L_6;
+		Il2CppObject * L_8 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_7);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Format_m4262916296(NULL /*static, unused*/, _stringLiteral3239507012, L_2, L_5, L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
+		goto IL_0032;
+	}
+
+IL_0032:
+	{
+		String_t* L_10 = V_0;
+		return L_10;
+	}
+}
+extern "C"  String_t* Pointer_ToString_m1485079150_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	Pointer_t3000685002 * _thisAdjusted = reinterpret_cast<Pointer_t3000685002 *>(__this + 1);
+	return Pointer_ToString_m1485079150(_thisAdjusted, method);
+}
+// System.Void Gvr.Internal.GvrDevice::.ctor()
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppClass* Matrix4x4_t2933234003_il2cpp_TypeInfo_var;
+extern Il2CppClass* BaseVRDevice_t4004462063_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDevice__ctor_m1419258520_MetadataUsageId;
+extern "C"  void GvrDevice__ctor_m1419258520 (GvrDevice_t635821333 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDevice__ctor_m1419258520_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Matrix4x4_t2933234003  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Matrix4x4_t2933234003  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		__this->set_headData_23(((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16))));
+		__this->set_viewData_24(((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)((int32_t)108))));
+		__this->set_profileData_25(((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)((int32_t)13))));
+		Initobj (Matrix4x4_t2933234003_il2cpp_TypeInfo_var, (&V_0));
+		Matrix4x4_t2933234003  L_0 = V_0;
+		__this->set_headView_26(L_0);
+		Initobj (Matrix4x4_t2933234003_il2cpp_TypeInfo_var, (&V_1));
+		Matrix4x4_t2933234003  L_1 = V_1;
+		__this->set_leftEyeView_27(L_1);
+		Initobj (Matrix4x4_t2933234003_il2cpp_TypeInfo_var, (&V_2));
+		Matrix4x4_t2933234003  L_2 = V_2;
+		__this->set_rightEyeView_28(L_2);
+		__this->set_debugDisableNativeProjections_29((bool)0);
+		__this->set_debugDisableNativeUILayer_30((bool)0);
+		IL2CPP_RUNTIME_CLASS_INIT(BaseVRDevice_t4004462063_il2cpp_TypeInfo_var);
+		BaseVRDevice__ctor_m2114718288(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::SetDistortionCorrectionEnabled(System.Boolean)
+extern "C"  void GvrDevice_SetDistortionCorrectionEnabled_m4084064685 (GvrDevice_t635821333 * __this, bool ___enabled0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___enabled0;
+		GvrDevice_EnableDistortionCorrection_m2929452511(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::SetNeckModelScale(System.Single)
+extern "C"  void GvrDevice_SetNeckModelScale_m3708496091 (GvrDevice_t635821333 * __this, float ___scale0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___scale0;
+		GvrDevice_SetNeckModelFactor_m2187252390(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Gvr.Internal.GvrDevice::SetDefaultDeviceProfile(System.Uri)
+extern Il2CppClass* Encoding_t663144255_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDevice_SetDefaultDeviceProfile_m2688999_MetadataUsageId;
+extern "C"  bool GvrDevice_SetDefaultDeviceProfile_m2688999 (GvrDevice_t635821333 * __this, Uri_t19570940 * ___uri0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDevice_SetDefaultDeviceProfile_m2688999_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	bool V_1 = false;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t663144255_il2cpp_TypeInfo_var);
+		Encoding_t663144255 * L_0 = Encoding_get_UTF8_m1752852937(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Uri_t19570940 * L_1 = ___uri0;
+		NullCheck(L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_1);
+		NullCheck(L_0);
+		ByteU5BU5D_t3397334013* L_3 = VirtFuncInvoker1< ByteU5BU5D_t3397334013*, String_t* >::Invoke(10 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_2);
+		V_0 = L_3;
+		ByteU5BU5D_t3397334013* L_4 = V_0;
+		ByteU5BU5D_t3397334013* L_5 = V_0;
+		NullCheck(L_5);
+		bool L_6 = GvrDevice_SetDefaultProfile_m726090350(NULL /*static, unused*/, L_4, (((int32_t)((int32_t)(((Il2CppArray *)L_5)->max_length)))), /*hidden argument*/NULL);
+		V_1 = L_6;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		bool L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::Init()
+extern Il2CppClass* Encoding_t663144255_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDevice_Init_m3049041732_MetadataUsageId;
+extern "C"  void GvrDevice_Init_m3049041732 (GvrDevice_t635821333 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDevice_Init_m3049041732_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_t3397334013* V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t663144255_il2cpp_TypeInfo_var);
+		Encoding_t663144255 * L_0 = Encoding_get_UTF8_m1752852937(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = Application_get_unityVersion_m3302058834(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		ByteU5BU5D_t3397334013* L_2 = VirtFuncInvoker1< ByteU5BU5D_t3397334013*, String_t* >::Invoke(10 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
+		V_0 = L_2;
+		ByteU5BU5D_t3397334013* L_3 = V_0;
+		ByteU5BU5D_t3397334013* L_4 = V_0;
+		NullCheck(L_4);
+		GvrDevice_SetUnityVersion_m937814393(NULL /*static, unused*/, L_3, (((int32_t)((int32_t)(((Il2CppArray *)L_4)->max_length)))), /*hidden argument*/NULL);
+		GvrDevice_Start_m2863725800(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::UpdateState()
+extern "C"  void GvrDevice_UpdateState_m1865776730 (GvrDevice_t635821333 * __this, const MethodInfo* method)
+{
+	{
+		VirtActionInvoker0::Invoke(23 /* System.Void Gvr.Internal.GvrDevice::ProcessEvents() */, __this);
+		SingleU5BU5D_t577127397* L_0 = __this->get_headData_23();
+		GvrDevice_GetHeadPose_m1133300508(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003 * L_1 = __this->get_address_of_headView_26();
+		SingleU5BU5D_t577127397* L_2 = __this->get_headData_23();
+		GvrDevice_ExtractMatrix_m3025694940(NULL /*static, unused*/, L_1, L_2, 0, /*hidden argument*/NULL);
+		MutablePose3D_t1015643808 * L_3 = ((BaseVRDevice_t4004462063 *)__this)->get_headPose_2();
+		Matrix4x4_t2933234003 * L_4 = __this->get_address_of_headView_26();
+		Matrix4x4_t2933234003  L_5 = Matrix4x4_get_inverse_m2479387736(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		MutablePose3D_SetRightHanded_m3138031279(L_3, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::UpdateScreenData()
+extern "C"  void GvrDevice_UpdateScreenData_m3767435541 (GvrDevice_t635821333 * __this, const MethodInfo* method)
+{
+	{
+		GvrDevice_UpdateProfile_m1977743270(__this, /*hidden argument*/NULL);
+		bool L_0 = __this->get_debugDisableNativeProjections_29();
+		if (!L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		BaseVRDevice_ComputeEyesFromProfile_m3886822498(__this, /*hidden argument*/NULL);
+		goto IL_0027;
+	}
+
+IL_001f:
+	{
+		GvrDevice_UpdateView_m2561982282(__this, /*hidden argument*/NULL);
+	}
+
+IL_0027:
+	{
+		((BaseVRDevice_t4004462063 *)__this)->set_profileChanged_17((bool)1);
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::Recenter()
+extern "C"  void GvrDevice_Recenter_m639035202 (GvrDevice_t635821333 * __this, const MethodInfo* method)
+{
+	{
+		GvrDevice_ResetHeadTracker_m1017572857(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::PostRender(UnityEngine.RenderTexture)
+extern "C"  void GvrDevice_PostRender_m886618576 (GvrDevice_t635821333 * __this, RenderTexture_t2666733923 * ___stereoScreen0, const MethodInfo* method)
+{
+	{
+		RenderTexture_t2666733923 * L_0 = ___stereoScreen0;
+		NullCheck(L_0);
+		IntPtr_t L_1 = Texture_GetNativeTexturePtr_m292373493(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = IntPtr_op_Explicit_m1458664696(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		GvrDevice_SetTextureId_m673438129(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		GL_IssuePluginEvent_m993229995(NULL /*static, unused*/, ((int32_t)1196770114), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::OnPause(System.Boolean)
+extern "C"  void GvrDevice_OnPause_m418769636 (GvrDevice_t635821333 * __this, bool ___pause0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___pause0;
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		GvrDevice_Pause_m3130736102(NULL /*static, unused*/, /*hidden argument*/NULL);
+		goto IL_001a;
+	}
+
+IL_0013:
+	{
+		GvrDevice_Resume_m1877212629(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::OnApplicationQuit()
+extern "C"  void GvrDevice_OnApplicationQuit_m1286659510 (GvrDevice_t635821333 * __this, const MethodInfo* method)
+{
+	{
+		GvrDevice_Stop_m2841135994(NULL /*static, unused*/, /*hidden argument*/NULL);
+		BaseVRDevice_OnApplicationQuit_m3712496750(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::UpdateView()
+extern "C"  void GvrDevice_UpdateView_m2561982282 (GvrDevice_t635821333 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		SingleU5BU5D_t577127397* L_0 = __this->get_viewData_24();
+		GvrDevice_GetViewParameters_m4241044874(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = 0;
+		Matrix4x4_t2933234003 * L_1 = __this->get_address_of_leftEyeView_27();
+		SingleU5BU5D_t577127397* L_2 = __this->get_viewData_24();
+		int32_t L_3 = V_0;
+		int32_t L_4 = GvrDevice_ExtractMatrix_m3025694940(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		Matrix4x4_t2933234003 * L_5 = __this->get_address_of_rightEyeView_28();
+		SingleU5BU5D_t577127397* L_6 = __this->get_viewData_24();
+		int32_t L_7 = V_0;
+		int32_t L_8 = GvrDevice_ExtractMatrix_m3025694940(NULL /*static, unused*/, L_5, L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		MutablePose3D_t1015643808 * L_9 = ((BaseVRDevice_t4004462063 *)__this)->get_leftEyePose_3();
+		Matrix4x4_t2933234003 * L_10 = __this->get_address_of_leftEyeView_27();
+		Matrix4x4_t2933234003  L_11 = Matrix4x4_get_inverse_m2479387736(L_10, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		MutablePose3D_SetRightHanded_m3138031279(L_9, L_11, /*hidden argument*/NULL);
+		MutablePose3D_t1015643808 * L_12 = ((BaseVRDevice_t4004462063 *)__this)->get_rightEyePose_4();
+		Matrix4x4_t2933234003 * L_13 = __this->get_address_of_rightEyeView_28();
+		Matrix4x4_t2933234003  L_14 = Matrix4x4_get_inverse_m2479387736(L_13, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		MutablePose3D_SetRightHanded_m3138031279(L_12, L_14, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003 * L_15 = ((BaseVRDevice_t4004462063 *)__this)->get_address_of_leftEyeDistortedProjection_5();
+		SingleU5BU5D_t577127397* L_16 = __this->get_viewData_24();
+		int32_t L_17 = V_0;
+		int32_t L_18 = GvrDevice_ExtractMatrix_m3025694940(NULL /*static, unused*/, L_15, L_16, L_17, /*hidden argument*/NULL);
+		V_0 = L_18;
+		Matrix4x4_t2933234003 * L_19 = ((BaseVRDevice_t4004462063 *)__this)->get_address_of_rightEyeDistortedProjection_6();
+		SingleU5BU5D_t577127397* L_20 = __this->get_viewData_24();
+		int32_t L_21 = V_0;
+		int32_t L_22 = GvrDevice_ExtractMatrix_m3025694940(NULL /*static, unused*/, L_19, L_20, L_21, /*hidden argument*/NULL);
+		V_0 = L_22;
+		Matrix4x4_t2933234003 * L_23 = ((BaseVRDevice_t4004462063 *)__this)->get_address_of_leftEyeUndistortedProjection_7();
+		SingleU5BU5D_t577127397* L_24 = __this->get_viewData_24();
+		int32_t L_25 = V_0;
+		int32_t L_26 = GvrDevice_ExtractMatrix_m3025694940(NULL /*static, unused*/, L_23, L_24, L_25, /*hidden argument*/NULL);
+		V_0 = L_26;
+		Matrix4x4_t2933234003 * L_27 = ((BaseVRDevice_t4004462063 *)__this)->get_address_of_rightEyeUndistortedProjection_8();
+		SingleU5BU5D_t577127397* L_28 = __this->get_viewData_24();
+		int32_t L_29 = V_0;
+		int32_t L_30 = GvrDevice_ExtractMatrix_m3025694940(NULL /*static, unused*/, L_27, L_28, L_29, /*hidden argument*/NULL);
+		V_0 = L_30;
+		Rect_t3681755626 * L_31 = ((BaseVRDevice_t4004462063 *)__this)->get_address_of_leftEyeUndistortedViewport_11();
+		SingleU5BU5D_t577127397* L_32 = __this->get_viewData_24();
+		int32_t L_33 = V_0;
+		NullCheck(L_32);
+		int32_t L_34 = L_33;
+		float L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		SingleU5BU5D_t577127397* L_36 = __this->get_viewData_24();
+		int32_t L_37 = V_0;
+		NullCheck(L_36);
+		int32_t L_38 = ((int32_t)((int32_t)L_37+(int32_t)1));
+		float L_39 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
+		SingleU5BU5D_t577127397* L_40 = __this->get_viewData_24();
+		int32_t L_41 = V_0;
+		NullCheck(L_40);
+		int32_t L_42 = ((int32_t)((int32_t)L_41+(int32_t)2));
+		float L_43 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		SingleU5BU5D_t577127397* L_44 = __this->get_viewData_24();
+		int32_t L_45 = V_0;
+		NullCheck(L_44);
+		int32_t L_46 = ((int32_t)((int32_t)L_45+(int32_t)3));
+		float L_47 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		Rect_Set_m1972211443(L_31, L_35, L_39, L_43, L_47, /*hidden argument*/NULL);
+		Rect_t3681755626  L_48 = ((BaseVRDevice_t4004462063 *)__this)->get_leftEyeUndistortedViewport_11();
+		((BaseVRDevice_t4004462063 *)__this)->set_leftEyeDistortedViewport_9(L_48);
+		int32_t L_49 = V_0;
+		V_0 = ((int32_t)((int32_t)L_49+(int32_t)4));
+		Rect_t3681755626 * L_50 = ((BaseVRDevice_t4004462063 *)__this)->get_address_of_rightEyeUndistortedViewport_12();
+		SingleU5BU5D_t577127397* L_51 = __this->get_viewData_24();
+		int32_t L_52 = V_0;
+		NullCheck(L_51);
+		int32_t L_53 = L_52;
+		float L_54 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		SingleU5BU5D_t577127397* L_55 = __this->get_viewData_24();
+		int32_t L_56 = V_0;
+		NullCheck(L_55);
+		int32_t L_57 = ((int32_t)((int32_t)L_56+(int32_t)1));
+		float L_58 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
+		SingleU5BU5D_t577127397* L_59 = __this->get_viewData_24();
+		int32_t L_60 = V_0;
+		NullCheck(L_59);
+		int32_t L_61 = ((int32_t)((int32_t)L_60+(int32_t)2));
+		float L_62 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		SingleU5BU5D_t577127397* L_63 = __this->get_viewData_24();
+		int32_t L_64 = V_0;
+		NullCheck(L_63);
+		int32_t L_65 = ((int32_t)((int32_t)L_64+(int32_t)3));
+		float L_66 = (L_63)->GetAt(static_cast<il2cpp_array_size_t>(L_65));
+		Rect_Set_m1972211443(L_50, L_54, L_58, L_62, L_66, /*hidden argument*/NULL);
+		Rect_t3681755626  L_67 = ((BaseVRDevice_t4004462063 *)__this)->get_rightEyeUndistortedViewport_12();
+		((BaseVRDevice_t4004462063 *)__this)->set_rightEyeDistortedViewport_10(L_67);
+		int32_t L_68 = V_0;
+		V_0 = ((int32_t)((int32_t)L_68+(int32_t)4));
+		SingleU5BU5D_t577127397* L_69 = __this->get_viewData_24();
+		int32_t L_70 = V_0;
+		NullCheck(L_69);
+		int32_t L_71 = L_70;
+		float L_72 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_71));
+		((BaseVRDevice_t4004462063 *)__this)->set_leftEyeOrientation_14((((int32_t)((int32_t)L_72))));
+		SingleU5BU5D_t577127397* L_73 = __this->get_viewData_24();
+		int32_t L_74 = V_0;
+		NullCheck(L_73);
+		int32_t L_75 = ((int32_t)((int32_t)L_74+(int32_t)1));
+		float L_76 = (L_73)->GetAt(static_cast<il2cpp_array_size_t>(L_75));
+		((BaseVRDevice_t4004462063 *)__this)->set_rightEyeOrientation_15((((int32_t)((int32_t)L_76))));
+		int32_t L_77 = V_0;
+		V_0 = ((int32_t)((int32_t)L_77+(int32_t)2));
+		SingleU5BU5D_t577127397* L_78 = __this->get_viewData_24();
+		int32_t L_79 = V_0;
+		NullCheck(L_78);
+		int32_t L_80 = L_79;
+		float L_81 = (L_78)->GetAt(static_cast<il2cpp_array_size_t>(L_80));
+		SingleU5BU5D_t577127397* L_82 = __this->get_viewData_24();
+		int32_t L_83 = V_0;
+		NullCheck(L_82);
+		int32_t L_84 = ((int32_t)((int32_t)L_83+(int32_t)1));
+		float L_85 = (L_82)->GetAt(static_cast<il2cpp_array_size_t>(L_84));
+		Vector2_t2243707579  L_86;
+		memset(&L_86, 0, sizeof(L_86));
+		Vector2__ctor_m3067419446(&L_86, L_81, L_85, /*hidden argument*/NULL);
+		((BaseVRDevice_t4004462063 *)__this)->set_recommendedTextureSize_13(L_86);
+		int32_t L_87 = V_0;
+		V_0 = ((int32_t)((int32_t)L_87+(int32_t)2));
+		return;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::UpdateProfile()
+extern Il2CppClass* Viewer_t1642017539_il2cpp_TypeInfo_var;
+extern Il2CppClass* Screen_t839756045_il2cpp_TypeInfo_var;
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDevice_UpdateProfile_m1977743270_MetadataUsageId;
+extern "C"  void GvrDevice_UpdateProfile_m1977743270 (GvrDevice_t635821333 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDevice_UpdateProfile_m1977743270_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Viewer_t1642017539  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Screen_t839756045  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	SingleU5BU5D_t577127397* V_2 = NULL;
+	float V_3 = 0.0f;
+	{
+		SingleU5BU5D_t577127397* L_0 = __this->get_profileData_25();
+		GvrDevice_GetProfile_m4043616196(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Initobj (Viewer_t1642017539_il2cpp_TypeInfo_var, (&V_0));
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_1));
+		MaxFOV_t1743211906 * L_1 = (&V_0)->get_address_of_maxFOV_1();
+		SingleU5BU5D_t577127397* L_2 = __this->get_profileData_25();
+		NullCheck(L_2);
+		int32_t L_3 = 0;
+		float L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		L_1->set_outer_0(L_4);
+		MaxFOV_t1743211906 * L_5 = (&V_0)->get_address_of_maxFOV_1();
+		SingleU5BU5D_t577127397* L_6 = __this->get_profileData_25();
+		NullCheck(L_6);
+		int32_t L_7 = 1;
+		float L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		L_5->set_upper_2(L_8);
+		MaxFOV_t1743211906 * L_9 = (&V_0)->get_address_of_maxFOV_1();
+		SingleU5BU5D_t577127397* L_10 = __this->get_profileData_25();
+		NullCheck(L_10);
+		int32_t L_11 = 2;
+		float L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		L_9->set_inner_1(L_12);
+		MaxFOV_t1743211906 * L_13 = (&V_0)->get_address_of_maxFOV_1();
+		SingleU5BU5D_t577127397* L_14 = __this->get_profileData_25();
+		NullCheck(L_14);
+		int32_t L_15 = 3;
+		float L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		L_13->set_lower_3(L_16);
+		SingleU5BU5D_t577127397* L_17 = __this->get_profileData_25();
+		NullCheck(L_17);
+		int32_t L_18 = 4;
+		float L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		(&V_1)->set_width_0(L_19);
+		SingleU5BU5D_t577127397* L_20 = __this->get_profileData_25();
+		NullCheck(L_20);
+		int32_t L_21 = 5;
+		float L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		(&V_1)->set_height_1(L_22);
+		SingleU5BU5D_t577127397* L_23 = __this->get_profileData_25();
+		NullCheck(L_23);
+		int32_t L_24 = 6;
+		float L_25 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		(&V_1)->set_border_2(L_25);
+		Lenses_t2112994543 * L_26 = (&V_0)->get_address_of_lenses_0();
+		SingleU5BU5D_t577127397* L_27 = __this->get_profileData_25();
+		NullCheck(L_27);
+		int32_t L_28 = 7;
+		float L_29 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		L_26->set_separation_0(L_29);
+		Lenses_t2112994543 * L_30 = (&V_0)->get_address_of_lenses_0();
+		SingleU5BU5D_t577127397* L_31 = __this->get_profileData_25();
+		NullCheck(L_31);
+		int32_t L_32 = 8;
+		float L_33 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		L_30->set_offset_1(L_33);
+		Lenses_t2112994543 * L_34 = (&V_0)->get_address_of_lenses_0();
+		SingleU5BU5D_t577127397* L_35 = __this->get_profileData_25();
+		NullCheck(L_35);
+		int32_t L_36 = ((int32_t)9);
+		float L_37 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+		L_34->set_screenDistance_2(L_37);
+		Lenses_t2112994543 * L_38 = (&V_0)->get_address_of_lenses_0();
+		SingleU5BU5D_t577127397* L_39 = __this->get_profileData_25();
+		NullCheck(L_39);
+		int32_t L_40 = ((int32_t)10);
+		float L_41 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+		L_38->set_alignment_3((((int32_t)((int32_t)L_41))));
+		Distortion_t550060296 * L_42 = (&V_0)->get_address_of_distortion_2();
+		SingleU5BU5D_t577127397* L_43 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)2));
+		SingleU5BU5D_t577127397* L_44 = __this->get_profileData_25();
+		NullCheck(L_44);
+		int32_t L_45 = ((int32_t)11);
+		float L_46 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		NullCheck(L_43);
+		(L_43)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_46);
+		SingleU5BU5D_t577127397* L_47 = L_43;
+		SingleU5BU5D_t577127397* L_48 = __this->get_profileData_25();
+		NullCheck(L_48);
+		int32_t L_49 = ((int32_t)12);
+		float L_50 = (L_48)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
+		NullCheck(L_47);
+		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)L_50);
+		Distortion_set_Coef_m586170824(L_42, L_47, /*hidden argument*/NULL);
+		GvrProfile_t2070273202 * L_51 = BaseVRDevice_get_Profile_m1157035047(__this, /*hidden argument*/NULL);
+		Screen_t839756045  L_52 = V_1;
+		NullCheck(L_51);
+		L_51->set_screen_0(L_52);
+		GvrProfile_t2070273202 * L_53 = BaseVRDevice_get_Profile_m1157035047(__this, /*hidden argument*/NULL);
+		Viewer_t1642017539  L_54 = V_0;
+		NullCheck(L_53);
+		L_53->set_viewer_1(L_54);
+		V_2 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)4));
+		GvrProfile_t2070273202 * L_55 = BaseVRDevice_get_Profile_m1157035047(__this, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_56 = V_2;
+		NullCheck(L_55);
+		GvrProfile_GetLeftEyeNoLensTanAngles_m1542233222(L_55, L_56, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_57 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		float L_58 = GvrProfile_GetMaxRadius_m505799712(NULL /*static, unused*/, L_57, /*hidden argument*/NULL);
+		V_3 = L_58;
+		GvrProfile_t2070273202 * L_59 = BaseVRDevice_get_Profile_m1157035047(__this, /*hidden argument*/NULL);
+		NullCheck(L_59);
+		Viewer_t1642017539 * L_60 = L_59->get_address_of_viewer_1();
+		GvrProfile_t2070273202 * L_61 = BaseVRDevice_get_Profile_m1157035047(__this, /*hidden argument*/NULL);
+		NullCheck(L_61);
+		Viewer_t1642017539 * L_62 = L_61->get_address_of_viewer_1();
+		Distortion_t550060296  L_63 = L_62->get_distortion_2();
+		float L_64 = V_3;
+		Distortion_t550060296  L_65 = GvrProfile_ApproximateInverse_m2815142958(NULL /*static, unused*/, L_63, L_64, ((int32_t)100), /*hidden argument*/NULL);
+		L_60->set_inverse_3(L_65);
+		return;
+	}
+}
+// System.Int32 Gvr.Internal.GvrDevice::ExtractMatrix(UnityEngine.Matrix4x4&,System.Single[],System.Int32)
+extern "C"  int32_t GvrDevice_ExtractMatrix_m3025694940 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___mat0, SingleU5BU5D_t577127397* ___data1, int32_t ___i2, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		V_0 = 0;
+		goto IL_0032;
+	}
+
+IL_0008:
+	{
+		V_1 = 0;
+		goto IL_0026;
+	}
+
+IL_0010:
+	{
+		Matrix4x4_t2933234003 * L_0 = ___mat0;
+		int32_t L_1 = V_0;
+		int32_t L_2 = V_1;
+		SingleU5BU5D_t577127397* L_3 = ___data1;
+		int32_t L_4 = ___i2;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		float L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		Matrix4x4_set_Item_m1035113911(L_0, L_1, L_2, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_1;
+		V_1 = ((int32_t)((int32_t)L_7+(int32_t)1));
+		int32_t L_8 = ___i2;
+		___i2 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_0026:
+	{
+		int32_t L_9 = V_1;
+		if ((((int32_t)L_9) < ((int32_t)4)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_10 = V_0;
+		V_0 = ((int32_t)((int32_t)L_10+(int32_t)1));
+	}
+
+IL_0032:
+	{
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_11) < ((int32_t)4)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		int32_t L_12 = ___i2;
+		V_2 = L_12;
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		int32_t L_13 = V_2;
+		return L_13;
+	}
+}
+// System.Void Gvr.Internal.GvrDevice::ProcessEvents()
+extern "C"  void GvrDevice_ProcessEvents_m3292119668 (GvrDevice_t635821333 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = GvrDevice_GetEventFlags_m228521139(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		((BaseVRDevice_t4004462063 *)__this)->set_tilted_16((bool)((((int32_t)((((int32_t)((int32_t)((int32_t)L_1&(int32_t)2))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0));
+		int32_t L_2 = V_0;
+		((BaseVRDevice_t4004462063 *)__this)->set_backButtonPressed_18((bool)((((int32_t)((((int32_t)((int32_t)((int32_t)L_2&(int32_t)8))) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0));
+		int32_t L_3 = V_0;
+		if (!((int32_t)((int32_t)L_3&(int32_t)4)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		VirtActionInvoker0::Invoke(16 /* System.Void Gvr.Internal.BaseVRDevice::UpdateScreenData() */, __this);
+	}
+
+IL_0035:
+	{
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL Start();
+// System.Void Gvr.Internal.GvrDevice::Start()
+extern "C"  void GvrDevice_Start_m2863725800 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(Start)();
+
+}
+extern "C" void DEFAULT_CALL SetTextureId(int32_t);
+// System.Void Gvr.Internal.GvrDevice::SetTextureId(System.Int32)
+extern "C"  void GvrDevice_SetTextureId_m673438129 (Il2CppObject * __this /* static, unused */, int32_t ___id0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetTextureId)(___id0);
+
+}
+extern "C" int32_t DEFAULT_CALL SetDefaultProfile(uint8_t*, int32_t);
+// System.Boolean Gvr.Internal.GvrDevice::SetDefaultProfile(System.Byte[],System.Int32)
+extern "C"  bool GvrDevice_SetDefaultProfile_m726090350 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___uri0, int32_t ___size1, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t);
+
+	// Marshaling of parameter '___uri0' to native representation
+	uint8_t* ____uri0_marshaled = NULL;
+	if (___uri0 != NULL)
+	{
+		____uri0_marshaled = reinterpret_cast<uint8_t*>((___uri0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(SetDefaultProfile)(____uri0_marshaled, ___size1);
+
+	return static_cast<bool>(returnValue);
+}
+extern "C" void DEFAULT_CALL SetUnityVersion(uint8_t*, int32_t);
+// System.Void Gvr.Internal.GvrDevice::SetUnityVersion(System.Byte[],System.Int32)
+extern "C"  void GvrDevice_SetUnityVersion_m937814393 (Il2CppObject * __this /* static, unused */, ByteU5BU5D_t3397334013* ___version_str0, int32_t ___version_length1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t);
+
+	// Marshaling of parameter '___version_str0' to native representation
+	uint8_t* ____version_str0_marshaled = NULL;
+	if (___version_str0 != NULL)
+	{
+		____version_str0_marshaled = reinterpret_cast<uint8_t*>((___version_str0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetUnityVersion)(____version_str0_marshaled, ___version_length1);
+
+}
+extern "C" void DEFAULT_CALL EnableDistortionCorrection(int32_t);
+// System.Void Gvr.Internal.GvrDevice::EnableDistortionCorrection(System.Boolean)
+extern "C"  void GvrDevice_EnableDistortionCorrection_m2929452511 (Il2CppObject * __this /* static, unused */, bool ___enable0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(EnableDistortionCorrection)(static_cast<int32_t>(___enable0));
+
+}
+extern "C" void DEFAULT_CALL SetNeckModelFactor(float);
+// System.Void Gvr.Internal.GvrDevice::SetNeckModelFactor(System.Single)
+extern "C"  void GvrDevice_SetNeckModelFactor_m2187252390 (Il2CppObject * __this /* static, unused */, float ___factor0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetNeckModelFactor)(___factor0);
+
+}
+extern "C" void DEFAULT_CALL ResetHeadTracker();
+// System.Void Gvr.Internal.GvrDevice::ResetHeadTracker()
+extern "C"  void GvrDevice_ResetHeadTracker_m1017572857 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(ResetHeadTracker)();
+
+}
+extern "C" int32_t DEFAULT_CALL GetEventFlags();
+// System.Int32 Gvr.Internal.GvrDevice::GetEventFlags()
+extern "C"  int32_t GvrDevice_GetEventFlags_m228521139 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetEventFlags)();
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL GetProfile(float*);
+// System.Void Gvr.Internal.GvrDevice::GetProfile(System.Single[])
+extern "C"  void GvrDevice_GetProfile_m4043616196 (Il2CppObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___profile0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float*);
+
+	// Marshaling of parameter '___profile0' to native representation
+	float* ____profile0_marshaled = NULL;
+	if (___profile0 != NULL)
+	{
+		____profile0_marshaled = reinterpret_cast<float*>((___profile0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(GetProfile)(____profile0_marshaled);
+
+}
+extern "C" void DEFAULT_CALL GetHeadPose(float*);
+// System.Void Gvr.Internal.GvrDevice::GetHeadPose(System.Single[])
+extern "C"  void GvrDevice_GetHeadPose_m1133300508 (Il2CppObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___pose0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float*);
+
+	// Marshaling of parameter '___pose0' to native representation
+	float* ____pose0_marshaled = NULL;
+	if (___pose0 != NULL)
+	{
+		____pose0_marshaled = reinterpret_cast<float*>((___pose0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(GetHeadPose)(____pose0_marshaled);
+
+}
+extern "C" void DEFAULT_CALL GetViewParameters(float*);
+// System.Void Gvr.Internal.GvrDevice::GetViewParameters(System.Single[])
+extern "C"  void GvrDevice_GetViewParameters_m4241044874 (Il2CppObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___viewParams0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float*);
+
+	// Marshaling of parameter '___viewParams0' to native representation
+	float* ____viewParams0_marshaled = NULL;
+	if (___viewParams0 != NULL)
+	{
+		____viewParams0_marshaled = reinterpret_cast<float*>((___viewParams0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(GetViewParameters)(____viewParams0_marshaled);
+
+}
+extern "C" void DEFAULT_CALL Pause();
+// System.Void Gvr.Internal.GvrDevice::Pause()
+extern "C"  void GvrDevice_Pause_m3130736102 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(Pause)();
+
+}
+extern "C" void DEFAULT_CALL Resume();
+// System.Void Gvr.Internal.GvrDevice::Resume()
+extern "C"  void GvrDevice_Resume_m1877212629 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(Resume)();
+
+}
+extern "C" void DEFAULT_CALL Stop();
+// System.Void Gvr.Internal.GvrDevice::Stop()
+extern "C"  void GvrDevice_Stop_m2841135994 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(Stop)();
+
+}
+// System.Void Gvr.Internal.iOSDevice::.ctor()
+extern "C"  void iOSDevice__ctor_m1152826412 (iOSDevice_t1373308423 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_isOpenGL_32((bool)0);
+		GvrDevice__ctor_m1419258520(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Gvr.Internal.iOSDevice::SupportsNativeDistortionCorrection(System.Collections.Generic.List`1<System.String>)
+extern const MethodInfo* List_1_Add_m4061286785_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2011496693;
+extern const uint32_t iOSDevice_SupportsNativeDistortionCorrection_m3177552536_MetadataUsageId;
+extern "C"  bool iOSDevice_SupportsNativeDistortionCorrection_m3177552536 (iOSDevice_t1373308423 * __this, List_1_t1398341365 * ___diagnostics0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iOSDevice_SupportsNativeDistortionCorrection_m3177552536_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		List_1_t1398341365 * L_0 = ___diagnostics0;
+		bool L_1 = BaseVRDevice_SupportsNativeDistortionCorrection_m2363225724(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		bool L_2 = __this->get_isOpenGL_32();
+		if (L_2)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		List_1_t1398341365 * L_3 = ___diagnostics0;
+		NullCheck(L_3);
+		List_1_Add_m4061286785(L_3, _stringLiteral2011496693, /*hidden argument*/List_1_Add_m4061286785_MethodInfo_var);
+		V_0 = (bool)0;
+	}
+
+IL_0023:
+	{
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+// System.Void Gvr.Internal.iOSDevice::SetVRModeEnabled(System.Boolean)
+extern "C"  void iOSDevice_SetVRModeEnabled_m1884484617 (iOSDevice_t1373308423 * __this, bool ___enabled0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___enabled0;
+		iOSDevice_setVRModeEnabled_m2142284841(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.iOSDevice::Init()
+extern "C"  void iOSDevice_Init_m2331052736 (iOSDevice_t1373308423 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = iOSDevice_isOpenGLAPI_m3529398287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_isOpenGL_32(L_0);
+		GvrDevice_Init_m3049041732(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Gvr.Internal.iOSDevice::ShowSettingsDialog()
+extern "C"  void iOSDevice_ShowSettingsDialog_m40117622 (iOSDevice_t1373308423 * __this, const MethodInfo* method)
+{
+	{
+		iOSDevice_launchSettingsDialog_m1181993736(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+extern "C" int32_t DEFAULT_CALL isOpenGLAPI();
+// System.Boolean Gvr.Internal.iOSDevice::isOpenGLAPI()
+extern "C"  bool iOSDevice_isOpenGLAPI_m3529398287 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(isOpenGLAPI)();
+
+	return static_cast<bool>(returnValue);
+}
+extern "C" void DEFAULT_CALL setVRModeEnabled(int32_t);
+// System.Void Gvr.Internal.iOSDevice::setVRModeEnabled(System.Boolean)
+extern "C"  void iOSDevice_setVRModeEnabled_m2142284841 (Il2CppObject * __this /* static, unused */, bool ___enabled0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(setVRModeEnabled)(static_cast<int32_t>(___enabled0));
+
+}
+extern "C" void DEFAULT_CALL launchSettingsDialog();
+// System.Void Gvr.Internal.iOSDevice::launchSettingsDialog()
+extern "C"  void iOSDevice_launchSettingsDialog_m1181993736 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(launchSettingsDialog)();
+
+}
+// System.Void GvrArmModel::.ctor()
+extern "C"  void GvrArmModel__ctor_m1809788965 (GvrArmModel_t1664224602 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrArmModelOffsets::.ctor()
+extern "C"  void GvrArmModelOffsets__ctor_m2306009619 (GvrArmModelOffsets_t2241056642 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GvrAudio::get_SampleRate()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_get_SampleRate_m3725406845_MetadataUsageId;
+extern "C"  int32_t GvrAudio_get_SampleRate_m3725406845 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_get_SampleRate_m3725406845_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_sampleRate_0();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Int32 GvrAudio::get_NumChannels()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_get_NumChannels_m462395491_MetadataUsageId;
+extern "C"  int32_t GvrAudio_get_NumChannels_m462395491 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_get_NumChannels_m462395491_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_numChannels_1();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Int32 GvrAudio::get_FramesPerBuffer()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_get_FramesPerBuffer_m1101848786_MetadataUsageId;
+extern "C"  int32_t GvrAudio_get_FramesPerBuffer_m1101848786 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_get_FramesPerBuffer_m1101848786_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		int32_t L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_framesPerBuffer_2();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudio::Initialize(GvrAudioListener,GvrAudio/Quality)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1298616568;
+extern Il2CppCodeGenString* _stringLiteral3640508444;
+extern const uint32_t GvrAudio_Initialize_m2739768702_MetadataUsageId;
+extern "C"  void GvrAudio_Initialize_m2739768702 (Il2CppObject * __this /* static, unused */, GvrAudioListener_t1521766837 * ___listener0, int32_t ___quality1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_Initialize_m2739768702_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioConfiguration_t2879378008  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (L_0)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		AudioConfiguration_t2879378008  L_1 = AudioSettings_GetConfiguration_m1393045148(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = (&V_0)->get_sampleRate_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_sampleRate_0(L_2);
+		int32_t L_3 = (&V_0)->get_speakerMode_0();
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_numChannels_1(L_3);
+		int32_t L_4 = (&V_0)->get_dspBufferSize_1();
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_framesPerBuffer_2(L_4);
+		int32_t L_5 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_numChannels_1();
+		if ((((int32_t)L_5) == ((int32_t)2)))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral1298616568, /*hidden argument*/NULL);
+		goto IL_00a4;
+	}
+
+IL_0051:
+	{
+		int32_t L_6 = ___quality1;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		int32_t L_7 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_sampleRate_0();
+		int32_t L_8 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_numChannels_1();
+		int32_t L_9 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_framesPerBuffer_2();
+		GvrAudio_Initialize_m2441973946(NULL /*static, unused*/, L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
+		GvrAudioListener_t1521766837 * L_10 = ___listener0;
+		NullCheck(L_10);
+		Transform_t3275118058 * L_11 = Component_get_transform_m2697483695(L_10, /*hidden argument*/NULL);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_listenerTransform_19(L_11);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_initialized_18((bool)1);
+		goto IL_00a4;
+	}
+
+IL_007d:
+	{
+		GvrAudioListener_t1521766837 * L_12 = ___listener0;
+		NullCheck(L_12);
+		Transform_t3275118058 * L_13 = Component_get_transform_m2697483695(L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		Transform_t3275118058 * L_14 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_listenerTransform_19();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_15 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_13, L_14, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3640508444, /*hidden argument*/NULL);
+		GvrAudioListener_t1521766837 * L_16 = ___listener0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+	}
+
+IL_00a4:
+	{
+		return;
+	}
+}
+// System.Void GvrAudio::Shutdown(GvrAudioListener)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_Shutdown_m2838331605_MetadataUsageId;
+extern "C"  void GvrAudio_Shutdown_m2838331605 (Il2CppObject * __this /* static, unused */, GvrAudioListener_t1521766837 * ___listener0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_Shutdown_m2838331605_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_0)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		GvrAudioListener_t1521766837 * L_1 = ___listener0;
+		NullCheck(L_1);
+		Transform_t3275118058 * L_2 = Component_get_transform_m2697483695(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		Transform_t3275118058 * L_3 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_listenerTransform_19();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_initialized_18((bool)0);
+		GvrAudio_Shutdown_m3814448932(NULL /*static, unused*/, /*hidden argument*/NULL);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_sampleRate_0((-1));
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_numChannels_1((-1));
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_framesPerBuffer_2((-1));
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_listenerTransform_19((Transform_t3275118058 *)NULL);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+// System.Void GvrAudio::UpdateAudioListener(System.Single,UnityEngine.LayerMask)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_UpdateAudioListener_m3370947442_MetadataUsageId;
+extern "C"  void GvrAudio_UpdateAudioListener_m3370947442 (Il2CppObject * __this /* static, unused */, float ___globalGainDb0, LayerMask_t3188175821  ___occlusionMask1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_UpdateAudioListener_m3370947442_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_0)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		int32_t L_1 = LayerMask_get_value_m251765876((&___occlusionMask1), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_occlusionMaskValue_20(L_1);
+		float L_2 = ___globalGainDb0;
+		float L_3 = GvrAudio_ConvertAmplitudeFromDb_m525493451(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		GvrAudio_SetListenerGain_m1924947456(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0024:
+	{
+		return;
+	}
+}
+// System.Int32 GvrAudio::CreateAudioSoundfield()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_CreateAudioSoundfield_m1783995047_MetadataUsageId;
+extern "C"  int32_t GvrAudio_CreateAudioSoundfield_m1783995047 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_CreateAudioSoundfield_m1783995047_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		V_0 = (-1);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		int32_t L_1 = GvrAudio_CreateSoundfield_m278242392(NULL /*static, unused*/, 4, /*hidden argument*/NULL);
+		V_0 = L_1;
+	}
+
+IL_0016:
+	{
+		int32_t L_2 = V_0;
+		V_1 = L_2;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		int32_t L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void GvrAudio::UpdateAudioSoundfield(System.Int32,GvrAudioSoundfield)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_UpdateAudioSoundfield_m2589129101_MetadataUsageId;
+extern "C"  void GvrAudio_UpdateAudioSoundfield_m2589129101 (Il2CppObject * __this /* static, unused */, int32_t ___id0, GvrAudioSoundfield_t1301118448 * ___soundfield1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_UpdateAudioSoundfield_m2589129101_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		int32_t L_1 = ___id0;
+		GvrAudioSoundfield_t1301118448 * L_2 = ___soundfield1;
+		NullCheck(L_2);
+		bool L_3 = L_2->get_bypassRoomEffects_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_SetSourceBypassRoomEffects_m1691460578(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0019:
+	{
+		return;
+	}
+}
+// System.Int32 GvrAudio::CreateAudioSource(System.Boolean)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_CreateAudioSource_m1984649488_MetadataUsageId;
+extern "C"  int32_t GvrAudio_CreateAudioSource_m1984649488 (Il2CppObject * __this /* static, unused */, bool ___hrtfEnabled0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_CreateAudioSource_m1984649488_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		V_0 = (-1);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		bool L_1 = ___hrtfEnabled0;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		int32_t L_2 = GvrAudio_CreateSoundObject_m1329629085(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+	}
+
+IL_0016:
+	{
+		int32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		int32_t L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void GvrAudio::DestroyAudioSource(System.Int32)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_DestroyAudioSource_m801182782_MetadataUsageId;
+extern "C"  void GvrAudio_DestroyAudioSource_m801182782 (Il2CppObject * __this /* static, unused */, int32_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_DestroyAudioSource_m801182782_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		int32_t L_1 = ___id0;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_DestroySource_m2875741446(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+	}
+
+IL_0013:
+	{
+		return;
+	}
+}
+// System.Void GvrAudio::UpdateAudioSource(System.Int32,GvrAudioSource,System.Single)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_UpdateAudioSource_m1447747246_MetadataUsageId;
+extern "C"  void GvrAudio_UpdateAudioSource_m1447747246 (Il2CppObject * __this /* static, unused */, int32_t ___id0, GvrAudioSource_t2307460312 * ___source1, float ___currentOcclusion2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_UpdateAudioSource_m1447747246_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_0)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		int32_t L_1 = ___id0;
+		GvrAudioSource_t2307460312 * L_2 = ___source1;
+		NullCheck(L_2);
+		bool L_3 = L_2->get_bypassRoomEffects_2();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_SetSourceBypassRoomEffects_m1691460578(NULL /*static, unused*/, L_1, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = ___id0;
+		GvrAudioSource_t2307460312 * L_5 = ___source1;
+		NullCheck(L_5);
+		float L_6 = L_5->get_directivityAlpha_3();
+		GvrAudioSource_t2307460312 * L_7 = ___source1;
+		NullCheck(L_7);
+		float L_8 = L_7->get_directivitySharpness_4();
+		GvrAudio_SetSourceDirectivity_m2025518334(NULL /*static, unused*/, L_4, L_6, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = ___id0;
+		GvrAudioSource_t2307460312 * L_10 = ___source1;
+		NullCheck(L_10);
+		float L_11 = L_10->get_listenerDirectivityAlpha_5();
+		GvrAudioSource_t2307460312 * L_12 = ___source1;
+		NullCheck(L_12);
+		float L_13 = L_12->get_listenerDirectivitySharpness_6();
+		GvrAudio_SetSourceListenerDirectivity_m1770884030(NULL /*static, unused*/, L_9, L_11, L_13, /*hidden argument*/NULL);
+		int32_t L_14 = ___id0;
+		float L_15 = ___currentOcclusion2;
+		GvrAudio_SetSourceOcclusionIntensity_m2889416367(NULL /*static, unused*/, L_14, L_15, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		return;
+	}
+}
+// System.Void GvrAudio::UpdateAudioRoom(GvrAudioRoom,System.Boolean)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern Il2CppClass* RoomProperties_t2834448096_il2cpp_TypeInfo_var;
+extern Il2CppClass* Marshal_t785896760_il2cpp_TypeInfo_var;
+extern Il2CppClass* IntPtr_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Contains_m2962896065_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2248878531_MethodInfo_var;
+extern const MethodInfo* List_1_Remove_m997653976_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m1747142799_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2588615602_MethodInfo_var;
+extern const uint32_t GvrAudio_UpdateAudioRoom_m3179955199_MetadataUsageId;
+extern "C"  void GvrAudio_UpdateAudioRoom_m3179955199 (Il2CppObject * __this /* static, unused */, GvrAudioRoom_t1253442178 * ___room0, bool ___roomEnabled1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_UpdateAudioRoom_m3179955199_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GvrAudioRoom_t1253442178 * V_0 = NULL;
+	RoomProperties_t2834448096  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	IntPtr_t V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		bool L_0 = ___roomEnabled1;
+		if (!L_0)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		List_1_t622563310 * L_1 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_enabledRooms_17();
+		GvrAudioRoom_t1253442178 * L_2 = ___room0;
+		NullCheck(L_1);
+		bool L_3 = List_1_Contains_m2962896065(L_1, L_2, /*hidden argument*/List_1_Contains_m2962896065_MethodInfo_var);
+		if (L_3)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		List_1_t622563310 * L_4 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_enabledRooms_17();
+		GvrAudioRoom_t1253442178 * L_5 = ___room0;
+		NullCheck(L_4);
+		List_1_Add_m2248878531(L_4, L_5, /*hidden argument*/List_1_Add_m2248878531_MethodInfo_var);
+	}
+
+IL_0025:
+	{
+		goto IL_0039;
+	}
+
+IL_002b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		List_1_t622563310 * L_6 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_enabledRooms_17();
+		GvrAudioRoom_t1253442178 * L_7 = ___room0;
+		NullCheck(L_6);
+		List_1_Remove_m997653976(L_6, L_7, /*hidden argument*/List_1_Remove_m997653976_MethodInfo_var);
+	}
+
+IL_0039:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_8 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_8)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		List_1_t622563310 * L_9 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_enabledRooms_17();
+		NullCheck(L_9);
+		int32_t L_10 = List_1_get_Count_m1747142799(L_9, /*hidden argument*/List_1_get_Count_m1747142799_MethodInfo_var);
+		if ((((int32_t)L_10) <= ((int32_t)0)))
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		List_1_t622563310 * L_11 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_enabledRooms_17();
+		List_1_t622563310 * L_12 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_enabledRooms_17();
+		NullCheck(L_12);
+		int32_t L_13 = List_1_get_Count_m1747142799(L_12, /*hidden argument*/List_1_get_Count_m1747142799_MethodInfo_var);
+		NullCheck(L_11);
+		GvrAudioRoom_t1253442178 * L_14 = List_1_get_Item_m2588615602(L_11, ((int32_t)((int32_t)L_13-(int32_t)1)), /*hidden argument*/List_1_get_Item_m2588615602_MethodInfo_var);
+		V_0 = L_14;
+		GvrAudioRoom_t1253442178 * L_15 = V_0;
+		RoomProperties_t2834448096  L_16 = GvrAudio_GetRoomProperties_m1029902467(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		V_1 = L_16;
+		RoomProperties_t2834448096  L_17 = V_1;
+		RoomProperties_t2834448096  L_18 = L_17;
+		Il2CppObject * L_19 = Box(RoomProperties_t2834448096_il2cpp_TypeInfo_var, &L_18);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_20 = Marshal_SizeOf_m2032740146(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		IntPtr_t L_21 = Marshal_AllocHGlobal_m4258042074(NULL /*static, unused*/, L_20, /*hidden argument*/NULL);
+		V_2 = L_21;
+		RoomProperties_t2834448096  L_22 = V_1;
+		RoomProperties_t2834448096  L_23 = L_22;
+		Il2CppObject * L_24 = Box(RoomProperties_t2834448096_il2cpp_TypeInfo_var, &L_23);
+		IntPtr_t L_25 = V_2;
+		Marshal_StructureToPtr_m3205507777(NULL /*static, unused*/, L_24, L_25, (bool)0, /*hidden argument*/NULL);
+		IntPtr_t L_26 = V_2;
+		GvrAudio_SetRoomProperties_m2331769136(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		IntPtr_t L_27 = V_2;
+		Marshal_FreeHGlobal_m2238467479(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+		goto IL_00af;
+	}
+
+IL_00a3:
+	{
+		IntPtr_t L_28 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_SetRoomProperties_m2331769136(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+	}
+
+IL_00af:
+	{
+	}
+
+IL_00b0:
+	{
+		return;
+	}
+}
+// System.Single GvrAudio::ComputeOcclusion(UnityEngine.Transform)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_ComputeOcclusion_m400996319_MetadataUsageId;
+extern "C"  float GvrAudio_ComputeOcclusion_m400996319 (Il2CppObject * __this /* static, unused */, Transform_t3275118058 * ___sourceTransform0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_ComputeOcclusion_m400996319_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	RaycastHitU5BU5D_t1214023521* V_3 = NULL;
+	RaycastHit_t87180320  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	RaycastHitU5BU5D_t1214023521* V_5 = NULL;
+	int32_t V_6 = 0;
+	float V_7 = 0.0f;
+	{
+		V_0 = (0.0f);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_0)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		Transform_t3275118058 * L_1 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_listenerTransform_19();
+		NullCheck(L_1);
+		Vector3_t2243707580  L_2 = Transform_get_position_m1104419803(L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		Transform_t3275118058 * L_3 = ___sourceTransform0;
+		NullCheck(L_3);
+		Vector3_t2243707580  L_4 = Transform_get_position_m1104419803(L_3, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_5 = V_1;
+		Vector3_t2243707580  L_6 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		V_2 = L_6;
+		Vector3_t2243707580  L_7 = V_1;
+		Vector3_t2243707580  L_8 = V_2;
+		float L_9 = Vector3_get_magnitude_m860342598((&V_2), /*hidden argument*/NULL);
+		int32_t L_10 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_occlusionMaskValue_20();
+		RaycastHitU5BU5D_t1214023521* L_11 = Physics_RaycastAll_m3256436970(NULL /*static, unused*/, L_7, L_8, L_9, L_10, /*hidden argument*/NULL);
+		V_3 = L_11;
+		RaycastHitU5BU5D_t1214023521* L_12 = V_3;
+		V_5 = L_12;
+		V_6 = 0;
+		goto IL_0094;
+	}
+
+IL_004a:
+	{
+		RaycastHitU5BU5D_t1214023521* L_13 = V_5;
+		int32_t L_14 = V_6;
+		NullCheck(L_13);
+		V_4 = (*(RaycastHit_t87180320 *)((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14))));
+		Transform_t3275118058 * L_15 = RaycastHit_get_transform_m3290290036((&V_4), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		Transform_t3275118058 * L_16 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_listenerTransform_19();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_17 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		Transform_t3275118058 * L_18 = RaycastHit_get_transform_m3290290036((&V_4), /*hidden argument*/NULL);
+		Transform_t3275118058 * L_19 = ___sourceTransform0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_20 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		float L_21 = V_0;
+		V_0 = ((float)((float)L_21+(float)(1.0f)));
+	}
+
+IL_008d:
+	{
+		int32_t L_22 = V_6;
+		V_6 = ((int32_t)((int32_t)L_22+(int32_t)1));
+	}
+
+IL_0094:
+	{
+		int32_t L_23 = V_6;
+		RaycastHitU5BU5D_t1214023521* L_24 = V_5;
+		NullCheck(L_24);
+		if ((((int32_t)L_23) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_24)->max_length)))))))
+		{
+			goto IL_004a;
+		}
+	}
+	{
+	}
+
+IL_00a0:
+	{
+		float L_25 = V_0;
+		V_7 = L_25;
+		goto IL_00a8;
+	}
+
+IL_00a8:
+	{
+		float L_26 = V_7;
+		return L_26;
+	}
+}
+// System.Single GvrAudio::ConvertAmplitudeFromDb(System.Single)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_ConvertAmplitudeFromDb_m525493451_MetadataUsageId;
+extern "C"  float GvrAudio_ConvertAmplitudeFromDb_m525493451 (Il2CppObject * __this /* static, unused */, float ___db0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_ConvertAmplitudeFromDb_m525493451_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___db0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_1 = powf((10.0f), ((float)((float)(0.05f)*(float)L_0)));
+		V_0 = L_1;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+// UnityEngine.Vector2[] GvrAudio::Generate2dPolarPattern(System.Single,System.Single,System.Int32)
+extern Il2CppClass* Vector2U5BU5D_t686124026_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_Generate2dPolarPattern_m4010778215_MetadataUsageId;
+extern "C"  Vector2U5BU5D_t686124026* GvrAudio_Generate2dPolarPattern_m4010778215 (Il2CppObject * __this /* static, unused */, float ___alpha0, float ___order1, int32_t ___resolution2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_Generate2dPolarPattern_m4010778215_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2U5BU5D_t686124026* V_0 = NULL;
+	float V_1 = 0.0f;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	Vector2U5BU5D_t686124026* V_5 = NULL;
+	{
+		int32_t L_0 = ___resolution2;
+		V_0 = ((Vector2U5BU5D_t686124026*)SZArrayNew(Vector2U5BU5D_t686124026_il2cpp_TypeInfo_var, (uint32_t)L_0));
+		int32_t L_1 = ___resolution2;
+		V_1 = ((float)((float)(6.28318548f)/(float)(((float)((float)L_1)))));
+		V_2 = 0;
+		goto IL_0063;
+	}
+
+IL_0018:
+	{
+		int32_t L_2 = V_2;
+		float L_3 = V_1;
+		V_3 = ((float)((float)(((float)((float)L_2)))*(float)L_3));
+		float L_4 = ___alpha0;
+		float L_5 = ___alpha0;
+		float L_6 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_7 = cosf(L_6);
+		float L_8 = fabsf(((float)((float)((float)((float)(1.0f)-(float)L_4))+(float)((float)((float)L_5*(float)L_7)))));
+		float L_9 = ___order1;
+		float L_10 = powf(L_8, L_9);
+		V_4 = L_10;
+		Vector2U5BU5D_t686124026* L_11 = V_0;
+		int32_t L_12 = V_2;
+		NullCheck(L_11);
+		float L_13 = V_4;
+		float L_14 = V_3;
+		float L_15 = sinf(L_14);
+		float L_16 = V_4;
+		float L_17 = V_3;
+		float L_18 = cosf(L_17);
+		Vector2_t2243707579  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		Vector2__ctor_m3067419446(&L_19, ((float)((float)L_13*(float)L_15)), ((float)((float)L_16*(float)L_18)), /*hidden argument*/NULL);
+		(*(Vector2_t2243707579 *)((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_12)))) = L_19;
+		int32_t L_20 = V_2;
+		V_2 = ((int32_t)((int32_t)L_20+(int32_t)1));
+	}
+
+IL_0063:
+	{
+		int32_t L_21 = V_2;
+		int32_t L_22 = ___resolution2;
+		if ((((int32_t)L_21) < ((int32_t)L_22)))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		Vector2U5BU5D_t686124026* L_23 = V_0;
+		V_5 = L_23;
+		goto IL_0072;
+	}
+
+IL_0072:
+	{
+		Vector2U5BU5D_t686124026* L_24 = V_5;
+		return L_24;
+	}
+}
+// System.Boolean GvrAudio::IsListenerInsideRoom(GvrAudioRoom)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_IsListenerInsideRoom_m431752851_MetadataUsageId;
+extern "C"  bool GvrAudio_IsListenerInsideRoom_m431752851 (Il2CppObject * __this /* static, unused */, GvrAudioRoom_t1253442178 * ___room0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_IsListenerInsideRoom_m431752851_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Quaternion_t4030073918  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	bool V_3 = false;
+	{
+		V_0 = (bool)0;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_initialized_18();
+		if (!L_0)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		Transform_t3275118058 * L_1 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_listenerTransform_19();
+		NullCheck(L_1);
+		Vector3_t2243707580  L_2 = Transform_get_position_m1104419803(L_1, /*hidden argument*/NULL);
+		GvrAudioRoom_t1253442178 * L_3 = ___room0;
+		NullCheck(L_3);
+		Transform_t3275118058 * L_4 = Component_get_transform_m2697483695(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Vector3_t2243707580  L_5 = Transform_get_position_m1104419803(L_4, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_6 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_2, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		GvrAudioRoom_t1253442178 * L_7 = ___room0;
+		NullCheck(L_7);
+		Transform_t3275118058 * L_8 = Component_get_transform_m2697483695(L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Quaternion_t4030073918  L_9 = Transform_get_rotation_m1033555130(L_8, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_10 = Quaternion_Inverse_m3931399088(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
+		GvrAudioRoom_t1253442178 * L_11 = ___room0;
+		NullCheck(L_11);
+		Transform_t3275118058 * L_12 = Component_get_transform_m2697483695(L_11, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Vector3_t2243707580  L_13 = Transform_get_lossyScale_m1638545862(L_12, /*hidden argument*/NULL);
+		GvrAudioRoom_t1253442178 * L_14 = ___room0;
+		NullCheck(L_14);
+		Vector3_t2243707580  L_15 = L_14->get_size_12();
+		Vector3_t2243707580  L_16 = Vector3_Scale_m1087116865(NULL /*static, unused*/, L_13, L_15, /*hidden argument*/NULL);
+		Bounds_set_size_m3943815629((((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_address_of_bounds_16()), L_16, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_17 = V_2;
+		Vector3_t2243707580  L_18 = V_1;
+		Vector3_t2243707580  L_19 = Quaternion_op_Multiply_m1483423721(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		bool L_20 = Bounds_Contains_m485855890((((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_address_of_bounds_16()), L_19, /*hidden argument*/NULL);
+		V_0 = L_20;
+	}
+
+IL_006d:
+	{
+		bool L_21 = V_0;
+		V_3 = L_21;
+		goto IL_0074;
+	}
+
+IL_0074:
+	{
+		bool L_22 = V_3;
+		return L_22;
+	}
+}
+// System.Void GvrAudio::ConvertAudioTransformFromUnity(UnityEngine.Vector3&,UnityEngine.Quaternion&)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_ConvertAudioTransformFromUnity_m3914902326_MetadataUsageId;
+extern "C"  void GvrAudio_ConvertAudioTransformFromUnity_m3914902326 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580 * ___position0, Quaternion_t4030073918 * ___rotation1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_ConvertAudioTransformFromUnity_m3914902326_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		MutablePose3D_t1015643808 * L_0 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_pose_21();
+		Vector3_t2243707580 * L_1 = ___position0;
+		Quaternion_t4030073918 * L_2 = ___rotation1;
+		Vector3_t2243707580  L_3 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_4 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, (*(Vector3_t2243707580 *)L_1), (*(Quaternion_t4030073918 *)L_2), L_3, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		MutablePose3D_SetRightHanded_m3138031279(L_0, L_4, /*hidden argument*/NULL);
+		Vector3_t2243707580 * L_5 = ___position0;
+		MutablePose3D_t1015643808 * L_6 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_pose_21();
+		NullCheck(L_6);
+		Vector3_t2243707580  L_7 = Pose3D_get_Position_m1770539115(L_6, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_5) = L_7;
+		Quaternion_t4030073918 * L_8 = ___rotation1;
+		MutablePose3D_t1015643808 * L_9 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_pose_21();
+		NullCheck(L_9);
+		Quaternion_t4030073918  L_10 = Pose3D_get_Orientation_m3125329874(L_9, /*hidden argument*/NULL);
+		(*(Quaternion_t4030073918 *)L_8) = L_10;
+		return;
+	}
+}
+// GvrAudio/RoomProperties GvrAudio::GetRoomProperties(GvrAudioRoom)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudio_GetRoomProperties_m1029902467_MetadataUsageId;
+extern "C"  RoomProperties_t2834448096  GvrAudio_GetRoomProperties_m1029902467 (Il2CppObject * __this /* static, unused */, GvrAudioRoom_t1253442178 * ___room0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio_GetRoomProperties_m1029902467_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RoomProperties_t2834448096  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Quaternion_t4030073918  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	RoomProperties_t2834448096  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	{
+		GvrAudioRoom_t1253442178 * L_0 = ___room0;
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = Component_get_transform_m2697483695(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Vector3_t2243707580  L_2 = Transform_get_position_m1104419803(L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		GvrAudioRoom_t1253442178 * L_3 = ___room0;
+		NullCheck(L_3);
+		Transform_t3275118058 * L_4 = Component_get_transform_m2697483695(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Quaternion_t4030073918  L_5 = Transform_get_rotation_m1033555130(L_4, /*hidden argument*/NULL);
+		V_2 = L_5;
+		GvrAudioRoom_t1253442178 * L_6 = ___room0;
+		NullCheck(L_6);
+		Transform_t3275118058 * L_7 = Component_get_transform_m2697483695(L_6, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Vector3_t2243707580  L_8 = Transform_get_lossyScale_m1638545862(L_7, /*hidden argument*/NULL);
+		GvrAudioRoom_t1253442178 * L_9 = ___room0;
+		NullCheck(L_9);
+		Vector3_t2243707580  L_10 = L_9->get_size_12();
+		Vector3_t2243707580  L_11 = Vector3_Scale_m1087116865(NULL /*static, unused*/, L_8, L_10, /*hidden argument*/NULL);
+		V_3 = L_11;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_ConvertAudioTransformFromUnity_m3914902326(NULL /*static, unused*/, (&V_1), (&V_2), /*hidden argument*/NULL);
+		float L_12 = (&V_1)->get_x_1();
+		(&V_0)->set_positionX_0(L_12);
+		float L_13 = (&V_1)->get_y_2();
+		(&V_0)->set_positionY_1(L_13);
+		float L_14 = (&V_1)->get_z_3();
+		(&V_0)->set_positionZ_2(L_14);
+		float L_15 = (&V_2)->get_x_0();
+		(&V_0)->set_rotationX_3(L_15);
+		float L_16 = (&V_2)->get_y_1();
+		(&V_0)->set_rotationY_4(L_16);
+		float L_17 = (&V_2)->get_z_2();
+		(&V_0)->set_rotationZ_5(L_17);
+		float L_18 = (&V_2)->get_w_3();
+		(&V_0)->set_rotationW_6(L_18);
+		float L_19 = (&V_3)->get_x_1();
+		(&V_0)->set_dimensionsX_7(L_19);
+		float L_20 = (&V_3)->get_y_2();
+		(&V_0)->set_dimensionsY_8(L_20);
+		float L_21 = (&V_3)->get_z_3();
+		(&V_0)->set_dimensionsZ_9(L_21);
+		GvrAudioRoom_t1253442178 * L_22 = ___room0;
+		NullCheck(L_22);
+		int32_t L_23 = L_22->get_leftWall_2();
+		(&V_0)->set_materialLeft_10(L_23);
+		GvrAudioRoom_t1253442178 * L_24 = ___room0;
+		NullCheck(L_24);
+		int32_t L_25 = L_24->get_rightWall_3();
+		(&V_0)->set_materialRight_11(L_25);
+		GvrAudioRoom_t1253442178 * L_26 = ___room0;
+		NullCheck(L_26);
+		int32_t L_27 = L_26->get_floor_4();
+		(&V_0)->set_materialBottom_12(L_27);
+		GvrAudioRoom_t1253442178 * L_28 = ___room0;
+		NullCheck(L_28);
+		int32_t L_29 = L_28->get_ceiling_5();
+		(&V_0)->set_materialTop_13(L_29);
+		GvrAudioRoom_t1253442178 * L_30 = ___room0;
+		NullCheck(L_30);
+		int32_t L_31 = L_30->get_frontWall_7();
+		(&V_0)->set_materialFront_14(L_31);
+		GvrAudioRoom_t1253442178 * L_32 = ___room0;
+		NullCheck(L_32);
+		int32_t L_33 = L_32->get_backWall_6();
+		(&V_0)->set_materialBack_15(L_33);
+		GvrAudioRoom_t1253442178 * L_34 = ___room0;
+		NullCheck(L_34);
+		float L_35 = L_34->get_reverbGainDb_9();
+		float L_36 = GvrAudio_ConvertAmplitudeFromDb_m525493451(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
+		(&V_0)->set_reverbGain_17(L_36);
+		GvrAudioRoom_t1253442178 * L_37 = ___room0;
+		NullCheck(L_37);
+		float L_38 = L_37->get_reverbTime_11();
+		(&V_0)->set_reverbTime_18(L_38);
+		GvrAudioRoom_t1253442178 * L_39 = ___room0;
+		NullCheck(L_39);
+		float L_40 = L_39->get_reverbBrightness_10();
+		(&V_0)->set_reverbBrightness_19(L_40);
+		GvrAudioRoom_t1253442178 * L_41 = ___room0;
+		NullCheck(L_41);
+		float L_42 = L_41->get_reflectivity_8();
+		(&V_0)->set_reflectionScalar_16(L_42);
+		RoomProperties_t2834448096  L_43 = V_0;
+		V_4 = L_43;
+		goto IL_0154;
+	}
+
+IL_0154:
+	{
+		RoomProperties_t2834448096  L_44 = V_4;
+		return L_44;
+	}
+}
+extern "C" void DEFAULT_CALL SetListenerGain(float);
+// System.Void GvrAudio::SetListenerGain(System.Single)
+extern "C"  void GvrAudio_SetListenerGain_m1924947456 (Il2CppObject * __this /* static, unused */, float ___gain0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetListenerGain)(___gain0);
+
+}
+extern "C" int32_t DEFAULT_CALL CreateSoundfield(int32_t);
+// System.Int32 GvrAudio::CreateSoundfield(System.Int32)
+extern "C"  int32_t GvrAudio_CreateSoundfield_m278242392 (Il2CppObject * __this /* static, unused */, int32_t ___numChannels0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CreateSoundfield)(___numChannels0);
+
+	return returnValue;
+}
+extern "C" int32_t DEFAULT_CALL CreateSoundObject(int32_t);
+// System.Int32 GvrAudio::CreateSoundObject(System.Boolean)
+extern "C"  int32_t GvrAudio_CreateSoundObject_m1329629085 (Il2CppObject * __this /* static, unused */, bool ___enableHrtf0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CreateSoundObject)(static_cast<int32_t>(___enableHrtf0));
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL DestroySource(int32_t);
+// System.Void GvrAudio::DestroySource(System.Int32)
+extern "C"  void GvrAudio_DestroySource_m2875741446 (Il2CppObject * __this /* static, unused */, int32_t ___sourceId0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(DestroySource)(___sourceId0);
+
+}
+extern "C" void DEFAULT_CALL SetSourceBypassRoomEffects(int32_t, int32_t);
+// System.Void GvrAudio::SetSourceBypassRoomEffects(System.Int32,System.Boolean)
+extern "C"  void GvrAudio_SetSourceBypassRoomEffects_m1691460578 (Il2CppObject * __this /* static, unused */, int32_t ___sourceId0, bool ___bypassRoomEffects1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetSourceBypassRoomEffects)(___sourceId0, static_cast<int32_t>(___bypassRoomEffects1));
+
+}
+extern "C" void DEFAULT_CALL SetSourceDirectivity(int32_t, float, float);
+// System.Void GvrAudio::SetSourceDirectivity(System.Int32,System.Single,System.Single)
+extern "C"  void GvrAudio_SetSourceDirectivity_m2025518334 (Il2CppObject * __this /* static, unused */, int32_t ___sourceId0, float ___alpha1, float ___order2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, float, float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetSourceDirectivity)(___sourceId0, ___alpha1, ___order2);
+
+}
+extern "C" void DEFAULT_CALL SetSourceListenerDirectivity(int32_t, float, float);
+// System.Void GvrAudio::SetSourceListenerDirectivity(System.Int32,System.Single,System.Single)
+extern "C"  void GvrAudio_SetSourceListenerDirectivity_m1770884030 (Il2CppObject * __this /* static, unused */, int32_t ___sourceId0, float ___alpha1, float ___order2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, float, float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetSourceListenerDirectivity)(___sourceId0, ___alpha1, ___order2);
+
+}
+extern "C" void DEFAULT_CALL SetSourceOcclusionIntensity(int32_t, float);
+// System.Void GvrAudio::SetSourceOcclusionIntensity(System.Int32,System.Single)
+extern "C"  void GvrAudio_SetSourceOcclusionIntensity_m2889416367 (Il2CppObject * __this /* static, unused */, int32_t ___sourceId0, float ___intensity1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetSourceOcclusionIntensity)(___sourceId0, ___intensity1);
+
+}
+extern "C" void DEFAULT_CALL SetRoomProperties(intptr_t);
+// System.Void GvrAudio::SetRoomProperties(System.IntPtr)
+extern "C"  void GvrAudio_SetRoomProperties_m2331769136 (Il2CppObject * __this /* static, unused */, IntPtr_t ___roomProperties0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(SetRoomProperties)(reinterpret_cast<intptr_t>((___roomProperties0).get_m_value_0()));
+
+}
+extern "C" void DEFAULT_CALL Initialize(int32_t, int32_t, int32_t, int32_t);
+// System.Void GvrAudio::Initialize(System.Int32,System.Int32,System.Int32,System.Int32)
+extern "C"  void GvrAudio_Initialize_m2441973946 (Il2CppObject * __this /* static, unused */, int32_t ___quality0, int32_t ___sampleRate1, int32_t ___numChannels2, int32_t ___framesPerBuffer3, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t, int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(Initialize)(___quality0, ___sampleRate1, ___numChannels2, ___framesPerBuffer3);
+
+}
+extern "C" void DEFAULT_CALL Shutdown();
+// System.Void GvrAudio::Shutdown()
+extern "C"  void GvrAudio_Shutdown_m3814448932 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(Shutdown)();
+
+}
+// System.Void GvrAudio::.cctor()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t622563310_il2cpp_TypeInfo_var;
+extern Il2CppClass* MutablePose3D_t1015643808_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m4264488695_MethodInfo_var;
+extern const uint32_t GvrAudio__cctor_m1808371205_MetadataUsageId;
+extern "C"  void GvrAudio__cctor_m1808371205 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudio__cctor_m1808371205_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_sampleRate_0((-1));
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_numChannels_1((-1));
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_framesPerBuffer_2((-1));
+		Color_t2020392075  L_0 = Color_get_magenta_m3193089961(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color_t2020392075  L_1 = Color_op_Multiply_m4176613710(NULL /*static, unused*/, (0.65f), L_0, /*hidden argument*/NULL);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_listenerDirectivityColor_3(L_1);
+		Color_t2020392075  L_2 = Color_get_blue_m4180825090(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color_t2020392075  L_3 = Color_op_Multiply_m4176613710(NULL /*static, unused*/, (0.65f), L_2, /*hidden argument*/NULL);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_sourceDirectivityColor_4(L_3);
+		Vector3_t2243707580  L_4 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_5 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Bounds_t3033363703  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		Bounds__ctor_m1202659404(&L_6, L_4, L_5, /*hidden argument*/NULL);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_bounds_16(L_6);
+		List_1_t622563310 * L_7 = (List_1_t622563310 *)il2cpp_codegen_object_new(List_1_t622563310_il2cpp_TypeInfo_var);
+		List_1__ctor_m4264488695(L_7, /*hidden argument*/List_1__ctor_m4264488695_MethodInfo_var);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_enabledRooms_17(L_7);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_initialized_18((bool)0);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_listenerTransform_19((Transform_t3275118058 *)NULL);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_occlusionMaskValue_20((-1));
+		MutablePose3D_t1015643808 * L_8 = (MutablePose3D_t1015643808 *)il2cpp_codegen_object_new(MutablePose3D_t1015643808_il2cpp_TypeInfo_var);
+		MutablePose3D__ctor_m2869278687(L_8, /*hidden argument*/NULL);
+		((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->set_pose_21(L_8);
+		return;
+	}
+}
+// System.Void GvrAudioListener::.ctor()
+extern "C"  void GvrAudioListener__ctor_m2678059692 (GvrAudioListener_t1521766837 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_globalGainDb_2((0.0f));
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
+		__this->set_occlusionMask_3(L_0);
+		__this->set_quality_4(2);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioListener::Awake()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioListener_Awake_m266798577_MetadataUsageId;
+extern "C"  void GvrAudioListener_Awake_m266798577 (GvrAudioListener_t1521766837 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioListener_Awake_m266798577_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->get_quality_4();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_Initialize_m2739768702(NULL /*static, unused*/, __this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioListener::OnEnable()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioListener_OnEnable_m40475892_MetadataUsageId;
+extern "C"  void GvrAudioListener_OnEnable_m40475892 (GvrAudioListener_t1521766837 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioListener_OnEnable_m40475892_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->get_globalGainDb_2();
+		LayerMask_t3188175821  L_1 = __this->get_occlusionMask_3();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_UpdateAudioListener_m3370947442(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioListener::OnDestroy()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioListener_OnDestroy_m3389696323_MetadataUsageId;
+extern "C"  void GvrAudioListener_OnDestroy_m3389696323 (GvrAudioListener_t1521766837 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioListener_OnDestroy_m3389696323_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_Shutdown_m2838331605(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioListener::Update()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioListener_Update_m2037834365_MetadataUsageId;
+extern "C"  void GvrAudioListener_Update_m2037834365 (GvrAudioListener_t1521766837 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioListener_Update_m2037834365_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->get_globalGainDb_2();
+		LayerMask_t3188175821  L_1 = __this->get_occlusionMask_3();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_UpdateAudioListener_m3370947442(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioRoom::.ctor()
+extern "C"  void GvrAudioRoom__ctor_m1306426045 (GvrAudioRoom_t1253442178 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_leftWall_2(4);
+		__this->set_rightWall_3(4);
+		__this->set_floor_4(((int32_t)14));
+		__this->set_ceiling_5(((int32_t)15));
+		__this->set_backWall_6(4);
+		__this->set_frontWall_7(4);
+		__this->set_reflectivity_8((1.0f));
+		__this->set_reverbGainDb_9((0.0f));
+		__this->set_reverbBrightness_10((0.0f));
+		__this->set_reverbTime_11((1.0f));
+		Vector3_t2243707580  L_0 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_size_12(L_0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioRoom::OnEnable()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioRoom_OnEnable_m2514172269_MetadataUsageId;
+extern "C"  void GvrAudioRoom_OnEnable_m2514172269 (GvrAudioRoom_t1253442178 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioRoom_OnEnable_m2514172269_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = GvrAudio_IsListenerInsideRoom_m431752851(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		GvrAudio_UpdateAudioRoom_m3179955199(NULL /*static, unused*/, __this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioRoom::OnDisable()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioRoom_OnDisable_m3702867154_MetadataUsageId;
+extern "C"  void GvrAudioRoom_OnDisable_m3702867154 (GvrAudioRoom_t1253442178 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioRoom_OnDisable_m3702867154_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_UpdateAudioRoom_m3179955199(NULL /*static, unused*/, __this, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioRoom::Update()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioRoom_Update_m2293437988_MetadataUsageId;
+extern "C"  void GvrAudioRoom_Update_m2293437988 (GvrAudioRoom_t1253442178 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioRoom_Update_m2293437988_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		bool L_0 = GvrAudio_IsListenerInsideRoom_m431752851(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		GvrAudio_UpdateAudioRoom_m3179955199(NULL /*static, unused*/, __this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioRoom::OnDrawGizmosSelected()
+extern "C"  void GvrAudioRoom_OnDrawGizmosSelected_m3667597680 (GvrAudioRoom_t1253442178 * __this, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = Color_get_yellow_m3741935494(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Gizmos_set_color_m494992840(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_1 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Matrix4x4_t2933234003  L_2 = Transform_get_localToWorldMatrix_m2868579006(L_1, /*hidden argument*/NULL);
+		Gizmos_set_matrix_m1590313986(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_3 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_4 = __this->get_size_12();
+		Gizmos_DrawWireCube_m2061545338(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::.ctor()
+extern "C"  void GvrAudioSoundfield__ctor_m3594803927 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_bypassRoomEffects_2((bool)1);
+		__this->set_gainDb_3((0.0f));
+		__this->set_playOnAwake_4((bool)1);
+		__this->set_soundfieldClip0102_5((AudioClip_t1932558630 *)NULL);
+		__this->set_soundfieldClip0304_6((AudioClip_t1932558630 *)NULL);
+		__this->set_soundfieldLoop_7((bool)0);
+		__this->set_soundfieldMute_8((bool)0);
+		__this->set_soundfieldPitch_9((1.0f));
+		__this->set_soundfieldPriority_10(((int32_t)32));
+		__this->set_soundfieldVolume_11((1.0f));
+		__this->set_id_12((-1));
+		__this->set_audioSources_13((AudioSourceU5BU5D_t1873220070*)NULL);
+		__this->set_isPaused_14((bool)0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.AudioClip GvrAudioSoundfield::get_clip0102()
+extern "C"  AudioClip_t1932558630 * GvrAudioSoundfield_get_clip0102_m3095882123 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	AudioClip_t1932558630 * V_0 = NULL;
+	{
+		AudioClip_t1932558630 * L_0 = __this->get_soundfieldClip0102_5();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		AudioClip_t1932558630 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSoundfield::set_clip0102(UnityEngine.AudioClip)
+extern "C"  void GvrAudioSoundfield_set_clip0102_m324418954 (GvrAudioSoundfield_t1301118448 * __this, AudioClip_t1932558630 * ___value0, const MethodInfo* method)
+{
+	{
+		AudioClip_t1932558630 * L_0 = ___value0;
+		__this->set_soundfieldClip0102_5(L_0);
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		if (!L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		NullCheck(L_2);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_2)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_3 = __this->get_audioSources_13();
+		NullCheck(L_3);
+		int32_t L_4 = 0;
+		AudioSource_t1135106623 * L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		AudioClip_t1932558630 * L_6 = __this->get_soundfieldClip0102_5();
+		NullCheck(L_5);
+		AudioSource_set_clip_m738814682(L_5, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0036:
+	{
+		return;
+	}
+}
+// UnityEngine.AudioClip GvrAudioSoundfield::get_clip0304()
+extern "C"  AudioClip_t1932558630 * GvrAudioSoundfield_get_clip0304_m2975697591 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	AudioClip_t1932558630 * V_0 = NULL;
+	{
+		AudioClip_t1932558630 * L_0 = __this->get_soundfieldClip0304_6();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		AudioClip_t1932558630 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSoundfield::set_clip0304(UnityEngine.AudioClip)
+extern "C"  void GvrAudioSoundfield_set_clip0304_m3890960182 (GvrAudioSoundfield_t1301118448 * __this, AudioClip_t1932558630 * ___value0, const MethodInfo* method)
+{
+	{
+		AudioClip_t1932558630 * L_0 = ___value0;
+		__this->set_soundfieldClip0304_6(L_0);
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		if (!L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		NullCheck(L_2);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_2)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_3 = __this->get_audioSources_13();
+		NullCheck(L_3);
+		int32_t L_4 = 1;
+		AudioSource_t1135106623 * L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		AudioClip_t1932558630 * L_6 = __this->get_soundfieldClip0304_6();
+		NullCheck(L_5);
+		AudioSource_set_clip_m738814682(L_5, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0036:
+	{
+		return;
+	}
+}
+// System.Boolean GvrAudioSoundfield::get_isPlaying()
+extern "C"  bool GvrAudioSoundfield_get_isPlaying_m2063179004 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		if (!L_0)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		NullCheck(L_1);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		NullCheck(L_2);
+		int32_t L_3 = 0;
+		AudioSource_t1135106623 * L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		bool L_5 = AudioSource_get_isPlaying_m3677592677(L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		goto IL_0035;
+	}
+
+IL_002e:
+	{
+		V_0 = (bool)0;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		bool L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Boolean GvrAudioSoundfield::get_loop()
+extern "C"  bool GvrAudioSoundfield_get_loop_m4259508786 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		bool L_0 = __this->get_soundfieldLoop_7();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSoundfield::set_loop(System.Boolean)
+extern "C"  void GvrAudioSoundfield_set_loop_m2933465149 (GvrAudioSoundfield_t1301118448 * __this, bool ___value0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		bool L_0 = ___value0;
+		__this->set_soundfieldLoop_7(L_0);
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		if (!L_1)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0034;
+	}
+
+IL_001b:
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		AudioSource_t1135106623 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		bool L_6 = __this->get_soundfieldLoop_7();
+		NullCheck(L_5);
+		AudioSource_set_loop_m313035616(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0034:
+	{
+		int32_t L_8 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_9 = __this->get_audioSources_13();
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+	}
+
+IL_0043:
+	{
+		return;
+	}
+}
+// System.Boolean GvrAudioSoundfield::get_mute()
+extern "C"  bool GvrAudioSoundfield_get_mute_m4283524391 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		bool L_0 = __this->get_soundfieldMute_8();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSoundfield::set_mute(System.Boolean)
+extern "C"  void GvrAudioSoundfield_set_mute_m3676534418 (GvrAudioSoundfield_t1301118448 * __this, bool ___value0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		bool L_0 = ___value0;
+		__this->set_soundfieldMute_8(L_0);
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		if (!L_1)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0034;
+	}
+
+IL_001b:
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		AudioSource_t1135106623 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		bool L_6 = __this->get_soundfieldMute_8();
+		NullCheck(L_5);
+		AudioSource_set_mute_m3645750033(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0034:
+	{
+		int32_t L_8 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_9 = __this->get_audioSources_13();
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+	}
+
+IL_0043:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSoundfield::get_pitch()
+extern "C"  float GvrAudioSoundfield_get_pitch_m3225609132 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_soundfieldPitch_9();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSoundfield::set_pitch(System.Single)
+extern "C"  void GvrAudioSoundfield_set_pitch_m1328065293 (GvrAudioSoundfield_t1301118448 * __this, float ___value0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___value0;
+		__this->set_soundfieldPitch_9(L_0);
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		if (!L_1)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0034;
+	}
+
+IL_001b:
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		AudioSource_t1135106623 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		float L_6 = __this->get_soundfieldPitch_9();
+		NullCheck(L_5);
+		AudioSource_set_pitch_m3064416458(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0034:
+	{
+		int32_t L_8 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_9 = __this->get_audioSources_13();
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+	}
+
+IL_0043:
+	{
+		return;
+	}
+}
+// System.Int32 GvrAudioSoundfield::get_priority()
+extern "C"  int32_t GvrAudioSoundfield_get_priority_m1752823384 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_soundfieldPriority_10();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSoundfield::set_priority(System.Int32)
+extern "C"  void GvrAudioSoundfield_set_priority_m3260742081 (GvrAudioSoundfield_t1301118448 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___value0;
+		__this->set_soundfieldPriority_10(L_0);
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		if (!L_1)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0034;
+	}
+
+IL_001b:
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		AudioSource_t1135106623 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		int32_t L_6 = __this->get_soundfieldPriority_10();
+		NullCheck(L_5);
+		AudioSource_set_priority_m608149462(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0034:
+	{
+		int32_t L_8 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_9 = __this->get_audioSources_13();
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+	}
+
+IL_0043:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSoundfield::get_time()
+extern "C"  float GvrAudioSoundfield_get_time_m3108047857 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		if (!L_0)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		NullCheck(L_1);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		NullCheck(L_2);
+		int32_t L_3 = 0;
+		AudioSource_t1135106623 * L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		float L_5 = AudioSource_get_time_m1465582328(L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		goto IL_0039;
+	}
+
+IL_002e:
+	{
+		V_0 = (0.0f);
+		goto IL_0039;
+	}
+
+IL_0039:
+	{
+		float L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void GvrAudioSoundfield::set_time(System.Single)
+extern "C"  void GvrAudioSoundfield_set_time_m2360704772 (GvrAudioSoundfield_t1301118448 * __this, float ___value0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		if (!L_0)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0028;
+	}
+
+IL_0014:
+	{
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		AudioSource_t1135106623 * L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		float L_5 = ___value0;
+		NullCheck(L_4);
+		AudioSource_set_time_m2642008583(L_4, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_0028:
+	{
+		int32_t L_7 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_8 = __this->get_audioSources_13();
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length)))))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+	}
+
+IL_0037:
+	{
+		return;
+	}
+}
+// System.Int32 GvrAudioSoundfield::get_timeSamples()
+extern "C"  int32_t GvrAudioSoundfield_get_timeSamples_m1332110422 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		if (!L_0)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		NullCheck(L_1);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length))))) <= ((int32_t)0)))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		NullCheck(L_2);
+		int32_t L_3 = 0;
+		AudioSource_t1135106623 * L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		int32_t L_5 = AudioSource_get_timeSamples_m1719074425(L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		goto IL_0035;
+	}
+
+IL_002e:
+	{
+		V_0 = 0;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		int32_t L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void GvrAudioSoundfield::set_timeSamples(System.Int32)
+extern "C"  void GvrAudioSoundfield_set_timeSamples_m2120523123 (GvrAudioSoundfield_t1301118448 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		if (!L_0)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0028;
+	}
+
+IL_0014:
+	{
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		AudioSource_t1135106623 * L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		int32_t L_5 = ___value0;
+		NullCheck(L_4);
+		AudioSource_set_timeSamples_m1321768050(L_4, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_0028:
+	{
+		int32_t L_7 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_8 = __this->get_audioSources_13();
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length)))))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+	}
+
+IL_0037:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSoundfield::get_volume()
+extern "C"  float GvrAudioSoundfield_get_volume_m567417374 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_soundfieldVolume_11();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSoundfield::set_volume(System.Single)
+extern "C"  void GvrAudioSoundfield_set_volume_m317435059 (GvrAudioSoundfield_t1301118448 * __this, float ___value0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___value0;
+		__this->set_soundfieldVolume_11(L_0);
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		if (!L_1)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0034;
+	}
+
+IL_001b:
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		AudioSource_t1135106623 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		float L_6 = __this->get_soundfieldVolume_11();
+		NullCheck(L_5);
+		AudioSource_set_volume_m2777308722(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0034:
+	{
+		int32_t L_8 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_9 = __this->get_audioSources_13();
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+	}
+
+IL_0043:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::Awake()
+extern Il2CppClass* AudioMixer_t3244290001_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* AudioSourceU5BU5D_t1873220070_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3248387252;
+extern Il2CppCodeGenString* _stringLiteral1451690761;
+extern Il2CppCodeGenString* _stringLiteral320790385;
+extern Il2CppCodeGenString* _stringLiteral4058986920;
+extern const uint32_t GvrAudioSoundfield_Awake_m2965117100_MetadataUsageId;
+extern "C"  void GvrAudioSoundfield_Awake_m2965117100 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSoundfield_Awake_m2965117100_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioMixer_t3244290001 * V_0 = NULL;
+	int32_t V_1 = 0;
+	GameObject_t1756533147 * V_2 = NULL;
+	{
+		Object_t1021602117 * L_0 = Resources_Load_m2041782325(NULL /*static, unused*/, _stringLiteral3248387252, /*hidden argument*/NULL);
+		V_0 = ((AudioMixer_t3244290001 *)IsInstClass(L_0, AudioMixer_t3244290001_il2cpp_TypeInfo_var));
+		AudioMixer_t3244290001 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral1451690761, /*hidden argument*/NULL);
+		goto IL_0132;
+	}
+
+IL_002d:
+	{
+		__this->set_audioSources_13(((AudioSourceU5BU5D_t1873220070*)SZArrayNew(AudioSourceU5BU5D_t1873220070_il2cpp_TypeInfo_var, (uint32_t)2)));
+		V_1 = 0;
+		goto IL_011e;
+	}
+
+IL_0040:
+	{
+		int32_t L_3 = V_1;
+		int32_t L_4 = L_3;
+		Il2CppObject * L_5 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = String_Concat_m56707527(NULL /*static, unused*/, _stringLiteral320790385, L_5, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_7 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_7, L_6, /*hidden argument*/NULL);
+		V_2 = L_7;
+		GameObject_t1756533147 * L_8 = V_2;
+		NullCheck(L_8);
+		Transform_t3275118058 * L_9 = GameObject_get_transform_m909382139(L_8, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_10 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Transform_t3275118058 * L_11 = GameObject_get_transform_m909382139(L_10, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_set_parent_m3281327839(L_9, L_11, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_12 = V_2;
+		NullCheck(L_12);
+		Transform_t3275118058 * L_13 = GameObject_get_transform_m909382139(L_12, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Transform_set_localPosition_m1026930133(L_13, L_14, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_15 = V_2;
+		NullCheck(L_15);
+		Transform_t3275118058 * L_16 = GameObject_get_transform_m909382139(L_15, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_17 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Transform_set_localRotation_m2055111962(L_16, L_17, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_18 = V_2;
+		NullCheck(L_18);
+		Object_set_hideFlags_m2204253440(L_18, ((int32_t)61), /*hidden argument*/NULL);
+		AudioSourceU5BU5D_t1873220070* L_19 = __this->get_audioSources_13();
+		int32_t L_20 = V_1;
+		GameObject_t1756533147 * L_21 = V_2;
+		NullCheck(L_21);
+		AudioSource_t1135106623 * L_22 = GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270(L_21, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270_MethodInfo_var);
+		NullCheck(L_19);
+		ArrayElementTypeCheck (L_19, L_22);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(L_20), (AudioSource_t1135106623 *)L_22);
+		AudioSourceU5BU5D_t1873220070* L_23 = __this->get_audioSources_13();
+		int32_t L_24 = V_1;
+		NullCheck(L_23);
+		int32_t L_25 = L_24;
+		AudioSource_t1135106623 * L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		NullCheck(L_26);
+		Behaviour_set_enabled_m1796096907(L_26, (bool)0, /*hidden argument*/NULL);
+		AudioSourceU5BU5D_t1873220070* L_27 = __this->get_audioSources_13();
+		int32_t L_28 = V_1;
+		NullCheck(L_27);
+		int32_t L_29 = L_28;
+		AudioSource_t1135106623 * L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NullCheck(L_30);
+		AudioSource_set_playOnAwake_m858475204(L_30, (bool)0, /*hidden argument*/NULL);
+		AudioSourceU5BU5D_t1873220070* L_31 = __this->get_audioSources_13();
+		int32_t L_32 = V_1;
+		NullCheck(L_31);
+		int32_t L_33 = L_32;
+		AudioSource_t1135106623 * L_34 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
+		NullCheck(L_34);
+		AudioSource_set_bypassReverbZones_m1621259587(L_34, (bool)1, /*hidden argument*/NULL);
+		AudioSourceU5BU5D_t1873220070* L_35 = __this->get_audioSources_13();
+		int32_t L_36 = V_1;
+		NullCheck(L_35);
+		int32_t L_37 = L_36;
+		AudioSource_t1135106623 * L_38 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		NullCheck(L_38);
+		AudioSource_set_dopplerLevel_m107848870(L_38, (0.0f), /*hidden argument*/NULL);
+		AudioSourceU5BU5D_t1873220070* L_39 = __this->get_audioSources_13();
+		int32_t L_40 = V_1;
+		NullCheck(L_39);
+		int32_t L_41 = L_40;
+		AudioSource_t1135106623 * L_42 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_41));
+		NullCheck(L_42);
+		AudioSource_set_spatialBlend_m387590113(L_42, (0.0f), /*hidden argument*/NULL);
+		AudioSourceU5BU5D_t1873220070* L_43 = __this->get_audioSources_13();
+		int32_t L_44 = V_1;
+		NullCheck(L_43);
+		int32_t L_45 = L_44;
+		AudioSource_t1135106623 * L_46 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		NullCheck(L_46);
+		AudioSource_set_spatializePostEffects_m20284068(L_46, (bool)1, /*hidden argument*/NULL);
+		AudioSourceU5BU5D_t1873220070* L_47 = __this->get_audioSources_13();
+		int32_t L_48 = V_1;
+		NullCheck(L_47);
+		int32_t L_49 = L_48;
+		AudioSource_t1135106623 * L_50 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
+		AudioMixer_t3244290001 * L_51 = V_0;
+		NullCheck(L_51);
+		AudioMixerGroupU5BU5D_t1763409949* L_52 = AudioMixer_FindMatchingGroups_m2958147472(L_51, _stringLiteral4058986920, /*hidden argument*/NULL);
+		NullCheck(L_52);
+		int32_t L_53 = 0;
+		AudioMixerGroup_t959546644 * L_54 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		NullCheck(L_50);
+		AudioSource_set_outputAudioMixerGroup_m2944940779(L_50, L_54, /*hidden argument*/NULL);
+		int32_t L_55 = V_1;
+		V_1 = ((int32_t)((int32_t)L_55+(int32_t)1));
+	}
+
+IL_011e:
+	{
+		int32_t L_56 = V_1;
+		AudioSourceU5BU5D_t1873220070* L_57 = __this->get_audioSources_13();
+		NullCheck(L_57);
+		if ((((int32_t)L_56) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_57)->max_length)))))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		GvrAudioSoundfield_OnValidate_m402992064(__this, /*hidden argument*/NULL);
+	}
+
+IL_0132:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::OnEnable()
+extern "C"  void GvrAudioSoundfield_OnEnable_m1161240347 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_001c;
+	}
+
+IL_0008:
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		AudioSource_t1135106623 * L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		Behaviour_set_enabled_m1796096907(L_3, (bool)1, /*hidden argument*/NULL);
+		int32_t L_4 = V_0;
+		V_0 = ((int32_t)((int32_t)L_4+(int32_t)1));
+	}
+
+IL_001c:
+	{
+		int32_t L_5 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_6 = __this->get_audioSources_13();
+		NullCheck(L_6);
+		if ((((int32_t)L_5) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length)))))))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		bool L_7 = __this->get_playOnAwake_4();
+		if (!L_7)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		bool L_8 = GvrAudioSoundfield_get_isPlaying_m2063179004(__this, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		bool L_9 = GvrAudioSoundfield_InitializeSoundfield_m2000343270(__this, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		GvrAudioSoundfield_Play_m4004363143(__this, /*hidden argument*/NULL);
+	}
+
+IL_0053:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::Start()
+extern "C"  void GvrAudioSoundfield_Start_m988594587 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_playOnAwake_4();
+		if (!L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		bool L_1 = GvrAudioSoundfield_get_isPlaying_m2063179004(__this, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		GvrAudioSoundfield_Play_m4004363143(__this, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::OnDisable()
+extern "C"  void GvrAudioSoundfield_OnDisable_m133002600 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		GvrAudioSoundfield_Stop_m788222535(__this, /*hidden argument*/NULL);
+		V_0 = 0;
+		goto IL_0022;
+	}
+
+IL_000e:
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		AudioSource_t1135106623 * L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		Behaviour_set_enabled_m1796096907(L_3, (bool)0, /*hidden argument*/NULL);
+		int32_t L_4 = V_0;
+		V_0 = ((int32_t)((int32_t)L_4+(int32_t)1));
+	}
+
+IL_0022:
+	{
+		int32_t L_5 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_6 = __this->get_audioSources_13();
+		NullCheck(L_6);
+		if ((((int32_t)L_5) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length)))))))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::OnDestroy()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSoundfield_OnDestroy_m1174080950_MetadataUsageId;
+extern "C"  void GvrAudioSoundfield_OnDestroy_m1174080950 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSoundfield_OnDestroy_m1174080950_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_0020;
+	}
+
+IL_0008:
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		AudioSource_t1135106623 * L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		GameObject_t1756533147 * L_4 = Component_get_gameObject_m3105766835(L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
+	}
+
+IL_0020:
+	{
+		int32_t L_6 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_7 = __this->get_audioSources_13();
+		NullCheck(L_7);
+		if ((((int32_t)L_6) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length)))))))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::OnApplicationPause(System.Boolean)
+extern "C"  void GvrAudioSoundfield_OnApplicationPause_m1614769573 (GvrAudioSoundfield_t1301118448 * __this, bool ___pauseStatus0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___pauseStatus0;
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		GvrAudioSoundfield_Pause_m2499230617(__this, /*hidden argument*/NULL);
+		goto IL_001c;
+	}
+
+IL_0014:
+	{
+		GvrAudioSoundfield_UnPause_m2753349180(__this, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::Update()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSoundfield_Update_m2595276686_MetadataUsageId;
+extern "C"  void GvrAudioSoundfield_Update_m2595276686 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSoundfield_Update_m2595276686_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = GvrAudioSoundfield_get_isPlaying_m2063179004(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		bool L_1 = __this->get_isPaused_14();
+		if (L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		GvrAudioSoundfield_Stop_m788222535(__this, /*hidden argument*/NULL);
+		goto IL_005b;
+	}
+
+IL_0024:
+	{
+		V_0 = 0;
+		goto IL_004c;
+	}
+
+IL_002c:
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		AudioSource_t1135106623 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		float L_6 = __this->get_gainDb_3();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		float L_7 = GvrAudio_ConvertAmplitudeFromDb_m525493451(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		AudioSource_SetSpatializerFloat_m1516717820(L_5, 4, L_7, /*hidden argument*/NULL);
+		int32_t L_8 = V_0;
+		V_0 = ((int32_t)((int32_t)L_8+(int32_t)1));
+	}
+
+IL_004c:
+	{
+		int32_t L_9 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_10 = __this->get_audioSources_13();
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_10)->max_length)))))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+	}
+
+IL_005b:
+	{
+		int32_t L_11 = __this->get_id_12();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_UpdateAudioSoundfield_m2589129101(NULL /*static, unused*/, L_11, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::OnValidate()
+extern "C"  void GvrAudioSoundfield_OnValidate_m402992064 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	{
+		AudioClip_t1932558630 * L_0 = __this->get_soundfieldClip0102_5();
+		GvrAudioSoundfield_set_clip0102_m324418954(__this, L_0, /*hidden argument*/NULL);
+		AudioClip_t1932558630 * L_1 = __this->get_soundfieldClip0304_6();
+		GvrAudioSoundfield_set_clip0304_m3890960182(__this, L_1, /*hidden argument*/NULL);
+		bool L_2 = __this->get_soundfieldLoop_7();
+		GvrAudioSoundfield_set_loop_m2933465149(__this, L_2, /*hidden argument*/NULL);
+		bool L_3 = __this->get_soundfieldMute_8();
+		GvrAudioSoundfield_set_mute_m3676534418(__this, L_3, /*hidden argument*/NULL);
+		float L_4 = __this->get_soundfieldPitch_9();
+		GvrAudioSoundfield_set_pitch_m1328065293(__this, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = __this->get_soundfieldPriority_10();
+		GvrAudioSoundfield_set_priority_m3260742081(__this, L_5, /*hidden argument*/NULL);
+		float L_6 = __this->get_soundfieldVolume_11();
+		GvrAudioSoundfield_set_volume_m317435059(__this, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::Pause()
+extern "C"  void GvrAudioSoundfield_Pause_m2499230617 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		if (!L_0)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		__this->set_isPaused_14((bool)1);
+		V_0 = 0;
+		goto IL_002e;
+	}
+
+IL_001b:
+	{
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		AudioSource_t1135106623 * L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		AudioSource_Pause_m71375470(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
+	}
+
+IL_002e:
+	{
+		int32_t L_6 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_7 = __this->get_audioSources_13();
+		NullCheck(L_7);
+		if ((((int32_t)L_6) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length)))))))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+	}
+
+IL_003d:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::Play()
+extern "C"  void GvrAudioSoundfield_Play_m4004363143 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	double V_0 = 0.0;
+	{
+		double L_0 = AudioSettings_get_dspTime_m2570540328(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		double L_1 = V_0;
+		GvrAudioSoundfield_PlayScheduled_m3074893852(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::PlayDelayed(System.Single)
+extern "C"  void GvrAudioSoundfield_PlayDelayed_m609559284 (GvrAudioSoundfield_t1301118448 * __this, float ___delay0, const MethodInfo* method)
+{
+	double V_0 = 0.0;
+	{
+		double L_0 = AudioSettings_get_dspTime_m2570540328(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_1 = ___delay0;
+		V_0 = ((double)((double)L_0+(double)(((double)((double)L_1)))));
+		double L_2 = V_0;
+		GvrAudioSoundfield_PlayScheduled_m3074893852(__this, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::PlayScheduled(System.Double)
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral762922235;
+extern const uint32_t GvrAudioSoundfield_PlayScheduled_m3074893852_MetadataUsageId;
+extern "C"  void GvrAudioSoundfield_PlayScheduled_m3074893852 (GvrAudioSoundfield_t1301118448 * __this, double ___time0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSoundfield_PlayScheduled_m3074893852_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		if (!L_0)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		bool L_1 = GvrAudioSoundfield_InitializeSoundfield_m2000343270(__this, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0033;
+	}
+
+IL_001f:
+	{
+		AudioSourceU5BU5D_t1873220070* L_2 = __this->get_audioSources_13();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		AudioSource_t1135106623 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		double L_6 = ___time0;
+		NullCheck(L_5);
+		AudioSource_PlayScheduled_m572677317(L_5, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)((int32_t)L_7+(int32_t)1));
+	}
+
+IL_0033:
+	{
+		int32_t L_8 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_9 = __this->get_audioSources_13();
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length)))))))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		__this->set_isPaused_14((bool)0);
+		goto IL_005a;
+	}
+
+IL_004e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral762922235, /*hidden argument*/NULL);
+	}
+
+IL_005a:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::Stop()
+extern "C"  void GvrAudioSoundfield_Stop_m788222535 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		if (!L_0)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0027;
+	}
+
+IL_0014:
+	{
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		AudioSource_t1135106623 * L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		AudioSource_Stop_m3452679614(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
+	}
+
+IL_0027:
+	{
+		int32_t L_6 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_7 = __this->get_audioSources_13();
+		NullCheck(L_7);
+		if ((((int32_t)L_6) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length)))))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		GvrAudioSoundfield_ShutdownSoundfield_m2554412452(__this, /*hidden argument*/NULL);
+		__this->set_isPaused_14((bool)0);
+	}
+
+IL_0043:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::UnPause()
+extern "C"  void GvrAudioSoundfield_UnPause_m2753349180 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		AudioSourceU5BU5D_t1873220070* L_0 = __this->get_audioSources_13();
+		if (!L_0)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_0027;
+	}
+
+IL_0014:
+	{
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		AudioSource_t1135106623 * L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		AudioSource_UnPause_m1911402783(L_4, /*hidden argument*/NULL);
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)((int32_t)L_5+(int32_t)1));
+	}
+
+IL_0027:
+	{
+		int32_t L_6 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_7 = __this->get_audioSources_13();
+		NullCheck(L_7);
+		if ((((int32_t)L_6) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_7)->max_length)))))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		__this->set_isPaused_14((bool)1);
+	}
+
+IL_003d:
+	{
+		return;
+	}
+}
+// System.Boolean GvrAudioSoundfield::InitializeSoundfield()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSoundfield_InitializeSoundfield_m2000343270_MetadataUsageId;
+extern "C"  bool GvrAudioSoundfield_InitializeSoundfield_m2000343270 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSoundfield_InitializeSoundfield_m2000343270_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = __this->get_id_12();
+		if ((((int32_t)L_0) >= ((int32_t)0)))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		int32_t L_1 = GvrAudio_CreateAudioSoundfield_m1783995047(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_id_12(L_1);
+		int32_t L_2 = __this->get_id_12();
+		if ((((int32_t)L_2) < ((int32_t)0)))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_3 = __this->get_id_12();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_UpdateAudioSoundfield_m2589129101(NULL /*static, unused*/, L_3, __this, /*hidden argument*/NULL);
+		V_0 = 0;
+		goto IL_004e;
+	}
+
+IL_0039:
+	{
+		AudioSourceU5BU5D_t1873220070* L_4 = __this->get_audioSources_13();
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		AudioSource_t1135106623 * L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		int32_t L_8 = V_0;
+		GvrAudioSoundfield_InitializeChannelSet_m2342420071(__this, L_7, L_8, /*hidden argument*/NULL);
+		int32_t L_9 = V_0;
+		V_0 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_004e:
+	{
+		int32_t L_10 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_11 = __this->get_audioSources_13();
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+	}
+
+IL_005d:
+	{
+	}
+
+IL_005e:
+	{
+		int32_t L_12 = __this->get_id_12();
+		V_1 = (bool)((((int32_t)((((int32_t)L_12) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0070;
+	}
+
+IL_0070:
+	{
+		bool L_13 = V_1;
+		return L_13;
+	}
+}
+// System.Void GvrAudioSoundfield::ShutdownSoundfield()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSoundfield_ShutdownSoundfield_m2554412452_MetadataUsageId;
+extern "C"  void GvrAudioSoundfield_ShutdownSoundfield_m2554412452 (GvrAudioSoundfield_t1301118448 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSoundfield_ShutdownSoundfield_m2554412452_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_id_12();
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		V_0 = 0;
+		goto IL_002a;
+	}
+
+IL_0015:
+	{
+		AudioSourceU5BU5D_t1873220070* L_1 = __this->get_audioSources_13();
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		AudioSource_t1135106623 * L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		int32_t L_5 = V_0;
+		GvrAudioSoundfield_ShutdownChannelSet_m1300044223(__this, L_4, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_002a:
+	{
+		int32_t L_7 = V_0;
+		AudioSourceU5BU5D_t1873220070* L_8 = __this->get_audioSources_13();
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_8)->max_length)))))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_9 = __this->get_id_12();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_DestroyAudioSource_m801182782(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		__this->set_id_12((-1));
+	}
+
+IL_004b:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::InitializeChannelSet(UnityEngine.AudioSource,System.Int32)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSoundfield_InitializeChannelSet_m2342420071_MetadataUsageId;
+extern "C"  void GvrAudioSoundfield_InitializeChannelSet_m2342420071 (GvrAudioSoundfield_t1301118448 * __this, AudioSource_t1135106623 * ___source0, int32_t ___channelSet1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSoundfield_InitializeChannelSet_m2342420071_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = ___source0;
+		NullCheck(L_0);
+		AudioSource_set_spatialize_m4140626972(L_0, (bool)1, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_1 = ___source0;
+		NullCheck(L_1);
+		AudioSource_SetSpatializerFloat_m1516717820(L_1, 1, (1.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_2 = ___source0;
+		NullCheck(L_2);
+		AudioSource_SetSpatializerFloat_m1516717820(L_2, 2, (4.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_3 = ___source0;
+		int32_t L_4 = ___channelSet1;
+		NullCheck(L_3);
+		AudioSource_SetSpatializerFloat_m1516717820(L_3, 3, (((float)((float)L_4))), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_5 = ___source0;
+		float L_6 = __this->get_gainDb_3();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		float L_7 = GvrAudio_ConvertAmplitudeFromDb_m525493451(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		AudioSource_SetSpatializerFloat_m1516717820(L_5, 4, L_7, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_8 = ___source0;
+		NullCheck(L_8);
+		AudioSource_SetSpatializerFloat_m1516717820(L_8, 7, (0.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_9 = ___source0;
+		int32_t L_10 = __this->get_id_12();
+		NullCheck(L_9);
+		AudioSource_SetSpatializerFloat_m1516717820(L_9, 0, (((float)((float)L_10))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSoundfield::ShutdownChannelSet(UnityEngine.AudioSource,System.Int32)
+extern "C"  void GvrAudioSoundfield_ShutdownChannelSet_m1300044223 (GvrAudioSoundfield_t1301118448 * __this, AudioSource_t1135106623 * ___source0, int32_t ___channelSet1, const MethodInfo* method)
+{
+	{
+		AudioSource_t1135106623 * L_0 = ___source0;
+		NullCheck(L_0);
+		AudioSource_SetSpatializerFloat_m1516717820(L_0, 0, (-1.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_1 = ___source0;
+		NullCheck(L_1);
+		AudioSource_SetSpatializerFloat_m1516717820(L_1, 7, (1.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_2 = ___source0;
+		NullCheck(L_2);
+		AudioSource_set_spatialize_m4140626972(L_2, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSource::.ctor()
+extern "C"  void GvrAudioSource__ctor_m3669457171 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_bypassRoomEffects_2((bool)0);
+		__this->set_directivityAlpha_3((0.0f));
+		__this->set_directivitySharpness_4((1.0f));
+		__this->set_listenerDirectivityAlpha_5((0.0f));
+		__this->set_listenerDirectivitySharpness_6((1.0f));
+		__this->set_gainDb_7((0.0f));
+		__this->set_occlusionEnabled_8((bool)0);
+		__this->set_playOnAwake_9((bool)1);
+		__this->set_sourceClip_10((AudioClip_t1932558630 *)NULL);
+		__this->set_sourceLoop_11((bool)0);
+		__this->set_sourceMute_12((bool)0);
+		__this->set_sourcePitch_13((1.0f));
+		__this->set_sourcePriority_14(((int32_t)128));
+		__this->set_sourceDopplerLevel_15((1.0f));
+		__this->set_sourceSpread_16((0.0f));
+		__this->set_sourceVolume_17((1.0f));
+		__this->set_sourceRolloffMode_18(0);
+		__this->set_sourceMaxDistance_19((500.0f));
+		__this->set_sourceMinDistance_20((1.0f));
+		__this->set_hrtfEnabled_21((bool)1);
+		__this->set_audioSource_22((AudioSource_t1135106623 *)NULL);
+		__this->set_id_23((-1));
+		__this->set_currentOcclusion_24((0.0f));
+		__this->set_nextOcclusionUpdate_25((0.0f));
+		__this->set_isPaused_26((bool)0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.AudioClip GvrAudioSource::get_clip()
+extern "C"  AudioClip_t1932558630 * GvrAudioSource_get_clip_m314569926 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	AudioClip_t1932558630 * V_0 = NULL;
+	{
+		AudioClip_t1932558630 * L_0 = __this->get_sourceClip_10();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		AudioClip_t1932558630 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_clip(UnityEngine.AudioClip)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_clip_m150171591_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_clip_m150171591 (GvrAudioSource_t2307460312 * __this, AudioClip_t1932558630 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_clip_m150171591_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioClip_t1932558630 * L_0 = ___value0;
+		__this->set_sourceClip_10(L_0);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		AudioClip_t1932558630 * L_4 = __this->get_sourceClip_10();
+		NullCheck(L_3);
+		AudioSource_set_clip_m738814682(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Boolean GvrAudioSource::get_isPlaying()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_get_isPlaying_m3816759052_MetadataUsageId;
+extern "C"  bool GvrAudioSource_get_isPlaying_m3816759052 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_get_isPlaying_m3816759052_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		NullCheck(L_2);
+		bool L_3 = AudioSource_get_isPlaying_m3677592677(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		goto IL_002b;
+	}
+
+IL_0024:
+	{
+		V_0 = (bool)0;
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Boolean GvrAudioSource::get_loop()
+extern "C"  bool GvrAudioSource_get_loop_m1298561502 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		bool L_0 = __this->get_sourceLoop_11();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_loop(System.Boolean)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_loop_m1477845813_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_loop_m1477845813 (GvrAudioSource_t2307460312 * __this, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_loop_m1477845813_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ___value0;
+		__this->set_sourceLoop_11(L_0);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		bool L_4 = __this->get_sourceLoop_11();
+		NullCheck(L_3);
+		AudioSource_set_loop_m313035616(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Boolean GvrAudioSource::get_mute()
+extern "C"  bool GvrAudioSource_get_mute_m774819547 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		bool L_0 = __this->get_sourceMute_12();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_mute(System.Boolean)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_mute_m2720289274_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_mute_m2720289274 (GvrAudioSource_t2307460312 * __this, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_mute_m2720289274_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ___value0;
+		__this->set_sourceMute_12(L_0);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		bool L_4 = __this->get_sourceMute_12();
+		NullCheck(L_3);
+		AudioSource_set_mute_m3645750033(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSource::get_pitch()
+extern "C"  float GvrAudioSource_get_pitch_m3338566872 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_sourcePitch_13();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_pitch(System.Single)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_pitch_m2341430061_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_pitch_m2341430061 (GvrAudioSource_t2307460312 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_pitch_m2341430061_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = ___value0;
+		__this->set_sourcePitch_13(L_0);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		float L_4 = __this->get_sourcePitch_13();
+		NullCheck(L_3);
+		AudioSource_set_pitch_m3064416458(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Int32 GvrAudioSource::get_priority()
+extern "C"  int32_t GvrAudioSource_get_priority_m1549690748 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_sourcePriority_14();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_priority(System.Int32)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_priority_m2028801425_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_priority_m2028801425 (GvrAudioSource_t2307460312 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_priority_m2028801425_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___value0;
+		__this->set_sourcePriority_14(L_0);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		int32_t L_4 = __this->get_sourcePriority_14();
+		NullCheck(L_3);
+		AudioSource_set_priority_m608149462(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSource::get_dopplerLevel()
+extern "C"  float GvrAudioSource_get_dopplerLevel_m3235884738 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_sourceDopplerLevel_15();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_dopplerLevel(System.Single)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_dopplerLevel_m2475613985_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_dopplerLevel_m2475613985 (GvrAudioSource_t2307460312 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_dopplerLevel_m2475613985_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = ___value0;
+		__this->set_sourceDopplerLevel_15(L_0);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		float L_4 = __this->get_sourceDopplerLevel_15();
+		NullCheck(L_3);
+		AudioSource_set_dopplerLevel_m107848870(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSource::get_spread()
+extern "C"  float GvrAudioSource_get_spread_m2820711937 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_sourceSpread_16();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_spread(System.Single)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_spread_m4221610670_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_spread_m4221610670 (GvrAudioSource_t2307460312 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_spread_m4221610670_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = ___value0;
+		__this->set_sourceSpread_16(L_0);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		float L_4 = __this->get_sourceSpread_16();
+		NullCheck(L_3);
+		AudioSource_set_spread_m1707451775(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSource::get_time()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_get_time_m2664362289_MetadataUsageId;
+extern "C"  float GvrAudioSource_get_time_m2664362289 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_get_time_m2664362289_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		NullCheck(L_2);
+		float L_3 = AudioSource_get_time_m1465582328(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		goto IL_002f;
+	}
+
+IL_0024:
+	{
+		V_0 = (0.0f);
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void GvrAudioSource::set_time(System.Single)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_time_m3812878640_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_time_m3812878640 (GvrAudioSource_t2307460312 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_time_m3812878640_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		float L_3 = ___value0;
+		NullCheck(L_2);
+		AudioSource_set_time_m2642008583(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Int32 GvrAudioSource::get_timeSamples()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_get_timeSamples_m1777353574_MetadataUsageId;
+extern "C"  int32_t GvrAudioSource_get_timeSamples_m1777353574 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_get_timeSamples_m1777353574_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		NullCheck(L_2);
+		int32_t L_3 = AudioSource_get_timeSamples_m1719074425(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		goto IL_002b;
+	}
+
+IL_0024:
+	{
+		V_0 = 0;
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void GvrAudioSource::set_timeSamples(System.Int32)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_timeSamples_m564442159_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_timeSamples_m564442159 (GvrAudioSource_t2307460312 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_timeSamples_m564442159_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		int32_t L_3 = ___value0;
+		NullCheck(L_2);
+		AudioSource_set_timeSamples_m1321768050(L_2, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSource::get_volume()
+extern "C"  float GvrAudioSource_get_volume_m4075726166 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_sourceVolume_17();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_volume(System.Single)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_volume_m1423146671_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_volume_m1423146671 (GvrAudioSource_t2307460312 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_volume_m1423146671_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = ___value0;
+		__this->set_sourceVolume_17(L_0);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		float L_4 = __this->get_sourceVolume_17();
+		NullCheck(L_3);
+		AudioSource_set_volume_m2777308722(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// UnityEngine.AudioRolloffMode GvrAudioSource::get_rolloffMode()
+extern "C"  int32_t GvrAudioSource_get_rolloffMode_m2079256484 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_sourceRolloffMode_18();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_rolloffMode(UnityEngine.AudioRolloffMode)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_rolloffMode_m3982865991_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_rolloffMode_m3982865991 (GvrAudioSource_t2307460312 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_rolloffMode_m3982865991_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___value0;
+		__this->set_sourceRolloffMode_18(L_0);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		int32_t L_4 = __this->get_sourceRolloffMode_18();
+		NullCheck(L_3);
+		AudioSource_set_rolloffMode_m2959852922(L_3, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = GvrAudioSource_get_rolloffMode_m2079256484(__this, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)2))))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_6 = __this->get_audioSource_22();
+		float L_7 = __this->get_sourceMinDistance_20();
+		float L_8 = __this->get_sourceMaxDistance_19();
+		AnimationCurve_t3306541151 * L_9 = AnimationCurve_Linear_m125562148(NULL /*static, unused*/, L_7, (1.0f), L_8, (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_6);
+		AudioSource_SetCustomCurve_m1269103073(L_6, 0, L_9, /*hidden argument*/NULL);
+	}
+
+IL_0060:
+	{
+	}
+
+IL_0061:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSource::get_maxDistance()
+extern "C"  float GvrAudioSource_get_maxDistance_m98035543 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_sourceMaxDistance_19();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_maxDistance(System.Single)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_maxDistance_m4049442018_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_maxDistance_m4049442018 (GvrAudioSource_t2307460312 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_maxDistance_m4049442018_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = ___value0;
+		float L_1 = __this->get_sourceMinDistance_20();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_2 = Mathf_Clamp_m2354025655(NULL /*static, unused*/, L_0, ((float)((float)L_1+(float)(0.01f))), (1000000.0f), /*hidden argument*/NULL);
+		__this->set_sourceMaxDistance_19(L_2);
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_5 = __this->get_audioSource_22();
+		float L_6 = __this->get_sourceMaxDistance_19();
+		NullCheck(L_5);
+		AudioSource_set_maxDistance_m2780167297(L_5, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Single GvrAudioSource::get_minDistance()
+extern "C"  float GvrAudioSource_get_minDistance_m495601449 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_sourceMinDistance_20();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrAudioSource::set_minDistance(System.Single)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_set_minDistance_m4182013404_MetadataUsageId;
+extern "C"  void GvrAudioSource_set_minDistance_m4182013404 (GvrAudioSource_t2307460312 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_set_minDistance_m4182013404_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = ___value0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_1 = Mathf_Clamp_m2354025655(NULL /*static, unused*/, L_0, (0.0f), (990099.0f), /*hidden argument*/NULL);
+		__this->set_sourceMinDistance_20(L_1);
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_4 = __this->get_audioSource_22();
+		float L_5 = __this->get_sourceMinDistance_20();
+		NullCheck(L_4);
+		AudioSource_set_minDistance_m3497133611(L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_003b:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::Awake()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* AudioMixer_t3244290001_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3248387252;
+extern Il2CppCodeGenString* _stringLiteral4058986920;
+extern Il2CppCodeGenString* _stringLiteral3816224597;
+extern const uint32_t GvrAudioSource_Awake_m3633096_MetadataUsageId;
+extern "C"  void GvrAudioSource_Awake_m3633096 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_Awake_m3633096_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	AudioMixer_t3244290001 * V_0 = NULL;
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		AudioSource_t1135106623 * L_3 = GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270(L_2, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270_MethodInfo_var);
+		__this->set_audioSource_22(L_3);
+	}
+
+IL_0025:
+	{
+		AudioSource_t1135106623 * L_4 = __this->get_audioSource_22();
+		NullCheck(L_4);
+		Behaviour_set_enabled_m1796096907(L_4, (bool)0, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_5 = __this->get_audioSource_22();
+		NullCheck(L_5);
+		Object_set_hideFlags_m2204253440(L_5, ((int32_t)63), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_6 = __this->get_audioSource_22();
+		NullCheck(L_6);
+		AudioSource_set_playOnAwake_m858475204(L_6, (bool)0, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_7 = __this->get_audioSource_22();
+		NullCheck(L_7);
+		AudioSource_set_bypassReverbZones_m1621259587(L_7, (bool)1, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_8 = __this->get_audioSource_22();
+		NullCheck(L_8);
+		AudioSource_set_spatialBlend_m387590113(L_8, (1.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_9 = __this->get_audioSource_22();
+		NullCheck(L_9);
+		AudioSource_set_spatializePostEffects_m20284068(L_9, (bool)1, /*hidden argument*/NULL);
+		GvrAudioSource_OnValidate_m2508299240(__this, /*hidden argument*/NULL);
+		Object_t1021602117 * L_10 = Resources_Load_m2041782325(NULL /*static, unused*/, _stringLiteral3248387252, /*hidden argument*/NULL);
+		V_0 = ((AudioMixer_t3244290001 *)IsInstClass(L_10, AudioMixer_t3244290001_il2cpp_TypeInfo_var));
+		AudioMixer_t3244290001 * L_11 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_12 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_11, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_13 = __this->get_audioSource_22();
+		AudioMixer_t3244290001 * L_14 = V_0;
+		NullCheck(L_14);
+		AudioMixerGroupU5BU5D_t1763409949* L_15 = AudioMixer_FindMatchingGroups_m2958147472(L_14, _stringLiteral4058986920, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		int32_t L_16 = 0;
+		AudioMixerGroup_t959546644 * L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		NullCheck(L_13);
+		AudioSource_set_outputAudioMixerGroup_m2944940779(L_13, L_17, /*hidden argument*/NULL);
+		goto IL_00bf;
+	}
+
+IL_00b3:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3816224597, /*hidden argument*/NULL);
+	}
+
+IL_00bf:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::OnEnable()
+extern "C"  void GvrAudioSource_OnEnable_m198719511 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		NullCheck(L_0);
+		Behaviour_set_enabled_m1796096907(L_0, (bool)1, /*hidden argument*/NULL);
+		bool L_1 = __this->get_playOnAwake_9();
+		if (!L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		bool L_2 = GvrAudioSource_get_isPlaying_m3816759052(__this, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		bool L_3 = GvrAudioSource_InitializeSource_m594433190(__this, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		GvrAudioSource_Play_m3662053203(__this, /*hidden argument*/NULL);
+	}
+
+IL_0036:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::Start()
+extern "C"  void GvrAudioSource_Start_m1537117911 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_playOnAwake_9();
+		if (!L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		bool L_1 = GvrAudioSource_get_isPlaying_m3816759052(__this, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		GvrAudioSource_Play_m3662053203(__this, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::OnDisable()
+extern "C"  void GvrAudioSource_OnDisable_m2237802204 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	{
+		GvrAudioSource_Stop_m896185459(__this, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		NullCheck(L_0);
+		Behaviour_set_enabled_m1796096907(L_0, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSource::OnDestroy()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_OnDestroy_m1641155302_MetadataUsageId;
+extern "C"  void GvrAudioSource_OnDestroy_m1641155302 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_OnDestroy_m1641155302_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSource::OnApplicationPause(System.Boolean)
+extern "C"  void GvrAudioSource_OnApplicationPause_m2477334669 (GvrAudioSource_t2307460312 * __this, bool ___pauseStatus0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___pauseStatus0;
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		GvrAudioSource_Pause_m470842017(__this, /*hidden argument*/NULL);
+		goto IL_001c;
+	}
+
+IL_0014:
+	{
+		GvrAudioSource_UnPause_m1361505432(__this, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::Update()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_Update_m2450669274_MetadataUsageId;
+extern "C"  void GvrAudioSource_Update_m2450669274 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_Update_m2450669274_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_occlusionEnabled_8();
+		if (L_0)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		__this->set_currentOcclusion_24((0.0f));
+		goto IL_0052;
+	}
+
+IL_001e:
+	{
+		float L_1 = Time_get_time_m2216684562(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_2 = __this->get_nextOcclusionUpdate_25();
+		if ((!(((float)L_1) >= ((float)L_2))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		float L_3 = Time_get_time_m2216684562(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_nextOcclusionUpdate_25(((float)((float)L_3+(float)(0.2f))));
+		Transform_t3275118058 * L_4 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		float L_5 = GvrAudio_ComputeOcclusion_m400996319(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		__this->set_currentOcclusion_24(L_5);
+	}
+
+IL_0052:
+	{
+		bool L_6 = GvrAudioSource_get_isPlaying_m3816759052(__this, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		bool L_7 = __this->get_isPaused_26();
+		if (L_7)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		GvrAudioSource_Stop_m896185459(__this, /*hidden argument*/NULL);
+		goto IL_00b4;
+	}
+
+IL_0075:
+	{
+		AudioSource_t1135106623 * L_8 = __this->get_audioSource_22();
+		float L_9 = __this->get_gainDb_7();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		float L_10 = GvrAudio_ConvertAmplitudeFromDb_m525493451(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		AudioSource_SetSpatializerFloat_m1516717820(L_8, 4, L_10, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_11 = __this->get_audioSource_22();
+		float L_12 = __this->get_sourceMinDistance_20();
+		NullCheck(L_11);
+		AudioSource_SetSpatializerFloat_m1516717820(L_11, 6, L_12, /*hidden argument*/NULL);
+		int32_t L_13 = __this->get_id_23();
+		float L_14 = __this->get_currentOcclusion_24();
+		GvrAudio_UpdateAudioSource_m1447747246(NULL /*static, unused*/, L_13, __this, L_14, /*hidden argument*/NULL);
+	}
+
+IL_00b4:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::GetOutputData(System.Single[],System.Int32)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_GetOutputData_m902515642_MetadataUsageId;
+extern "C"  void GvrAudioSource_GetOutputData_m902515642 (GvrAudioSource_t2307460312 * __this, SingleU5BU5D_t577127397* ___samples0, int32_t ___channel1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_GetOutputData_m902515642_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		SingleU5BU5D_t577127397* L_3 = ___samples0;
+		int32_t L_4 = ___channel1;
+		NullCheck(L_2);
+		AudioSource_GetOutputData_m443764241(L_2, L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::GetSpectrumData(System.Single[],System.Int32,UnityEngine.FFTWindow)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_GetSpectrumData_m3864999427_MetadataUsageId;
+extern "C"  void GvrAudioSource_GetSpectrumData_m3864999427 (GvrAudioSource_t2307460312 * __this, SingleU5BU5D_t577127397* ___samples0, int32_t ___channel1, int32_t ___window2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_GetSpectrumData_m3864999427_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		SingleU5BU5D_t577127397* L_3 = ___samples0;
+		int32_t L_4 = ___channel1;
+		int32_t L_5 = ___window2;
+		NullCheck(L_2);
+		AudioSource_GetSpectrumData_m4116675176(L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::Pause()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_Pause_m470842017_MetadataUsageId;
+extern "C"  void GvrAudioSource_Pause_m470842017 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_Pause_m470842017_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		__this->set_isPaused_26((bool)1);
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		NullCheck(L_2);
+		AudioSource_Pause_m71375470(L_2, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::Play()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral472785647;
+extern const uint32_t GvrAudioSource_Play_m3662053203_MetadataUsageId;
+extern "C"  void GvrAudioSource_Play_m3662053203 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_Play_m3662053203_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		bool L_2 = GvrAudioSource_InitializeSource_m594433190(__this, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		NullCheck(L_3);
+		AudioSource_Play_m353744792(L_3, /*hidden argument*/NULL);
+		__this->set_isPaused_26((bool)0);
+		goto IL_0042;
+	}
+
+IL_0036:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral472785647, /*hidden argument*/NULL);
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::PlayDelayed(System.Single)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral472785647;
+extern const uint32_t GvrAudioSource_PlayDelayed_m3664484016_MetadataUsageId;
+extern "C"  void GvrAudioSource_PlayDelayed_m3664484016 (GvrAudioSource_t2307460312 * __this, float ___delay0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_PlayDelayed_m3664484016_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		bool L_2 = GvrAudioSource_InitializeSource_m594433190(__this, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		float L_4 = ___delay0;
+		NullCheck(L_3);
+		AudioSource_PlayDelayed_m1283429031(L_3, L_4, /*hidden argument*/NULL);
+		__this->set_isPaused_26((bool)0);
+		goto IL_0043;
+	}
+
+IL_0037:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral472785647, /*hidden argument*/NULL);
+	}
+
+IL_0043:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::PlayOneShot(UnityEngine.AudioClip)
+extern "C"  void GvrAudioSource_PlayOneShot_m177386602 (GvrAudioSource_t2307460312 * __this, AudioClip_t1932558630 * ___clip0, const MethodInfo* method)
+{
+	{
+		AudioClip_t1932558630 * L_0 = ___clip0;
+		GvrAudioSource_PlayOneShot_m468197481(__this, L_0, (1.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSource::PlayOneShot(UnityEngine.AudioClip,System.Single)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral472785647;
+extern const uint32_t GvrAudioSource_PlayOneShot_m468197481_MetadataUsageId;
+extern "C"  void GvrAudioSource_PlayOneShot_m468197481 (GvrAudioSource_t2307460312 * __this, AudioClip_t1932558630 * ___clip0, float ___volume1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_PlayOneShot_m468197481_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		bool L_2 = GvrAudioSource_InitializeSource_m594433190(__this, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		AudioClip_t1932558630 * L_4 = ___clip0;
+		float L_5 = ___volume1;
+		NullCheck(L_3);
+		AudioSource_PlayOneShot_m4118899740(L_3, L_4, L_5, /*hidden argument*/NULL);
+		__this->set_isPaused_26((bool)0);
+		goto IL_0044;
+	}
+
+IL_0038:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral472785647, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::PlayScheduled(System.Double)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral472785647;
+extern const uint32_t GvrAudioSource_PlayScheduled_m2680287420_MetadataUsageId;
+extern "C"  void GvrAudioSource_PlayScheduled_m2680287420 (GvrAudioSource_t2307460312 * __this, double ___time0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_PlayScheduled_m2680287420_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		bool L_2 = GvrAudioSource_InitializeSource_m594433190(__this, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		double L_4 = ___time0;
+		NullCheck(L_3);
+		AudioSource_PlayScheduled_m572677317(L_3, L_4, /*hidden argument*/NULL);
+		__this->set_isPaused_26((bool)0);
+		goto IL_0043;
+	}
+
+IL_0037:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral472785647, /*hidden argument*/NULL);
+	}
+
+IL_0043:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::Stop()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_Stop_m896185459_MetadataUsageId;
+extern "C"  void GvrAudioSource_Stop_m896185459 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_Stop_m896185459_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		NullCheck(L_2);
+		AudioSource_Stop_m3452679614(L_2, /*hidden argument*/NULL);
+		GvrAudioSource_ShutdownSource_m801851364(__this, /*hidden argument*/NULL);
+		__this->set_isPaused_26((bool)0);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::UnPause()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_UnPause_m1361505432_MetadataUsageId;
+extern "C"  void GvrAudioSource_UnPause_m1361505432 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_UnPause_m1361505432_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_22();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		NullCheck(L_2);
+		AudioSource_UnPause_m1911402783(L_2, /*hidden argument*/NULL);
+		__this->set_isPaused_26((bool)0);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Boolean GvrAudioSource::InitializeSource()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_InitializeSource_m594433190_MetadataUsageId;
+extern "C"  bool GvrAudioSource_InitializeSource_m594433190 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_InitializeSource_m594433190_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		int32_t L_0 = __this->get_id_23();
+		if ((((int32_t)L_0) >= ((int32_t)0)))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		bool L_1 = __this->get_hrtfEnabled_21();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		int32_t L_2 = GvrAudio_CreateAudioSource_m1984649488(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		__this->set_id_23(L_2);
+		int32_t L_3 = __this->get_id_23();
+		if ((((int32_t)L_3) < ((int32_t)0)))
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		int32_t L_4 = __this->get_id_23();
+		float L_5 = __this->get_currentOcclusion_24();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_UpdateAudioSource_m1447747246(NULL /*static, unused*/, L_4, __this, L_5, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_6 = __this->get_audioSource_22();
+		NullCheck(L_6);
+		AudioSource_set_spatialize_m4140626972(L_6, (bool)1, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_7 = __this->get_audioSource_22();
+		NullCheck(L_7);
+		AudioSource_SetSpatializerFloat_m1516717820(L_7, 1, (0.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_8 = __this->get_audioSource_22();
+		float L_9 = __this->get_gainDb_7();
+		float L_10 = GvrAudio_ConvertAmplitudeFromDb_m525493451(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		AudioSource_SetSpatializerFloat_m1516717820(L_8, 4, L_10, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_11 = __this->get_audioSource_22();
+		float L_12 = __this->get_sourceMinDistance_20();
+		NullCheck(L_11);
+		AudioSource_SetSpatializerFloat_m1516717820(L_11, 6, L_12, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_13 = __this->get_audioSource_22();
+		NullCheck(L_13);
+		AudioSource_SetSpatializerFloat_m1516717820(L_13, 7, (0.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_14 = __this->get_audioSource_22();
+		int32_t L_15 = __this->get_id_23();
+		NullCheck(L_14);
+		AudioSource_SetSpatializerFloat_m1516717820(L_14, 0, (((float)((float)L_15))), /*hidden argument*/NULL);
+	}
+
+IL_00ae:
+	{
+	}
+
+IL_00af:
+	{
+		int32_t L_16 = __this->get_id_23();
+		V_0 = (bool)((((int32_t)((((int32_t)L_16) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_00c1;
+	}
+
+IL_00c1:
+	{
+		bool L_17 = V_0;
+		return L_17;
+	}
+}
+// System.Void GvrAudioSource::ShutdownSource()
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_ShutdownSource_m801851364_MetadataUsageId;
+extern "C"  void GvrAudioSource_ShutdownSource_m801851364 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_ShutdownSource_m801851364_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->get_id_23();
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_22();
+		NullCheck(L_1);
+		AudioSource_SetSpatializerFloat_m1516717820(L_1, 0, (-1.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_2 = __this->get_audioSource_22();
+		NullCheck(L_2);
+		AudioSource_SetSpatializerFloat_m1516717820(L_2, 7, (1.0f), /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_3 = __this->get_audioSource_22();
+		NullCheck(L_3);
+		AudioSource_set_spatialize_m4140626972(L_3, (bool)0, /*hidden argument*/NULL);
+		int32_t L_4 = __this->get_id_23();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		GvrAudio_DestroyAudioSource_m801182782(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		__this->set_id_23((-1));
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void GvrAudioSource::OnDidApplyAnimationProperties()
+extern "C"  void GvrAudioSource_OnDidApplyAnimationProperties_m3166179542 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	{
+		GvrAudioSource_OnValidate_m2508299240(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSource::OnValidate()
+extern "C"  void GvrAudioSource_OnValidate_m2508299240 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	{
+		AudioClip_t1932558630 * L_0 = __this->get_sourceClip_10();
+		GvrAudioSource_set_clip_m150171591(__this, L_0, /*hidden argument*/NULL);
+		bool L_1 = __this->get_sourceLoop_11();
+		GvrAudioSource_set_loop_m1477845813(__this, L_1, /*hidden argument*/NULL);
+		bool L_2 = __this->get_sourceMute_12();
+		GvrAudioSource_set_mute_m2720289274(__this, L_2, /*hidden argument*/NULL);
+		float L_3 = __this->get_sourcePitch_13();
+		GvrAudioSource_set_pitch_m2341430061(__this, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = __this->get_sourcePriority_14();
+		GvrAudioSource_set_priority_m2028801425(__this, L_4, /*hidden argument*/NULL);
+		float L_5 = __this->get_sourceVolume_17();
+		GvrAudioSource_set_volume_m1423146671(__this, L_5, /*hidden argument*/NULL);
+		float L_6 = __this->get_sourceDopplerLevel_15();
+		GvrAudioSource_set_dopplerLevel_m2475613985(__this, L_6, /*hidden argument*/NULL);
+		float L_7 = __this->get_sourceSpread_16();
+		GvrAudioSource_set_spread_m4221610670(__this, L_7, /*hidden argument*/NULL);
+		float L_8 = __this->get_sourceMinDistance_20();
+		GvrAudioSource_set_minDistance_m4182013404(__this, L_8, /*hidden argument*/NULL);
+		float L_9 = __this->get_sourceMaxDistance_19();
+		GvrAudioSource_set_maxDistance_m4049442018(__this, L_9, /*hidden argument*/NULL);
+		int32_t L_10 = __this->get_sourceRolloffMode_18();
+		GvrAudioSource_set_rolloffMode_m3982865991(__this, L_10, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSource::OnDrawGizmosSelected()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisGvrAudioListener_t1521766837_m1334356948_MethodInfo_var;
+extern const uint32_t GvrAudioSource_OnDrawGizmosSelected_m3402600534_MetadataUsageId;
+extern "C"  void GvrAudioSource_OnDrawGizmosSelected_m3402600534 (GvrAudioSource_t2307460312 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_OnDrawGizmosSelected_m3402600534_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GvrAudioListener_t1521766837 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		GvrAudioListener_t1521766837 * L_0 = Object_FindObjectOfType_TisGvrAudioListener_t1521766837_m1334356948(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisGvrAudioListener_t1521766837_m1334356948_MethodInfo_var);
+		V_0 = L_0;
+		GvrAudioListener_t1521766837 * L_1 = V_0;
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		Color_t2020392075  L_3 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_listenerDirectivityColor_3();
+		Gizmos_set_color_m494992840(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		GvrAudioListener_t1521766837 * L_4 = V_0;
+		NullCheck(L_4);
+		Transform_t3275118058 * L_5 = Component_get_transform_m2697483695(L_4, /*hidden argument*/NULL);
+		float L_6 = __this->get_listenerDirectivityAlpha_5();
+		float L_7 = __this->get_listenerDirectivitySharpness_6();
+		GvrAudioSource_DrawDirectivityGizmo_m3726562269(__this, L_5, L_6, L_7, ((int32_t)180), /*hidden argument*/NULL);
+	}
+
+IL_003c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		Color_t2020392075  L_8 = ((GvrAudio_t2627885619_StaticFields*)GvrAudio_t2627885619_il2cpp_TypeInfo_var->static_fields)->get_sourceDirectivityColor_4();
+		Gizmos_set_color_m494992840(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_9 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		float L_10 = __this->get_directivityAlpha_3();
+		float L_11 = __this->get_directivitySharpness_4();
+		GvrAudioSource_DrawDirectivityGizmo_m3726562269(__this, L_9, L_10, L_11, ((int32_t)180), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrAudioSource::DrawDirectivityGizmo(UnityEngine.Transform,System.Single,System.Single,System.Int32)
+extern Il2CppClass* GvrAudio_t2627885619_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mesh_t1356156583_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrAudioSource_DrawDirectivityGizmo_m3726562269_MetadataUsageId;
+extern "C"  void GvrAudioSource_DrawDirectivityGizmo_m3726562269 (GvrAudioSource_t2307460312 * __this, Transform_t3275118058 * ___target0, float ___alpha1, float ___sharpness2, int32_t ___resolution3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrAudioSource_DrawDirectivityGizmo_m3726562269_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2U5BU5D_t686124026* V_0 = NULL;
+	int32_t V_1 = 0;
+	Vector3U5BU5D_t1172311765* V_2 = NULL;
+	int32_t V_3 = 0;
+	Int32U5BU5D_t3030399641* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	Mesh_t1356156583 * V_7 = NULL;
+	Vector3_t2243707580  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	Vector3_t2243707580  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Vector3_t2243707580  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	{
+		float L_0 = ___alpha1;
+		float L_1 = ___sharpness2;
+		int32_t L_2 = ___resolution3;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrAudio_t2627885619_il2cpp_TypeInfo_var);
+		Vector2U5BU5D_t686124026* L_3 = GvrAudio_Generate2dPolarPattern_m4010778215(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		int32_t L_4 = ___resolution3;
+		V_1 = ((int32_t)((int32_t)L_4+(int32_t)1));
+		int32_t L_5 = V_1;
+		V_2 = ((Vector3U5BU5D_t1172311765*)SZArrayNew(Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var, (uint32_t)L_5));
+		Vector3U5BU5D_t1172311765* L_6 = V_2;
+		NullCheck(L_6);
+		Vector3_t2243707580  L_7 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))) = L_7;
+		V_3 = 0;
+		goto IL_0065;
+	}
+
+IL_002f:
+	{
+		Vector3U5BU5D_t1172311765* L_8 = V_2;
+		int32_t L_9 = V_3;
+		NullCheck(L_8);
+		Vector2U5BU5D_t686124026* L_10 = V_0;
+		int32_t L_11 = V_3;
+		NullCheck(L_10);
+		float L_12 = ((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11)))->get_x_0();
+		Vector2U5BU5D_t686124026* L_13 = V_0;
+		int32_t L_14 = V_3;
+		NullCheck(L_13);
+		float L_15 = ((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)))->get_y_1();
+		Vector3_t2243707580  L_16;
+		memset(&L_16, 0, sizeof(L_16));
+		Vector3__ctor_m2638739322(&L_16, L_12, (0.0f), L_15, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_9+(int32_t)1)))))) = L_16;
+		int32_t L_17 = V_3;
+		V_3 = ((int32_t)((int32_t)L_17+(int32_t)1));
+	}
+
+IL_0065:
+	{
+		int32_t L_18 = V_3;
+		Vector2U5BU5D_t686124026* L_19 = V_0;
+		NullCheck(L_19);
+		if ((((int32_t)L_18) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length)))))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		int32_t L_20 = V_1;
+		V_4 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)6*(int32_t)L_20))));
+		V_5 = 0;
+		goto IL_00fd;
+	}
+
+IL_0080:
+	{
+		int32_t L_21 = V_5;
+		V_6 = ((int32_t)((int32_t)6*(int32_t)L_21));
+		int32_t L_22 = V_5;
+		int32_t L_23 = V_1;
+		if ((((int32_t)L_22) >= ((int32_t)((int32_t)((int32_t)L_23-(int32_t)2)))))
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		Int32U5BU5D_t3030399641* L_24 = V_4;
+		int32_t L_25 = V_6;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (int32_t)0);
+		Int32U5BU5D_t3030399641* L_26 = V_4;
+		int32_t L_27 = V_6;
+		int32_t L_28 = V_5;
+		NullCheck(L_26);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_27+(int32_t)1))), (int32_t)((int32_t)((int32_t)L_28+(int32_t)1)));
+		Int32U5BU5D_t3030399641* L_29 = V_4;
+		int32_t L_30 = V_6;
+		int32_t L_31 = V_5;
+		NullCheck(L_29);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_30+(int32_t)2))), (int32_t)((int32_t)((int32_t)L_31+(int32_t)2)));
+		goto IL_00ce;
+	}
+
+IL_00b4:
+	{
+		Int32U5BU5D_t3030399641* L_32 = V_4;
+		int32_t L_33 = V_6;
+		NullCheck(L_32);
+		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(L_33), (int32_t)0);
+		Int32U5BU5D_t3030399641* L_34 = V_4;
+		int32_t L_35 = V_6;
+		int32_t L_36 = V_1;
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_35+(int32_t)1))), (int32_t)((int32_t)((int32_t)L_36-(int32_t)1)));
+		Int32U5BU5D_t3030399641* L_37 = V_4;
+		int32_t L_38 = V_6;
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_38+(int32_t)2))), (int32_t)1);
+	}
+
+IL_00ce:
+	{
+		Int32U5BU5D_t3030399641* L_39 = V_4;
+		int32_t L_40 = V_6;
+		Int32U5BU5D_t3030399641* L_41 = V_4;
+		int32_t L_42 = V_6;
+		NullCheck(L_41);
+		int32_t L_43 = L_42;
+		int32_t L_44 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		NullCheck(L_39);
+		(L_39)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_40+(int32_t)3))), (int32_t)L_44);
+		Int32U5BU5D_t3030399641* L_45 = V_4;
+		int32_t L_46 = V_6;
+		Int32U5BU5D_t3030399641* L_47 = V_4;
+		int32_t L_48 = V_6;
+		NullCheck(L_47);
+		int32_t L_49 = ((int32_t)((int32_t)L_48+(int32_t)2));
+		int32_t L_50 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
+		NullCheck(L_45);
+		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_46+(int32_t)4))), (int32_t)L_50);
+		Int32U5BU5D_t3030399641* L_51 = V_4;
+		int32_t L_52 = V_6;
+		Int32U5BU5D_t3030399641* L_53 = V_4;
+		int32_t L_54 = V_6;
+		NullCheck(L_53);
+		int32_t L_55 = ((int32_t)((int32_t)L_54+(int32_t)1));
+		int32_t L_56 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		NullCheck(L_51);
+		(L_51)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)((int32_t)L_52+(int32_t)5))), (int32_t)L_56);
+		int32_t L_57 = V_5;
+		V_5 = ((int32_t)((int32_t)L_57+(int32_t)1));
+	}
+
+IL_00fd:
+	{
+		int32_t L_58 = V_5;
+		int32_t L_59 = V_1;
+		if ((((int32_t)L_58) < ((int32_t)((int32_t)((int32_t)L_59-(int32_t)1)))))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		Mesh_t1356156583 * L_60 = (Mesh_t1356156583 *)il2cpp_codegen_object_new(Mesh_t1356156583_il2cpp_TypeInfo_var);
+		Mesh__ctor_m2975981674(L_60, /*hidden argument*/NULL);
+		V_7 = L_60;
+		Mesh_t1356156583 * L_61 = V_7;
+		NullCheck(L_61);
+		Object_set_hideFlags_m2204253440(L_61, 4, /*hidden argument*/NULL);
+		Mesh_t1356156583 * L_62 = V_7;
+		Vector3U5BU5D_t1172311765* L_63 = V_2;
+		NullCheck(L_62);
+		Mesh_set_vertices_m2936804213(L_62, L_63, /*hidden argument*/NULL);
+		Mesh_t1356156583 * L_64 = V_7;
+		Int32U5BU5D_t3030399641* L_65 = V_4;
+		NullCheck(L_64);
+		Mesh_set_triangles_m3244966865(L_64, L_65, /*hidden argument*/NULL);
+		Mesh_t1356156583 * L_66 = V_7;
+		NullCheck(L_66);
+		Mesh_RecalculateNormals_m1034493793(L_66, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_67 = ___target0;
+		NullCheck(L_67);
+		Vector3_t2243707580  L_68 = Transform_get_lossyScale_m1638545862(L_67, /*hidden argument*/NULL);
+		V_9 = L_68;
+		float L_69 = (&V_9)->get_x_1();
+		Transform_t3275118058 * L_70 = ___target0;
+		NullCheck(L_70);
+		Vector3_t2243707580  L_71 = Transform_get_lossyScale_m1638545862(L_70, /*hidden argument*/NULL);
+		V_10 = L_71;
+		float L_72 = (&V_10)->get_z_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_73 = Mathf_Max_m2564622569(NULL /*static, unused*/, L_69, L_72, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_74 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_75 = Vector3_op_Multiply_m3872631309(NULL /*static, unused*/, ((float)((float)(2.0f)*(float)L_73)), L_74, /*hidden argument*/NULL);
+		V_8 = L_75;
+		Mesh_t1356156583 * L_76 = V_7;
+		Transform_t3275118058 * L_77 = ___target0;
+		NullCheck(L_77);
+		Vector3_t2243707580  L_78 = Transform_get_position_m1104419803(L_77, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_79 = ___target0;
+		NullCheck(L_79);
+		Quaternion_t4030073918  L_80 = Transform_get_rotation_m1033555130(L_79, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_81 = V_8;
+		Gizmos_DrawMesh_m3249467004(NULL /*static, unused*/, L_76, L_78, L_80, L_81, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrBaseControllerVisual::.ctor()
+extern "C"  void GvrBaseControllerVisual__ctor_m3531331701 (GvrBaseControllerVisual_t4093442088 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrBasePointer::.ctor()
+extern "C"  void GvrBasePointer__ctor_m677865000 (GvrBasePointer_t2150122635 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GvrBasePointer::get_ShouldUseExitRadiusForRaycast()
+extern "C"  bool GvrBasePointer_get_ShouldUseExitRadiusForRaycast_m3705361285 (GvrBasePointer_t2150122635 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		bool L_0 = __this->get_U3CShouldUseExitRadiusForRaycastU3Ek__BackingField_0();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrBasePointer::set_ShouldUseExitRadiusForRaycast(System.Boolean)
+extern "C"  void GvrBasePointer_set_ShouldUseExitRadiusForRaycast_m1138403000 (GvrBasePointer_t2150122635 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CShouldUseExitRadiusForRaycastU3Ek__BackingField_0(L_0);
+		return;
+	}
+}
+// UnityEngine.Transform GvrBasePointer::get_PointerTransform()
+extern "C"  Transform_t3275118058 * GvrBasePointer_get_PointerTransform_m3494232690 (GvrBasePointer_t2150122635 * __this, const MethodInfo* method)
+{
+	Transform_t3275118058 * V_0 = NULL;
+	{
+		Transform_t3275118058 * L_0 = __this->get_U3CPointerTransformU3Ek__BackingField_1();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Transform_t3275118058 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrBasePointer::set_PointerTransform(UnityEngine.Transform)
+extern "C"  void GvrBasePointer_set_PointerTransform_m2270092423 (GvrBasePointer_t2150122635 * __this, Transform_t3275118058 * ___value0, const MethodInfo* method)
+{
+	{
+		Transform_t3275118058 * L_0 = ___value0;
+		__this->set_U3CPointerTransformU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
+// System.Void GvrBasePointer::OnStart()
+extern "C"  void GvrBasePointer_OnStart_m2563285875 (GvrBasePointer_t2150122635 * __this, const MethodInfo* method)
+{
+	{
+		GvrPointerManager_OnPointerCreated_m1891135371(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrBasePointerRaycaster::.ctor()
+extern "C"  void GvrBasePointerRaycaster__ctor_m4174019434 (GvrBasePointerRaycaster_t1189534163 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_raycastMode_2(0);
+		BaseRaycaster__ctor_m1844650514(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single GvrBasePointerRaycaster::get_MaxPointerDistance()
+extern "C"  float GvrBasePointerRaycaster_get_MaxPointerDistance_m771532845 (GvrBasePointerRaycaster_t1189534163 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		V_0 = (0.0f);
+		goto IL_0027;
+	}
+
+IL_0017:
+	{
+		GvrBasePointer_t2150122635 * L_1 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		float L_2 = VirtFuncInvoker0< float >::Invoke(5 /* System.Single GvrBasePointer::get_MaxPointerDistance() */, L_1);
+		V_0 = L_2;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		float L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Single GvrBasePointerRaycaster::get_PointerRadius()
+extern "C"  float GvrBasePointerRaycaster_get_PointerRadius_m3443004720 (GvrBasePointerRaycaster_t1189534163 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		V_0 = (0.0f);
+		goto IL_0044;
+	}
+
+IL_0017:
+	{
+		GvrBasePointer_t2150122635 * L_1 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker2< float*, float* >::Invoke(14 /* System.Void GvrBasePointer::GetPointerRadius(System.Single&,System.Single&) */, L_1, (&V_1), (&V_2));
+		GvrBasePointer_t2150122635 * L_2 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		bool L_3 = GvrBasePointer_get_ShouldUseExitRadiusForRaycast_m3705361285(L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		float L_4 = V_2;
+		V_0 = L_4;
+		goto IL_0044;
+	}
+
+IL_003c:
+	{
+		float L_5 = V_1;
+		V_0 = L_5;
+		goto IL_0044;
+	}
+
+IL_0044:
+	{
+		float L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Boolean GvrBasePointerRaycaster::IsPointerAvailable()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrBasePointerRaycaster_IsPointerAvailable_m2792971214_MetadataUsageId;
+extern "C"  bool GvrBasePointerRaycaster_IsPointerAvailable_m2792971214 (GvrBasePointerRaycaster_t1189534163 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrBasePointerRaycaster_IsPointerAvailable_m2792971214_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		V_0 = (bool)0;
+		goto IL_0037;
+	}
+
+IL_0013:
+	{
+		GvrBasePointer_t2150122635 * L_1 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_t3275118058 * L_2 = GvrBasePointer_get_PointerTransform_m3494232690(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		V_0 = (bool)0;
+		goto IL_0037;
+	}
+
+IL_0030:
+	{
+		V_0 = (bool)1;
+		goto IL_0037;
+	}
+
+IL_0037:
+	{
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// UnityEngine.Ray GvrBasePointerRaycaster::GetLastRay()
+extern "C"  Ray_t2469606224  GvrBasePointerRaycaster_GetLastRay_m1048711842 (GvrBasePointerRaycaster_t1189534163 * __this, const MethodInfo* method)
+{
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Ray_t2469606224  L_0 = __this->get_lastRay_3();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Ray_t2469606224  L_1 = V_0;
+		return L_1;
+	}
+}
+// UnityEngine.Ray GvrBasePointerRaycaster::GetRay()
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Ray_t2469606224_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral835756156;
+extern const uint32_t GvrBasePointerRaycaster_GetRay_m2992454774_MetadataUsageId;
+extern "C"  Ray_t2469606224  GvrBasePointerRaycaster_GetRay_m2992454774 (GvrBasePointerRaycaster_t1189534163 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrBasePointerRaycaster_GetRay_m2992454774_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Ray_t2469606224  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Transform_t3275118058 * V_2 = NULL;
+	int32_t V_3 = 0;
+	Vector3_t2243707580  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector3_t2243707580  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t2243707580  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Vector3_t2243707580  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	Ray_t2469606224  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	{
+		bool L_0 = GvrBasePointerRaycaster_IsPointerAvailable_m2792971214(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral835756156, /*hidden argument*/NULL);
+		Initobj (Ray_t2469606224_il2cpp_TypeInfo_var, (&V_0));
+		Ray_t2469606224  L_1 = V_0;
+		__this->set_lastRay_3(L_1);
+		Ray_t2469606224  L_2 = __this->get_lastRay_3();
+		V_1 = L_2;
+		goto IL_0106;
+	}
+
+IL_0032:
+	{
+		GvrBasePointer_t2150122635 * L_3 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_t3275118058 * L_4 = GvrBasePointer_get_PointerTransform_m3494232690(L_3, /*hidden argument*/NULL);
+		V_2 = L_4;
+		int32_t L_5 = __this->get_raycastMode_2();
+		V_3 = L_5;
+		int32_t L_6 = V_3;
+		if (!L_6)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		int32_t L_7 = V_3;
+		if ((((int32_t)L_7) == ((int32_t)1)))
+		{
+			goto IL_00c9;
+		}
+	}
+	{
+		goto IL_00e5;
+	}
+
+IL_0056:
+	{
+		Transform_t3275118058 * L_8 = V_2;
+		NullCheck(L_8);
+		Vector3_t2243707580  L_9 = Transform_get_position_m1104419803(L_8, /*hidden argument*/NULL);
+		V_4 = L_9;
+		Vector3_t2243707580  L_10 = V_4;
+		Transform_t3275118058 * L_11 = V_2;
+		NullCheck(L_11);
+		Vector3_t2243707580  L_12 = Transform_get_forward_m1833488937(L_11, /*hidden argument*/NULL);
+		float L_13 = GvrBasePointerRaycaster_get_MaxPointerDistance_m771532845(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_15 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_10, L_14, /*hidden argument*/NULL);
+		V_5 = L_15;
+		Camera_t189460977 * L_16 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Transform_t3275118058 * L_17 = Component_get_transform_m2697483695(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Vector3_t2243707580  L_18 = Transform_get_position_m1104419803(L_17, /*hidden argument*/NULL);
+		V_6 = L_18;
+		Vector3_t2243707580  L_19 = V_5;
+		Vector3_t2243707580  L_20 = V_6;
+		Vector3_t2243707580  L_21 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_19, L_20, /*hidden argument*/NULL);
+		V_7 = L_21;
+		Vector3_Normalize_m3679112426((&V_7), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_22 = V_6;
+		Vector3_t2243707580  L_23 = V_7;
+		Camera_t189460977 * L_24 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		float L_25 = Camera_get_nearClipPlane_m3536967407(L_24, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_26 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_23, L_25, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_27 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_22, L_26, /*hidden argument*/NULL);
+		V_8 = L_27;
+		Vector3_t2243707580  L_28 = V_8;
+		Vector3_t2243707580  L_29 = V_7;
+		Ray_t2469606224  L_30;
+		memset(&L_30, 0, sizeof(L_30));
+		Ray__ctor_m3379034047(&L_30, L_28, L_29, /*hidden argument*/NULL);
+		__this->set_lastRay_3(L_30);
+		goto IL_00fa;
+	}
+
+IL_00c9:
+	{
+		Transform_t3275118058 * L_31 = V_2;
+		NullCheck(L_31);
+		Vector3_t2243707580  L_32 = Transform_get_position_m1104419803(L_31, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_33 = V_2;
+		NullCheck(L_33);
+		Vector3_t2243707580  L_34 = Transform_get_forward_m1833488937(L_33, /*hidden argument*/NULL);
+		Ray_t2469606224  L_35;
+		memset(&L_35, 0, sizeof(L_35));
+		Ray__ctor_m3379034047(&L_35, L_32, L_34, /*hidden argument*/NULL);
+		__this->set_lastRay_3(L_35);
+		goto IL_00fa;
+	}
+
+IL_00e5:
+	{
+		Initobj (Ray_t2469606224_il2cpp_TypeInfo_var, (&V_9));
+		Ray_t2469606224  L_36 = V_9;
+		__this->set_lastRay_3(L_36);
+		goto IL_00fa;
+	}
+
+IL_00fa:
+	{
+		Ray_t2469606224  L_37 = __this->get_lastRay_3();
+		V_1 = L_37;
+		goto IL_0106;
+	}
+
+IL_0106:
+	{
+		Ray_t2469606224  L_38 = V_1;
+		return L_38;
+	}
+}
+// System.Void GvrBatteryIndicator::.ctor()
+extern "C"  void GvrBatteryIndicator__ctor_m3200984038 (GvrBatteryIndicator_t1573734297 * __this, const MethodInfo* method)
+{
+	{
+		GvrBaseControllerVisual__ctor_m3531331701(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrCameraUtils::.ctor()
+extern "C"  void GvrCameraUtils__ctor_m2507475914 (GvrCameraUtils_t3683962711 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrCameraUtils::FixProjection(UnityEngine.Rect,System.Single,System.Single,UnityEngine.Matrix4x4&)
+extern "C"  void GvrCameraUtils_FixProjection_m1517035997 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___camRect0, float ___nearClipPlane1, float ___farClipPlane2, Matrix4x4_t2933234003 * ___proj3, const MethodInfo* method)
+{
+	Matrix4x4_t2933234003 * V_0 = NULL;
+	{
+		Matrix4x4_t2933234003 * L_0 = ___proj3;
+		Matrix4x4_t2933234003 * L_1 = L_0;
+		V_0 = (Matrix4x4_t2933234003 *)L_1;
+		Matrix4x4_t2933234003 * L_2 = V_0;
+		float L_3 = Matrix4x4_get_Item_m312280350(L_2, 0, 0, /*hidden argument*/NULL);
+		float L_4 = Rect_get_height_m3128694305((&___camRect0), /*hidden argument*/NULL);
+		float L_5 = Rect_get_width_m1138015702((&___camRect0), /*hidden argument*/NULL);
+		Matrix4x4_set_Item_m1035113911(L_1, 0, 0, ((float)((float)L_3*(float)((float)((float)((float)((float)L_4/(float)L_5))/(float)(2.0f))))), /*hidden argument*/NULL);
+		Matrix4x4_t2933234003 * L_6 = ___proj3;
+		float L_7 = ___nearClipPlane1;
+		float L_8 = ___farClipPlane2;
+		float L_9 = ___nearClipPlane1;
+		float L_10 = ___farClipPlane2;
+		Matrix4x4_set_Item_m1035113911(L_6, 2, 2, ((float)((float)((float)((float)L_7+(float)L_8))/(float)((float)((float)L_9-(float)L_10)))), /*hidden argument*/NULL);
+		Matrix4x4_t2933234003 * L_11 = ___proj3;
+		float L_12 = ___nearClipPlane1;
+		float L_13 = ___farClipPlane2;
+		float L_14 = ___nearClipPlane1;
+		float L_15 = ___farClipPlane2;
+		Matrix4x4_set_Item_m1035113911(L_11, 2, 3, ((float)((float)((float)((float)((float)((float)(2.0f)*(float)L_12))*(float)L_13))/(float)((float)((float)L_14-(float)L_15)))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Rect GvrCameraUtils::FixViewport(UnityEngine.Rect,UnityEngine.Rect,System.Boolean)
+extern "C"  Rect_t3681755626  GvrCameraUtils_FixViewport_m811730616 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___rect0, Rect_t3681755626  ___viewport1, bool ___isRightEye2, const MethodInfo* method)
+{
+	Rect_t3681755626  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		bool L_0 = ___isRightEye2;
+		if (!L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Rect_t3681755626 * L_1 = (&___rect0);
+		float L_2 = Rect_get_x_m1393582490(L_1, /*hidden argument*/NULL);
+		Rect_set_x_m3783700513(L_1, ((float)((float)L_2-(float)(0.5f))), /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		Rect_t3681755626 * L_3 = (&___rect0);
+		float L_4 = Rect_get_width_m1138015702(L_3, /*hidden argument*/NULL);
+		float L_5 = Rect_get_width_m1138015702((&___viewport1), /*hidden argument*/NULL);
+		Rect_set_width_m1921257731(L_3, ((float)((float)L_4*(float)((float)((float)(2.0f)*(float)L_5)))), /*hidden argument*/NULL);
+		float L_6 = Rect_get_x_m1393582490((&___viewport1), /*hidden argument*/NULL);
+		float L_7 = Rect_get_x_m1393582490((&___rect0), /*hidden argument*/NULL);
+		float L_8 = Rect_get_width_m1138015702((&___viewport1), /*hidden argument*/NULL);
+		Rect_set_x_m3783700513((&___rect0), ((float)((float)L_6+(float)((float)((float)((float)((float)(2.0f)*(float)L_7))*(float)L_8)))), /*hidden argument*/NULL);
+		Rect_t3681755626 * L_9 = (&___rect0);
+		float L_10 = Rect_get_height_m3128694305(L_9, /*hidden argument*/NULL);
+		float L_11 = Rect_get_height_m3128694305((&___viewport1), /*hidden argument*/NULL);
+		Rect_set_height_m2019122814(L_9, ((float)((float)L_10*(float)L_11)), /*hidden argument*/NULL);
+		float L_12 = Rect_get_y_m1393582395((&___viewport1), /*hidden argument*/NULL);
+		float L_13 = Rect_get_y_m1393582395((&___rect0), /*hidden argument*/NULL);
+		float L_14 = Rect_get_height_m3128694305((&___viewport1), /*hidden argument*/NULL);
+		Rect_set_y_m4294916608((&___rect0), ((float)((float)L_12+(float)((float)((float)L_13*(float)L_14)))), /*hidden argument*/NULL);
+		Rect_t3681755626  L_15 = ___rect0;
+		V_0 = L_15;
+		goto IL_0095;
+	}
+
+IL_0095:
+	{
+		Rect_t3681755626  L_16 = V_0;
+		return L_16;
+	}
+}
+// UnityEngine.Rect GvrCameraUtils::FixEditorViewport(UnityEngine.Rect,System.Single,System.Single)
+extern "C"  Rect_t3681755626  GvrCameraUtils_FixEditorViewport_m1007223735 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___rect0, float ___profileAspect1, float ___windowAspect2, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	Rect_t3681755626  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		float L_0 = ___profileAspect1;
+		float L_1 = ___windowAspect2;
+		V_0 = ((float)((float)L_0/(float)L_1));
+		float L_2 = V_0;
+		if ((!(((float)L_2) < ((float)(1.0f)))))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		Rect_t3681755626 * L_3 = (&___rect0);
+		float L_4 = Rect_get_width_m1138015702(L_3, /*hidden argument*/NULL);
+		float L_5 = V_0;
+		Rect_set_width_m1921257731(L_3, ((float)((float)L_4*(float)L_5)), /*hidden argument*/NULL);
+		Rect_t3681755626 * L_6 = (&___rect0);
+		float L_7 = Rect_get_x_m1393582490(L_6, /*hidden argument*/NULL);
+		float L_8 = V_0;
+		Rect_set_x_m3783700513(L_6, ((float)((float)L_7*(float)L_8)), /*hidden argument*/NULL);
+		Rect_t3681755626 * L_9 = (&___rect0);
+		float L_10 = Rect_get_x_m1393582490(L_9, /*hidden argument*/NULL);
+		float L_11 = V_0;
+		Rect_set_x_m3783700513(L_9, ((float)((float)L_10+(float)((float)((float)((float)((float)(1.0f)-(float)L_11))/(float)(2.0f))))), /*hidden argument*/NULL);
+		goto IL_0070;
+	}
+
+IL_0050:
+	{
+		Rect_t3681755626 * L_12 = (&___rect0);
+		float L_13 = Rect_get_height_m3128694305(L_12, /*hidden argument*/NULL);
+		float L_14 = V_0;
+		Rect_set_height_m2019122814(L_12, ((float)((float)L_13/(float)L_14)), /*hidden argument*/NULL);
+		Rect_t3681755626 * L_15 = (&___rect0);
+		float L_16 = Rect_get_y_m1393582395(L_15, /*hidden argument*/NULL);
+		float L_17 = V_0;
+		Rect_set_y_m4294916608(L_15, ((float)((float)L_16/(float)L_17)), /*hidden argument*/NULL);
+	}
+
+IL_0070:
+	{
+		Rect_t3681755626  L_18 = ___rect0;
+		V_1 = L_18;
+		goto IL_0077;
+	}
+
+IL_0077:
+	{
+		Rect_t3681755626  L_19 = V_1;
+		return L_19;
+	}
+}
+// System.Void GvrCameraUtils::ZoomStereoCameras(System.Single,System.Single,System.Single,UnityEngine.Matrix4x4&)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrCameraUtils_ZoomStereoCameras_m770091414_MetadataUsageId;
+extern "C"  void GvrCameraUtils_ZoomStereoCameras_m770091414 (Il2CppObject * __this /* static, unused */, float ___matchByZoom0, float ___matchMonoFOV1, float ___monoProj112, Matrix4x4_t2933234003 * ___proj3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrCameraUtils_ZoomStereoCameras_m770091414_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	Matrix4x4_t2933234003 * V_2 = NULL;
+	{
+		float L_0 = ___matchByZoom0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_1 = Mathf_Clamp01_m3888954684(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		float L_2 = ___matchMonoFOV1;
+		float L_3 = Mathf_Clamp01_m3888954684(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_0 = ((float)((float)L_1*(float)L_3));
+		Matrix4x4_t2933234003 * L_4 = ___proj3;
+		float L_5 = Matrix4x4_get_Item_m312280350(L_4, 1, 1, /*hidden argument*/NULL);
+		float L_6 = ___monoProj112;
+		float L_7 = V_0;
+		float L_8 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, ((float)((float)(1.0f)/(float)L_5)), ((float)((float)(1.0f)/(float)L_6)), L_7, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003 * L_9 = ___proj3;
+		float L_10 = Matrix4x4_get_Item_m312280350(L_9, 1, 1, /*hidden argument*/NULL);
+		V_1 = ((float)((float)((float)((float)(1.0f)/(float)L_8))/(float)L_10));
+		Matrix4x4_t2933234003 * L_11 = ___proj3;
+		Matrix4x4_t2933234003 * L_12 = L_11;
+		V_2 = (Matrix4x4_t2933234003 *)L_12;
+		Matrix4x4_t2933234003 * L_13 = V_2;
+		float L_14 = Matrix4x4_get_Item_m312280350(L_13, 0, 0, /*hidden argument*/NULL);
+		float L_15 = V_1;
+		Matrix4x4_set_Item_m1035113911(L_12, 0, 0, ((float)((float)L_14*(float)L_15)), /*hidden argument*/NULL);
+		Matrix4x4_t2933234003 * L_16 = ___proj3;
+		Matrix4x4_t2933234003 * L_17 = L_16;
+		V_2 = (Matrix4x4_t2933234003 *)L_17;
+		Matrix4x4_t2933234003 * L_18 = V_2;
+		float L_19 = Matrix4x4_get_Item_m312280350(L_18, 1, 1, /*hidden argument*/NULL);
+		float L_20 = V_1;
+		Matrix4x4_set_Item_m1035113911(L_17, 1, 1, ((float)((float)L_19*(float)L_20)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrController::.ctor()
+extern "C"  void GvrController__ctor_m2877647192 (GvrController_t1602869021 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrControllerVisual::.ctor()
+extern "C"  void GvrControllerVisual__ctor_m4119471196 (GvrControllerVisual_t3328916665 * __this, const MethodInfo* method)
+{
+	{
+		GvrBaseControllerVisual__ctor_m3531331701(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrControllerVisualManager::.ctor()
+extern "C"  void GvrControllerVisualManager__ctor_m598650875 (GvrControllerVisualManager_t1857939020 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrDaydreamApi::.ctor()
+extern "C"  void GvrDaydreamApi__ctor_m1926314739 (GvrDaydreamApi_t4123913920 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GvrDaydreamApi::get_IsCreated()
+extern Il2CppClass* GvrDaydreamApi_t4123913920_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDaydreamApi_get_IsCreated_m2470893558_MetadataUsageId;
+extern "C"  bool GvrDaydreamApi_get_IsCreated_m2470893558 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDaydreamApi_get_IsCreated_m2470893558_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		GvrDaydreamApi_t4123913920 * L_0 = ((GvrDaydreamApi_t4123913920_StaticFields*)GvrDaydreamApi_t4123913920_il2cpp_TypeInfo_var->static_fields)->get_m_instance_4();
+		V_0 = (bool)((((int32_t)((((Il2CppObject*)(GvrDaydreamApi_t4123913920 *)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrDaydreamApi::Dispose()
+extern Il2CppClass* GvrDaydreamApi_t4123913920_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDaydreamApi_Dispose_m3078458430_MetadataUsageId;
+extern "C"  void GvrDaydreamApi_Dispose_m3078458430 (GvrDaydreamApi_t4123913920 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDaydreamApi_Dispose_m3078458430_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((GvrDaydreamApi_t4123913920_StaticFields*)GvrDaydreamApi_t4123913920_il2cpp_TypeInfo_var->static_fields)->set_m_instance_4((GvrDaydreamApi_t4123913920 *)NULL);
+		return;
+	}
+}
+// System.Void GvrDaydreamApi::Create()
+extern Il2CppClass* GvrDaydreamApi_t4123913920_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDaydreamApi_Create_m2419646199_MetadataUsageId;
+extern "C"  void GvrDaydreamApi_Create_m2419646199 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDaydreamApi_Create_m2419646199_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GvrDaydreamApi_t4123913920 * L_0 = ((GvrDaydreamApi_t4123913920_StaticFields*)GvrDaydreamApi_t4123913920_il2cpp_TypeInfo_var->static_fields)->get_m_instance_4();
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		GvrDaydreamApi_t4123913920 * L_1 = (GvrDaydreamApi_t4123913920 *)il2cpp_codegen_object_new(GvrDaydreamApi_t4123913920_il2cpp_TypeInfo_var);
+		GvrDaydreamApi__ctor_m1926314739(L_1, /*hidden argument*/NULL);
+		((GvrDaydreamApi_t4123913920_StaticFields*)GvrDaydreamApi_t4123913920_il2cpp_TypeInfo_var->static_fields)->set_m_instance_4(L_1);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void GvrDaydreamApi::LaunchVrHome()
+extern "C"  void GvrDaydreamApi_LaunchVrHome_m2127798285 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GVRDemoManager::.ctor()
+extern "C"  void GVRDemoManager__ctor_m2879673956 (GVRDemoManager_t2690453893 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GVRDemoManager::Start()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GVRDemoManager_Start_m1801573700_MetadataUsageId;
+extern "C"  void GVRDemoManager_Start_m1801573700 (GVRDemoManager_t2690453893 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GVRDemoManager_Start_m1801573700_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = __this->get_m_launchVrHomeButton_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		goto IL_0024;
+	}
+
+IL_0018:
+	{
+		GameObject_t1756533147 * L_2 = __this->get_m_launchVrHomeButton_2();
+		NullCheck(L_2);
+		GameObject_SetActive_m2887581199(L_2, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0024:
+	{
+		return;
+	}
+}
+// System.Void GVRDemoManager::LaunchVrHome()
+extern "C"  void GVRDemoManager_LaunchVrHome_m255536734 (GVRDemoManager_t2690453893 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrDropdown::.ctor()
+extern Il2CppClass* Dropdown_t1985816271_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDropdown__ctor_m355199575_MetadataUsageId;
+extern "C"  void GvrDropdown__ctor_m355199575 (GvrDropdown_t2234606196 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDropdown__ctor_m355199575_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Dropdown_t1985816271_il2cpp_TypeInfo_var);
+		Dropdown__ctor_m964984536(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrDropdown::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+extern "C"  void GvrDropdown_OnPointerClick_m898035059 (GvrDropdown_t2234606196 * __this, PointerEventData_t1599784723 * ___eventData0, const MethodInfo* method)
+{
+	{
+		PointerEventData_t1599784723 * L_0 = ___eventData0;
+		Dropdown_OnPointerClick_m253039636(__this, L_0, /*hidden argument*/NULL);
+		GvrDropdown_FixTemplateAndBlockerRaycasters_m3605751466(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrDropdown::OnSubmit(UnityEngine.EventSystems.BaseEventData)
+extern "C"  void GvrDropdown_OnSubmit_m2777299550 (GvrDropdown_t2234606196 * __this, BaseEventData_t2681005625 * ___eventData0, const MethodInfo* method)
+{
+	{
+		BaseEventData_t2681005625 * L_0 = ___eventData0;
+		Dropdown_OnSubmit_m3243881785(__this, L_0, /*hidden argument*/NULL);
+		GvrDropdown_FixTemplateAndBlockerRaycasters_m3605751466(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrDropdown::FixTemplateAndBlockerRaycasters()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDropdown_FixTemplateAndBlockerRaycasters_m3605751466_MetadataUsageId;
+extern "C"  void GvrDropdown_FixTemplateAndBlockerRaycasters_m3605751466 (GvrDropdown_t2234606196 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDropdown_FixTemplateAndBlockerRaycasters_m3605751466_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RectTransform_t3349966182 * L_0 = Dropdown_get_template_m3014799983(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		RectTransform_t3349966182 * L_2 = Dropdown_get_template_m3014799983(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m3105766835(L_2, /*hidden argument*/NULL);
+		GvrDropdown_FixRaycaster_m1697516107(__this, L_3, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		GameObject_t1756533147 * L_4 = __this->get_currentBlocker_30();
+		GvrDropdown_FixRaycaster_m1697516107(__this, L_4, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.GameObject GvrDropdown::CreateBlocker(UnityEngine.Canvas)
+extern "C"  GameObject_t1756533147 * GvrDropdown_CreateBlocker_m1752141389 (GvrDropdown_t2234606196 * __this, Canvas_t209405766 * ___rootCanvas0, const MethodInfo* method)
+{
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Canvas_t209405766 * L_0 = ___rootCanvas0;
+		GameObject_t1756533147 * L_1 = Dropdown_CreateBlocker_m4109366440(__this, L_0, /*hidden argument*/NULL);
+		__this->set_currentBlocker_30(L_1);
+		GameObject_t1756533147 * L_2 = __this->get_currentBlocker_30();
+		V_0 = L_2;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		GameObject_t1756533147 * L_3 = V_0;
+		return L_3;
+	}
+}
+// UnityEngine.GameObject GvrDropdown::CreateDropdownList(UnityEngine.GameObject)
+extern "C"  GameObject_t1756533147 * GvrDropdown_CreateDropdownList_m2420220213 (GvrDropdown_t2234606196 * __this, GameObject_t1756533147 * ___template0, const MethodInfo* method)
+{
+	GameObject_t1756533147 * V_0 = NULL;
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = ___template0;
+		GameObject_t1756533147 * L_1 = Dropdown_CreateDropdownList_m3718670168(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		GameObject_t1756533147 * L_2 = V_0;
+		GvrDropdown_FixRaycaster_m1697516107(__this, L_2, (bool)0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		GameObject_t1756533147 * L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Void GvrDropdown::FixRaycaster(UnityEngine.GameObject,System.Boolean)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisGraphicRaycaster_t410733016_m3518220980_MethodInfo_var;
+extern const MethodInfo* GvrDropdown_GetOrAddComponent_TisGvrPointerGraphicRaycaster_t1649506702_m553117666_MethodInfo_var;
+extern const uint32_t GvrDropdown_FixRaycaster_m1697516107_MetadataUsageId;
+extern "C"  void GvrDropdown_FixRaycaster_m1697516107 (GvrDropdown_t2234606196 * __this, GameObject_t1756533147 * ___go0, bool ___shouldCopyProperties1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDropdown_FixRaycaster_m1697516107_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GraphicRaycaster_t410733016 * V_0 = NULL;
+	bool V_1 = false;
+	GvrPointerGraphicRaycaster_t1649506702 * V_2 = NULL;
+	GvrPointerGraphicRaycaster_t1649506702 * V_3 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = ___go0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0054;
+	}
+
+IL_0013:
+	{
+		GameObject_t1756533147 * L_2 = ___go0;
+		NullCheck(L_2);
+		GraphicRaycaster_t410733016 * L_3 = GameObject_GetComponent_TisGraphicRaycaster_t410733016_m3518220980(L_2, /*hidden argument*/GameObject_GetComponent_TisGraphicRaycaster_t410733016_m3518220980_MethodInfo_var);
+		V_0 = L_3;
+		GraphicRaycaster_t410733016 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_5 = ___go0;
+		GvrPointerGraphicRaycaster_t1649506702 * L_6 = GvrDropdown_GetOrAddComponent_TisGvrPointerGraphicRaycaster_t1649506702_m553117666(NULL /*static, unused*/, L_5, (&V_1), /*hidden argument*/GvrDropdown_GetOrAddComponent_TisGvrPointerGraphicRaycaster_t1649506702_m553117666_MethodInfo_var);
+		V_2 = L_6;
+		bool L_7 = ___shouldCopyProperties1;
+		if (!L_7)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		GvrPointerGraphicRaycaster_t1649506702 * L_8 = GvrDropdown_GetTemplateRaycaster_m2203793630(__this, /*hidden argument*/NULL);
+		V_3 = L_8;
+		bool L_9 = V_1;
+		if (!L_9)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		GvrPointerGraphicRaycaster_t1649506702 * L_10 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_11 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_10, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		GvrPointerGraphicRaycaster_t1649506702 * L_12 = V_3;
+		GvrPointerGraphicRaycaster_t1649506702 * L_13 = V_2;
+		GvrDropdown_CopyRaycasterProperties_m1926843691(__this, L_12, L_13, /*hidden argument*/NULL);
+	}
+
+IL_0053:
+	{
+	}
+
+IL_0054:
+	{
+		return;
+	}
+}
+// GvrPointerGraphicRaycaster GvrDropdown::GetTemplateRaycaster()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisGvrPointerGraphicRaycaster_t1649506702_m1701133637_MethodInfo_var;
+extern const uint32_t GvrDropdown_GetTemplateRaycaster_m2203793630_MetadataUsageId;
+extern "C"  GvrPointerGraphicRaycaster_t1649506702 * GvrDropdown_GetTemplateRaycaster_m2203793630 (GvrDropdown_t2234606196 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDropdown_GetTemplateRaycaster_m2203793630_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GvrPointerGraphicRaycaster_t1649506702 * V_0 = NULL;
+	{
+		RectTransform_t3349966182 * L_0 = Dropdown_get_template_m3014799983(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		V_0 = (GvrPointerGraphicRaycaster_t1649506702 *)NULL;
+		goto IL_002b;
+	}
+
+IL_001a:
+	{
+		RectTransform_t3349966182 * L_2 = Dropdown_get_template_m3014799983(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		GvrPointerGraphicRaycaster_t1649506702 * L_3 = Component_GetComponent_TisGvrPointerGraphicRaycaster_t1649506702_m1701133637(L_2, /*hidden argument*/Component_GetComponent_TisGvrPointerGraphicRaycaster_t1649506702_m1701133637_MethodInfo_var);
+		V_0 = L_3;
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		GvrPointerGraphicRaycaster_t1649506702 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void GvrDropdown::CopyRaycasterProperties(GvrPointerGraphicRaycaster,GvrPointerGraphicRaycaster)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrDropdown_CopyRaycasterProperties_m1926843691_MetadataUsageId;
+extern "C"  void GvrDropdown_CopyRaycasterProperties_m1926843691 (GvrDropdown_t2234606196 * __this, GvrPointerGraphicRaycaster_t1649506702 * ___source0, GvrPointerGraphicRaycaster_t1649506702 * ___dest1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrDropdown_CopyRaycasterProperties_m1926843691_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GvrPointerGraphicRaycaster_t1649506702 * L_0 = ___source0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		GvrPointerGraphicRaycaster_t1649506702 * L_2 = ___dest1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_001f;
+		}
+	}
+
+IL_0019:
+	{
+		goto IL_004f;
+	}
+
+IL_001f:
+	{
+		GvrPointerGraphicRaycaster_t1649506702 * L_4 = ___dest1;
+		GvrPointerGraphicRaycaster_t1649506702 * L_5 = ___source0;
+		NullCheck(L_5);
+		LayerMask_t3188175821  L_6 = L_5->get_blockingMask_7();
+		NullCheck(L_4);
+		L_4->set_blockingMask_7(L_6);
+		GvrPointerGraphicRaycaster_t1649506702 * L_7 = ___dest1;
+		GvrPointerGraphicRaycaster_t1649506702 * L_8 = ___source0;
+		NullCheck(L_8);
+		int32_t L_9 = L_8->get_blockingObjects_6();
+		NullCheck(L_7);
+		L_7->set_blockingObjects_6(L_9);
+		GvrPointerGraphicRaycaster_t1649506702 * L_10 = ___dest1;
+		GvrPointerGraphicRaycaster_t1649506702 * L_11 = ___source0;
+		NullCheck(L_11);
+		bool L_12 = L_11->get_ignoreReversedGraphics_5();
+		NullCheck(L_10);
+		L_10->set_ignoreReversedGraphics_5(L_12);
+		GvrPointerGraphicRaycaster_t1649506702 * L_13 = ___dest1;
+		GvrPointerGraphicRaycaster_t1649506702 * L_14 = ___source0;
+		NullCheck(L_14);
+		int32_t L_15 = ((GvrBasePointerRaycaster_t1189534163 *)L_14)->get_raycastMode_2();
+		NullCheck(L_13);
+		((GvrBasePointerRaycaster_t1189534163 *)L_13)->set_raycastMode_2(L_15);
+	}
+
+IL_004f:
+	{
+		return;
+	}
+}
+// System.Void GvrExecuteEventsExtension::Execute(IGvrPointerHoverHandler,UnityEngine.EventSystems.BaseEventData)
+extern Il2CppClass* ExecuteEvents_t1693084770_il2cpp_TypeInfo_var;
+extern Il2CppClass* IGvrPointerHoverHandler_t1683868601_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExecuteEvents_ValidateEventData_TisPointerEventData_t1599784723_m1649947406_MethodInfo_var;
+extern const uint32_t GvrExecuteEventsExtension_Execute_m751839475_MetadataUsageId;
+extern "C"  void GvrExecuteEventsExtension_Execute_m751839475 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___handler0, BaseEventData_t2681005625 * ___eventData1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrExecuteEventsExtension_Execute_m751839475_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___handler0;
+		BaseEventData_t2681005625 * L_1 = ___eventData1;
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		PointerEventData_t1599784723 * L_2 = ExecuteEvents_ValidateEventData_TisPointerEventData_t1599784723_m1649947406(NULL /*static, unused*/, L_1, /*hidden argument*/ExecuteEvents_ValidateEventData_TisPointerEventData_t1599784723_m1649947406_MethodInfo_var);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< PointerEventData_t1599784723 * >::Invoke(0 /* System.Void IGvrPointerHoverHandler::OnGvrPointerHover(UnityEngine.EventSystems.PointerEventData) */, IGvrPointerHoverHandler_t1683868601_il2cpp_TypeInfo_var, L_0, L_2);
+		return;
+	}
+}
+// UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<IGvrPointerHoverHandler> GvrExecuteEventsExtension::get_pointerHoverHandler()
+extern Il2CppClass* GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var;
+extern const uint32_t GvrExecuteEventsExtension_get_pointerHoverHandler_m3800604216_MetadataUsageId;
+extern "C"  EventFunction_1_t181019251 * GvrExecuteEventsExtension_get_pointerHoverHandler_m3800604216 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrExecuteEventsExtension_get_pointerHoverHandler_m3800604216_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventFunction_1_t181019251 * V_0 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var);
+		EventFunction_1_t181019251 * L_0 = ((GvrExecuteEventsExtension_t3083691626_StaticFields*)GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var->static_fields)->get_s_HoverHandler_0();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		EventFunction_1_t181019251 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrExecuteEventsExtension::.cctor()
+extern Il2CppClass* GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var;
+extern Il2CppClass* EventFunction_1_t181019251_il2cpp_TypeInfo_var;
+extern const MethodInfo* GvrExecuteEventsExtension_Execute_m751839475_MethodInfo_var;
+extern const MethodInfo* EventFunction_1__ctor_m2039577089_MethodInfo_var;
+extern const uint32_t GvrExecuteEventsExtension__cctor_m3810135292_MetadataUsageId;
+extern "C"  void GvrExecuteEventsExtension__cctor_m3810135292 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrExecuteEventsExtension__cctor_m3810135292_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		EventFunction_1_t181019251 * L_0 = ((GvrExecuteEventsExtension_t3083691626_StaticFields*)GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_1();
+		if (L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		IntPtr_t L_1;
+		L_1.set_m_value_0((void*)(void*)GvrExecuteEventsExtension_Execute_m751839475_MethodInfo_var);
+		EventFunction_1_t181019251 * L_2 = (EventFunction_1_t181019251 *)il2cpp_codegen_object_new(EventFunction_1_t181019251_il2cpp_TypeInfo_var);
+		EventFunction_1__ctor_m2039577089(L_2, NULL, L_1, /*hidden argument*/EventFunction_1__ctor_m2039577089_MethodInfo_var);
+		((GvrExecuteEventsExtension_t3083691626_StaticFields*)GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__mgU24cache0_1(L_2);
+	}
+
+IL_0018:
+	{
+		EventFunction_1_t181019251 * L_3 = ((GvrExecuteEventsExtension_t3083691626_StaticFields*)GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__mgU24cache0_1();
+		((GvrExecuteEventsExtension_t3083691626_StaticFields*)GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var->static_fields)->set_s_HoverHandler_0(L_3);
+		return;
+	}
+}
+// System.Void GvrEye::.ctor()
+extern "C"  void GvrEye__ctor_m858222253 (GvrEye_t3930157106 * __this, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		__this->set_toggleCullingMask_3(L_0);
+		__this->set_interpPosition_8((1.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// StereoController GvrEye::get_Controller()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponentInParent_TisStereoController_t3144380552_m2336069850_MethodInfo_var;
+extern const uint32_t GvrEye_get_Controller_m1564191365_MetadataUsageId;
+extern "C"  StereoController_t3144380552 * GvrEye_get_Controller_m1564191365 (GvrEye_t3930157106 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrEye_get_Controller_m1564191365_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StereoController_t3144380552 * V_0 = NULL;
+	{
+		Transform_t3275118058 * L_0 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = Transform_get_parent_m147407266(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		V_0 = (StereoController_t3144380552 *)NULL;
+		goto IL_0067;
+	}
+
+IL_001f:
+	{
+		bool L_3 = Application_get_isEditor_m2474583393(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		bool L_4 = Application_get_isPlaying_m4091950718(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0044;
+		}
+	}
+
+IL_0033:
+	{
+		StereoController_t3144380552 * L_5 = __this->get_controller_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_6 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_005b;
+		}
+	}
+
+IL_0044:
+	{
+		Transform_t3275118058 * L_7 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Transform_t3275118058 * L_8 = Transform_get_parent_m147407266(L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		StereoController_t3144380552 * L_9 = Component_GetComponentInParent_TisStereoController_t3144380552_m2336069850(L_8, /*hidden argument*/Component_GetComponentInParent_TisStereoController_t3144380552_m2336069850_MethodInfo_var);
+		V_0 = L_9;
+		goto IL_0067;
+	}
+
+IL_005b:
+	{
+		StereoController_t3144380552 * L_10 = __this->get_controller_4();
+		V_0 = L_10;
+		goto IL_0067;
+	}
+
+IL_0067:
+	{
+		StereoController_t3144380552 * L_11 = V_0;
+		return L_11;
+	}
+}
+// GvrHead GvrEye::get_Head()
+extern const MethodInfo* Component_GetComponentInParent_TisGvrHead_t3923315805_m3169667995_MethodInfo_var;
+extern const uint32_t GvrEye_get_Head_m3515936354_MetadataUsageId;
+extern "C"  GvrHead_t3923315805 * GvrEye_get_Head_m3515936354 (GvrEye_t3930157106 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrEye_get_Head_m3515936354_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GvrHead_t3923315805 * V_0 = NULL;
+	{
+		GvrHead_t3923315805 * L_0 = Component_GetComponentInParent_TisGvrHead_t3923315805_m3169667995(__this, /*hidden argument*/Component_GetComponentInParent_TisGvrHead_t3923315805_m3169667995_MethodInfo_var);
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		GvrHead_t3923315805 * L_1 = V_0;
+		return L_1;
+	}
+}
+// UnityEngine.Camera GvrEye::get_cam()
+extern "C"  Camera_t189460977 * GvrEye_get_cam_m842328180 (GvrEye_t3930157106 * __this, const MethodInfo* method)
+{
+	Camera_t189460977 * V_0 = NULL;
+	{
+		Camera_t189460977 * L_0 = __this->get_U3CcamU3Ek__BackingField_9();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Camera_t189460977 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrEye::set_cam(UnityEngine.Camera)
+extern "C"  void GvrEye_set_cam_m722732241 (GvrEye_t3930157106 * __this, Camera_t189460977 * ___value0, const MethodInfo* method)
+{
+	{
+		Camera_t189460977 * L_0 = ___value0;
+		__this->set_U3CcamU3Ek__BackingField_9(L_0);
+		return;
+	}
+}
+// System.Void GvrEye::Awake()
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern const uint32_t GvrEye_Awake_m2741184514_MetadataUsageId;
+extern "C"  void GvrEye_Awake_m2741184514 (GvrEye_t3930157106 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrEye_Awake_m2741184514_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Camera_t189460977 * L_0 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		GvrEye_set_cam_m722732241(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrEye::Start()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3052084244;
+extern const uint32_t GvrEye_Start_m1930934301_MetadataUsageId;
+extern "C"  void GvrEye_Start_m1930934301 (GvrEye_t3930157106 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrEye_Start_m1930934301_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StereoController_t3144380552 * V_0 = NULL;
+	{
+		StereoController_t3144380552 * L_0 = GvrEye_get_Controller_m1564191365(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		StereoController_t3144380552 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3052084244, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m1796096907(__this, (bool)0, /*hidden argument*/NULL);
+		goto IL_004a;
+	}
+
+IL_002b:
+	{
+		StereoController_t3144380552 * L_3 = V_0;
+		__this->set_controller_4(L_3);
+		StereoController_t3144380552 * L_4 = __this->get_controller_4();
+		NullCheck(L_4);
+		Camera_t189460977 * L_5 = Component_GetComponent_TisCamera_t189460977_m3276577584(L_4, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		__this->set_monoCamera_6(L_5);
+		GvrEye_SetupStereo_m1979812371(__this, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_004a:
+	{
+		return;
+	}
+}
+// System.Void GvrEye::UpdateStereoValues()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrEye_UpdateStereoValues_m1924862658_MetadataUsageId;
+extern "C"  void GvrEye_UpdateStereoValues_m1924862658 (GvrEye_t3930157106 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrEye_UpdateStereoValues_m1924862658_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	Matrix4x4_t2933234003  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Rect_t3681755626  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	bool V_6 = false;
+	Screen_t839756045  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	RenderTexture_t2666733923 * G_B4_0 = NULL;
+	Camera_t189460977 * G_B4_1 = NULL;
+	RenderTexture_t2666733923 * G_B3_0 = NULL;
+	Camera_t189460977 * G_B3_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_0 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = __this->get_eye_2();
+		NullCheck(L_0);
+		Matrix4x4_t2933234003  L_2 = GvrViewer_Projection_m2953377824(L_0, L_1, 0, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GvrViewer_t2583885279 * L_3 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = __this->get_eye_2();
+		NullCheck(L_3);
+		Matrix4x4_t2933234003  L_5 = GvrViewer_Projection_m2953377824(L_3, L_4, 1, /*hidden argument*/NULL);
+		__this->set_realProj_7(L_5);
+		StereoController_t3144380552 * L_6 = __this->get_controller_4();
+		float L_7 = Matrix4x4_get_Item_m312280350((&V_0), 0, 2, /*hidden argument*/NULL);
+		float L_8 = Matrix4x4_get_Item_m312280350((&V_0), 1, 2, /*hidden argument*/NULL);
+		GvrEye_CopyCameraAndMakeSideBySide_m4187184637(__this, L_6, L_7, L_8, /*hidden argument*/NULL);
+		Camera_t189460977 * L_9 = __this->get_monoCamera_6();
+		NullCheck(L_9);
+		float L_10 = Camera_get_nearClipPlane_m3536967407(L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		Camera_t189460977 * L_11 = __this->get_monoCamera_6();
+		NullCheck(L_11);
+		float L_12 = Camera_get_farClipPlane_m3137713566(L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+		Camera_t189460977 * L_13 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Rect_t3681755626  L_14 = Camera_get_rect_m2873096661(L_13, /*hidden argument*/NULL);
+		float L_15 = V_1;
+		float L_16 = V_2;
+		GvrCameraUtils_FixProjection_m1517035997(NULL /*static, unused*/, L_14, L_15, L_16, (&V_0), /*hidden argument*/NULL);
+		Camera_t189460977 * L_17 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Rect_t3681755626  L_18 = Camera_get_rect_m2873096661(L_17, /*hidden argument*/NULL);
+		float L_19 = V_1;
+		float L_20 = V_2;
+		Matrix4x4_t2933234003 * L_21 = __this->get_address_of_realProj_7();
+		GvrCameraUtils_FixProjection_m1517035997(NULL /*static, unused*/, L_18, L_19, L_20, L_21, /*hidden argument*/NULL);
+		Camera_t189460977 * L_22 = __this->get_monoCamera_6();
+		NullCheck(L_22);
+		Matrix4x4_t2933234003  L_23 = Camera_get_projectionMatrix_m2365994324(L_22, /*hidden argument*/NULL);
+		V_4 = L_23;
+		float L_24 = Matrix4x4_get_Item_m312280350((&V_4), 1, 1, /*hidden argument*/NULL);
+		V_3 = L_24;
+		StereoController_t3144380552 * L_25 = __this->get_controller_4();
+		NullCheck(L_25);
+		float L_26 = L_25->get_matchByZoom_6();
+		StereoController_t3144380552 * L_27 = __this->get_controller_4();
+		NullCheck(L_27);
+		float L_28 = L_27->get_matchMonoFOV_5();
+		float L_29 = V_3;
+		GvrCameraUtils_ZoomStereoCameras_m770091414(NULL /*static, unused*/, L_26, L_28, L_29, (&V_0), /*hidden argument*/NULL);
+		Camera_t189460977 * L_30 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_31 = V_0;
+		NullCheck(L_30);
+		Camera_set_projectionMatrix_m2059836755(L_30, L_31, /*hidden argument*/NULL);
+		bool L_32 = Application_get_isEditor_m2474583393(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_0104;
+		}
+	}
+	{
+		Camera_t189460977 * L_33 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		float L_34 = Matrix4x4_get_Item_m312280350((&V_0), 1, 1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_35 = atanf(((float)((float)(1.0f)/(float)L_34)));
+		NullCheck(L_33);
+		Camera_set_fieldOfView_m3974156396(L_33, ((float)((float)((float)((float)(2.0f)*(float)L_35))*(float)(57.29578f))), /*hidden argument*/NULL);
+	}
+
+IL_0104:
+	{
+		Camera_t189460977 * L_36 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_37 = __this->get_monoCamera_6();
+		NullCheck(L_37);
+		RenderTexture_t2666733923 * L_38 = Camera_get_targetTexture_m705925974(L_37, /*hidden argument*/NULL);
+		RenderTexture_t2666733923 * L_39 = L_38;
+		G_B3_0 = L_39;
+		G_B3_1 = L_36;
+		if (L_39)
+		{
+			G_B4_0 = L_39;
+			G_B4_1 = L_36;
+			goto IL_0126;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_40 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_40);
+		RenderTexture_t2666733923 * L_41 = GvrViewer_get_StereoScreen_m1411059804(L_40, /*hidden argument*/NULL);
+		G_B4_0 = L_41;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_0126:
+	{
+		NullCheck(G_B4_1);
+		Camera_set_targetTexture_m3925036117(G_B4_1, G_B4_0, /*hidden argument*/NULL);
+		Camera_t189460977 * L_42 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		RenderTexture_t2666733923 * L_43 = Camera_get_targetTexture_m705925974(L_42, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_44 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_43, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_44)
+		{
+			goto IL_01dc;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_45 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_46 = __this->get_eye_2();
+		NullCheck(L_45);
+		Rect_t3681755626  L_47 = GvrViewer_Viewport_m1706956038(L_45, L_46, 0, /*hidden argument*/NULL);
+		V_5 = L_47;
+		int32_t L_48 = __this->get_eye_2();
+		V_6 = (bool)((((int32_t)L_48) == ((int32_t)1))? 1 : 0);
+		Camera_t189460977 * L_49 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_50 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_50);
+		Rect_t3681755626  L_51 = Camera_get_rect_m2873096661(L_50, /*hidden argument*/NULL);
+		Rect_t3681755626  L_52 = V_5;
+		bool L_53 = V_6;
+		Rect_t3681755626  L_54 = GvrCameraUtils_FixViewport_m811730616(NULL /*static, unused*/, L_51, L_52, L_53, /*hidden argument*/NULL);
+		NullCheck(L_49);
+		Camera_set_rect_m1838810502(L_49, L_54, /*hidden argument*/NULL);
+		bool L_55 = Application_get_isEditor_m2474583393(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_55)
+		{
+			goto IL_01db;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_56 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_56);
+		GvrProfile_t2070273202 * L_57 = GvrViewer_get_Profile_m109673263(L_56, /*hidden argument*/NULL);
+		NullCheck(L_57);
+		Screen_t839756045  L_58 = L_57->get_screen_0();
+		V_7 = L_58;
+		float L_59 = (&V_7)->get_width_0();
+		float L_60 = (&V_7)->get_height_1();
+		V_8 = ((float)((float)L_59/(float)L_60));
+		int32_t L_61 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_62 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_9 = ((float)((float)(((float)((float)L_61)))/(float)(((float)((float)L_62)))));
+		Camera_t189460977 * L_63 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_64 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_64);
+		Rect_t3681755626  L_65 = Camera_get_rect_m2873096661(L_64, /*hidden argument*/NULL);
+		float L_66 = V_8;
+		float L_67 = V_9;
+		Rect_t3681755626  L_68 = GvrCameraUtils_FixEditorViewport_m1007223735(NULL /*static, unused*/, L_65, L_66, L_67, /*hidden argument*/NULL);
+		NullCheck(L_63);
+		Camera_set_rect_m1838810502(L_63, L_68, /*hidden argument*/NULL);
+	}
+
+IL_01db:
+	{
+	}
+
+IL_01dc:
+	{
+		return;
+	}
+}
+// System.Void GvrEye::SetupStereo(System.Boolean)
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2708866754;
+extern Il2CppCodeGenString* _stringLiteral3684253845;
+extern Il2CppCodeGenString* _stringLiteral894633799;
+extern Il2CppCodeGenString* _stringLiteral3737598065;
+extern const uint32_t GvrEye_SetupStereo_m1979812371_MetadataUsageId;
+extern "C"  void GvrEye_SetupStereo_m1979812371 (GvrEye_t3930157106 * __this, bool ___forceUpdate0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrEye_SetupStereo_m1979812371_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	Matrix4x4_t2933234003  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	Vector3_t2243707580  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Matrix4x4_t2933234003  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	int32_t G_B6_0 = 0;
+	int32_t G_B8_0 = 0;
+	int32_t G_B13_0 = 0;
+	GvrEye_t3930157106 * G_B18_0 = NULL;
+	GvrEye_t3930157106 * G_B17_0 = NULL;
+	GvrEye_t3930157106 * G_B19_0 = NULL;
+	float G_B20_0 = 0.0f;
+	GvrEye_t3930157106 * G_B20_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_0 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GvrViewer_UpdateState_m198584744(L_0, /*hidden argument*/NULL);
+		bool L_1 = ___forceUpdate0;
+		if (L_1)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		StereoController_t3144380552 * L_2 = __this->get_controller_4();
+		NullCheck(L_2);
+		bool L_3 = L_2->get_keepStereoUpdated_3();
+		if (L_3)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_4 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		bool L_5 = GvrViewer_get_ProfileChanged_m1394279288(L_4, /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		Camera_t189460977 * L_6 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		RenderTexture_t2666733923 * L_7 = Camera_get_targetTexture_m705925974(L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_9 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		RenderTexture_t2666733923 * L_10 = GvrViewer_get_StereoScreen_m1411059804(L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_11 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_10, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		G_B6_0 = ((int32_t)(L_11));
+		goto IL_0059;
+	}
+
+IL_0058:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_0059:
+	{
+		G_B8_0 = G_B6_0;
+		goto IL_005c;
+	}
+
+IL_005b:
+	{
+		G_B8_0 = 1;
+	}
+
+IL_005c:
+	{
+		V_0 = (bool)G_B8_0;
+		bool L_12 = V_0;
+		if (!L_12)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		GvrEye_UpdateStereoValues_m1924862658(__this, /*hidden argument*/NULL);
+	}
+
+IL_006b:
+	{
+		StereoController_t3144380552 * L_13 = __this->get_controller_4();
+		NullCheck(L_13);
+		Transform_t3275118058 * L_14 = L_13->get_centerOfInterest_7();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_15 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_14, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		StereoController_t3144380552 * L_16 = __this->get_controller_4();
+		NullCheck(L_16);
+		Transform_t3275118058 * L_17 = L_16->get_centerOfInterest_7();
+		NullCheck(L_17);
+		GameObject_t1756533147 * L_18 = Component_get_gameObject_m3105766835(L_17, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		bool L_19 = GameObject_get_activeInHierarchy_m4242915935(L_18, /*hidden argument*/NULL);
+		G_B13_0 = ((int32_t)(L_19));
+		goto IL_0099;
+	}
+
+IL_0098:
+	{
+		G_B13_0 = 0;
+	}
+
+IL_0099:
+	{
+		V_1 = (bool)G_B13_0;
+		bool L_20 = V_0;
+		if (L_20)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		bool L_21 = V_1;
+		if (L_21)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		float L_22 = __this->get_interpPosition_8();
+		if ((!(((float)L_22) < ((float)(1.0f)))))
+		{
+			goto IL_015a;
+		}
+	}
+
+IL_00b6:
+	{
+		Camera_t189460977 * L_23 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Matrix4x4_t2933234003  L_24 = Camera_get_projectionMatrix_m2365994324(L_23, /*hidden argument*/NULL);
+		V_3 = L_24;
+		float L_25 = Matrix4x4_get_Item_m312280350((&V_3), 1, 1, /*hidden argument*/NULL);
+		V_2 = L_25;
+		Transform_t3275118058 * L_26 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		Vector3_t2243707580  L_27 = Transform_get_lossyScale_m1638545862(L_26, /*hidden argument*/NULL);
+		V_5 = L_27;
+		float L_28 = (&V_5)->get_z_3();
+		V_4 = L_28;
+		StereoController_t3144380552 * L_29 = __this->get_controller_4();
+		int32_t L_30 = __this->get_eye_2();
+		float L_31 = V_2;
+		float L_32 = V_4;
+		NullCheck(L_29);
+		Vector3_t2243707580  L_33 = StereoController_ComputeStereoEyePosition_m1068742855(L_29, L_30, L_31, L_32, /*hidden argument*/NULL);
+		V_6 = L_33;
+		StereoController_t3144380552 * L_34 = __this->get_controller_4();
+		NullCheck(L_34);
+		bool L_35 = L_34->get_keepStereoUpdated_3();
+		G_B17_0 = __this;
+		if (L_35)
+		{
+			G_B18_0 = __this;
+			goto IL_0110;
+		}
+	}
+	{
+		bool L_36 = V_1;
+		G_B18_0 = G_B17_0;
+		if (!L_36)
+		{
+			G_B19_0 = G_B17_0;
+			goto IL_012c;
+		}
+	}
+
+IL_0110:
+	{
+		float L_37 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		StereoController_t3144380552 * L_38 = __this->get_controller_4();
+		NullCheck(L_38);
+		float L_39 = L_38->get_stereoAdjustSmoothing_10();
+		float L_40 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		G_B20_0 = ((float)((float)L_37/(float)((float)((float)L_39+(float)L_40))));
+		G_B20_1 = G_B18_0;
+		goto IL_0131;
+	}
+
+IL_012c:
+	{
+		G_B20_0 = (1.0f);
+		G_B20_1 = G_B19_0;
+	}
+
+IL_0131:
+	{
+		NullCheck(G_B20_1);
+		G_B20_1->set_interpPosition_8(G_B20_0);
+		Transform_t3275118058 * L_41 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_42 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		Vector3_t2243707580  L_43 = Transform_get_localPosition_m2533925116(L_42, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_44 = V_6;
+		float L_45 = __this->get_interpPosition_8();
+		Vector3_t2243707580  L_46 = Vector3_Lerp_m2935648359(NULL /*static, unused*/, L_43, L_44, L_45, /*hidden argument*/NULL);
+		NullCheck(L_41);
+		Transform_set_localPosition_m1026930133(L_41, L_46, /*hidden argument*/NULL);
+	}
+
+IL_015a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_47 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_47);
+		int32_t L_48 = GvrViewer_get_DistortionCorrection_m344197281(L_47, /*hidden argument*/NULL);
+		if (L_48)
+		{
+			goto IL_01be;
+		}
+	}
+	{
+		Camera_t189460977 * L_49 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_49);
+		Matrix4x4_t2933234003  L_50 = Camera_get_cameraToWorldMatrix_m530897617(L_49, /*hidden argument*/NULL);
+		Camera_t189460977 * L_51 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		Matrix4x4_t2933234003  L_52 = Camera_get_projectionMatrix_m2365994324(L_51, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_53 = Matrix4x4_Inverse_m146029241(NULL /*static, unused*/, L_52, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_54 = Matrix4x4_op_Multiply_m2352863493(NULL /*static, unused*/, L_50, L_53, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_55 = __this->get_realProj_7();
+		Matrix4x4_t2933234003  L_56 = Matrix4x4_op_Multiply_m2352863493(NULL /*static, unused*/, L_54, L_55, /*hidden argument*/NULL);
+		V_7 = L_56;
+		Matrix4x4_t2933234003  L_57 = __this->get_realProj_7();
+		Shader_SetGlobalMatrix_m2171879200(NULL /*static, unused*/, _stringLiteral2708866754, L_57, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_58 = V_7;
+		Shader_SetGlobalMatrix_m2171879200(NULL /*static, unused*/, _stringLiteral3684253845, L_58, /*hidden argument*/NULL);
+		Shader_EnableKeyword_m432694866(NULL /*static, unused*/, _stringLiteral894633799, /*hidden argument*/NULL);
+	}
+
+IL_01be:
+	{
+		Camera_t189460977 * L_59 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_59);
+		float L_60 = Camera_get_nearClipPlane_m3536967407(L_59, /*hidden argument*/NULL);
+		Shader_SetGlobalFloat_m3177582908(NULL /*static, unused*/, _stringLiteral3737598065, L_60, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrEye::OnPreCull()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisStereoRenderEffect_t958489249_m1966852222_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisStereoRenderEffect_t958489249_m37465255_MethodInfo_var;
+extern const uint32_t GvrEye_OnPreCull_m2835239649_MetadataUsageId;
+extern "C"  void GvrEye_OnPreCull_m2835239649 (GvrEye_t3930157106 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrEye_OnPreCull_m2835239649_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_0 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = GvrViewer_get_VRModeEnabled_m213246717(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		Camera_t189460977 * L_2 = __this->get_monoCamera_6();
+		NullCheck(L_2);
+		bool L_3 = Behaviour_get_enabled_m4079055610(L_2, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_0032;
+		}
+	}
+
+IL_0020:
+	{
+		Camera_t189460977 * L_4 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Behaviour_set_enabled_m1796096907(L_4, (bool)0, /*hidden argument*/NULL);
+		goto IL_00c3;
+	}
+
+IL_0032:
+	{
+		GvrEye_SetupStereo_m1979812371(__this, (bool)0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_5 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		RenderTexture_t2666733923 * L_6 = GvrViewer_get_StereoScreen_m1411059804(L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		V_0 = L_7;
+		bool L_8 = V_0;
+		StereoController_t3144380552 * L_9 = __this->get_controller_4();
+		NullCheck(L_9);
+		bool L_10 = L_9->get_directRender_2();
+		V_0 = (bool)((int32_t)((int32_t)L_8&(int32_t)((((int32_t)L_10) == ((int32_t)0))? 1 : 0)));
+		bool L_11 = V_0;
+		if (!L_11)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		StereoRenderEffect_t958489249 * L_12 = Component_GetComponent_TisStereoRenderEffect_t958489249_m1966852222(__this, /*hidden argument*/Component_GetComponent_TisStereoRenderEffect_t958489249_m1966852222_MethodInfo_var);
+		__this->set_stereoEffect_5(L_12);
+		StereoRenderEffect_t958489249 * L_13 = __this->get_stereoEffect_5();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_14 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_13, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_15 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		StereoRenderEffect_t958489249 * L_16 = GameObject_AddComponent_TisStereoRenderEffect_t958489249_m37465255(L_15, /*hidden argument*/GameObject_AddComponent_TisStereoRenderEffect_t958489249_m37465255_MethodInfo_var);
+		__this->set_stereoEffect_5(L_16);
+	}
+
+IL_0092:
+	{
+		StereoRenderEffect_t958489249 * L_17 = __this->get_stereoEffect_5();
+		NullCheck(L_17);
+		Behaviour_set_enabled_m1796096907(L_17, (bool)1, /*hidden argument*/NULL);
+		goto IL_00c3;
+	}
+
+IL_00a4:
+	{
+		StereoRenderEffect_t958489249 * L_18 = __this->get_stereoEffect_5();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_19 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_18, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		StereoRenderEffect_t958489249 * L_20 = __this->get_stereoEffect_5();
+		NullCheck(L_20);
+		Behaviour_set_enabled_m1796096907(L_20, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_00c3:
+	{
+		return;
+	}
+}
+// System.Void GvrEye::OnPostRender()
+extern Il2CppCodeGenString* _stringLiteral894633799;
+extern const uint32_t GvrEye_OnPostRender_m2498238538_MetadataUsageId;
+extern "C"  void GvrEye_OnPostRender_m2498238538 (GvrEye_t3930157106 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrEye_OnPostRender_m2498238538_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Shader_DisableKeyword_m1324463459(NULL /*static, unused*/, _stringLiteral894633799, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrEye::CopyCameraAndMakeSideBySide(StereoController,System.Single,System.Single)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisSkybox_t2033495038_m3670937650_MethodInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisSkybox_t2033495038_m2686912083_MethodInfo_var;
+extern const uint32_t GvrEye_CopyCameraAndMakeSideBySide_m4187184637_MetadataUsageId;
+extern "C"  void GvrEye_CopyCameraAndMakeSideBySide_m4187184637 (GvrEye_t3930157106 * __this, StereoController_t3144380552 * ___controller0, float ___parx1, float ___pary2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrEye_CopyCameraAndMakeSideBySide_m4187184637_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Camera_t189460977 * V_0 = NULL;
+	float V_1 = 0.0f;
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Skybox_t2033495038 * V_3 = NULL;
+	Skybox_t2033495038 * V_4 = NULL;
+	Rect_t3681755626  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector2_t2243707579  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	Rect_t3681755626  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Camera_t189460977 * G_B3_0 = NULL;
+	Vector3_t2243707580  G_B9_0;
+	memset(&G_B9_0, 0, sizeof(G_B9_0));
+	float G_B8_0 = 0.0f;
+	{
+		StereoController_t3144380552 * L_0 = ___controller0;
+		StereoController_t3144380552 * L_1 = __this->get_controller_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Camera_t189460977 * L_3 = __this->get_monoCamera_6();
+		G_B3_0 = L_3;
+		goto IL_0023;
+	}
+
+IL_001d:
+	{
+		StereoController_t3144380552 * L_4 = ___controller0;
+		NullCheck(L_4);
+		Camera_t189460977 * L_5 = Component_GetComponent_TisCamera_t189460977_m3276577584(L_4, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		G_B3_0 = L_5;
+	}
+
+IL_0023:
+	{
+		V_0 = G_B3_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		GvrProfile_t2070273202 * L_6 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_Default_14();
+		NullCheck(L_6);
+		Viewer_t1642017539 * L_7 = L_6->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_8 = L_7->get_address_of_lenses_0();
+		float L_9 = L_8->get_separation_0();
+		StereoController_t3144380552 * L_10 = ___controller0;
+		NullCheck(L_10);
+		float L_11 = L_10->get_stereoMultiplier_4();
+		V_1 = ((float)((float)L_9*(float)L_11));
+		bool L_12 = Application_get_isPlaying_m4091950718(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		Transform_t3275118058 * L_13 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Vector3_t2243707580  L_14 = Transform_get_localPosition_m2533925116(L_13, /*hidden argument*/NULL);
+		G_B9_0 = L_14;
+		goto IL_0083;
+	}
+
+IL_005a:
+	{
+		int32_t L_15 = __this->get_eye_2();
+		if (L_15)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		float L_16 = V_1;
+		G_B8_0 = ((float)((float)((-L_16))/(float)(2.0f)));
+		goto IL_0079;
+	}
+
+IL_0072:
+	{
+		float L_17 = V_1;
+		G_B8_0 = ((float)((float)L_17/(float)(2.0f)));
+	}
+
+IL_0079:
+	{
+		Vector3_t2243707580  L_18 = Vector3_get_right_m1884123822(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_19 = Vector3_op_Multiply_m3872631309(NULL /*static, unused*/, G_B8_0, L_18, /*hidden argument*/NULL);
+		G_B9_0 = L_19;
+	}
+
+IL_0083:
+	{
+		V_2 = G_B9_0;
+		Camera_t189460977 * L_20 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_21 = V_0;
+		NullCheck(L_20);
+		Camera_CopyFrom_m3357636325(L_20, L_21, /*hidden argument*/NULL);
+		Camera_t189460977 * L_22 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_23 = L_22;
+		NullCheck(L_23);
+		int32_t L_24 = Camera_get_cullingMask_m73686965(L_23, /*hidden argument*/NULL);
+		LayerMask_t3188175821 * L_25 = __this->get_address_of_toggleCullingMask_3();
+		int32_t L_26 = LayerMask_get_value_m251765876(L_25, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Camera_set_cullingMask_m2396665826(L_23, ((int32_t)((int32_t)L_24^(int32_t)L_26)), /*hidden argument*/NULL);
+		Camera_t189460977 * L_27 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_28 = V_0;
+		NullCheck(L_28);
+		float L_29 = Camera_get_depth_m1329692468(L_28, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Camera_set_depth_m1570376177(L_27, L_29, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_30 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_31 = V_2;
+		NullCheck(L_30);
+		Transform_set_localPosition_m1026930133(L_30, L_31, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_32 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_33 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_32);
+		Transform_set_localRotation_m2055111962(L_32, L_33, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_34 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_35 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_34);
+		Transform_set_localScale_m2325460848(L_34, L_35, /*hidden argument*/NULL);
+		Camera_t189460977 * L_36 = V_0;
+		NullCheck(L_36);
+		Skybox_t2033495038 * L_37 = Component_GetComponent_TisSkybox_t2033495038_m3670937650(L_36, /*hidden argument*/Component_GetComponent_TisSkybox_t2033495038_m3670937650_MethodInfo_var);
+		V_3 = L_37;
+		Skybox_t2033495038 * L_38 = Component_GetComponent_TisSkybox_t2033495038_m3670937650(__this, /*hidden argument*/Component_GetComponent_TisSkybox_t2033495038_m3670937650_MethodInfo_var);
+		V_4 = L_38;
+		Skybox_t2033495038 * L_39 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_40 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_39, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_40)
+		{
+			goto IL_0135;
+		}
+	}
+	{
+		Skybox_t2033495038 * L_41 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_42 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_41, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_42)
+		{
+			goto IL_0122;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_43 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_43);
+		Skybox_t2033495038 * L_44 = GameObject_AddComponent_TisSkybox_t2033495038_m2686912083(L_43, /*hidden argument*/GameObject_AddComponent_TisSkybox_t2033495038_m2686912083_MethodInfo_var);
+		V_4 = L_44;
+	}
+
+IL_0122:
+	{
+		Skybox_t2033495038 * L_45 = V_4;
+		Skybox_t2033495038 * L_46 = V_3;
+		NullCheck(L_46);
+		Material_t193706927 * L_47 = Skybox_get_material_m2038447772(L_46, /*hidden argument*/NULL);
+		NullCheck(L_45);
+		Skybox_set_material_m1433466175(L_45, L_47, /*hidden argument*/NULL);
+		goto IL_014b;
+	}
+
+IL_0135:
+	{
+		Skybox_t2033495038 * L_48 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_49 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_48, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_49)
+		{
+			goto IL_014b;
+		}
+	}
+	{
+		Skybox_t2033495038 * L_50 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_50, /*hidden argument*/NULL);
+	}
+
+IL_014b:
+	{
+		Camera_t189460977 * L_51 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		Rect_t3681755626  L_52 = Camera_get_rect_m2873096661(L_51, /*hidden argument*/NULL);
+		V_5 = L_52;
+		Vector2_t2243707579  L_53 = Rect_get_center_m3049923624((&V_5), /*hidden argument*/NULL);
+		V_6 = L_53;
+		float L_54 = (&V_6)->get_x_0();
+		StereoController_t3144380552 * L_55 = ___controller0;
+		NullCheck(L_55);
+		float L_56 = L_55->get_stereoPaddingX_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_57 = Mathf_Clamp01_m3888954684(NULL /*static, unused*/, L_56, /*hidden argument*/NULL);
+		float L_58 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, L_54, (0.5f), L_57, /*hidden argument*/NULL);
+		(&V_6)->set_x_0(L_58);
+		float L_59 = (&V_6)->get_y_1();
+		StereoController_t3144380552 * L_60 = ___controller0;
+		NullCheck(L_60);
+		float L_61 = L_60->get_stereoPaddingY_13();
+		float L_62 = Mathf_Clamp01_m3888954684(NULL /*static, unused*/, L_61, /*hidden argument*/NULL);
+		float L_63 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, L_59, (0.5f), L_62, /*hidden argument*/NULL);
+		(&V_6)->set_y_1(L_63);
+		Vector2_t2243707579  L_64 = V_6;
+		Rect_set_center_m198417975((&V_5), L_64, /*hidden argument*/NULL);
+		float L_65 = Rect_get_width_m1138015702((&V_5), /*hidden argument*/NULL);
+		float L_66 = Mathf_SmoothStep_m1375889224(NULL /*static, unused*/, (-0.5f), (0.5f), ((float)((float)((float)((float)L_65+(float)(1.0f)))/(float)(2.0f))), /*hidden argument*/NULL);
+		V_7 = L_66;
+		Rect_t3681755626 * L_67 = (&V_5);
+		float L_68 = Rect_get_x_m1393582490(L_67, /*hidden argument*/NULL);
+		float L_69 = Rect_get_width_m1138015702((&V_5), /*hidden argument*/NULL);
+		float L_70 = V_7;
+		Rect_set_x_m3783700513(L_67, ((float)((float)L_68+(float)((float)((float)((float)((float)L_69-(float)L_70))/(float)(2.0f))))), /*hidden argument*/NULL);
+		float L_71 = V_7;
+		Rect_set_width_m1921257731((&V_5), L_71, /*hidden argument*/NULL);
+		Rect_t3681755626 * L_72 = (&V_5);
+		float L_73 = Rect_get_x_m1393582490(L_72, /*hidden argument*/NULL);
+		float L_74 = Rect_get_width_m1138015702((&V_5), /*hidden argument*/NULL);
+		float L_75 = Rect_get_width_m1138015702((&V_5), /*hidden argument*/NULL);
+		Rect_set_x_m3783700513(L_72, ((float)((float)L_73*(float)((float)((float)((float)((float)(0.5f)-(float)L_74))/(float)((float)((float)(1.0f)-(float)L_75)))))), /*hidden argument*/NULL);
+		int32_t L_76 = __this->get_eye_2();
+		if ((!(((uint32_t)L_76) == ((uint32_t)1))))
+		{
+			goto IL_0245;
+		}
+	}
+	{
+		Rect_t3681755626 * L_77 = (&V_5);
+		float L_78 = Rect_get_x_m1393582490(L_77, /*hidden argument*/NULL);
+		Rect_set_x_m3783700513(L_77, ((float)((float)L_78+(float)(0.5f))), /*hidden argument*/NULL);
+	}
+
+IL_0245:
+	{
+		StereoController_t3144380552 * L_79 = ___controller0;
+		NullCheck(L_79);
+		float L_80 = L_79->get_screenParallax_11();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_81 = Mathf_Clamp01_m3888954684(NULL /*static, unused*/, L_80, /*hidden argument*/NULL);
+		V_8 = L_81;
+		Camera_t189460977 * L_82 = V_0;
+		NullCheck(L_82);
+		Rect_t3681755626  L_83 = Camera_get_rect_m2873096661(L_82, /*hidden argument*/NULL);
+		V_9 = L_83;
+		float L_84 = Rect_get_width_m1138015702((&V_9), /*hidden argument*/NULL);
+		if ((!(((float)L_84) < ((float)(1.0f)))))
+		{
+			goto IL_02a9;
+		}
+	}
+	{
+		float L_85 = V_8;
+		if ((!(((float)L_85) > ((float)(0.0f)))))
+		{
+			goto IL_02a9;
+		}
+	}
+	{
+		Rect_t3681755626 * L_86 = (&V_5);
+		float L_87 = Rect_get_x_m1393582490(L_86, /*hidden argument*/NULL);
+		float L_88 = ___parx1;
+		float L_89 = V_8;
+		Rect_set_x_m3783700513(L_86, ((float)((float)L_87-(float)((float)((float)((float)((float)L_88/(float)(4.0f)))*(float)L_89)))), /*hidden argument*/NULL);
+		Rect_t3681755626 * L_90 = (&V_5);
+		float L_91 = Rect_get_y_m1393582395(L_90, /*hidden argument*/NULL);
+		float L_92 = ___pary2;
+		float L_93 = V_8;
+		Rect_set_y_m4294916608(L_90, ((float)((float)L_91-(float)((float)((float)((float)((float)L_92/(float)(2.0f)))*(float)L_93)))), /*hidden argument*/NULL);
+	}
+
+IL_02a9:
+	{
+		Camera_t189460977 * L_94 = GvrEye_get_cam_m842328180(__this, /*hidden argument*/NULL);
+		Rect_t3681755626  L_95 = V_5;
+		NullCheck(L_94);
+		Camera_set_rect_m1838810502(L_94, L_95, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrFPS::.ctor()
+extern "C"  void GvrFPS__ctor_m3746470421 (GvrFPS_t750935016 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_fps_6((60.0f));
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrFPS::Awake()
+extern const MethodInfo* Component_GetComponent_TisText_t356221433_m1342661039_MethodInfo_var;
+extern const uint32_t GvrFPS_Awake_m1859296440_MetadataUsageId;
+extern "C"  void GvrFPS_Awake_m1859296440 (GvrFPS_t750935016 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrFPS_Awake_m1859296440_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Text_t356221433 * L_0 = Component_GetComponent_TisText_t356221433_m1342661039(__this, /*hidden argument*/Component_GetComponent_TisText_t356221433_m1342661039_MethodInfo_var);
+		__this->set_textField_5(L_0);
+		return;
+	}
+}
+// System.Void GvrFPS::Start()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisTransform_t3275118058_m235623703_MethodInfo_var;
+extern const uint32_t GvrFPS_Start_m1271000117_MetadataUsageId;
+extern "C"  void GvrFPS_Start_m1271000117 (GvrFPS_t750935016 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrFPS_Start_m1271000117_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Camera_t189460977 * L_0 = __this->get_cam_7();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		Camera_t189460977 * L_2 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_cam_7(L_2);
+	}
+
+IL_001f:
+	{
+		Camera_t189460977 * L_3 = __this->get_cam_7();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		Transform_t3275118058 * L_5 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Camera_t189460977 * L_6 = __this->get_cam_7();
+		NullCheck(L_6);
+		Transform_t3275118058 * L_7 = Component_GetComponent_TisTransform_t3275118058_m235623703(L_6, /*hidden argument*/Component_GetComponent_TisTransform_t3275118058_m235623703_MethodInfo_var);
+		NullCheck(L_5);
+		Transform_SetParent_m1963830867(L_5, L_7, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0049:
+	{
+		return;
+	}
+}
+// System.Void GvrFPS::LateUpdate()
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2631227587;
+extern Il2CppCodeGenString* _stringLiteral1623555900;
+extern const uint32_t GvrFPS_LateUpdate_m1104581370_MetadataUsageId;
+extern "C"  void GvrFPS_LateUpdate_m1104581370 (GvrFPS_t750935016 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrFPS_LateUpdate_m1104581370_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		float L_0 = Time_get_unscaledDeltaTime_m4281640537(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = V_0;
+		float L_2 = V_0;
+		V_1 = ((float)((float)L_1/(float)((float)((float)(0.5f)+(float)L_2))));
+		float L_3 = V_0;
+		V_2 = ((float)((float)(1.0f)/(float)L_3));
+		float L_4 = __this->get_fps_6();
+		float L_5 = V_2;
+		float L_6 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_7 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, L_4, L_5, L_6, /*hidden argument*/NULL);
+		__this->set_fps_6(L_7);
+		float L_8 = __this->get_fps_6();
+		V_3 = ((float)((float)(1000.0f)/(float)L_8));
+		Text_t356221433 * L_9 = __this->get_textField_5();
+		String_t* L_10 = Single_ToString_m2359963436((&V_3), _stringLiteral1623555900, /*hidden argument*/NULL);
+		float L_11 = __this->get_fps_6();
+		int32_t L_12 = Mathf_RoundToInt_m2927198556(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		int32_t L_13 = L_12;
+		Il2CppObject * L_14 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_13);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_15 = String_Format_m1811873526(NULL /*static, unused*/, _stringLiteral2631227587, L_10, L_14, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_9, L_15);
+		return;
+	}
+}
+// System.Void GvrGaze::.ctor()
+extern "C"  void GvrGaze__ctor_m1648835245 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
+		__this->set_mask_5(L_0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.GameObject GvrGaze::get_PointerObject()
+extern "C"  GameObject_t1756533147 * GvrGaze_get_PointerObject_m1050365749 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = __this->get_pointerObject_2();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		GameObject_t1756533147 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrGaze::set_PointerObject(UnityEngine.GameObject)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrGaze_t2249568644_il2cpp_TypeInfo_var;
+extern Il2CppClass* Func_2_t4066506053_il2cpp_TypeInfo_var;
+extern Il2CppClass* Func_2_t1446990840_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponents_TisGvrBasePointer_t2150122635_m1452367859_MethodInfo_var;
+extern const MethodInfo* GvrGaze_U3Cset_PointerObjectU3Em__0_m3986262186_MethodInfo_var;
+extern const MethodInfo* Func_2__ctor_m3014017874_MethodInfo_var;
+extern const MethodInfo* Enumerable_Select_TisGvrBasePointer_t2150122635_TisGvrBasePointer_t2150122635_m521725718_MethodInfo_var;
+extern const MethodInfo* GvrGaze_U3Cset_PointerObjectU3Em__1_m4266587785_MethodInfo_var;
+extern const MethodInfo* Func_2__ctor_m1856943448_MethodInfo_var;
+extern const MethodInfo* Enumerable_Where_TisGvrBasePointer_t2150122635_m2431521749_MethodInfo_var;
+extern const MethodInfo* Enumerable_FirstOrDefault_TisGvrBasePointer_t2150122635_m1473023921_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral874589821;
+extern const uint32_t GvrGaze_set_PointerObject_m1622492156_MetadataUsageId;
+extern "C"  void GvrGaze_set_PointerObject_m1622492156 (GvrGaze_t2249568644 * __this, GameObject_t1756533147 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrGaze_set_PointerObject_m1622492156_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GvrBasePointer_t2150122635 * V_0 = NULL;
+	GvrBasePointerU5BU5D_t1099995370* G_B3_0 = NULL;
+	GvrBasePointerU5BU5D_t1099995370* G_B2_0 = NULL;
+	Il2CppObject* G_B5_0 = NULL;
+	Il2CppObject* G_B4_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = ___value0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = ___value0;
+		NullCheck(L_2);
+		GvrBasePointerU5BU5D_t1099995370* L_3 = GameObject_GetComponents_TisGvrBasePointer_t2150122635_m1452367859(L_2, /*hidden argument*/GameObject_GetComponents_TisGvrBasePointer_t2150122635_m1452367859_MethodInfo_var);
+		Func_2_t4066506053 * L_4 = ((GvrGaze_t2249568644_StaticFields*)GvrGaze_t2249568644_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_11();
+		G_B2_0 = L_3;
+		if (L_4)
+		{
+			G_B3_0 = L_3;
+			goto IL_002c;
+		}
+	}
+	{
+		IntPtr_t L_5;
+		L_5.set_m_value_0((void*)(void*)GvrGaze_U3Cset_PointerObjectU3Em__0_m3986262186_MethodInfo_var);
+		Func_2_t4066506053 * L_6 = (Func_2_t4066506053 *)il2cpp_codegen_object_new(Func_2_t4066506053_il2cpp_TypeInfo_var);
+		Func_2__ctor_m3014017874(L_6, NULL, L_5, /*hidden argument*/Func_2__ctor_m3014017874_MethodInfo_var);
+		((GvrGaze_t2249568644_StaticFields*)GvrGaze_t2249568644_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_11(L_6);
+		G_B3_0 = G_B2_0;
+	}
+
+IL_002c:
+	{
+		Func_2_t4066506053 * L_7 = ((GvrGaze_t2249568644_StaticFields*)GvrGaze_t2249568644_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_11();
+		Il2CppObject* L_8 = Enumerable_Select_TisGvrBasePointer_t2150122635_TisGvrBasePointer_t2150122635_m521725718(NULL /*static, unused*/, (Il2CppObject*)(Il2CppObject*)G_B3_0, L_7, /*hidden argument*/Enumerable_Select_TisGvrBasePointer_t2150122635_TisGvrBasePointer_t2150122635_m521725718_MethodInfo_var);
+		Func_2_t1446990840 * L_9 = ((GvrGaze_t2249568644_StaticFields*)GvrGaze_t2249568644_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_12();
+		G_B4_0 = L_8;
+		if (L_9)
+		{
+			G_B5_0 = L_8;
+			goto IL_004e;
+		}
+	}
+	{
+		IntPtr_t L_10;
+		L_10.set_m_value_0((void*)(void*)GvrGaze_U3Cset_PointerObjectU3Em__1_m4266587785_MethodInfo_var);
+		Func_2_t1446990840 * L_11 = (Func_2_t1446990840 *)il2cpp_codegen_object_new(Func_2_t1446990840_il2cpp_TypeInfo_var);
+		Func_2__ctor_m1856943448(L_11, NULL, L_10, /*hidden argument*/Func_2__ctor_m1856943448_MethodInfo_var);
+		((GvrGaze_t2249568644_StaticFields*)GvrGaze_t2249568644_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache1_12(L_11);
+		G_B5_0 = G_B4_0;
+	}
+
+IL_004e:
+	{
+		Func_2_t1446990840 * L_12 = ((GvrGaze_t2249568644_StaticFields*)GvrGaze_t2249568644_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache1_12();
+		Il2CppObject* L_13 = Enumerable_Where_TisGvrBasePointer_t2150122635_m2431521749(NULL /*static, unused*/, G_B5_0, L_12, /*hidden argument*/Enumerable_Where_TisGvrBasePointer_t2150122635_m2431521749_MethodInfo_var);
+		GvrBasePointer_t2150122635 * L_14 = Enumerable_FirstOrDefault_TisGvrBasePointer_t2150122635_m1473023921(NULL /*static, unused*/, L_13, /*hidden argument*/Enumerable_FirstOrDefault_TisGvrBasePointer_t2150122635_m1473023921_MethodInfo_var);
+		V_0 = L_14;
+		GvrBasePointer_t2150122635 * L_15 = V_0;
+		if (!L_15)
+		{
+			goto IL_012c;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_16 = __this->get_pointer_3();
+		if (!L_16)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		bool L_17 = __this->get_isTriggered_10();
+		if (!L_17)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_18 = __this->get_pointer_3();
+		NullCheck(L_18);
+		VirtActionInvoker0::Invoke(13 /* System.Void GvrBasePointer::OnPointerClickUp() */, L_18);
+	}
+
+IL_0089:
+	{
+		GameObject_t1756533147 * L_19 = __this->get_currentGazeObject_7();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_20 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_19, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_21 = __this->get_pointer_3();
+		GameObject_t1756533147 * L_22 = __this->get_currentGazeObject_7();
+		NullCheck(L_21);
+		VirtActionInvoker1< GameObject_t1756533147 * >::Invoke(11 /* System.Void GvrBasePointer::OnPointerExit(UnityEngine.GameObject) */, L_21, L_22);
+	}
+
+IL_00ad:
+	{
+		GvrBasePointer_t2150122635 * L_23 = __this->get_pointer_3();
+		NullCheck(L_23);
+		VirtActionInvoker0::Invoke(8 /* System.Void GvrBasePointer::OnInputModuleDisabled() */, L_23);
+	}
+
+IL_00b9:
+	{
+		GameObject_t1756533147 * L_24 = ___value0;
+		__this->set_pointerObject_2(L_24);
+		GvrBasePointer_t2150122635 * L_25 = V_0;
+		__this->set_pointer_3(L_25);
+		GvrBasePointer_t2150122635 * L_26 = __this->get_pointer_3();
+		NullCheck(L_26);
+		VirtActionInvoker0::Invoke(7 /* System.Void GvrBasePointer::OnInputModuleEnabled() */, L_26);
+		GameObject_t1756533147 * L_27 = __this->get_currentGazeObject_7();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_28 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_27, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_28)
+		{
+			goto IL_010e;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_29 = __this->get_pointer_3();
+		GameObject_t1756533147 * L_30 = __this->get_currentGazeObject_7();
+		Vector3_t2243707580  L_31 = __this->get_lastIntersectPosition_8();
+		Ray_t2469606224  L_32 = __this->get_lastIntersectionRay_9();
+		Il2CppObject * L_33 = __this->get_currentTarget_6();
+		NullCheck(L_29);
+		VirtActionInvoker4< GameObject_t1756533147 *, Vector3_t2243707580 , Ray_t2469606224 , bool >::Invoke(9 /* System.Void GvrBasePointer::OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean) */, L_29, L_30, L_31, L_32, (bool)((((int32_t)((((Il2CppObject*)(Il2CppObject *)L_33) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0));
+	}
+
+IL_010e:
+	{
+		bool L_34 = __this->get_isTriggered_10();
+		if (!L_34)
+		{
+			goto IL_0126;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_35 = __this->get_pointer_3();
+		NullCheck(L_35);
+		VirtActionInvoker0::Invoke(12 /* System.Void GvrBasePointer::OnPointerClickDown() */, L_35);
+	}
+
+IL_0126:
+	{
+		goto IL_0138;
+	}
+
+IL_012c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral874589821, /*hidden argument*/NULL);
+	}
+
+IL_0138:
+	{
+		goto IL_0191;
+	}
+
+IL_013e:
+	{
+		GvrBasePointer_t2150122635 * L_36 = __this->get_pointer_3();
+		if (!L_36)
+		{
+			goto IL_0182;
+		}
+	}
+	{
+		bool L_37 = __this->get_isTriggered_10();
+		if (!L_37)
+		{
+			goto IL_0163;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_38 = __this->get_pointer_3();
+		NullCheck(L_38);
+		VirtActionInvoker0::Invoke(13 /* System.Void GvrBasePointer::OnPointerClickUp() */, L_38);
+	}
+
+IL_0163:
+	{
+		Il2CppObject * L_39 = __this->get_currentTarget_6();
+		if (!L_39)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_40 = __this->get_pointer_3();
+		GameObject_t1756533147 * L_41 = __this->get_currentGazeObject_7();
+		NullCheck(L_40);
+		VirtActionInvoker1< GameObject_t1756533147 * >::Invoke(11 /* System.Void GvrBasePointer::OnPointerExit(UnityEngine.GameObject) */, L_40, L_41);
+	}
+
+IL_0181:
+	{
+	}
+
+IL_0182:
+	{
+		__this->set_pointer_3((GvrBasePointer_t2150122635 *)NULL);
+		__this->set_pointerObject_2((GameObject_t1756533147 *)NULL);
+	}
+
+IL_0191:
+	{
+		return;
+	}
+}
+// UnityEngine.Camera GvrGaze::get_cam()
+extern "C"  Camera_t189460977 * GvrGaze_get_cam_m3640560956 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	Camera_t189460977 * V_0 = NULL;
+	{
+		Camera_t189460977 * L_0 = __this->get_U3CcamU3Ek__BackingField_4();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Camera_t189460977 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrGaze::set_cam(UnityEngine.Camera)
+extern "C"  void GvrGaze_set_cam_m2353116945 (GvrGaze_t2249568644 * __this, Camera_t189460977 * ___value0, const MethodInfo* method)
+{
+	{
+		Camera_t189460977 * L_0 = ___value0;
+		__this->set_U3CcamU3Ek__BackingField_4(L_0);
+		return;
+	}
+}
+// System.Void GvrGaze::Awake()
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern const uint32_t GvrGaze_Awake_m129419220_MetadataUsageId;
+extern "C"  void GvrGaze_Awake_m129419220 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrGaze_Awake_m129419220_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Camera_t189460977 * L_0 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		GvrGaze_set_cam_m2353116945(__this, L_0, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_1 = __this->get_pointerObject_2();
+		GvrGaze_set_PointerObject_m1622492156(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrGaze::OnEnable()
+extern "C"  void GvrGaze_OnEnable_m3369338453 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	{
+		GvrBasePointer_t2150122635 * L_0 = __this->get_pointer_3();
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_1 = __this->get_pointer_3();
+		NullCheck(L_1);
+		VirtActionInvoker0::Invoke(7 /* System.Void GvrBasePointer::OnInputModuleEnabled() */, L_1);
+	}
+
+IL_0019:
+	{
+		return;
+	}
+}
+// System.Void GvrGaze::OnDisable()
+extern Il2CppClass* IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrGaze_OnDisable_m3420047932_MetadataUsageId;
+extern "C"  void GvrGaze_OnDisable_m3420047932 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrGaze_OnDisable_m3420047932_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get_currentTarget_6();
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		Il2CppObject * L_1 = __this->get_currentTarget_6();
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(1 /* System.Void IGvrGazeResponder::OnGazeExit() */, IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var, L_1);
+	}
+
+IL_0019:
+	{
+		GvrBasePointer_t2150122635 * L_2 = __this->get_pointer_3();
+		if (!L_2)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		bool L_3 = __this->get_isTriggered_10();
+		if (!L_3)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_4 = __this->get_pointer_3();
+		NullCheck(L_4);
+		VirtActionInvoker0::Invoke(13 /* System.Void GvrBasePointer::OnPointerClickUp() */, L_4);
+	}
+
+IL_003d:
+	{
+		GameObject_t1756533147 * L_5 = __this->get_currentGazeObject_7();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_6 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_5, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_7 = __this->get_pointer_3();
+		GameObject_t1756533147 * L_8 = __this->get_currentGazeObject_7();
+		NullCheck(L_7);
+		VirtActionInvoker1< GameObject_t1756533147 * >::Invoke(11 /* System.Void GvrBasePointer::OnPointerExit(UnityEngine.GameObject) */, L_7, L_8);
+	}
+
+IL_0061:
+	{
+		GvrBasePointer_t2150122635 * L_9 = __this->get_pointer_3();
+		NullCheck(L_9);
+		VirtActionInvoker0::Invoke(8 /* System.Void GvrBasePointer::OnInputModuleDisabled() */, L_9);
+	}
+
+IL_006d:
+	{
+		__this->set_currentGazeObject_7((GameObject_t1756533147 *)NULL);
+		__this->set_currentTarget_6((Il2CppObject *)NULL);
+		__this->set_isTriggered_10((bool)0);
+		return;
+	}
+}
+// System.Void GvrGaze::LateUpdate()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern const uint32_t GvrGaze_LateUpdate_m2567067798_MetadataUsageId;
+extern "C"  void GvrGaze_LateUpdate_m2567067798 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrGaze_LateUpdate_m2567067798_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_0 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GvrViewer_UpdateState_m198584744(L_0, /*hidden argument*/NULL);
+		GvrGaze_HandleGaze_m3896536584(__this, /*hidden argument*/NULL);
+		GvrGaze_HandleTrigger_m136751567(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrGaze::HandleGaze()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var;
+extern const uint32_t GvrGaze_HandleGaze_m3896536584_MetadataUsageId;
+extern "C"  void GvrGaze_HandleGaze_m3896536584 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrGaze_HandleGaze_m3896536584_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Il2CppObject * V_3 = NULL;
+	Ray_t2469606224  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	GameObject_t1756533147 * V_5 = NULL;
+	{
+		V_0 = (0.0f);
+		V_1 = (0.0f);
+		GvrBasePointer_t2150122635 * L_0 = __this->get_pointer_3();
+		if (!L_0)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_1 = __this->get_pointer_3();
+		NullCheck(L_1);
+		VirtActionInvoker2< float*, float* >::Invoke(14 /* System.Void GvrBasePointer::GetPointerRadius(System.Single&,System.Single&) */, L_1, (&V_0), (&V_1));
+	}
+
+IL_0029:
+	{
+		V_3 = (Il2CppObject *)NULL;
+		float L_2 = V_0;
+		GameObject_t1756533147 * L_3 = GvrGaze_FindGazeTarget_m2092389197(__this, L_2, (&V_3), (&V_2), (&V_4), /*hidden argument*/NULL);
+		V_5 = L_3;
+		GameObject_t1756533147 * L_4 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_012f;
+		}
+	}
+	{
+		Vector3_t2243707580  L_6 = V_2;
+		__this->set_lastIntersectPosition_8(L_6);
+		Ray_t2469606224  L_7 = V_4;
+		__this->set_lastIntersectionRay_9(L_7);
+		GameObject_t1756533147 * L_8 = V_5;
+		GameObject_t1756533147 * L_9 = __this->get_currentGazeObject_7();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_10 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_00fa;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_11 = __this->get_pointer_3();
+		if (!L_11)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_12 = __this->get_pointer_3();
+		GameObject_t1756533147 * L_13 = __this->get_currentGazeObject_7();
+		NullCheck(L_12);
+		VirtActionInvoker1< GameObject_t1756533147 * >::Invoke(11 /* System.Void GvrBasePointer::OnPointerExit(UnityEngine.GameObject) */, L_12, L_13);
+	}
+
+IL_0088:
+	{
+		Il2CppObject * L_14 = __this->get_currentTarget_6();
+		if (!L_14)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		Il2CppObject * L_15 = __this->get_currentTarget_6();
+		NullCheck(L_15);
+		InterfaceActionInvoker0::Invoke(1 /* System.Void IGvrGazeResponder::OnGazeExit() */, IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var, L_15);
+	}
+
+IL_00a0:
+	{
+		Il2CppObject * L_16 = V_3;
+		__this->set_currentTarget_6(L_16);
+		GameObject_t1756533147 * L_17 = V_5;
+		__this->set_currentGazeObject_7(L_17);
+		GvrBasePointer_t2150122635 * L_18 = __this->get_pointer_3();
+		if (!L_18)
+		{
+			goto IL_00dc;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_19 = __this->get_pointer_3();
+		GameObject_t1756533147 * L_20 = __this->get_currentGazeObject_7();
+		Vector3_t2243707580  L_21 = V_2;
+		Ray_t2469606224  L_22 = V_4;
+		Il2CppObject * L_23 = __this->get_currentTarget_6();
+		NullCheck(L_19);
+		VirtActionInvoker4< GameObject_t1756533147 *, Vector3_t2243707580 , Ray_t2469606224 , bool >::Invoke(9 /* System.Void GvrBasePointer::OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean) */, L_19, L_20, L_21, L_22, (bool)((((int32_t)((((Il2CppObject*)(Il2CppObject *)L_23) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0));
+	}
+
+IL_00dc:
+	{
+		Il2CppObject * L_24 = __this->get_currentTarget_6();
+		if (!L_24)
+		{
+			goto IL_00f4;
+		}
+	}
+	{
+		Il2CppObject * L_25 = __this->get_currentTarget_6();
+		NullCheck(L_25);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void IGvrGazeResponder::OnGazeEnter() */, IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var, L_25);
+	}
+
+IL_00f4:
+	{
+		goto IL_0129;
+	}
+
+IL_00fa:
+	{
+		GvrBasePointer_t2150122635 * L_26 = __this->get_pointer_3();
+		if (!L_26)
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_27 = __this->get_pointer_3();
+		GameObject_t1756533147 * L_28 = __this->get_currentGazeObject_7();
+		Vector3_t2243707580  L_29 = V_2;
+		Ray_t2469606224  L_30 = V_4;
+		Il2CppObject * L_31 = __this->get_currentTarget_6();
+		NullCheck(L_27);
+		VirtActionInvoker4< GameObject_t1756533147 *, Vector3_t2243707580 , Ray_t2469606224 , bool >::Invoke(10 /* System.Void GvrBasePointer::OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean) */, L_27, L_28, L_29, L_30, (bool)((((int32_t)((((Il2CppObject*)(Il2CppObject *)L_31) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0));
+	}
+
+IL_0128:
+	{
+	}
+
+IL_0129:
+	{
+		goto IL_01d2;
+	}
+
+IL_012f:
+	{
+		GameObject_t1756533147 * L_32 = __this->get_currentGazeObject_7();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_33 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_32, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_33)
+		{
+			goto IL_01d1;
+		}
+	}
+	{
+		float L_34 = V_1;
+		GameObject_t1756533147 * L_35 = __this->get_currentGazeObject_7();
+		bool L_36 = GvrGaze_IsGazeNearObject_m3473773425(__this, L_34, L_35, (&V_2), /*hidden argument*/NULL);
+		if (!L_36)
+		{
+			goto IL_018a;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_37 = __this->get_pointer_3();
+		if (!L_37)
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_38 = __this->get_pointer_3();
+		GameObject_t1756533147 * L_39 = __this->get_currentGazeObject_7();
+		Vector3_t2243707580  L_40 = V_2;
+		Ray_t2469606224  L_41 = V_4;
+		Il2CppObject * L_42 = __this->get_currentTarget_6();
+		NullCheck(L_38);
+		VirtActionInvoker4< GameObject_t1756533147 *, Vector3_t2243707580 , Ray_t2469606224 , bool >::Invoke(10 /* System.Void GvrBasePointer::OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean) */, L_38, L_39, L_40, L_41, (bool)((((int32_t)((((Il2CppObject*)(Il2CppObject *)L_42) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0));
+	}
+
+IL_0184:
+	{
+		goto IL_01d0;
+	}
+
+IL_018a:
+	{
+		GvrBasePointer_t2150122635 * L_43 = __this->get_pointer_3();
+		if (!L_43)
+		{
+			goto IL_01a9;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_44 = __this->get_pointer_3();
+		GameObject_t1756533147 * L_45 = __this->get_currentGazeObject_7();
+		NullCheck(L_44);
+		VirtActionInvoker1< GameObject_t1756533147 * >::Invoke(11 /* System.Void GvrBasePointer::OnPointerExit(UnityEngine.GameObject) */, L_44, L_45);
+	}
+
+IL_01a9:
+	{
+		Il2CppObject * L_46 = __this->get_currentTarget_6();
+		if (!L_46)
+		{
+			goto IL_01c1;
+		}
+	}
+	{
+		Il2CppObject * L_47 = __this->get_currentTarget_6();
+		NullCheck(L_47);
+		InterfaceActionInvoker0::Invoke(1 /* System.Void IGvrGazeResponder::OnGazeExit() */, IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var, L_47);
+	}
+
+IL_01c1:
+	{
+		__this->set_currentTarget_6((Il2CppObject *)NULL);
+		__this->set_currentGazeObject_7((GameObject_t1756533147 *)NULL);
+	}
+
+IL_01d0:
+	{
+	}
+
+IL_01d1:
+	{
+	}
+
+IL_01d2:
+	{
+		return;
+	}
+}
+// UnityEngine.GameObject GvrGaze::FindGazeTarget(System.Single,IGvrGazeResponder&,UnityEngine.Vector3&,UnityEngine.Ray&)
+extern const Il2CppType* IGvrGazeResponder_t1981717083_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var;
+extern const uint32_t GvrGaze_FindGazeTarget_m2092389197_MetadataUsageId;
+extern "C"  GameObject_t1756533147 * GvrGaze_FindGazeTarget_m2092389197 (GvrGaze_t2249568644 * __this, float ___radius0, Il2CppObject ** ___responder1, Vector3_t2243707580 * ___intersectPosition2, Ray_t2469606224 * ___intersectionRay3, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrGaze_FindGazeTarget_m2092389197_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RaycastHit_t87180320  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	GameObject_t1756533147 * V_1 = NULL;
+	bool V_2 = false;
+	GameObject_t1756533147 * V_3 = NULL;
+	{
+		V_1 = (GameObject_t1756533147 *)NULL;
+		V_2 = (bool)0;
+		Ray_t2469606224 * L_0 = ___intersectionRay3;
+		Ray_t2469606224  L_1 = GvrGaze_GetRay_m2182772743(__this, /*hidden argument*/NULL);
+		(*(Ray_t2469606224 *)L_0) = L_1;
+		float L_2 = ___radius0;
+		if ((!(((float)L_2) > ((float)(0.0f)))))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		Ray_t2469606224 * L_3 = ___intersectionRay3;
+		Vector3_t2243707580  L_4 = Ray_get_origin_m3339262500(L_3, /*hidden argument*/NULL);
+		float L_5 = ___radius0;
+		Ray_t2469606224 * L_6 = ___intersectionRay3;
+		Vector3_t2243707580  L_7 = Ray_get_direction_m4059191533(L_6, /*hidden argument*/NULL);
+		Camera_t189460977 * L_8 = GvrGaze_get_cam_m3640560956(__this, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		float L_9 = Camera_get_farClipPlane_m3137713566(L_8, /*hidden argument*/NULL);
+		LayerMask_t3188175821  L_10 = __this->get_mask_5();
+		int32_t L_11 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		bool L_12 = Physics_SphereCast_m2879660272(NULL /*static, unused*/, L_4, L_5, L_7, (&V_0), L_9, L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
+		goto IL_0078;
+	}
+
+IL_0051:
+	{
+		Ray_t2469606224 * L_13 = ___intersectionRay3;
+		Camera_t189460977 * L_14 = GvrGaze_get_cam_m3640560956(__this, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		float L_15 = Camera_get_farClipPlane_m3137713566(L_14, /*hidden argument*/NULL);
+		LayerMask_t3188175821  L_16 = __this->get_mask_5();
+		int32_t L_17 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+		bool L_18 = Physics_Raycast_m2009151399(NULL /*static, unused*/, (*(Ray_t2469606224 *)L_13), (&V_0), L_15, L_17, /*hidden argument*/NULL);
+		V_2 = L_18;
+	}
+
+IL_0078:
+	{
+		bool L_19 = V_2;
+		if (!L_19)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		Collider_t3497673348 * L_20 = RaycastHit_get_collider_m301198172((&V_0), /*hidden argument*/NULL);
+		NullCheck(L_20);
+		GameObject_t1756533147 * L_21 = Component_get_gameObject_m3105766835(L_20, /*hidden argument*/NULL);
+		V_1 = L_21;
+		Il2CppObject ** L_22 = ___responder1;
+		GameObject_t1756533147 * L_23 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_24 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(IGvrGazeResponder_t1981717083_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Component_t3819376471 * L_25 = GameObject_GetComponent_m306258075(L_23, L_24, /*hidden argument*/NULL);
+		*((Il2CppObject **)(L_22)) = (Il2CppObject *)((Il2CppObject *)IsInst(L_25, IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_22), (Il2CppObject *)((Il2CppObject *)IsInst(L_25, IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var)));
+		Vector3_t2243707580 * L_26 = ___intersectPosition2;
+		Transform_t3275118058 * L_27 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Vector3_t2243707580  L_28 = Transform_get_position_m1104419803(L_27, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_29 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Vector3_t2243707580  L_30 = Transform_get_forward_m1833488937(L_29, /*hidden argument*/NULL);
+		float L_31 = RaycastHit_get_distance_m1178709367((&V_0), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_32 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_30, L_31, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_33 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_28, L_32, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_26) = L_33;
+		goto IL_00e6;
+	}
+
+IL_00d6:
+	{
+		Vector3_t2243707580 * L_34 = ___intersectPosition2;
+		Vector3_t2243707580  L_35 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_34) = L_35;
+		Il2CppObject ** L_36 = ___responder1;
+		*((Il2CppObject **)(L_36)) = (Il2CppObject *)NULL;
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_36), (Il2CppObject *)NULL);
+	}
+
+IL_00e6:
+	{
+		GameObject_t1756533147 * L_37 = V_1;
+		V_3 = L_37;
+		goto IL_00ed;
+	}
+
+IL_00ed:
+	{
+		GameObject_t1756533147 * L_38 = V_3;
+		return L_38;
+	}
+}
+// System.Boolean GvrGaze::IsGazeNearObject(System.Single,UnityEngine.GameObject,UnityEngine.Vector3&)
+extern Il2CppClass* RaycastHitU5BU5D_t1214023521_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisCollider_t3497673348_m2914479322_MethodInfo_var;
+extern const uint32_t GvrGaze_IsGazeNearObject_m3473773425_MetadataUsageId;
+extern "C"  bool GvrGaze_IsGazeNearObject_m3473773425 (GvrGaze_t2249568644 * __this, float ___radius0, GameObject_t1756533147 * ___target1, Vector3_t2243707580 * ___intersectPosition2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrGaze_IsGazeNearObject_m3473773425_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	RaycastHitU5BU5D_t1214023521* V_0 = NULL;
+	RaycastHit_t87180320  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Ray_t2469606224  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	RaycastHit_t87180320  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	RaycastHitU5BU5D_t1214023521* V_4 = NULL;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	{
+		float L_0 = ___radius0;
+		if ((!(((float)L_0) > ((float)(0.0f)))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		Transform_t3275118058 * L_1 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Vector3_t2243707580  L_2 = Transform_get_position_m1104419803(L_1, /*hidden argument*/NULL);
+		float L_3 = ___radius0;
+		Transform_t3275118058 * L_4 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Vector3_t2243707580  L_5 = Transform_get_forward_m1833488937(L_4, /*hidden argument*/NULL);
+		Camera_t189460977 * L_6 = GvrGaze_get_cam_m3640560956(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		float L_7 = Camera_get_farClipPlane_m3137713566(L_6, /*hidden argument*/NULL);
+		LayerMask_t3188175821  L_8 = __this->get_mask_5();
+		int32_t L_9 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		RaycastHitU5BU5D_t1214023521* L_10 = Physics_SphereCastAll_m3328235726(NULL /*static, unused*/, L_2, L_3, L_5, L_7, L_9, /*hidden argument*/NULL);
+		V_0 = L_10;
+		goto IL_00a7;
+	}
+
+IL_0046:
+	{
+		Transform_t3275118058 * L_11 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		Vector3_t2243707580  L_12 = Transform_get_position_m1104419803(L_11, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_13 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Vector3_t2243707580  L_14 = Transform_get_forward_m1833488937(L_13, /*hidden argument*/NULL);
+		Ray__ctor_m3379034047((&V_2), L_12, L_14, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_15 = ___target1;
+		NullCheck(L_15);
+		Collider_t3497673348 * L_16 = GameObject_GetComponent_TisCollider_t3497673348_m2914479322(L_15, /*hidden argument*/GameObject_GetComponent_TisCollider_t3497673348_m2914479322_MethodInfo_var);
+		Ray_t2469606224  L_17 = V_2;
+		Camera_t189460977 * L_18 = GvrGaze_get_cam_m3640560956(__this, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		float L_19 = Camera_get_farClipPlane_m3137713566(L_18, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		bool L_20 = Collider_Raycast_m765524243(L_16, L_17, (&V_1), L_19, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		V_0 = ((RaycastHitU5BU5D_t1214023521*)SZArrayNew(RaycastHitU5BU5D_t1214023521_il2cpp_TypeInfo_var, (uint32_t)1));
+		RaycastHitU5BU5D_t1214023521* L_21 = V_0;
+		NullCheck(L_21);
+		RaycastHit_t87180320  L_22 = V_1;
+		(*(RaycastHit_t87180320 *)((L_21)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))) = L_22;
+		goto IL_00a6;
+	}
+
+IL_009d:
+	{
+		V_0 = ((RaycastHitU5BU5D_t1214023521*)SZArrayNew(RaycastHitU5BU5D_t1214023521_il2cpp_TypeInfo_var, (uint32_t)0));
+	}
+
+IL_00a6:
+	{
+	}
+
+IL_00a7:
+	{
+		RaycastHitU5BU5D_t1214023521* L_23 = V_0;
+		V_4 = L_23;
+		V_5 = 0;
+		goto IL_0117;
+	}
+
+IL_00b3:
+	{
+		RaycastHitU5BU5D_t1214023521* L_24 = V_4;
+		int32_t L_25 = V_5;
+		NullCheck(L_24);
+		V_3 = (*(RaycastHit_t87180320 *)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25))));
+		Collider_t3497673348 * L_26 = RaycastHit_get_collider_m301198172((&V_3), /*hidden argument*/NULL);
+		NullCheck(L_26);
+		GameObject_t1756533147 * L_27 = Component_get_gameObject_m3105766835(L_26, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_28 = ___target1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_29 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_27, L_28, /*hidden argument*/NULL);
+		if (!L_29)
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		Vector3_t2243707580 * L_30 = ___intersectPosition2;
+		Transform_t3275118058 * L_31 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Vector3_t2243707580  L_32 = Transform_get_position_m1104419803(L_31, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_33 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		Vector3_t2243707580  L_34 = Transform_get_forward_m1833488937(L_33, /*hidden argument*/NULL);
+		float L_35 = RaycastHit_get_distance_m1178709367((&V_3), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_36 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_34, L_35, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_37 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_32, L_36, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_30) = L_37;
+		V_6 = (bool)1;
+		goto IL_0135;
+	}
+
+IL_0110:
+	{
+		int32_t L_38 = V_5;
+		V_5 = ((int32_t)((int32_t)L_38+(int32_t)1));
+	}
+
+IL_0117:
+	{
+		int32_t L_39 = V_5;
+		RaycastHitU5BU5D_t1214023521* L_40 = V_4;
+		NullCheck(L_40);
+		if ((((int32_t)L_39) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_40)->max_length)))))))
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		Vector3_t2243707580 * L_41 = ___intersectPosition2;
+		Vector3_t2243707580  L_42 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_41) = L_42;
+		V_6 = (bool)0;
+		goto IL_0135;
+	}
+
+IL_0135:
+	{
+		bool L_43 = V_6;
+		return L_43;
+	}
+}
+// System.Void GvrGaze::HandleTrigger()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern Il2CppClass* IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var;
+extern const uint32_t GvrGaze_HandleTrigger_m136751567_MetadataUsageId;
+extern "C"  void GvrGaze_HandleTrigger_m136751567 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrGaze_HandleTrigger_m136751567_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_isTriggered_10();
+		if (L_0)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_1 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_2 = GvrViewer_get_Triggered_m3210598650(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_3 = Input_GetMouseButtonDown_m47917805(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0048;
+		}
+	}
+
+IL_0027:
+	{
+		__this->set_isTriggered_10((bool)1);
+		GvrBasePointer_t2150122635 * L_4 = __this->get_pointer_3();
+		if (!L_4)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_5 = __this->get_pointer_3();
+		NullCheck(L_5);
+		VirtActionInvoker0::Invoke(12 /* System.Void GvrBasePointer::OnPointerClickDown() */, L_5);
+	}
+
+IL_0047:
+	{
+	}
+
+IL_0048:
+	{
+		goto IL_00a1;
+	}
+
+IL_004e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_6 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		bool L_7 = GvrViewer_get_Triggered_m3210598650(L_6, /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_8 = Input_GetMouseButton_m464100923(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_9 = __this->get_pointer_3();
+		if (!L_9)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_10 = __this->get_pointer_3();
+		NullCheck(L_10);
+		VirtActionInvoker0::Invoke(13 /* System.Void GvrBasePointer::OnPointerClickUp() */, L_10);
+	}
+
+IL_0081:
+	{
+		Il2CppObject * L_11 = __this->get_currentTarget_6();
+		if (!L_11)
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		Il2CppObject * L_12 = __this->get_currentTarget_6();
+		NullCheck(L_12);
+		InterfaceActionInvoker0::Invoke(2 /* System.Void IGvrGazeResponder::OnGazeTrigger() */, IGvrGazeResponder_t1981717083_il2cpp_TypeInfo_var, L_12);
+	}
+
+IL_0099:
+	{
+		__this->set_isTriggered_10((bool)0);
+	}
+
+IL_00a1:
+	{
+		return;
+	}
+}
+// UnityEngine.Ray GvrGaze::GetRay()
+extern "C"  Ray_t2469606224  GvrGaze_GetRay_m2182772743 (GvrGaze_t2249568644 * __this, const MethodInfo* method)
+{
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Transform_t3275118058 * L_0 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t2243707580  L_1 = Transform_get_position_m1104419803(L_0, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_2 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Vector3_t2243707580  L_3 = Transform_get_forward_m1833488937(L_2, /*hidden argument*/NULL);
+		Ray_t2469606224  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		Ray__ctor_m3379034047(&L_4, L_1, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_0022;
+	}
+
+IL_0022:
+	{
+		Ray_t2469606224  L_5 = V_0;
+		return L_5;
+	}
+}
+// GvrBasePointer GvrGaze::<set_PointerObject>m__0(GvrBasePointer)
+extern "C"  GvrBasePointer_t2150122635 * GvrGaze_U3Cset_PointerObjectU3Em__0_m3986262186 (Il2CppObject * __this /* static, unused */, GvrBasePointer_t2150122635 * ___c0, const MethodInfo* method)
+{
+	GvrBasePointer_t2150122635 * V_0 = NULL;
+	{
+		GvrBasePointer_t2150122635 * L_0 = ___c0;
+		V_0 = L_0;
+		goto IL_0007;
+	}
+
+IL_0007:
+	{
+		GvrBasePointer_t2150122635 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Boolean GvrGaze::<set_PointerObject>m__1(GvrBasePointer)
+extern "C"  bool GvrGaze_U3Cset_PointerObjectU3Em__1_m4266587785 (Il2CppObject * __this /* static, unused */, GvrBasePointer_t2150122635 * ___c0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		GvrBasePointer_t2150122635 * L_0 = ___c0;
+		V_0 = (bool)((((int32_t)((((Il2CppObject*)(GvrBasePointer_t2150122635 *)L_0) == ((Il2CppObject*)(Il2CppObject *)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrHead::.ctor()
+extern "C"  void GvrHead__ctor_m1618878510 (GvrHead_t3923315805 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_trackRotation_2((bool)1);
+		__this->set_trackPosition_3((bool)1);
+		__this->set_updateEarly_5((bool)0);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Ray GvrHead::get_Gaze()
+extern "C"  Ray_t2469606224  GvrHead_get_Gaze_m2487455538 (GvrHead_t3923315805 * __this, const MethodInfo* method)
+{
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		GvrHead_UpdateHead_m1684543261(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_0 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t2243707580  L_1 = Transform_get_position_m1104419803(L_0, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_2 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Vector3_t2243707580  L_3 = Transform_get_forward_m1833488937(L_2, /*hidden argument*/NULL);
+		Ray_t2469606224  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		Ray__ctor_m3379034047(&L_4, L_1, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		Ray_t2469606224  L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Void GvrHead::add_OnHeadUpdated(GvrHead/HeadUpdatedDelegate)
+extern Il2CppClass* HeadUpdatedDelegate_t1289521902_il2cpp_TypeInfo_var;
+extern const uint32_t GvrHead_add_OnHeadUpdated_m3023051996_MetadataUsageId;
+extern "C"  void GvrHead_add_OnHeadUpdated_m3023051996 (GvrHead_t3923315805 * __this, HeadUpdatedDelegate_t1289521902 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrHead_add_OnHeadUpdated_m3023051996_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	HeadUpdatedDelegate_t1289521902 * V_0 = NULL;
+	HeadUpdatedDelegate_t1289521902 * V_1 = NULL;
+	{
+		HeadUpdatedDelegate_t1289521902 * L_0 = __this->get_OnHeadUpdated_6();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		HeadUpdatedDelegate_t1289521902 * L_1 = V_0;
+		V_1 = L_1;
+		HeadUpdatedDelegate_t1289521902 ** L_2 = __this->get_address_of_OnHeadUpdated_6();
+		HeadUpdatedDelegate_t1289521902 * L_3 = V_1;
+		HeadUpdatedDelegate_t1289521902 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Combine_m3791207084(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		HeadUpdatedDelegate_t1289521902 * L_6 = V_0;
+		HeadUpdatedDelegate_t1289521902 * L_7 = InterlockedCompareExchangeImpl<HeadUpdatedDelegate_t1289521902 *>(L_2, ((HeadUpdatedDelegate_t1289521902 *)CastclassSealed(L_5, HeadUpdatedDelegate_t1289521902_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		HeadUpdatedDelegate_t1289521902 * L_8 = V_0;
+		HeadUpdatedDelegate_t1289521902 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(HeadUpdatedDelegate_t1289521902 *)L_8) == ((Il2CppObject*)(HeadUpdatedDelegate_t1289521902 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GvrHead::remove_OnHeadUpdated(GvrHead/HeadUpdatedDelegate)
+extern Il2CppClass* HeadUpdatedDelegate_t1289521902_il2cpp_TypeInfo_var;
+extern const uint32_t GvrHead_remove_OnHeadUpdated_m3173530787_MetadataUsageId;
+extern "C"  void GvrHead_remove_OnHeadUpdated_m3173530787 (GvrHead_t3923315805 * __this, HeadUpdatedDelegate_t1289521902 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrHead_remove_OnHeadUpdated_m3173530787_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	HeadUpdatedDelegate_t1289521902 * V_0 = NULL;
+	HeadUpdatedDelegate_t1289521902 * V_1 = NULL;
+	{
+		HeadUpdatedDelegate_t1289521902 * L_0 = __this->get_OnHeadUpdated_6();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		HeadUpdatedDelegate_t1289521902 * L_1 = V_0;
+		V_1 = L_1;
+		HeadUpdatedDelegate_t1289521902 ** L_2 = __this->get_address_of_OnHeadUpdated_6();
+		HeadUpdatedDelegate_t1289521902 * L_3 = V_1;
+		HeadUpdatedDelegate_t1289521902 * L_4 = ___value0;
+		Delegate_t3022476291 * L_5 = Delegate_Remove_m2626518725(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		HeadUpdatedDelegate_t1289521902 * L_6 = V_0;
+		HeadUpdatedDelegate_t1289521902 * L_7 = InterlockedCompareExchangeImpl<HeadUpdatedDelegate_t1289521902 *>(L_2, ((HeadUpdatedDelegate_t1289521902 *)CastclassSealed(L_5, HeadUpdatedDelegate_t1289521902_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		HeadUpdatedDelegate_t1289521902 * L_8 = V_0;
+		HeadUpdatedDelegate_t1289521902 * L_9 = V_1;
+		if ((!(((Il2CppObject*)(HeadUpdatedDelegate_t1289521902 *)L_8) == ((Il2CppObject*)(HeadUpdatedDelegate_t1289521902 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void GvrHead::Awake()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern const uint32_t GvrHead_Awake_m71340397_MetadataUsageId;
+extern "C"  void GvrHead_Awake_m71340397 (GvrHead_t3923315805 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrHead_Awake_m71340397_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_Create_m813413068(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrHead::Update()
+extern "C"  void GvrHead_Update_m3902790761 (GvrHead_t3923315805 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_updated_7((bool)0);
+		bool L_0 = __this->get_updateEarly_5();
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		GvrHead_UpdateHead_m1684543261(__this, /*hidden argument*/NULL);
+	}
+
+IL_001b:
+	{
+		return;
+	}
+}
+// System.Void GvrHead::LateUpdate()
+extern "C"  void GvrHead_LateUpdate_m575038069 (GvrHead_t3923315805 * __this, const MethodInfo* method)
+{
+	{
+		GvrHead_UpdateHead_m1684543261(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrHead::UpdateHead()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrHead_UpdateHead_m1684543261_MetadataUsageId;
+extern "C"  void GvrHead_UpdateHead_m1684543261 (GvrHead_t3923315805 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrHead_UpdateHead_m1684543261_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_t4030073918  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		bool L_0 = __this->get_updated_7();
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		goto IL_010f;
+	}
+
+IL_0012:
+	{
+		__this->set_updated_7((bool)1);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_1 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GvrViewer_UpdateState_m198584744(L_1, /*hidden argument*/NULL);
+		bool L_2 = __this->get_trackRotation_2();
+		if (!L_2)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_3 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Pose3D_t3872859958 * L_4 = GvrViewer_get_HeadPose_m904618119(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Quaternion_t4030073918  L_5 = Pose3D_get_Orientation_m3125329874(L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		Transform_t3275118058 * L_6 = __this->get_target_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_6, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		Transform_t3275118058 * L_8 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_9 = V_0;
+		NullCheck(L_8);
+		Transform_set_localRotation_m2055111962(L_8, L_9, /*hidden argument*/NULL);
+		goto IL_0081;
+	}
+
+IL_0063:
+	{
+		Transform_t3275118058 * L_10 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_11 = __this->get_target_4();
+		NullCheck(L_11);
+		Quaternion_t4030073918  L_12 = Transform_get_rotation_m1033555130(L_11, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_13 = V_0;
+		Quaternion_t4030073918  L_14 = Quaternion_op_Multiply_m2426727589(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Transform_set_rotation_m3411284563(L_10, L_14, /*hidden argument*/NULL);
+	}
+
+IL_0081:
+	{
+	}
+
+IL_0082:
+	{
+		bool L_15 = __this->get_trackPosition_3();
+		if (!L_15)
+		{
+			goto IL_00f1;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_16 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Pose3D_t3872859958 * L_17 = GvrViewer_get_HeadPose_m904618119(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Vector3_t2243707580  L_18 = Pose3D_get_Position_m1770539115(L_17, /*hidden argument*/NULL);
+		V_1 = L_18;
+		Transform_t3275118058 * L_19 = __this->get_target_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_20 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_19, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		Transform_t3275118058 * L_21 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_22 = V_1;
+		NullCheck(L_21);
+		Transform_set_localPosition_m1026930133(L_21, L_22, /*hidden argument*/NULL);
+		goto IL_00f0;
+	}
+
+IL_00c2:
+	{
+		Transform_t3275118058 * L_23 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_24 = __this->get_target_4();
+		NullCheck(L_24);
+		Vector3_t2243707580  L_25 = Transform_get_position_m1104419803(L_24, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_26 = __this->get_target_4();
+		NullCheck(L_26);
+		Quaternion_t4030073918  L_27 = Transform_get_rotation_m1033555130(L_26, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_28 = V_1;
+		Vector3_t2243707580  L_29 = Quaternion_op_Multiply_m1483423721(NULL /*static, unused*/, L_27, L_28, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_30 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_25, L_29, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		Transform_set_position_m2469242620(L_23, L_30, /*hidden argument*/NULL);
+	}
+
+IL_00f0:
+	{
+	}
+
+IL_00f1:
+	{
+		HeadUpdatedDelegate_t1289521902 * L_31 = __this->get_OnHeadUpdated_6();
+		if (!L_31)
+		{
+			goto IL_010f;
+		}
+	}
+	{
+		HeadUpdatedDelegate_t1289521902 * L_32 = __this->get_OnHeadUpdated_6();
+		GameObject_t1756533147 * L_33 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_32);
+		HeadUpdatedDelegate_Invoke_m1979681641(L_32, L_33, /*hidden argument*/NULL);
+	}
+
+IL_010f:
+	{
+		return;
+	}
+}
+// System.Void GvrHead/HeadUpdatedDelegate::.ctor(System.Object,System.IntPtr)
+extern "C"  void HeadUpdatedDelegate__ctor_m1146233661 (HeadUpdatedDelegate_t1289521902 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
+{
+	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void GvrHead/HeadUpdatedDelegate::Invoke(UnityEngine.GameObject)
+extern "C"  void HeadUpdatedDelegate_Invoke_m1979681641 (HeadUpdatedDelegate_t1289521902 * __this, GameObject_t1756533147 * ___head0, const MethodInfo* method)
+{
+	if(__this->get_prev_9() != NULL)
+	{
+		HeadUpdatedDelegate_Invoke_m1979681641((HeadUpdatedDelegate_t1289521902 *)__this->get_prev_9(),___head0, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Il2CppObject *, void* __this, GameObject_t1756533147 * ___head0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___head0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else if (__this->get_m_target_2() != NULL || ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (void* __this, GameObject_t1756533147 * ___head0, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___head0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->get_method_ptr_0())(___head0,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
+	}
+}
+// System.IAsyncResult GvrHead/HeadUpdatedDelegate::BeginInvoke(UnityEngine.GameObject,System.AsyncCallback,System.Object)
+extern "C"  Il2CppObject * HeadUpdatedDelegate_BeginInvoke_m2677839988 (HeadUpdatedDelegate_t1289521902 * __this, GameObject_t1756533147 * ___head0, AsyncCallback_t163412349 * ___callback1, Il2CppObject * ___object2, const MethodInfo* method)
+{
+	void *__d_args[2] = {0};
+	__d_args[0] = ___head0;
+	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback1, (Il2CppObject*)___object2);
+}
+// System.Void GvrHead/HeadUpdatedDelegate::EndInvoke(System.IAsyncResult)
+extern "C"  void HeadUpdatedDelegate_EndInvoke_m1067906543 (HeadUpdatedDelegate_t1289521902 * __this, Il2CppObject * ___result0, const MethodInfo* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+// System.String GvrIntent::GetData()
+extern "C"  String_t* GvrIntent_GetData_m4025003659 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	String_t* V_0 = NULL;
+	{
+		V_0 = (String_t*)NULL;
+		goto IL_0008;
+	}
+
+IL_0008:
+	{
+		String_t* L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Boolean GvrIntent::IsLaunchedFromVr()
+extern "C"  bool GvrIntent_IsLaunchedFromVr_m2964954572 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		V_0 = (bool)0;
+		goto IL_0008;
+	}
+
+IL_0008:
+	{
+		bool L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Int32 GvrIntent::GetIntentHashCode()
+extern "C"  int32_t GvrIntent_GetIntentHashCode_m3487322515 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_0008;
+	}
+
+IL_0008:
+	{
+		int32_t L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void GvrLaserPointer::.ctor()
+extern "C"  void GvrLaserPointer__ctor_m3374328308 (GvrLaserPointer_t2879974839 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrLaserPointerImpl::.ctor()
+extern "C"  void GvrLaserPointerImpl__ctor_m2090733158 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	{
+		Vector3_t2243707580  L_0 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_lineEndPoint_16(L_0);
+		GvrBasePointer__ctor_m677865000(__this, /*hidden argument*/NULL);
+		GvrLaserPointerImpl_set_MaxLaserDistance_m3674615216(__this, (0.75f), /*hidden argument*/NULL);
+		GvrLaserPointerImpl_set_MaxReticleDistance_m3254151873(__this, (2.5f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Camera GvrLaserPointerImpl::get_MainCamera()
+extern "C"  Camera_t189460977 * GvrLaserPointerImpl_get_MainCamera_m3408232102 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	Camera_t189460977 * V_0 = NULL;
+	{
+		Camera_t189460977 * L_0 = __this->get_U3CMainCameraU3Ek__BackingField_5();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Camera_t189460977 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrLaserPointerImpl::set_MainCamera(UnityEngine.Camera)
+extern "C"  void GvrLaserPointerImpl_set_MainCamera_m957916287 (GvrLaserPointerImpl_t2141976067 * __this, Camera_t189460977 * ___value0, const MethodInfo* method)
+{
+	{
+		Camera_t189460977 * L_0 = ___value0;
+		__this->set_U3CMainCameraU3Ek__BackingField_5(L_0);
+		return;
+	}
+}
+// UnityEngine.Color GvrLaserPointerImpl::get_LaserColor()
+extern "C"  Color_t2020392075  GvrLaserPointerImpl_get_LaserColor_m2924704266 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	Color_t2020392075  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Color_t2020392075  L_0 = __this->get_U3CLaserColorU3Ek__BackingField_6();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Color_t2020392075  L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrLaserPointerImpl::set_LaserColor(UnityEngine.Color)
+extern "C"  void GvrLaserPointerImpl_set_LaserColor_m4256875433 (GvrLaserPointerImpl_t2141976067 * __this, Color_t2020392075  ___value0, const MethodInfo* method)
+{
+	{
+		Color_t2020392075  L_0 = ___value0;
+		__this->set_U3CLaserColorU3Ek__BackingField_6(L_0);
+		return;
+	}
+}
+// UnityEngine.LineRenderer GvrLaserPointerImpl::get_LaserLineRenderer()
+extern "C"  LineRenderer_t849157671 * GvrLaserPointerImpl_get_LaserLineRenderer_m3046216770 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	LineRenderer_t849157671 * V_0 = NULL;
+	{
+		LineRenderer_t849157671 * L_0 = __this->get_U3CLaserLineRendererU3Ek__BackingField_7();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		LineRenderer_t849157671 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrLaserPointerImpl::set_LaserLineRenderer(UnityEngine.LineRenderer)
+extern "C"  void GvrLaserPointerImpl_set_LaserLineRenderer_m949710001 (GvrLaserPointerImpl_t2141976067 * __this, LineRenderer_t849157671 * ___value0, const MethodInfo* method)
+{
+	{
+		LineRenderer_t849157671 * L_0 = ___value0;
+		__this->set_U3CLaserLineRendererU3Ek__BackingField_7(L_0);
+		return;
+	}
+}
+// System.Single GvrLaserPointerImpl::get_MaxLaserDistance()
+extern "C"  float GvrLaserPointerImpl_get_MaxLaserDistance_m3964575299 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_U3CMaxLaserDistanceU3Ek__BackingField_8();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrLaserPointerImpl::set_MaxLaserDistance(System.Single)
+extern "C"  void GvrLaserPointerImpl_set_MaxLaserDistance_m3674615216 (GvrLaserPointerImpl_t2141976067 * __this, float ___value0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___value0;
+		__this->set_U3CMaxLaserDistanceU3Ek__BackingField_8(L_0);
+		return;
+	}
+}
+// System.Single GvrLaserPointerImpl::get_MaxReticleDistance()
+extern "C"  float GvrLaserPointerImpl_get_MaxReticleDistance_m1514639426 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->get_U3CMaxReticleDistanceU3Ek__BackingField_9();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrLaserPointerImpl::set_MaxReticleDistance(System.Single)
+extern "C"  void GvrLaserPointerImpl_set_MaxReticleDistance_m3254151873 (GvrLaserPointerImpl_t2141976067 * __this, float ___value0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___value0;
+		__this->set_U3CMaxReticleDistanceU3Ek__BackingField_9(L_0);
+		return;
+	}
+}
+// UnityEngine.GameObject GvrLaserPointerImpl::get_Reticle()
+extern "C"  GameObject_t1756533147 * GvrLaserPointerImpl_get_Reticle_m4077335888 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		GameObject_t1756533147 * L_0 = __this->get_reticle_10();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		GameObject_t1756533147 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrLaserPointerImpl::set_Reticle(UnityEngine.GameObject)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisMeshFilter_t3026937449_m1019809839_MethodInfo_var;
+extern const uint32_t GvrLaserPointerImpl_set_Reticle_m1414756459_MetadataUsageId;
+extern "C"  void GvrLaserPointerImpl_set_Reticle_m1414756459 (GvrLaserPointerImpl_t2141976067 * __this, GameObject_t1756533147 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrLaserPointerImpl_set_Reticle_m1414756459_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	MeshFilter_t3026937449 * V_0 = NULL;
+	Bounds_t3033363703  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		GameObject_t1756533147 * L_0 = ___value0;
+		__this->set_reticle_10(L_0);
+		__this->set_reticleMeshSizeMeters_14((0.0f));
+		__this->set_reticleMeshSizeRatio_15((0.0f));
+		GameObject_t1756533147 * L_1 = __this->get_reticle_10();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_3 = __this->get_reticle_10();
+		NullCheck(L_3);
+		MeshFilter_t3026937449 * L_4 = GameObject_GetComponent_TisMeshFilter_t3026937449_m1019809839(L_3, /*hidden argument*/GameObject_GetComponent_TisMeshFilter_t3026937449_m1019809839_MethodInfo_var);
+		V_0 = L_4;
+		MeshFilter_t3026937449 * L_5 = V_0;
+		NullCheck(L_5);
+		Mesh_t1356156583 * L_6 = MeshFilter_get_mesh_m977520135(L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		MeshFilter_t3026937449 * L_8 = V_0;
+		NullCheck(L_8);
+		Mesh_t1356156583 * L_9 = MeshFilter_get_mesh_m977520135(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Bounds_t3033363703  L_10 = Mesh_get_bounds_m1752141467(L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		Vector3_t2243707580  L_11 = Bounds_get_size_m1728027642((&V_1), /*hidden argument*/NULL);
+		V_2 = L_11;
+		float L_12 = (&V_2)->get_x_1();
+		__this->set_reticleMeshSizeMeters_14(L_12);
+		float L_13 = __this->get_reticleMeshSizeMeters_14();
+		if ((((float)L_13) == ((float)(0.0f))))
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		float L_14 = __this->get_reticleMeshSizeMeters_14();
+		__this->set_reticleMeshSizeRatio_15(((float)((float)(1.0f)/(float)L_14)));
+	}
+
+IL_0093:
+	{
+	}
+
+IL_0094:
+	{
+	}
+
+IL_0095:
+	{
+		return;
+	}
+}
+// UnityEngine.Vector3 GvrLaserPointerImpl::get_PointerIntersection()
+extern "C"  Vector3_t2243707580  GvrLaserPointerImpl_get_PointerIntersection_m2453802311 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Vector3_t2243707580  L_0 = __this->get_U3CPointerIntersectionU3Ek__BackingField_11();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Vector3_t2243707580  L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrLaserPointerImpl::set_PointerIntersection(UnityEngine.Vector3)
+extern "C"  void GvrLaserPointerImpl_set_PointerIntersection_m3348663786 (GvrLaserPointerImpl_t2141976067 * __this, Vector3_t2243707580  ___value0, const MethodInfo* method)
+{
+	{
+		Vector3_t2243707580  L_0 = ___value0;
+		__this->set_U3CPointerIntersectionU3Ek__BackingField_11(L_0);
+		return;
+	}
+}
+// System.Boolean GvrLaserPointerImpl::get_IsPointerIntersecting()
+extern "C"  bool GvrLaserPointerImpl_get_IsPointerIntersecting_m1934345039 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		bool L_0 = __this->get_U3CIsPointerIntersectingU3Ek__BackingField_12();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrLaserPointerImpl::set_IsPointerIntersecting(System.Boolean)
+extern "C"  void GvrLaserPointerImpl_set_IsPointerIntersecting_m2966439950 (GvrLaserPointerImpl_t2141976067 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CIsPointerIntersectingU3Ek__BackingField_12(L_0);
+		return;
+	}
+}
+// UnityEngine.Ray GvrLaserPointerImpl::get_PointerIntersectionRay()
+extern "C"  Ray_t2469606224  GvrLaserPointerImpl_get_PointerIntersectionRay_m806724853 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Ray_t2469606224  L_0 = __this->get_U3CPointerIntersectionRayU3Ek__BackingField_13();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Ray_t2469606224  L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrLaserPointerImpl::set_PointerIntersectionRay(UnityEngine.Ray)
+extern "C"  void GvrLaserPointerImpl_set_PointerIntersectionRay_m2104986278 (GvrLaserPointerImpl_t2141976067 * __this, Ray_t2469606224  ___value0, const MethodInfo* method)
+{
+	{
+		Ray_t2469606224  L_0 = ___value0;
+		__this->set_U3CPointerIntersectionRayU3Ek__BackingField_13(L_0);
+		return;
+	}
+}
+// UnityEngine.Vector3 GvrLaserPointerImpl::get_LineEndPoint()
+extern "C"  Vector3_t2243707580  GvrLaserPointerImpl_get_LineEndPoint_m4109945936 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Vector3_t2243707580  L_0 = __this->get_lineEndPoint_16();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Vector3_t2243707580  L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Single GvrLaserPointerImpl::get_MaxPointerDistance()
+extern "C"  float GvrLaserPointerImpl_get_MaxPointerDistance_m3045271701 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		V_0 = (0.0f);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void GvrLaserPointerImpl::OnStart()
+extern "C"  void GvrLaserPointerImpl_OnStart_m3557324591 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrLaserPointerImpl::OnInputModuleEnabled()
+extern "C"  void GvrLaserPointerImpl_OnInputModuleEnabled_m197268720 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrLaserPointerImpl::OnInputModuleDisabled()
+extern "C"  void GvrLaserPointerImpl_OnInputModuleDisabled_m460884883 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrLaserPointerImpl::OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)
+extern "C"  void GvrLaserPointerImpl_OnPointerEnter_m3984850915 (GvrLaserPointerImpl_t2141976067 * __this, GameObject_t1756533147 * ___targetObject0, Vector3_t2243707580  ___intersectionPosition1, Ray_t2469606224  ___intersectionRay2, bool ___isInteractive3, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrLaserPointerImpl::OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)
+extern "C"  void GvrLaserPointerImpl_OnPointerHover_m1907226417 (GvrLaserPointerImpl_t2141976067 * __this, GameObject_t1756533147 * ___targetObject0, Vector3_t2243707580  ___intersectionPosition1, Ray_t2469606224  ___intersectionRay2, bool ___isInteractive3, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrLaserPointerImpl::OnPointerExit(UnityEngine.GameObject)
+extern "C"  void GvrLaserPointerImpl_OnPointerExit_m588516218 (GvrLaserPointerImpl_t2141976067 * __this, GameObject_t1756533147 * ___targetObject0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrLaserPointerImpl::OnPointerClickDown()
+extern "C"  void GvrLaserPointerImpl_OnPointerClickDown_m640898558 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrLaserPointerImpl::OnPointerClickUp()
+extern "C"  void GvrLaserPointerImpl_OnPointerClickUp_m2141358135 (GvrLaserPointerImpl_t2141976067 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrLaserPointerImpl::GetPointerRadius(System.Single&,System.Single&)
+extern "C"  void GvrLaserPointerImpl_GetPointerRadius_m447704703 (GvrLaserPointerImpl_t2141976067 * __this, float* ___enterRadius0, float* ___exitRadius1, const MethodInfo* method)
+{
+	{
+		float* L_0 = ___enterRadius0;
+		*((float*)(L_0)) = (float)(0.0f);
+		float* L_1 = ___exitRadius1;
+		*((float*)(L_1)) = (float)(0.0f);
+		return;
+	}
+}
+// System.Void GvrPointerGraphicRaycaster::.ctor()
+extern Il2CppClass* List_1_t1795346708_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2202683573_MethodInfo_var;
+extern const uint32_t GvrPointerGraphicRaycaster__ctor_m3530556593_MetadataUsageId;
+extern "C"  void GvrPointerGraphicRaycaster__ctor_m3530556593 (GvrPointerGraphicRaycaster_t1649506702 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerGraphicRaycaster__ctor_m3530556593_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_ignoreReversedGraphics_5((bool)1);
+		__this->set_blockingObjects_6(0);
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
+		__this->set_blockingMask_7(L_0);
+		List_1_t1795346708 * L_1 = (List_1_t1795346708 *)il2cpp_codegen_object_new(List_1_t1795346708_il2cpp_TypeInfo_var);
+		List_1__ctor_m2202683573(L_1, /*hidden argument*/List_1__ctor_m2202683573_MethodInfo_var);
+		__this->set_raycastResults_9(L_1);
+		GvrBasePointerRaycaster__ctor_m4174019434(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Camera GvrPointerGraphicRaycaster::get_eventCamera()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral719456662;
+extern Il2CppCodeGenString* _stringLiteral336357770;
+extern const uint32_t GvrPointerGraphicRaycaster_get_eventCamera_m1509916208_MetadataUsageId;
+extern "C"  Camera_t189460977 * GvrPointerGraphicRaycaster_get_eventCamera_m1509916208 (GvrPointerGraphicRaycaster_t1649506702 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerGraphicRaycaster_get_eventCamera_m1509916208_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Camera_t189460977 * V_1 = NULL;
+	Transform_t3275118058 * V_2 = NULL;
+	Camera_t189460977 * G_B12_0 = NULL;
+	{
+		int32_t L_0 = ((GvrBasePointerRaycaster_t1189534163 *)__this)->get_raycastMode_2();
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		goto IL_00a9;
+	}
+
+IL_001a:
+	{
+		Camera_t189460977 * L_3 = __this->get_cachedPointerEventCamera_10();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		bool L_5 = GvrBasePointerRaycaster_IsPointerAvailable_m2792971214(__this, /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral719456662, /*hidden argument*/NULL);
+		Camera_t189460977 * L_6 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_6;
+		goto IL_00b4;
+	}
+
+IL_004d:
+	{
+		GvrBasePointer_t2150122635 * L_7 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Transform_t3275118058 * L_8 = GvrBasePointer_get_PointerTransform_m3494232690(L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
+		Transform_t3275118058 * L_9 = V_2;
+		NullCheck(L_9);
+		Camera_t189460977 * L_10 = Component_GetComponent_TisCamera_t189460977_m3276577584(L_9, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		__this->set_cachedPointerEventCamera_10(L_10);
+		Camera_t189460977 * L_11 = __this->get_cachedPointerEventCamera_10();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_12 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_11, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral336357770, /*hidden argument*/NULL);
+	}
+
+IL_0081:
+	{
+	}
+
+IL_0082:
+	{
+		Camera_t189460977 * L_13 = __this->get_cachedPointerEventCamera_10();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_14 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_13, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		Camera_t189460977 * L_15 = __this->get_cachedPointerEventCamera_10();
+		G_B12_0 = L_15;
+		goto IL_00a3;
+	}
+
+IL_009e:
+	{
+		Camera_t189460977 * L_16 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		G_B12_0 = L_16;
+	}
+
+IL_00a3:
+	{
+		V_1 = G_B12_0;
+		goto IL_00b4;
+	}
+
+IL_00a9:
+	{
+		Camera_t189460977 * L_17 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_17;
+		goto IL_00b4;
+	}
+
+IL_00b4:
+	{
+		Camera_t189460977 * L_18 = V_1;
+		return L_18;
+	}
+}
+// UnityEngine.Canvas GvrPointerGraphicRaycaster::get_canvas()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCanvas_t209405766_m3588040191_MethodInfo_var;
+extern const uint32_t GvrPointerGraphicRaycaster_get_canvas_m2187105506_MetadataUsageId;
+extern "C"  Canvas_t209405766 * GvrPointerGraphicRaycaster_get_canvas_m2187105506 (GvrPointerGraphicRaycaster_t1649506702 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerGraphicRaycaster_get_canvas_m2187105506_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Canvas_t209405766 * V_0 = NULL;
+	{
+		Canvas_t209405766 * L_0 = __this->get_targetCanvas_8();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Canvas_t209405766 * L_2 = __this->get_targetCanvas_8();
+		V_0 = L_2;
+		goto IL_0036;
+	}
+
+IL_001e:
+	{
+		Canvas_t209405766 * L_3 = Component_GetComponent_TisCanvas_t209405766_m3588040191(__this, /*hidden argument*/Component_GetComponent_TisCanvas_t209405766_m3588040191_MethodInfo_var);
+		__this->set_targetCanvas_8(L_3);
+		Canvas_t209405766 * L_4 = __this->get_targetCanvas_8();
+		V_0 = L_4;
+		goto IL_0036;
+	}
+
+IL_0036:
+	{
+		Canvas_t209405766 * L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Void GvrPointerGraphicRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Physics2D_t2540166467_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var;
+extern Il2CppClass* RaycastResult_t21186376_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Clear_m3009565222_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2127984542_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m3279745867_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2123823603_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m4141753581_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3774621872;
+extern const uint32_t GvrPointerGraphicRaycaster_Raycast_m3134305649_MetadataUsageId;
+extern "C"  void GvrPointerGraphicRaycaster_Raycast_m3134305649 (GvrPointerGraphicRaycaster_t1649506702 * __this, PointerEventData_t1599784723 * ___eventData0, List_1_t3685274804 * ___resultAppendList1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerGraphicRaycaster_Raycast_m3134305649_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	RaycastHit_t87180320  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	RaycastHit2D_t4063908774  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Ray_t2469606224  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	GameObject_t1756533147 * V_7 = NULL;
+	bool V_8 = false;
+	Vector3_t2243707580  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Vector3_t2243707580  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	float V_11 = 0.0f;
+	Transform_t3275118058 * V_12 = NULL;
+	Vector3_t2243707580  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	float V_14 = 0.0f;
+	float V_15 = 0.0f;
+	Vector3_t2243707580  V_16;
+	memset(&V_16, 0, sizeof(V_16));
+	RaycastResult_t21186376  V_17;
+	memset(&V_17, 0, sizeof(V_17));
+	RaycastResult_t21186376  V_18;
+	memset(&V_18, 0, sizeof(V_18));
+	{
+		Canvas_t209405766 * L_0 = GvrPointerGraphicRaycaster_get_canvas_m2187105506(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		goto IL_0316;
+	}
+
+IL_0018:
+	{
+		Camera_t189460977 * L_2 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		goto IL_0316;
+	}
+
+IL_002f:
+	{
+		bool L_4 = GvrBasePointerRaycaster_IsPointerAvailable_m2792971214(__this, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		goto IL_0316;
+	}
+
+IL_0040:
+	{
+		Canvas_t209405766 * L_5 = GvrPointerGraphicRaycaster_get_canvas_m2187105506(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		int32_t L_6 = Canvas_get_renderMode_m1816014618(L_5, /*hidden argument*/NULL);
+		if ((((int32_t)L_6) == ((int32_t)2)))
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3774621872, /*hidden argument*/NULL);
+		goto IL_0316;
+	}
+
+IL_0061:
+	{
+		Ray_t2469606224  L_7 = GvrBasePointerRaycaster_GetRay_m2992454774(__this, /*hidden argument*/NULL);
+		V_0 = L_7;
+		V_1 = (std::numeric_limits<float>::max());
+		int32_t L_8 = __this->get_blockingObjects_6();
+		if (!L_8)
+		{
+			goto IL_0133;
+		}
+	}
+	{
+		Camera_t189460977 * L_9 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		NullCheck(L_9);
+		float L_10 = Camera_get_farClipPlane_m3137713566(L_9, /*hidden argument*/NULL);
+		Camera_t189460977 * L_11 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		NullCheck(L_11);
+		float L_12 = Camera_get_nearClipPlane_m3536967407(L_11, /*hidden argument*/NULL);
+		V_2 = ((float)((float)L_10-(float)L_12));
+		int32_t L_13 = __this->get_blockingObjects_6();
+		if ((((int32_t)L_13) == ((int32_t)2)))
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		int32_t L_14 = __this->get_blockingObjects_6();
+		if ((!(((uint32_t)L_14) == ((uint32_t)3))))
+		{
+			goto IL_00cf;
+		}
+	}
+
+IL_00aa:
+	{
+		Ray_t2469606224  L_15 = V_0;
+		float L_16 = V_2;
+		LayerMask_t3188175821  L_17 = __this->get_blockingMask_7();
+		int32_t L_18 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		bool L_19 = Physics_Raycast_m2009151399(NULL /*static, unused*/, L_15, (&V_3), L_16, L_18, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		float L_20 = RaycastHit_get_distance_m1178709367((&V_3), /*hidden argument*/NULL);
+		V_1 = L_20;
+	}
+
+IL_00ce:
+	{
+	}
+
+IL_00cf:
+	{
+		int32_t L_21 = __this->get_blockingObjects_6();
+		if ((((int32_t)L_21) == ((int32_t)1)))
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		int32_t L_22 = __this->get_blockingObjects_6();
+		if ((!(((uint32_t)L_22) == ((uint32_t)3))))
+		{
+			goto IL_0132;
+		}
+	}
+
+IL_00e7:
+	{
+		Vector3_t2243707580  L_23 = Ray_get_origin_m3339262500((&V_0), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_24 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_25 = Ray_get_direction_m4059191533((&V_0), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_26 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
+		float L_27 = V_2;
+		LayerMask_t3188175821  L_28 = __this->get_blockingMask_7();
+		int32_t L_29 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_28, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Physics2D_t2540166467_il2cpp_TypeInfo_var);
+		RaycastHit2D_t4063908774  L_30 = Physics2D_Raycast_m122312471(NULL /*static, unused*/, L_24, L_26, L_27, L_29, /*hidden argument*/NULL);
+		V_4 = L_30;
+		Collider2D_t646061738 * L_31 = RaycastHit2D_get_collider_m2568504212((&V_4), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_32 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_31, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_0131;
+		}
+	}
+	{
+		float L_33 = RaycastHit2D_get_fraction_m1296150410((&V_4), /*hidden argument*/NULL);
+		float L_34 = V_2;
+		V_1 = ((float)((float)L_33*(float)L_34));
+	}
+
+IL_0131:
+	{
+	}
+
+IL_0132:
+	{
+	}
+
+IL_0133:
+	{
+		List_1_t1795346708 * L_35 = __this->get_raycastResults_9();
+		NullCheck(L_35);
+		List_1_Clear_m3009565222(L_35, /*hidden argument*/List_1_Clear_m3009565222_MethodInfo_var);
+		Canvas_t209405766 * L_36 = GvrPointerGraphicRaycaster_get_canvas_m2187105506(__this, /*hidden argument*/NULL);
+		Ray_t2469606224  L_37 = V_0;
+		Camera_t189460977 * L_38 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		float L_39 = GvrBasePointerRaycaster_get_MaxPointerDistance_m771532845(__this, /*hidden argument*/NULL);
+		List_1_t1795346708 * L_40 = __this->get_raycastResults_9();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var);
+		GvrPointerGraphicRaycaster_Raycast_m3298424177(NULL /*static, unused*/, L_36, L_37, L_38, L_39, L_40, (&V_5), /*hidden argument*/NULL);
+		V_6 = 0;
+		goto IL_0304;
+	}
+
+IL_0166:
+	{
+		List_1_t1795346708 * L_41 = __this->get_raycastResults_9();
+		int32_t L_42 = V_6;
+		NullCheck(L_41);
+		Graphic_t2426225576 * L_43 = List_1_get_Item_m2127984542(L_41, L_42, /*hidden argument*/List_1_get_Item_m2127984542_MethodInfo_var);
+		NullCheck(L_43);
+		GameObject_t1756533147 * L_44 = Component_get_gameObject_m3105766835(L_43, /*hidden argument*/NULL);
+		V_7 = L_44;
+		V_8 = (bool)1;
+		bool L_45 = __this->get_ignoreReversedGraphics_5();
+		if (!L_45)
+		{
+			goto IL_01d1;
+		}
+	}
+	{
+		Camera_t189460977 * L_46 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		NullCheck(L_46);
+		Transform_t3275118058 * L_47 = Component_get_transform_m2697483695(L_46, /*hidden argument*/NULL);
+		NullCheck(L_47);
+		Quaternion_t4030073918  L_48 = Transform_get_rotation_m1033555130(L_47, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_49 = Vector3_get_forward_m1201659139(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_50 = Quaternion_op_Multiply_m1483423721(NULL /*static, unused*/, L_48, L_49, /*hidden argument*/NULL);
+		V_9 = L_50;
+		GameObject_t1756533147 * L_51 = V_7;
+		NullCheck(L_51);
+		Transform_t3275118058 * L_52 = GameObject_get_transform_m909382139(L_51, /*hidden argument*/NULL);
+		NullCheck(L_52);
+		Quaternion_t4030073918  L_53 = Transform_get_rotation_m1033555130(L_52, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_54 = Vector3_get_forward_m1201659139(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_55 = Quaternion_op_Multiply_m1483423721(NULL /*static, unused*/, L_53, L_54, /*hidden argument*/NULL);
+		V_10 = L_55;
+		Vector3_t2243707580  L_56 = V_9;
+		Vector3_t2243707580  L_57 = V_10;
+		float L_58 = Vector3_Dot_m3161182818(NULL /*static, unused*/, L_56, L_57, /*hidden argument*/NULL);
+		V_8 = (bool)((((float)L_58) > ((float)(0.0f)))? 1 : 0);
+	}
+
+IL_01d1:
+	{
+		bool L_59 = V_8;
+		if (!L_59)
+		{
+			goto IL_02fd;
+		}
+	}
+	{
+		V_11 = (0.0f);
+		GameObject_t1756533147 * L_60 = V_7;
+		NullCheck(L_60);
+		Transform_t3275118058 * L_61 = GameObject_get_transform_m909382139(L_60, /*hidden argument*/NULL);
+		V_12 = L_61;
+		Transform_t3275118058 * L_62 = V_12;
+		NullCheck(L_62);
+		Vector3_t2243707580  L_63 = Transform_get_forward_m1833488937(L_62, /*hidden argument*/NULL);
+		V_13 = L_63;
+		Vector3_t2243707580  L_64 = V_13;
+		Transform_t3275118058 * L_65 = V_12;
+		NullCheck(L_65);
+		Vector3_t2243707580  L_66 = Transform_get_position_m1104419803(L_65, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_67 = Ray_get_origin_m3339262500((&V_5), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_68 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_66, L_67, /*hidden argument*/NULL);
+		float L_69 = Vector3_Dot_m3161182818(NULL /*static, unused*/, L_64, L_68, /*hidden argument*/NULL);
+		V_14 = L_69;
+		Vector3_t2243707580  L_70 = V_13;
+		Vector3_t2243707580  L_71 = Ray_get_direction_m4059191533((&V_5), /*hidden argument*/NULL);
+		float L_72 = Vector3_Dot_m3161182818(NULL /*static, unused*/, L_70, L_71, /*hidden argument*/NULL);
+		V_15 = L_72;
+		float L_73 = V_14;
+		float L_74 = V_15;
+		V_11 = ((float)((float)L_73/(float)L_74));
+		float L_75 = V_11;
+		if ((!(((float)L_75) < ((float)(0.0f)))))
+		{
+			goto IL_0237;
+		}
+	}
+	{
+		goto IL_02fe;
+	}
+
+IL_0237:
+	{
+		float L_76 = V_11;
+		float L_77 = V_1;
+		if ((!(((float)L_76) >= ((float)L_77))))
+		{
+			goto IL_0245;
+		}
+	}
+	{
+		goto IL_02fe;
+	}
+
+IL_0245:
+	{
+		Vector3_t2243707580  L_78 = Ray_get_origin_m3339262500((&V_5), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_79 = Ray_get_direction_m4059191533((&V_5), /*hidden argument*/NULL);
+		float L_80 = V_11;
+		Vector3_t2243707580  L_81 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_79, L_80, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_82 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_78, L_81, /*hidden argument*/NULL);
+		V_16 = L_82;
+		Initobj (RaycastResult_t21186376_il2cpp_TypeInfo_var, (&V_18));
+		GameObject_t1756533147 * L_83 = V_7;
+		RaycastResult_set_gameObject_m1138581891((&V_18), L_83, /*hidden argument*/NULL);
+		(&V_18)->set_module_1(__this);
+		float L_84 = V_11;
+		(&V_18)->set_distance_2(L_84);
+		Vector3_t2243707580  L_85 = V_16;
+		(&V_18)->set_worldPosition_7(L_85);
+		Camera_t189460977 * L_86 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		Vector3_t2243707580  L_87 = V_16;
+		NullCheck(L_86);
+		Vector3_t2243707580  L_88 = Camera_WorldToScreenPoint_m638747266(L_86, L_87, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_89 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_88, /*hidden argument*/NULL);
+		(&V_18)->set_screenPosition_9(L_89);
+		List_1_t3685274804 * L_90 = ___resultAppendList1;
+		NullCheck(L_90);
+		int32_t L_91 = List_1_get_Count_m3279745867(L_90, /*hidden argument*/List_1_get_Count_m3279745867_MethodInfo_var);
+		(&V_18)->set_index_3((((float)((float)L_91))));
+		List_1_t1795346708 * L_92 = __this->get_raycastResults_9();
+		int32_t L_93 = V_6;
+		NullCheck(L_92);
+		Graphic_t2426225576 * L_94 = List_1_get_Item_m2127984542(L_92, L_93, /*hidden argument*/List_1_get_Item_m2127984542_MethodInfo_var);
+		NullCheck(L_94);
+		int32_t L_95 = Graphic_get_depth_m3526566553(L_94, /*hidden argument*/NULL);
+		(&V_18)->set_depth_4(L_95);
+		Canvas_t209405766 * L_96 = GvrPointerGraphicRaycaster_get_canvas_m2187105506(__this, /*hidden argument*/NULL);
+		NullCheck(L_96);
+		int32_t L_97 = Canvas_get_sortingLayerID_m1396307660(L_96, /*hidden argument*/NULL);
+		(&V_18)->set_sortingLayer_5(L_97);
+		Canvas_t209405766 * L_98 = GvrPointerGraphicRaycaster_get_canvas_m2187105506(__this, /*hidden argument*/NULL);
+		NullCheck(L_98);
+		int32_t L_99 = Canvas_get_sortingOrder_m3120854436(L_98, /*hidden argument*/NULL);
+		(&V_18)->set_sortingOrder_6(L_99);
+		RaycastResult_t21186376  L_100 = V_18;
+		V_17 = L_100;
+		List_1_t3685274804 * L_101 = ___resultAppendList1;
+		RaycastResult_t21186376  L_102 = V_17;
+		NullCheck(L_101);
+		List_1_Add_m2123823603(L_101, L_102, /*hidden argument*/List_1_Add_m2123823603_MethodInfo_var);
+	}
+
+IL_02fd:
+	{
+	}
+
+IL_02fe:
+	{
+		int32_t L_103 = V_6;
+		V_6 = ((int32_t)((int32_t)L_103+(int32_t)1));
+	}
+
+IL_0304:
+	{
+		int32_t L_104 = V_6;
+		List_1_t1795346708 * L_105 = __this->get_raycastResults_9();
+		NullCheck(L_105);
+		int32_t L_106 = List_1_get_Count_m4141753581(L_105, /*hidden argument*/List_1_get_Count_m4141753581_MethodInfo_var);
+		if ((((int32_t)L_104) < ((int32_t)L_106)))
+		{
+			goto IL_0166;
+		}
+	}
+
+IL_0316:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerGraphicRaycaster::Raycast(UnityEngine.Canvas,UnityEngine.Ray,UnityEngine.Camera,System.Single,System.Collections.Generic.List`1<UnityEngine.UI.Graphic>,UnityEngine.Ray&)
+extern Il2CppClass* GraphicRegistry_t377833367_il2cpp_TypeInfo_var;
+extern Il2CppClass* IList_1_t2967166177_il2cpp_TypeInfo_var;
+extern Il2CppClass* RectTransformUtility_t2941082270_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var;
+extern Il2CppClass* ICollection_1_t3378300881_il2cpp_TypeInfo_var;
+extern Il2CppClass* Comparison_1_t3687964427_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Add_m1911651305_MethodInfo_var;
+extern const MethodInfo* GvrPointerGraphicRaycaster_U3CRaycastU3Em__0_m3394965511_MethodInfo_var;
+extern const MethodInfo* Comparison_1__ctor_m1501476520_MethodInfo_var;
+extern const MethodInfo* List_1_Sort_m3460820151_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m2127984542_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m4141753581_MethodInfo_var;
+extern const MethodInfo* List_1_Clear_m3009565222_MethodInfo_var;
+extern const uint32_t GvrPointerGraphicRaycaster_Raycast_m3298424177_MetadataUsageId;
+extern "C"  void GvrPointerGraphicRaycaster_Raycast_m3298424177 (Il2CppObject * __this /* static, unused */, Canvas_t209405766 * ___canvas0, Ray_t2469606224  ___ray1, Camera_t189460977 * ___cam2, float ___maxPointerDistance3, List_1_t1795346708 * ___results4, Ray_t2469606224 * ___finalRay5, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerGraphicRaycaster_Raycast_m3298424177_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Il2CppObject* V_1 = NULL;
+	int32_t V_2 = 0;
+	Graphic_t2426225576 * V_3 = NULL;
+	int32_t V_4 = 0;
+	List_1_t1795346708 * G_B13_0 = NULL;
+	List_1_t1795346708 * G_B12_0 = NULL;
+	{
+		Camera_t189460977 * L_0 = ___cam2;
+		float L_1 = ___maxPointerDistance3;
+		Vector3_t2243707580  L_2 = Ray_GetPoint_m1353702366((&___ray1), L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t2243707580  L_3 = Camera_WorldToScreenPoint_m638747266(L_0, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Ray_t2469606224 * L_4 = ___finalRay5;
+		Camera_t189460977 * L_5 = ___cam2;
+		Vector3_t2243707580  L_6 = V_0;
+		NullCheck(L_5);
+		Ray_t2469606224  L_7 = Camera_ScreenPointToRay_m614889538(L_5, L_6, /*hidden argument*/NULL);
+		(*(Ray_t2469606224 *)L_4) = L_7;
+		Canvas_t209405766 * L_8 = ___canvas0;
+		IL2CPP_RUNTIME_CLASS_INIT(GraphicRegistry_t377833367_il2cpp_TypeInfo_var);
+		Il2CppObject* L_9 = GraphicRegistry_GetGraphicsForCanvas_m3873480384(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		V_2 = 0;
+		goto IL_0093;
+	}
+
+IL_002c:
+	{
+		Il2CppObject* L_10 = V_1;
+		int32_t L_11 = V_2;
+		NullCheck(L_10);
+		Graphic_t2426225576 * L_12 = InterfaceFuncInvoker1< Graphic_t2426225576 *, int32_t >::Invoke(3 /* !0 System.Collections.Generic.IList`1<UnityEngine.UI.Graphic>::get_Item(System.Int32) */, IList_1_t2967166177_il2cpp_TypeInfo_var, L_10, L_11);
+		V_3 = L_12;
+		Graphic_t2426225576 * L_13 = V_3;
+		NullCheck(L_13);
+		int32_t L_14 = Graphic_get_depth_m3526566553(L_13, /*hidden argument*/NULL);
+		if ((((int32_t)L_14) == ((int32_t)(-1))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		Graphic_t2426225576 * L_15 = V_3;
+		NullCheck(L_15);
+		bool L_16 = VirtFuncInvoker0< bool >::Invoke(24 /* System.Boolean UnityEngine.UI.Graphic::get_raycastTarget() */, L_15);
+		if (L_16)
+		{
+			goto IL_0052;
+		}
+	}
+
+IL_004c:
+	{
+		goto IL_008f;
+	}
+
+IL_0052:
+	{
+		Graphic_t2426225576 * L_17 = V_3;
+		NullCheck(L_17);
+		RectTransform_t3349966182 * L_18 = Graphic_get_rectTransform_m2697395074(L_17, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_19 = V_0;
+		Vector2_t2243707579  L_20 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		Camera_t189460977 * L_21 = ___cam2;
+		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2941082270_il2cpp_TypeInfo_var);
+		bool L_22 = RectTransformUtility_RectangleContainsScreenPoint_m1244853728(NULL /*static, unused*/, L_18, L_20, L_21, /*hidden argument*/NULL);
+		if (L_22)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		goto IL_008f;
+	}
+
+IL_006f:
+	{
+		Graphic_t2426225576 * L_23 = V_3;
+		Vector3_t2243707580  L_24 = V_0;
+		Vector2_t2243707579  L_25 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		Camera_t189460977 * L_26 = ___cam2;
+		NullCheck(L_23);
+		bool L_27 = VirtFuncInvoker2< bool, Vector2_t2243707579 , Camera_t189460977 * >::Invoke(45 /* System.Boolean UnityEngine.UI.Graphic::Raycast(UnityEngine.Vector2,UnityEngine.Camera) */, L_23, L_25, L_26);
+		if (!L_27)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var);
+		List_1_t1795346708 * L_28 = ((GvrPointerGraphicRaycaster_t1649506702_StaticFields*)GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var->static_fields)->get_sortedGraphics_11();
+		Graphic_t2426225576 * L_29 = V_3;
+		NullCheck(L_28);
+		List_1_Add_m1911651305(L_28, L_29, /*hidden argument*/List_1_Add_m1911651305_MethodInfo_var);
+	}
+
+IL_008e:
+	{
+	}
+
+IL_008f:
+	{
+		int32_t L_30 = V_2;
+		V_2 = ((int32_t)((int32_t)L_30+(int32_t)1));
+	}
+
+IL_0093:
+	{
+		int32_t L_31 = V_2;
+		Il2CppObject* L_32 = V_1;
+		NullCheck(L_32);
+		int32_t L_33 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* System.Int32 System.Collections.Generic.ICollection`1<UnityEngine.UI.Graphic>::get_Count() */, ICollection_1_t3378300881_il2cpp_TypeInfo_var, L_32);
+		if ((((int32_t)L_31) < ((int32_t)L_33)))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var);
+		List_1_t1795346708 * L_34 = ((GvrPointerGraphicRaycaster_t1649506702_StaticFields*)GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var->static_fields)->get_sortedGraphics_11();
+		Comparison_1_t3687964427 * L_35 = ((GvrPointerGraphicRaycaster_t1649506702_StaticFields*)GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_12();
+		G_B12_0 = L_34;
+		if (L_35)
+		{
+			G_B13_0 = L_34;
+			goto IL_00bc;
+		}
+	}
+	{
+		IntPtr_t L_36;
+		L_36.set_m_value_0((void*)(void*)GvrPointerGraphicRaycaster_U3CRaycastU3Em__0_m3394965511_MethodInfo_var);
+		Comparison_1_t3687964427 * L_37 = (Comparison_1_t3687964427 *)il2cpp_codegen_object_new(Comparison_1_t3687964427_il2cpp_TypeInfo_var);
+		Comparison_1__ctor_m1501476520(L_37, NULL, L_36, /*hidden argument*/Comparison_1__ctor_m1501476520_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var);
+		((GvrPointerGraphicRaycaster_t1649506702_StaticFields*)GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_12(L_37);
+		G_B13_0 = G_B12_0;
+	}
+
+IL_00bc:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var);
+		Comparison_1_t3687964427 * L_38 = ((GvrPointerGraphicRaycaster_t1649506702_StaticFields*)GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_12();
+		NullCheck(G_B13_0);
+		List_1_Sort_m3460820151(G_B13_0, L_38, /*hidden argument*/List_1_Sort_m3460820151_MethodInfo_var);
+		V_4 = 0;
+		goto IL_00e9;
+	}
+
+IL_00ce:
+	{
+		List_1_t1795346708 * L_39 = ___results4;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var);
+		List_1_t1795346708 * L_40 = ((GvrPointerGraphicRaycaster_t1649506702_StaticFields*)GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var->static_fields)->get_sortedGraphics_11();
+		int32_t L_41 = V_4;
+		NullCheck(L_40);
+		Graphic_t2426225576 * L_42 = List_1_get_Item_m2127984542(L_40, L_41, /*hidden argument*/List_1_get_Item_m2127984542_MethodInfo_var);
+		NullCheck(L_39);
+		List_1_Add_m1911651305(L_39, L_42, /*hidden argument*/List_1_Add_m1911651305_MethodInfo_var);
+		int32_t L_43 = V_4;
+		V_4 = ((int32_t)((int32_t)L_43+(int32_t)1));
+	}
+
+IL_00e9:
+	{
+		int32_t L_44 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var);
+		List_1_t1795346708 * L_45 = ((GvrPointerGraphicRaycaster_t1649506702_StaticFields*)GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var->static_fields)->get_sortedGraphics_11();
+		NullCheck(L_45);
+		int32_t L_46 = List_1_get_Count_m4141753581(L_45, /*hidden argument*/List_1_get_Count_m4141753581_MethodInfo_var);
+		if ((((int32_t)L_44) < ((int32_t)L_46)))
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var);
+		List_1_t1795346708 * L_47 = ((GvrPointerGraphicRaycaster_t1649506702_StaticFields*)GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var->static_fields)->get_sortedGraphics_11();
+		NullCheck(L_47);
+		List_1_Clear_m3009565222(L_47, /*hidden argument*/List_1_Clear_m3009565222_MethodInfo_var);
+		return;
+	}
+}
+// System.Void GvrPointerGraphicRaycaster::.cctor()
+extern Il2CppClass* List_1_t1795346708_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m2202683573_MethodInfo_var;
+extern const uint32_t GvrPointerGraphicRaycaster__cctor_m2098404160_MetadataUsageId;
+extern "C"  void GvrPointerGraphicRaycaster__cctor_m2098404160 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerGraphicRaycaster__cctor_m2098404160_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t1795346708 * L_0 = (List_1_t1795346708 *)il2cpp_codegen_object_new(List_1_t1795346708_il2cpp_TypeInfo_var);
+		List_1__ctor_m2202683573(L_0, /*hidden argument*/List_1__ctor_m2202683573_MethodInfo_var);
+		((GvrPointerGraphicRaycaster_t1649506702_StaticFields*)GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var->static_fields)->set_sortedGraphics_11(L_0);
+		return;
+	}
+}
+// System.Int32 GvrPointerGraphicRaycaster::<Raycast>m__0(UnityEngine.UI.Graphic,UnityEngine.UI.Graphic)
+extern "C"  int32_t GvrPointerGraphicRaycaster_U3CRaycastU3Em__0_m3394965511 (Il2CppObject * __this /* static, unused */, Graphic_t2426225576 * ___g10, Graphic_t2426225576 * ___g21, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		Graphic_t2426225576 * L_0 = ___g21;
+		NullCheck(L_0);
+		int32_t L_1 = Graphic_get_depth_m3526566553(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Graphic_t2426225576 * L_2 = ___g10;
+		NullCheck(L_2);
+		int32_t L_3 = Graphic_get_depth_m3526566553(L_2, /*hidden argument*/NULL);
+		int32_t L_4 = Int32_CompareTo_m3808534558((&V_0), L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		int32_t L_5 = V_1;
+		return L_5;
+	}
+}
+// System.Void GvrPointerInputModule::.ctor()
+extern Il2CppClass* GvrPointerScrollInput_t4200958609_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerInputModule__ctor_m1529106631_MetadataUsageId;
+extern "C"  void GvrPointerInputModule__ctor_m1529106631 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule__ctor_m1529106631_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_vrModeOnly_8((bool)0);
+		GvrPointerScrollInput_t4200958609 * L_0 = (GvrPointerScrollInput_t4200958609 *)il2cpp_codegen_object_new(GvrPointerScrollInput_t4200958609_il2cpp_TypeInfo_var);
+		GvrPointerScrollInput__ctor_m2028379424(L_0, /*hidden argument*/NULL);
+		__this->set_scrollInput_9(L_0);
+		__this->set_isPointerHovering_12((bool)0);
+		__this->set_isActive_13((bool)0);
+		BaseInputModule__ctor_m1627580670(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GvrPointerScrollInput GvrPointerInputModule::get_ScrollInput()
+extern "C"  GvrPointerScrollInput_t4200958609 * GvrPointerInputModule_get_ScrollInput_m209404637 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	GvrPointerScrollInput_t4200958609 * V_0 = NULL;
+	{
+		GvrPointerScrollInput_t4200958609 * L_0 = __this->get_scrollInput_9();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		GvrPointerScrollInput_t4200958609 * L_1 = V_0;
+		return L_1;
+	}
+}
+// GvrBasePointer GvrPointerInputModule::get_pointer()
+extern "C"  GvrBasePointer_t2150122635 * GvrPointerInputModule_get_pointer_m3173654067 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	GvrBasePointer_t2150122635 * V_0 = NULL;
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		GvrBasePointer_t2150122635 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Boolean GvrPointerInputModule::ShouldActivateModule()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerInputModule_ShouldActivateModule_m3919675513_MetadataUsageId;
+extern "C"  bool GvrPointerInputModule_ShouldActivateModule_m3919675513 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_ShouldActivateModule_m3919675513_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t G_B3_0 = 0;
+	{
+		bool L_0 = __this->get_vrModeOnly_8();
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_2 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		bool L_3 = GvrViewer_get_VRModeEnabled_m213246717(L_2, /*hidden argument*/NULL);
+		V_0 = (bool)((int32_t)((int32_t)L_1|(int32_t)L_3));
+		bool L_4 = BaseInputModule_ShouldActivateModule_m2899747874(__this, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		bool L_5 = V_0;
+		G_B3_0 = ((int32_t)(L_5));
+		goto IL_0027;
+	}
+
+IL_0026:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0027:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_6 = V_1;
+		bool L_7 = __this->get_isActive_13();
+		if ((((int32_t)L_6) == ((int32_t)L_7)))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		bool L_8 = V_1;
+		__this->set_isActive_13(L_8);
+		GvrBasePointer_t2150122635 * L_9 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		bool L_10 = __this->get_isActive_13();
+		if (!L_10)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_11 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		VirtActionInvoker0::Invoke(7 /* System.Void GvrBasePointer::OnInputModuleEnabled() */, L_11);
+	}
+
+IL_0060:
+	{
+	}
+
+IL_0061:
+	{
+	}
+
+IL_0062:
+	{
+		bool L_12 = V_1;
+		V_2 = L_12;
+		goto IL_0069;
+	}
+
+IL_0069:
+	{
+		bool L_13 = V_2;
+		return L_13;
+	}
+}
+// System.Void GvrPointerInputModule::DeactivateModule()
+extern "C"  void GvrPointerInputModule_DeactivateModule_m3630502165 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	{
+		GvrPointerInputModule_DisablePointer_m4263108644(__this, /*hidden argument*/NULL);
+		BaseInputModule_DeactivateModule_m194840002(__this, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_0 = __this->get_pointerData_10();
+		if (!L_0)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		GvrPointerInputModule_HandlePendingClick_m3198537246(__this, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_1 = __this->get_pointerData_10();
+		BaseInputModule_HandlePointerExitAndEnter_m1570886840(__this, L_1, (GameObject_t1756533147 *)NULL, /*hidden argument*/NULL);
+		__this->set_pointerData_10((PointerEventData_t1599784723 *)NULL);
+	}
+
+IL_0034:
+	{
+		EventSystem_t3466835263 * L_2 = BaseInputModule_get_eventSystem_m2822730343(__this, /*hidden argument*/NULL);
+		BaseEventData_t2681005625 * L_3 = VirtFuncInvoker0< BaseEventData_t2681005625 * >::Invoke(19 /* UnityEngine.EventSystems.BaseEventData UnityEngine.EventSystems.BaseInputModule::GetBaseEventData() */, __this);
+		NullCheck(L_2);
+		EventSystem_SetSelectedGameObject_m2232036508(L_2, (GameObject_t1756533147 *)NULL, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean GvrPointerInputModule::IsPointerOverGameObject(System.Int32)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerInputModule_IsPointerOverGameObject_m3600149256_MetadataUsageId;
+extern "C"  bool GvrPointerInputModule_IsPointerOverGameObject_m3600149256 (GvrPointerInputModule_t1603976810 * __this, int32_t ___pointerId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_IsPointerOverGameObject_m3600149256_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		PointerEventData_t1599784723 * L_0 = __this->get_pointerData_10();
+		if (!L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_1 = __this->get_pointerData_10();
+		NullCheck(L_1);
+		GameObject_t1756533147 * L_2 = PointerEventData_get_pointerEnter_m2114522773(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		G_B3_0 = ((int32_t)(L_3));
+		goto IL_0020;
+	}
+
+IL_001f:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0020:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void GvrPointerInputModule::Process()
+extern Il2CppClass* Input_t1785128008_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerInputModule_Process_m3375729016_MetadataUsageId;
+extern "C"  void GvrPointerInputModule_Process_m3375729016 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_Process_m3375729016_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		goto IL_00b8;
+	}
+
+IL_0012:
+	{
+		GameObject_t1756533147 * L_1 = GvrPointerInputModule_GetCurrentGameObject_m2094345838(__this, /*hidden argument*/NULL);
+		V_0 = L_1;
+		GvrPointerInputModule_CastRay_m1867579888(__this, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_2 = V_0;
+		GvrPointerInputModule_UpdateCurrentObject_m545124774(__this, L_2, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_3 = V_0;
+		GvrPointerInputModule_UpdateReticle_m1825975192(__this, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		bool L_4 = Input_GetMouseButtonDown_m47917805(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		V_1 = L_4;
+		bool L_5 = Input_GetMouseButton_m464100923(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		V_2 = L_5;
+		bool L_6 = GvrPointerInputModule_IsPointerActiveAndAvailable_m924688728(__this, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		V_1 = (bool)0;
+		V_2 = (bool)0;
+	}
+
+IL_004c:
+	{
+		bool L_7 = V_2;
+		V_3 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_1;
+		if (L_8)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		bool L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		GvrPointerInputModule_HandleDrag_m2282133809(__this, /*hidden argument*/NULL);
+		goto IL_009b;
+	}
+
+IL_006a:
+	{
+		bool L_10 = V_1;
+		if (!L_10)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_11 = __this->get_pointerData_10();
+		NullCheck(L_11);
+		bool L_12 = PointerEventData_get_eligibleForClick_m2497780621(L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		GvrPointerInputModule_HandleTriggerDown_m1473499143(__this, /*hidden argument*/NULL);
+		goto IL_009b;
+	}
+
+IL_008d:
+	{
+		bool L_13 = V_3;
+		if (!L_13)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		GvrPointerInputModule_HandlePendingClick_m3198537246(__this, /*hidden argument*/NULL);
+	}
+
+IL_009b:
+	{
+		GvrPointerScrollInput_t4200958609 * L_14 = __this->get_scrollInput_9();
+		GameObject_t1756533147 * L_15 = GvrPointerInputModule_GetCurrentGameObject_m2094345838(__this, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_16 = __this->get_pointerData_10();
+		bool L_17 = GvrPointerInputModule_IsPointerActiveAndAvailable_m924688728(__this, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		GvrPointerScrollInput_HandleScroll_m2772718148(L_14, L_15, L_16, L_17, /*hidden argument*/NULL);
+	}
+
+IL_00b8:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerInputModule::CastRay()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* PointerEventData_t1599784723_il2cpp_TypeInfo_var;
+extern Il2CppClass* RaycastResult_t21186376_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrPointerPhysicsRaycaster_t2558158517_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_Clear_m392100656_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3598345300;
+extern Il2CppCodeGenString* _stringLiteral61718115;
+extern Il2CppCodeGenString* _stringLiteral3846741225;
+extern const uint32_t GvrPointerInputModule_CastRay_m1867579888_MetadataUsageId;
+extern "C"  void GvrPointerInputModule_CastRay_m1867579888 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_CastRay_m1867579888_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	RaycastResult_t21186376  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	RaycastResult_t21186376  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	bool V_3 = false;
+	RaycastResult_t21186376  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Transform_t3275118058 * V_5 = NULL;
+	float V_6 = 0.0f;
+	Vector3_t2243707580  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_1 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_t3275118058 * L_2 = GvrBasePointer_get_PointerTransform_m3494232690(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0028;
+		}
+	}
+
+IL_0022:
+	{
+		goto IL_0348;
+	}
+
+IL_0028:
+	{
+		GvrBasePointer_t2150122635 * L_4 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Transform_t3275118058 * L_5 = GvrBasePointer_get_PointerTransform_m3494232690(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Vector3_t2243707580  L_6 = Transform_get_forward_m1833488937(L_5, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_7 = GvrPointerInputModule_NormalizedCartesianToSpherical_m1100147612(__this, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		PointerEventData_t1599784723 * L_8 = __this->get_pointerData_10();
+		if (L_8)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		EventSystem_t3466835263 * L_9 = BaseInputModule_get_eventSystem_m2822730343(__this, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_10 = (PointerEventData_t1599784723 *)il2cpp_codegen_object_new(PointerEventData_t1599784723_il2cpp_TypeInfo_var);
+		PointerEventData__ctor_m3674067728(L_10, L_9, /*hidden argument*/NULL);
+		__this->set_pointerData_10(L_10);
+		Vector2_t2243707579  L_11 = V_0;
+		__this->set_lastPose_11(L_11);
+	}
+
+IL_0064:
+	{
+		PointerEventData_t1599784723 * L_12 = __this->get_pointerData_10();
+		NullCheck(L_12);
+		RaycastResult_t21186376  L_13 = PointerEventData_get_pointerCurrentRaycast_m1374279130(L_12, /*hidden argument*/NULL);
+		V_1 = L_13;
+		GvrBasePointer_t2150122635 * L_14 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_15 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		GvrBasePointer_set_ShouldUseExitRadiusForRaycast_m1138403000(L_15, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0089:
+	{
+		PointerEventData_t1599784723 * L_16 = __this->get_pointerData_10();
+		NullCheck(L_16);
+		VirtActionInvoker0::Invoke(4 /* System.Void UnityEngine.EventSystems.AbstractEventData::Reset() */, L_16);
+		PointerEventData_t1599784723 * L_17 = __this->get_pointerData_10();
+		Vector2_t2243707579  L_18 = GvrPointerInputModule_GetViewportCenter_m724278641(__this, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		PointerEventData_set_position_m794507622(L_17, L_18, /*hidden argument*/NULL);
+		bool L_19 = GvrPointerInputModule_IsPointerActiveAndAvailable_m924688728(__this, /*hidden argument*/NULL);
+		V_3 = L_19;
+		bool L_20 = V_3;
+		if (!L_20)
+		{
+			goto IL_00dc;
+		}
+	}
+	{
+		EventSystem_t3466835263 * L_21 = BaseInputModule_get_eventSystem_m2822730343(__this, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_22 = __this->get_pointerData_10();
+		List_1_t3685274804 * L_23 = ((BaseInputModule_t1295781545 *)__this)->get_m_RaycastResultCache_2();
+		NullCheck(L_21);
+		EventSystem_RaycastAll_m4000413739(L_21, L_22, L_23, /*hidden argument*/NULL);
+		List_1_t3685274804 * L_24 = ((BaseInputModule_t1295781545 *)__this)->get_m_RaycastResultCache_2();
+		RaycastResult_t21186376  L_25 = BaseInputModule_FindFirstRaycast_m797745207(NULL /*static, unused*/, L_24, /*hidden argument*/NULL);
+		V_2 = L_25;
+		goto IL_00ed;
+	}
+
+IL_00dc:
+	{
+		Initobj (RaycastResult_t21186376_il2cpp_TypeInfo_var, (&V_2));
+		RaycastResult_Clear_m3672940136((&V_2), /*hidden argument*/NULL);
+	}
+
+IL_00ed:
+	{
+		GameObject_t1756533147 * L_26 = RaycastResult_get_gameObject_m2999022658((&V_1), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_27 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_26, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_27)
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_28 = RaycastResult_get_gameObject_m2999022658((&V_2), /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_29 = RaycastResult_get_gameObject_m2999022658((&V_1), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_30 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_28, L_29, /*hidden argument*/NULL);
+		if (!L_30)
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		bool L_31 = V_3;
+		if (!L_31)
+		{
+			goto IL_0184;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_32 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_0137;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_33 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		GvrBasePointer_set_ShouldUseExitRadiusForRaycast_m1138403000(L_33, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0137:
+	{
+		List_1_t3685274804 * L_34 = ((BaseInputModule_t1295781545 *)__this)->get_m_RaycastResultCache_2();
+		NullCheck(L_34);
+		List_1_Clear_m392100656(L_34, /*hidden argument*/List_1_Clear_m392100656_MethodInfo_var);
+		EventSystem_t3466835263 * L_35 = BaseInputModule_get_eventSystem_m2822730343(__this, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_36 = __this->get_pointerData_10();
+		List_1_t3685274804 * L_37 = ((BaseInputModule_t1295781545 *)__this)->get_m_RaycastResultCache_2();
+		NullCheck(L_35);
+		EventSystem_RaycastAll_m4000413739(L_35, L_36, L_37, /*hidden argument*/NULL);
+		List_1_t3685274804 * L_38 = ((BaseInputModule_t1295781545 *)__this)->get_m_RaycastResultCache_2();
+		RaycastResult_t21186376  L_39 = BaseInputModule_FindFirstRaycast_m797745207(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+		V_4 = L_39;
+		GameObject_t1756533147 * L_40 = RaycastResult_get_gameObject_m2999022658((&V_4), /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_41 = RaycastResult_get_gameObject_m2999022658((&V_1), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_42 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_40, L_41, /*hidden argument*/NULL);
+		if (!L_42)
+		{
+			goto IL_0183;
+		}
+	}
+	{
+		RaycastResult_t21186376  L_43 = V_4;
+		V_2 = L_43;
+	}
+
+IL_0183:
+	{
+	}
+
+IL_0184:
+	{
+		GameObject_t1756533147 * L_44 = RaycastResult_get_gameObject_m2999022658((&V_2), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_45 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_44, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_45)
+		{
+			goto IL_01c7;
+		}
+	}
+	{
+		Vector3_t2243707580  L_46 = (&V_2)->get_worldPosition_7();
+		Vector3_t2243707580  L_47 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_48 = Vector3_op_Equality_m305888255(NULL /*static, unused*/, L_46, L_47, /*hidden argument*/NULL);
+		if (!L_48)
+		{
+			goto IL_01c7;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_49 = __this->get_pointerData_10();
+		NullCheck(L_49);
+		Camera_t189460977 * L_50 = PointerEventData_get_enterEventCamera_m1539996745(L_49, /*hidden argument*/NULL);
+		RaycastResult_t21186376  L_51 = V_2;
+		Vector3_t2243707580  L_52 = GvrPointerInputModule_GetIntersectionPosition_m4127225986(__this, L_50, L_51, /*hidden argument*/NULL);
+		(&V_2)->set_worldPosition_7(L_52);
+	}
+
+IL_01c7:
+	{
+		PointerEventData_t1599784723 * L_53 = __this->get_pointerData_10();
+		RaycastResult_t21186376  L_54 = V_2;
+		NullCheck(L_53);
+		PointerEventData_set_pointerCurrentRaycast_m2431897513(L_53, L_54, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_55 = RaycastResult_get_gameObject_m2999022658((&V_2), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_56 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_55, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_56)
+		{
+			goto IL_01fe;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_57 = __this->get_pointerData_10();
+		Vector2_t2243707579  L_58 = (&V_2)->get_screenPosition_9();
+		NullCheck(L_57);
+		PointerEventData_set_position_m794507622(L_57, L_58, /*hidden argument*/NULL);
+		goto IL_02a3;
+	}
+
+IL_01fe:
+	{
+		GvrBasePointer_t2150122635 * L_59 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_59);
+		Transform_t3275118058 * L_60 = GvrBasePointer_get_PointerTransform_m3494232690(L_59, /*hidden argument*/NULL);
+		V_5 = L_60;
+		GvrBasePointer_t2150122635 * L_61 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_61);
+		float L_62 = VirtFuncInvoker0< float >::Invoke(5 /* System.Single GvrBasePointer::get_MaxPointerDistance() */, L_61);
+		V_6 = L_62;
+		Transform_t3275118058 * L_63 = V_5;
+		NullCheck(L_63);
+		Vector3_t2243707580  L_64 = Transform_get_position_m1104419803(L_63, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_65 = V_5;
+		NullCheck(L_65);
+		Vector3_t2243707580  L_66 = Transform_get_forward_m1833488937(L_65, /*hidden argument*/NULL);
+		float L_67 = V_6;
+		Vector3_t2243707580  L_68 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_66, L_67, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_69 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_64, L_68, /*hidden argument*/NULL);
+		V_7 = L_69;
+		PointerEventData_t1599784723 * L_70 = __this->get_pointerData_10();
+		NullCheck(L_70);
+		Camera_t189460977 * L_71 = PointerEventData_get_pressEventCamera_m724559964(L_70, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_72 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_71, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_72)
+		{
+			goto IL_0274;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_73 = __this->get_pointerData_10();
+		PointerEventData_t1599784723 * L_74 = __this->get_pointerData_10();
+		NullCheck(L_74);
+		Camera_t189460977 * L_75 = PointerEventData_get_pressEventCamera_m724559964(L_74, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_76 = V_7;
+		NullCheck(L_75);
+		Vector3_t2243707580  L_77 = Camera_WorldToScreenPoint_m638747266(L_75, L_76, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_78 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_77, /*hidden argument*/NULL);
+		NullCheck(L_73);
+		PointerEventData_set_position_m794507622(L_73, L_78, /*hidden argument*/NULL);
+		goto IL_02a2;
+	}
+
+IL_0274:
+	{
+		Camera_t189460977 * L_79 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_80 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_79, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_80)
+		{
+			goto IL_02a2;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_81 = __this->get_pointerData_10();
+		Camera_t189460977 * L_82 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_83 = V_7;
+		NullCheck(L_82);
+		Vector3_t2243707580  L_84 = Camera_WorldToScreenPoint_m638747266(L_82, L_83, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_85 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_84, /*hidden argument*/NULL);
+		NullCheck(L_81);
+		PointerEventData_set_position_m794507622(L_81, L_85, /*hidden argument*/NULL);
+	}
+
+IL_02a2:
+	{
+	}
+
+IL_02a3:
+	{
+		List_1_t3685274804 * L_86 = ((BaseInputModule_t1295781545 *)__this)->get_m_RaycastResultCache_2();
+		NullCheck(L_86);
+		List_1_Clear_m392100656(L_86, /*hidden argument*/List_1_Clear_m392100656_MethodInfo_var);
+		PointerEventData_t1599784723 * L_87 = __this->get_pointerData_10();
+		Vector2_t2243707579  L_88 = V_0;
+		Vector2_t2243707579  L_89 = __this->get_lastPose_11();
+		Vector2_t2243707579  L_90 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_88, L_89, /*hidden argument*/NULL);
+		NullCheck(L_87);
+		PointerEventData_set_delta_m3672873329(L_87, L_90, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_91 = V_0;
+		__this->set_lastPose_11(L_91);
+		BaseRaycaster_t2336171397 * L_92 = (&V_2)->get_module_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_93 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_92, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_93)
+		{
+			goto IL_0348;
+		}
+	}
+	{
+		BaseRaycaster_t2336171397 * L_94 = (&V_2)->get_module_1();
+		if (((GvrPointerGraphicRaycaster_t1649506702 *)IsInstClass(L_94, GvrPointerGraphicRaycaster_t1649506702_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0348;
+		}
+	}
+	{
+		BaseRaycaster_t2336171397 * L_95 = (&V_2)->get_module_1();
+		if (((GvrPointerPhysicsRaycaster_t2558158517 *)IsInstClass(L_95, GvrPointerPhysicsRaycaster_t2558158517_il2cpp_TypeInfo_var)))
+		{
+			goto IL_0348;
+		}
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_96 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)5));
+		NullCheck(L_96);
+		ArrayElementTypeCheck (L_96, _stringLiteral3598345300);
+		(L_96)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral3598345300);
+		ObjectU5BU5D_t3614634134* L_97 = L_96;
+		BaseRaycaster_t2336171397 * L_98 = (&V_2)->get_module_1();
+		NullCheck(L_98);
+		Type_t * L_99 = Object_GetType_m191970594(L_98, /*hidden argument*/NULL);
+		NullCheck(L_97);
+		ArrayElementTypeCheck (L_97, L_99);
+		(L_97)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_99);
+		ObjectU5BU5D_t3614634134* L_100 = L_97;
+		NullCheck(L_100);
+		ArrayElementTypeCheck (L_100, _stringLiteral61718115);
+		(L_100)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)_stringLiteral61718115);
+		ObjectU5BU5D_t3614634134* L_101 = L_100;
+		BaseRaycaster_t2336171397 * L_102 = (&V_2)->get_module_1();
+		NullCheck(L_102);
+		String_t* L_103 = Object_get_name_m2079638459(L_102, /*hidden argument*/NULL);
+		NullCheck(L_101);
+		ArrayElementTypeCheck (L_101, L_103);
+		(L_101)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)L_103);
+		ObjectU5BU5D_t3614634134* L_104 = L_101;
+		NullCheck(L_104);
+		ArrayElementTypeCheck (L_104, _stringLiteral3846741225);
+		(L_104)->SetAt(static_cast<il2cpp_array_size_t>(4), (Il2CppObject *)_stringLiteral3846741225);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_105 = String_Concat_m3881798623(NULL /*static, unused*/, L_104, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, L_105, /*hidden argument*/NULL);
+	}
+
+IL_0348:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerInputModule::UpdateCurrentObject(UnityEngine.GameObject)
+extern Il2CppClass* ExecuteEvents_t1693084770_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExecuteEvents_GetEventHandler_TisISelectHandler_t2812555161_m2748459510_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_Execute_TisIUpdateSelectedHandler_t3778909353_m3262129831_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_ExecuteHierarchy_TisIGvrPointerHoverHandler_t1683868601_m728071249_MethodInfo_var;
+extern const uint32_t GvrPointerInputModule_UpdateCurrentObject_m545124774_MetadataUsageId;
+extern "C"  void GvrPointerInputModule_UpdateCurrentObject_m545124774 (GvrPointerInputModule_t1603976810 * __this, GameObject_t1756533147 * ___previousObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_UpdateCurrentObject_m545124774_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_1 = __this->get_pointerData_10();
+		if (L_1)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_0017:
+	{
+		goto IL_00a5;
+	}
+
+IL_001d:
+	{
+		GameObject_t1756533147 * L_2 = GvrPointerInputModule_GetCurrentGameObject_m2094345838(__this, /*hidden argument*/NULL);
+		V_0 = L_2;
+		PointerEventData_t1599784723 * L_3 = __this->get_pointerData_10();
+		GameObject_t1756533147 * L_4 = ___previousObject0;
+		BaseInputModule_HandlePointerExitAndEnter_m1570886840(__this, L_3, L_4, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_5 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_6 = ExecuteEvents_GetEventHandler_TisISelectHandler_t2812555161_m2748459510(NULL /*static, unused*/, L_5, /*hidden argument*/ExecuteEvents_GetEventHandler_TisISelectHandler_t2812555161_m2748459510_MethodInfo_var);
+		V_1 = L_6;
+		GameObject_t1756533147 * L_7 = V_1;
+		EventSystem_t3466835263 * L_8 = BaseInputModule_get_eventSystem_m2822730343(__this, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		GameObject_t1756533147 * L_9 = EventSystem_get_currentSelectedGameObject_m701101735(L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_10 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_7, L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		EventSystem_t3466835263 * L_11 = BaseInputModule_get_eventSystem_m2822730343(__this, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		GameObject_t1756533147 * L_12 = EventSystem_get_currentSelectedGameObject_m701101735(L_11, /*hidden argument*/NULL);
+		BaseEventData_t2681005625 * L_13 = VirtFuncInvoker0< BaseEventData_t2681005625 * >::Invoke(19 /* UnityEngine.EventSystems.BaseEventData UnityEngine.EventSystems.BaseInputModule::GetBaseEventData() */, __this);
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t2276060003 * L_14 = ExecuteEvents_get_updateSelectedHandler_m4157356548(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_Execute_TisIUpdateSelectedHandler_t3778909353_m3262129831(NULL /*static, unused*/, L_12, L_13, L_14, /*hidden argument*/ExecuteEvents_Execute_TisIUpdateSelectedHandler_t3778909353_m3262129831_MethodInfo_var);
+		goto IL_0085;
+	}
+
+IL_0071:
+	{
+		EventSystem_t3466835263 * L_15 = BaseInputModule_get_eventSystem_m2822730343(__this, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_16 = __this->get_pointerData_10();
+		NullCheck(L_15);
+		EventSystem_SetSelectedGameObject_m2232036508(L_15, (GameObject_t1756533147 *)NULL, L_16, /*hidden argument*/NULL);
+	}
+
+IL_0085:
+	{
+		GameObject_t1756533147 * L_17 = V_0;
+		GameObject_t1756533147 * L_18 = ___previousObject0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_19 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_20 = V_0;
+		PointerEventData_t1599784723 * L_21 = __this->get_pointerData_10();
+		IL2CPP_RUNTIME_CLASS_INIT(GvrExecuteEventsExtension_t3083691626_il2cpp_TypeInfo_var);
+		EventFunction_1_t181019251 * L_22 = GvrExecuteEventsExtension_get_pointerHoverHandler_m3800604216(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		ExecuteEvents_ExecuteHierarchy_TisIGvrPointerHoverHandler_t1683868601_m728071249(NULL /*static, unused*/, L_20, L_21, L_22, /*hidden argument*/ExecuteEvents_ExecuteHierarchy_TisIGvrPointerHoverHandler_t1683868601_m728071249_MethodInfo_var);
+	}
+
+IL_00a5:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerInputModule::UpdateReticle(UnityEngine.GameObject)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExecuteEvents_t1693084770_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_GetEventHandler_TisIDragHandler_t2583993319_m3720979028_MethodInfo_var;
+extern const uint32_t GvrPointerInputModule_UpdateReticle_m1825975192_MetadataUsageId;
+extern "C"  void GvrPointerInputModule_UpdateReticle_m1825975192 (GvrPointerInputModule_t1603976810 * __this, GameObject_t1756533147 * ___previousObject0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_UpdateReticle_m1825975192_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	RaycastResult_t21186376  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	bool V_3 = false;
+	int32_t G_B7_0 = 0;
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_1 = __this->get_pointerData_10();
+		if (L_1)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_0017:
+	{
+		goto IL_0110;
+	}
+
+IL_001d:
+	{
+		GameObject_t1756533147 * L_2 = GvrPointerInputModule_GetCurrentGameObject_m2094345838(__this, /*hidden argument*/NULL);
+		V_0 = L_2;
+		PointerEventData_t1599784723 * L_3 = __this->get_pointerData_10();
+		NullCheck(L_3);
+		RaycastResult_t21186376  L_4 = PointerEventData_get_pointerCurrentRaycast_m1374279130(L_3, /*hidden argument*/NULL);
+		V_2 = L_4;
+		Vector3_t2243707580  L_5 = (&V_2)->get_worldPosition_7();
+		V_1 = L_5;
+		PointerEventData_t1599784723 * L_6 = __this->get_pointerData_10();
+		NullCheck(L_6);
+		GameObject_t1756533147 * L_7 = PointerEventData_get_pointerPress_m880101744(L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_8 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_7, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_9 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_10 = ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327(NULL /*static, unused*/, L_9, /*hidden argument*/ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_11 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_10, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (L_11)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_12 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_13 = ExecuteEvents_GetEventHandler_TisIDragHandler_t2583993319_m3720979028(NULL /*static, unused*/, L_12, /*hidden argument*/ExecuteEvents_GetEventHandler_TisIDragHandler_t2583993319_m3720979028_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_14 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_13, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		G_B7_0 = ((int32_t)(L_14));
+		goto IL_006e;
+	}
+
+IL_006d:
+	{
+		G_B7_0 = 1;
+	}
+
+IL_006e:
+	{
+		V_3 = (bool)G_B7_0;
+		bool L_15 = __this->get_isPointerHovering_12();
+		if (!L_15)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_16 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_17 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_16, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_17)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_18 = V_0;
+		GameObject_t1756533147 * L_19 = ___previousObject0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_20 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
+		if (!L_20)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_21 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_22 = V_0;
+		Vector3_t2243707580  L_23 = V_1;
+		Ray_t2469606224  L_24 = GvrPointerInputModule_GetLastRay_m2341273551(__this, /*hidden argument*/NULL);
+		bool L_25 = V_3;
+		NullCheck(L_21);
+		VirtActionInvoker4< GameObject_t1756533147 *, Vector3_t2243707580 , Ray_t2469606224 , bool >::Invoke(10 /* System.Void GvrBasePointer::OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean) */, L_21, L_22, L_23, L_24, L_25);
+		goto IL_0110;
+	}
+
+IL_00ad:
+	{
+		GameObject_t1756533147 * L_26 = ___previousObject0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_27 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_26, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (L_27)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_28 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_29 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_28, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_29)
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		bool L_30 = __this->get_isPointerHovering_12();
+		if (!L_30)
+		{
+			goto IL_00e6;
+		}
+	}
+
+IL_00d1:
+	{
+		GvrBasePointer_t2150122635 * L_31 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_32 = ___previousObject0;
+		NullCheck(L_31);
+		VirtActionInvoker1< GameObject_t1756533147 * >::Invoke(11 /* System.Void GvrBasePointer::OnPointerExit(UnityEngine.GameObject) */, L_31, L_32);
+		__this->set_isPointerHovering_12((bool)0);
+	}
+
+IL_00e6:
+	{
+		GameObject_t1756533147 * L_33 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_34 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_33, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_34)
+		{
+			goto IL_010f;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_35 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_36 = V_0;
+		Vector3_t2243707580  L_37 = V_1;
+		Ray_t2469606224  L_38 = GvrPointerInputModule_GetLastRay_m2341273551(__this, /*hidden argument*/NULL);
+		bool L_39 = V_3;
+		NullCheck(L_35);
+		VirtActionInvoker4< GameObject_t1756533147 *, Vector3_t2243707580 , Ray_t2469606224 , bool >::Invoke(9 /* System.Void GvrBasePointer::OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean) */, L_35, L_36, L_37, L_38, L_39);
+		__this->set_isPointerHovering_12((bool)1);
+	}
+
+IL_010f:
+	{
+	}
+
+IL_0110:
+	{
+		return;
+	}
+}
+// System.Boolean GvrPointerInputModule::ShouldStartDrag(UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Boolean)
+extern "C"  bool GvrPointerInputModule_ShouldStartDrag_m2027241336 (Il2CppObject * __this /* static, unused */, Vector2_t2243707579  ___pressPos0, Vector2_t2243707579  ___currentPos1, float ___threshold2, bool ___useDragThreshold3, const MethodInfo* method)
+{
+	bool V_0 = false;
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		bool L_0 = ___useDragThreshold3;
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		V_0 = (bool)1;
+		goto IL_002b;
+	}
+
+IL_000e:
+	{
+		Vector2_t2243707579  L_1 = ___pressPos0;
+		Vector2_t2243707579  L_2 = ___currentPos1;
+		Vector2_t2243707579  L_3 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		float L_4 = Vector2_get_sqrMagnitude_m1226294581((&V_1), /*hidden argument*/NULL);
+		float L_5 = ___threshold2;
+		float L_6 = ___threshold2;
+		V_0 = (bool)((((int32_t)((!(((float)L_4) >= ((float)((float)((float)L_5*(float)L_6)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		bool L_7 = V_0;
+		return L_7;
+	}
+}
+// System.Void GvrPointerInputModule::HandleDrag()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExecuteEvents_t1693084770_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExecuteEvents_Execute_TisIBeginDragHandler_t3135127860_m3631672494_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_Execute_TisIPointerUpHandler_t1847764461_m885031125_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_Execute_TisIDragHandler_t2583993319_m799081747_MethodInfo_var;
+extern const uint32_t GvrPointerInputModule_HandleDrag_m2282133809_MetadataUsageId;
+extern "C"  void GvrPointerInputModule_HandleDrag_m2282133809 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_HandleDrag_m2282133809_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		PointerEventData_t1599784723 * L_0 = __this->get_pointerData_10();
+		NullCheck(L_0);
+		bool L_1 = PointerEventData_IsPointerMoving_m3603045889(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		PointerEventData_t1599784723 * L_2 = __this->get_pointerData_10();
+		NullCheck(L_2);
+		Vector2_t2243707579  L_3 = PointerEventData_get_pressPosition_m1206276610(L_2, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_4 = __this->get_pointerData_10();
+		NullCheck(L_4);
+		Vector2_t2243707579  L_5 = PointerEventData_get_position_m2131765015(L_4, /*hidden argument*/NULL);
+		EventSystem_t3466835263 * L_6 = BaseInputModule_get_eventSystem_m2822730343(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		int32_t L_7 = EventSystem_get_pixelDragThreshold_m101324298(L_6, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_8 = __this->get_pointerData_10();
+		NullCheck(L_8);
+		bool L_9 = PointerEventData_get_useDragThreshold_m1801224989(L_8, /*hidden argument*/NULL);
+		bool L_10 = GvrPointerInputModule_ShouldStartDrag_m2027241336(NULL /*static, unused*/, L_3, L_5, (((float)((float)L_7))), L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		bool L_11 = V_0;
+		if (!L_11)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		bool L_12 = V_1;
+		if (!L_12)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_13 = __this->get_pointerData_10();
+		NullCheck(L_13);
+		GameObject_t1756533147 * L_14 = PointerEventData_get_pointerDrag_m2740415629(L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_15 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_14, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_16 = __this->get_pointerData_10();
+		NullCheck(L_16);
+		bool L_17 = PointerEventData_get_dragging_m220490640(L_16, /*hidden argument*/NULL);
+		if (L_17)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_18 = __this->get_pointerData_10();
+		NullCheck(L_18);
+		GameObject_t1756533147 * L_19 = PointerEventData_get_pointerDrag_m2740415629(L_18, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_20 = __this->get_pointerData_10();
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t1632278510 * L_21 = ExecuteEvents_get_beginDragHandler_m2307748884(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_Execute_TisIBeginDragHandler_t3135127860_m3631672494(NULL /*static, unused*/, L_19, L_20, L_21, /*hidden argument*/ExecuteEvents_Execute_TisIBeginDragHandler_t3135127860_m3631672494_MethodInfo_var);
+		PointerEventData_t1599784723 * L_22 = __this->get_pointerData_10();
+		NullCheck(L_22);
+		PointerEventData_set_dragging_m915629341(L_22, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_009c:
+	{
+		PointerEventData_t1599784723 * L_23 = __this->get_pointerData_10();
+		NullCheck(L_23);
+		bool L_24 = PointerEventData_get_dragging_m220490640(L_23, /*hidden argument*/NULL);
+		if (!L_24)
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		bool L_25 = V_0;
+		if (!L_25)
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_26 = __this->get_pointerData_10();
+		NullCheck(L_26);
+		GameObject_t1756533147 * L_27 = PointerEventData_get_pointerDrag_m2740415629(L_26, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_28 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_27, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_28)
+		{
+			goto IL_0148;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_29 = __this->get_pointerData_10();
+		NullCheck(L_29);
+		GameObject_t1756533147 * L_30 = PointerEventData_get_pointerPress_m880101744(L_29, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_31 = __this->get_pointerData_10();
+		NullCheck(L_31);
+		GameObject_t1756533147 * L_32 = PointerEventData_get_pointerDrag_m2740415629(L_31, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_33 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_30, L_32, /*hidden argument*/NULL);
+		if (!L_33)
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_34 = __this->get_pointerData_10();
+		NullCheck(L_34);
+		GameObject_t1756533147 * L_35 = PointerEventData_get_pointerPress_m880101744(L_34, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_36 = __this->get_pointerData_10();
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t344915111 * L_37 = ExecuteEvents_get_pointerUpHandler_m3494368244(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_Execute_TisIPointerUpHandler_t1847764461_m885031125(NULL /*static, unused*/, L_35, L_36, L_37, /*hidden argument*/ExecuteEvents_Execute_TisIPointerUpHandler_t1847764461_m885031125_MethodInfo_var);
+		PointerEventData_t1599784723 * L_38 = __this->get_pointerData_10();
+		NullCheck(L_38);
+		PointerEventData_set_eligibleForClick_m2036057844(L_38, (bool)0, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_39 = __this->get_pointerData_10();
+		NullCheck(L_39);
+		PointerEventData_set_pointerPress_m1418261989(L_39, (GameObject_t1756533147 *)NULL, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_40 = __this->get_pointerData_10();
+		NullCheck(L_40);
+		PointerEventData_set_rawPointerPress_m1484888025(L_40, (GameObject_t1756533147 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_012b:
+	{
+		PointerEventData_t1599784723 * L_41 = __this->get_pointerData_10();
+		NullCheck(L_41);
+		GameObject_t1756533147 * L_42 = PointerEventData_get_pointerDrag_m2740415629(L_41, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_43 = __this->get_pointerData_10();
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t1081143969 * L_44 = ExecuteEvents_get_dragHandler_m1515454020(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_Execute_TisIDragHandler_t2583993319_m799081747(NULL /*static, unused*/, L_42, L_43, L_44, /*hidden argument*/ExecuteEvents_Execute_TisIDragHandler_t2583993319_m799081747_MethodInfo_var);
+	}
+
+IL_0148:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerInputModule::HandlePendingClick()
+extern Il2CppClass* ExecuteEvents_t1693084770_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExecuteEvents_Execute_TisIPointerUpHandler_t1847764461_m885031125_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_Execute_TisIPointerClickHandler_t96169666_m907812816_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_ExecuteHierarchy_TisIDropHandler_t2390101210_m4291895312_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_Execute_TisIEndDragHandler_t1349123600_m4238380530_MethodInfo_var;
+extern const uint32_t GvrPointerInputModule_HandlePendingClick_m3198537246_MetadataUsageId;
+extern "C"  void GvrPointerInputModule_HandlePendingClick_m3198537246 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_HandlePendingClick_m3198537246_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	RaycastResult_t21186376  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	GameObject_t1756533147 * V_2 = NULL;
+	{
+		PointerEventData_t1599784723 * L_0 = __this->get_pointerData_10();
+		if (!L_0)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_1 = __this->get_pointerData_10();
+		NullCheck(L_1);
+		bool L_2 = PointerEventData_get_eligibleForClick_m2497780621(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_3 = __this->get_pointerData_10();
+		NullCheck(L_3);
+		bool L_4 = PointerEventData_get_dragging_m220490640(L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0032;
+		}
+	}
+
+IL_002c:
+	{
+		goto IL_0162;
+	}
+
+IL_0032:
+	{
+		GvrBasePointer_t2150122635 * L_5 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_6 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		VirtActionInvoker0::Invoke(13 /* System.Void GvrBasePointer::OnPointerClickUp() */, L_6);
+	}
+
+IL_004a:
+	{
+		PointerEventData_t1599784723 * L_7 = __this->get_pointerData_10();
+		NullCheck(L_7);
+		RaycastResult_t21186376  L_8 = PointerEventData_get_pointerCurrentRaycast_m1374279130(L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
+		GameObject_t1756533147 * L_9 = RaycastResult_get_gameObject_m2999022658((&V_1), /*hidden argument*/NULL);
+		V_0 = L_9;
+		PointerEventData_t1599784723 * L_10 = __this->get_pointerData_10();
+		NullCheck(L_10);
+		GameObject_t1756533147 * L_11 = PointerEventData_get_pointerPress_m880101744(L_10, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_12 = __this->get_pointerData_10();
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t344915111 * L_13 = ExecuteEvents_get_pointerUpHandler_m3494368244(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_Execute_TisIPointerUpHandler_t1847764461_m885031125(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/ExecuteEvents_Execute_TisIPointerUpHandler_t1847764461_m885031125_MethodInfo_var);
+		GameObject_t1756533147 * L_14 = V_0;
+		GameObject_t1756533147 * L_15 = ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327(NULL /*static, unused*/, L_14, /*hidden argument*/ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327_MethodInfo_var);
+		V_2 = L_15;
+		PointerEventData_t1599784723 * L_16 = __this->get_pointerData_10();
+		NullCheck(L_16);
+		GameObject_t1756533147 * L_17 = PointerEventData_get_pointerPress_m880101744(L_16, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_18 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_19 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00ca;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_20 = __this->get_pointerData_10();
+		NullCheck(L_20);
+		bool L_21 = PointerEventData_get_eligibleForClick_m2497780621(L_20, /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_00ca;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_22 = __this->get_pointerData_10();
+		NullCheck(L_22);
+		GameObject_t1756533147 * L_23 = PointerEventData_get_pointerPress_m880101744(L_22, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_24 = __this->get_pointerData_10();
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t2888287612 * L_25 = ExecuteEvents_get_pointerClickHandler_m713983310(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_Execute_TisIPointerClickHandler_t96169666_m907812816(NULL /*static, unused*/, L_23, L_24, L_25, /*hidden argument*/ExecuteEvents_Execute_TisIPointerClickHandler_t96169666_m907812816_MethodInfo_var);
+		goto IL_010a;
+	}
+
+IL_00ca:
+	{
+		PointerEventData_t1599784723 * L_26 = __this->get_pointerData_10();
+		NullCheck(L_26);
+		bool L_27 = PointerEventData_get_dragging_m220490640(L_26, /*hidden argument*/NULL);
+		if (!L_27)
+		{
+			goto IL_010a;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_28 = V_0;
+		PointerEventData_t1599784723 * L_29 = __this->get_pointerData_10();
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t887251860 * L_30 = ExecuteEvents_get_dropHandler_m1848078078(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_ExecuteHierarchy_TisIDropHandler_t2390101210_m4291895312(NULL /*static, unused*/, L_28, L_29, L_30, /*hidden argument*/ExecuteEvents_ExecuteHierarchy_TisIDropHandler_t2390101210_m4291895312_MethodInfo_var);
+		PointerEventData_t1599784723 * L_31 = __this->get_pointerData_10();
+		NullCheck(L_31);
+		GameObject_t1756533147 * L_32 = PointerEventData_get_pointerDrag_m2740415629(L_31, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_33 = __this->get_pointerData_10();
+		EventFunction_1_t4141241546 * L_34 = ExecuteEvents_get_endDragHandler_m56074740(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_Execute_TisIEndDragHandler_t1349123600_m4238380530(NULL /*static, unused*/, L_32, L_33, L_34, /*hidden argument*/ExecuteEvents_Execute_TisIEndDragHandler_t1349123600_m4238380530_MethodInfo_var);
+	}
+
+IL_010a:
+	{
+		PointerEventData_t1599784723 * L_35 = __this->get_pointerData_10();
+		NullCheck(L_35);
+		PointerEventData_set_pointerPress_m1418261989(L_35, (GameObject_t1756533147 *)NULL, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_36 = __this->get_pointerData_10();
+		NullCheck(L_36);
+		PointerEventData_set_rawPointerPress_m1484888025(L_36, (GameObject_t1756533147 *)NULL, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_37 = __this->get_pointerData_10();
+		NullCheck(L_37);
+		PointerEventData_set_eligibleForClick_m2036057844(L_37, (bool)0, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_38 = __this->get_pointerData_10();
+		NullCheck(L_38);
+		PointerEventData_set_clickCount_m2095939005(L_38, 0, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_39 = __this->get_pointerData_10();
+		NullCheck(L_39);
+		PointerEventData_set_clickTime_m3931922487(L_39, (0.0f), /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_40 = __this->get_pointerData_10();
+		NullCheck(L_40);
+		PointerEventData_set_pointerDrag_m3543074708(L_40, (GameObject_t1756533147 *)NULL, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_41 = __this->get_pointerData_10();
+		NullCheck(L_41);
+		PointerEventData_set_dragging_m915629341(L_41, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0162:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerInputModule::HandleTriggerDown()
+extern Il2CppClass* ExecuteEvents_t1693084770_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t3929046918_m462226506_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_GetEventHandler_TisIDragHandler_t2583993319_m3720979028_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_Execute_TisIInitializePotentialDragHandler_t3350809087_m2193269739_MethodInfo_var;
+extern const uint32_t GvrPointerInputModule_HandleTriggerDown_m1473499143_MetadataUsageId;
+extern "C"  void GvrPointerInputModule_HandleTriggerDown_m1473499143 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_HandleTriggerDown_m1473499143_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	RaycastResult_t21186376  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	GameObject_t1756533147 * G_B2_0 = NULL;
+	PointerEventData_t1599784723 * G_B2_1 = NULL;
+	GameObject_t1756533147 * G_B1_0 = NULL;
+	PointerEventData_t1599784723 * G_B1_1 = NULL;
+	{
+		PointerEventData_t1599784723 * L_0 = __this->get_pointerData_10();
+		NullCheck(L_0);
+		RaycastResult_t21186376  L_1 = PointerEventData_get_pointerCurrentRaycast_m1374279130(L_0, /*hidden argument*/NULL);
+		V_1 = L_1;
+		GameObject_t1756533147 * L_2 = RaycastResult_get_gameObject_m2999022658((&V_1), /*hidden argument*/NULL);
+		V_0 = L_2;
+		PointerEventData_t1599784723 * L_3 = __this->get_pointerData_10();
+		PointerEventData_t1599784723 * L_4 = __this->get_pointerData_10();
+		NullCheck(L_4);
+		Vector2_t2243707579  L_5 = PointerEventData_get_position_m2131765015(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		PointerEventData_set_pressPosition_m2094137883(L_3, L_5, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_6 = __this->get_pointerData_10();
+		PointerEventData_t1599784723 * L_7 = __this->get_pointerData_10();
+		NullCheck(L_7);
+		RaycastResult_t21186376  L_8 = PointerEventData_get_pointerCurrentRaycast_m1374279130(L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		PointerEventData_set_pointerPressRaycast_m2551142399(L_6, L_8, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_9 = __this->get_pointerData_10();
+		GameObject_t1756533147 * L_10 = V_0;
+		PointerEventData_t1599784723 * L_11 = __this->get_pointerData_10();
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t2426197568 * L_12 = ExecuteEvents_get_pointerDownHandler_m1172742772(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_13 = ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t3929046918_m462226506(NULL /*static, unused*/, L_10, L_11, L_12, /*hidden argument*/ExecuteEvents_ExecuteHierarchy_TisIPointerDownHandler_t3929046918_m462226506_MethodInfo_var);
+		GameObject_t1756533147 * L_14 = L_13;
+		G_B1_0 = L_14;
+		G_B1_1 = L_9;
+		if (L_14)
+		{
+			G_B2_0 = L_14;
+			G_B2_1 = L_9;
+			goto IL_0065;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_15 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_16 = ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327(NULL /*static, unused*/, L_15, /*hidden argument*/ExecuteEvents_GetEventHandler_TisIPointerClickHandler_t96169666_m2931125327_MethodInfo_var);
+		G_B2_0 = L_16;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0065:
+	{
+		NullCheck(G_B2_1);
+		PointerEventData_set_pointerPress_m1418261989(G_B2_1, G_B2_0, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_17 = __this->get_pointerData_10();
+		GameObject_t1756533147 * L_18 = V_0;
+		NullCheck(L_17);
+		PointerEventData_set_rawPointerPress_m1484888025(L_17, L_18, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_19 = __this->get_pointerData_10();
+		NullCheck(L_19);
+		PointerEventData_set_eligibleForClick_m2036057844(L_19, (bool)1, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_20 = __this->get_pointerData_10();
+		Vector2_t2243707579  L_21 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		PointerEventData_set_delta_m3672873329(L_20, L_21, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_22 = __this->get_pointerData_10();
+		NullCheck(L_22);
+		PointerEventData_set_dragging_m915629341(L_22, (bool)0, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_23 = __this->get_pointerData_10();
+		NullCheck(L_23);
+		PointerEventData_set_useDragThreshold_m2778439880(L_23, (bool)1, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_24 = __this->get_pointerData_10();
+		NullCheck(L_24);
+		PointerEventData_set_clickCount_m2095939005(L_24, 1, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_25 = __this->get_pointerData_10();
+		float L_26 = Time_get_unscaledTime_m862335845(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		PointerEventData_set_clickTime_m3931922487(L_25, L_26, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_27 = __this->get_pointerData_10();
+		GameObject_t1756533147 * L_28 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_29 = ExecuteEvents_GetEventHandler_TisIDragHandler_t2583993319_m3720979028(NULL /*static, unused*/, L_28, /*hidden argument*/ExecuteEvents_GetEventHandler_TisIDragHandler_t2583993319_m3720979028_MethodInfo_var);
+		NullCheck(L_27);
+		PointerEventData_set_pointerDrag_m3543074708(L_27, L_29, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_30 = __this->get_pointerData_10();
+		NullCheck(L_30);
+		GameObject_t1756533147 * L_31 = PointerEventData_get_pointerDrag_m2740415629(L_30, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_32 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_31, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_32)
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_33 = __this->get_pointerData_10();
+		NullCheck(L_33);
+		GameObject_t1756533147 * L_34 = PointerEventData_get_pointerDrag_m2740415629(L_33, /*hidden argument*/NULL);
+		PointerEventData_t1599784723 * L_35 = __this->get_pointerData_10();
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t1847959737 * L_36 = ExecuteEvents_get_initializePotentialDrag_m2227640438(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_Execute_TisIInitializePotentialDragHandler_t3350809087_m2193269739(NULL /*static, unused*/, L_34, L_35, L_36, /*hidden argument*/ExecuteEvents_Execute_TisIInitializePotentialDragHandler_t3350809087_m2193269739_MethodInfo_var);
+	}
+
+IL_010b:
+	{
+		GvrBasePointer_t2150122635 * L_37 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (!L_37)
+		{
+			goto IL_0123;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_38 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_38);
+		VirtActionInvoker0::Invoke(12 /* System.Void GvrBasePointer::OnPointerClickDown() */, L_38);
+	}
+
+IL_0123:
+	{
+		return;
+	}
+}
+// UnityEngine.Vector2 GvrPointerInputModule::NormalizedCartesianToSpherical(UnityEngine.Vector3)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerInputModule_NormalizedCartesianToSpherical_m1100147612_MetadataUsageId;
+extern "C"  Vector2_t2243707579  GvrPointerInputModule_NormalizedCartesianToSpherical_m1100147612 (GvrPointerInputModule_t1603976810 * __this, Vector3_t2243707580  ___cartCoords0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_NormalizedCartesianToSpherical_m1100147612_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		Vector3_Normalize_m3679112426((&___cartCoords0), /*hidden argument*/NULL);
+		float L_0 = (&___cartCoords0)->get_x_1();
+		if ((!(((float)L_0) == ((float)(0.0f)))))
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_1 = ((Mathf_t2336485820_StaticFields*)Mathf_t2336485820_il2cpp_TypeInfo_var->static_fields)->get_Epsilon_0();
+		(&___cartCoords0)->set_x_1(L_1);
+	}
+
+IL_0025:
+	{
+		float L_2 = (&___cartCoords0)->get_z_3();
+		float L_3 = (&___cartCoords0)->get_x_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_4 = atanf(((float)((float)L_2/(float)L_3)));
+		V_0 = L_4;
+		float L_5 = (&___cartCoords0)->get_x_1();
+		if ((!(((float)L_5) < ((float)(0.0f)))))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		float L_6 = V_0;
+		V_0 = ((float)((float)L_6+(float)(3.14159274f)));
+	}
+
+IL_0053:
+	{
+		float L_7 = (&___cartCoords0)->get_y_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_8 = asinf(L_7);
+		V_1 = L_8;
+		float L_9 = V_0;
+		float L_10 = V_1;
+		Vector2_t2243707579  L_11;
+		memset(&L_11, 0, sizeof(L_11));
+		Vector2__ctor_m3067419446(&L_11, L_9, L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
+		goto IL_006d;
+	}
+
+IL_006d:
+	{
+		Vector2_t2243707579  L_12 = V_2;
+		return L_12;
+	}
+}
+// UnityEngine.GameObject GvrPointerInputModule::GetCurrentGameObject()
+extern "C"  GameObject_t1756533147 * GvrPointerInputModule_GetCurrentGameObject_m2094345838 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	RaycastResult_t21186376  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	GameObject_t1756533147 * V_1 = NULL;
+	{
+		PointerEventData_t1599784723 * L_0 = __this->get_pointerData_10();
+		if (!L_0)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_1 = __this->get_pointerData_10();
+		NullCheck(L_1);
+		RaycastResult_t21186376  L_2 = PointerEventData_get_pointerCurrentRaycast_m1374279130(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = RaycastResult_get_gameObject_m2999022658((&V_0), /*hidden argument*/NULL);
+		V_1 = L_3;
+		goto IL_002d;
+	}
+
+IL_0026:
+	{
+		V_1 = (GameObject_t1756533147 *)NULL;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		GameObject_t1756533147 * L_4 = V_1;
+		return L_4;
+	}
+}
+// UnityEngine.Ray GvrPointerInputModule::GetLastRay()
+extern Il2CppClass* GvrBasePointerRaycaster_t1189534163_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Ray_t2469606224_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerInputModule_GetLastRay_m2341273551_MetadataUsageId;
+extern "C"  Ray_t2469606224  GvrPointerInputModule_GetLastRay_m2341273551 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_GetLastRay_m2341273551_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GvrBasePointerRaycaster_t1189534163 * V_0 = NULL;
+	RaycastResult_t21186376  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Ray_t2469606224  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Camera_t189460977 * V_3 = NULL;
+	Ray_t2469606224  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	{
+		PointerEventData_t1599784723 * L_0 = __this->get_pointerData_10();
+		if (!L_0)
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_1 = __this->get_pointerData_10();
+		NullCheck(L_1);
+		RaycastResult_t21186376  L_2 = PointerEventData_get_pointerCurrentRaycast_m1374279130(L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		BaseRaycaster_t2336171397 * L_3 = (&V_1)->get_module_1();
+		V_0 = ((GvrBasePointerRaycaster_t1189534163 *)IsInstClass(L_3, GvrBasePointerRaycaster_t1189534163_il2cpp_TypeInfo_var));
+		GvrBasePointerRaycaster_t1189534163 * L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_5 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_4, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		GvrBasePointerRaycaster_t1189534163 * L_6 = V_0;
+		NullCheck(L_6);
+		Ray_t2469606224  L_7 = GvrBasePointerRaycaster_GetLastRay_m1048711842(L_6, /*hidden argument*/NULL);
+		V_2 = L_7;
+		goto IL_0094;
+	}
+
+IL_003f:
+	{
+		PointerEventData_t1599784723 * L_8 = __this->get_pointerData_10();
+		NullCheck(L_8);
+		Camera_t189460977 * L_9 = PointerEventData_get_enterEventCamera_m1539996745(L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_10 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_9, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_11 = __this->get_pointerData_10();
+		NullCheck(L_11);
+		Camera_t189460977 * L_12 = PointerEventData_get_enterEventCamera_m1539996745(L_11, /*hidden argument*/NULL);
+		V_3 = L_12;
+		Camera_t189460977 * L_13 = V_3;
+		NullCheck(L_13);
+		Transform_t3275118058 * L_14 = Component_get_transform_m2697483695(L_13, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		Vector3_t2243707580  L_15 = Transform_get_position_m1104419803(L_14, /*hidden argument*/NULL);
+		Camera_t189460977 * L_16 = V_3;
+		NullCheck(L_16);
+		Transform_t3275118058 * L_17 = Component_get_transform_m2697483695(L_16, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Vector3_t2243707580  L_18 = Transform_get_forward_m1833488937(L_17, /*hidden argument*/NULL);
+		Ray_t2469606224  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		Ray__ctor_m3379034047(&L_19, L_15, L_18, /*hidden argument*/NULL);
+		V_2 = L_19;
+		goto IL_0094;
+	}
+
+IL_0083:
+	{
+	}
+
+IL_0084:
+	{
+		Initobj (Ray_t2469606224_il2cpp_TypeInfo_var, (&V_4));
+		Ray_t2469606224  L_20 = V_4;
+		V_2 = L_20;
+		goto IL_0094;
+	}
+
+IL_0094:
+	{
+		Ray_t2469606224  L_21 = V_2;
+		return L_21;
+	}
+}
+// UnityEngine.Vector3 GvrPointerInputModule::GetIntersectionPosition(UnityEngine.Camera,UnityEngine.EventSystems.RaycastResult)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerInputModule_GetIntersectionPosition_m4127225986_MetadataUsageId;
+extern "C"  Vector3_t2243707580  GvrPointerInputModule_GetIntersectionPosition_m4127225986 (GvrPointerInputModule_t1603976810 * __this, Camera_t189460977 * ___cam0, RaycastResult_t21186376  ___raycastResult1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_GetIntersectionPosition_m4127225986_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		Camera_t189460977 * L_0 = ___cam0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		Vector3_t2243707580  L_2 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0051;
+	}
+
+IL_0019:
+	{
+		float L_3 = (&___raycastResult1)->get_distance_2();
+		Camera_t189460977 * L_4 = ___cam0;
+		NullCheck(L_4);
+		float L_5 = Camera_get_nearClipPlane_m3536967407(L_4, /*hidden argument*/NULL);
+		V_1 = ((float)((float)L_3+(float)L_5));
+		Camera_t189460977 * L_6 = ___cam0;
+		NullCheck(L_6);
+		Transform_t3275118058 * L_7 = Component_get_transform_m2697483695(L_6, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Vector3_t2243707580  L_8 = Transform_get_position_m1104419803(L_7, /*hidden argument*/NULL);
+		Camera_t189460977 * L_9 = ___cam0;
+		NullCheck(L_9);
+		Transform_t3275118058 * L_10 = Component_get_transform_m2697483695(L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Vector3_t2243707580  L_11 = Transform_get_forward_m1833488937(L_10, /*hidden argument*/NULL);
+		float L_12 = V_1;
+		Vector3_t2243707580  L_13 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_14 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_8, L_13, /*hidden argument*/NULL);
+		V_2 = L_14;
+		Vector3_t2243707580  L_15 = V_2;
+		V_0 = L_15;
+		goto IL_0051;
+	}
+
+IL_0051:
+	{
+		Vector3_t2243707580  L_16 = V_0;
+		return L_16;
+	}
+}
+// System.Void GvrPointerInputModule::DisablePointer()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerInputModule_DisablePointer_m4263108644_MetadataUsageId;
+extern "C"  void GvrPointerInputModule_DisablePointer_m4263108644 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_DisablePointer_m4263108644_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		goto IL_003d;
+	}
+
+IL_0012:
+	{
+		GameObject_t1756533147 * L_1 = GvrPointerInputModule_GetCurrentGameObject_m2094345838(__this, /*hidden argument*/NULL);
+		V_0 = L_1;
+		GameObject_t1756533147 * L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_4 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_5 = V_0;
+		NullCheck(L_4);
+		VirtActionInvoker1< GameObject_t1756533147 * >::Invoke(11 /* System.Void GvrBasePointer::OnPointerExit(UnityEngine.GameObject) */, L_4, L_5);
+	}
+
+IL_0032:
+	{
+		GvrBasePointer_t2150122635 * L_6 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		VirtActionInvoker0::Invoke(8 /* System.Void GvrBasePointer::OnInputModuleDisabled() */, L_6);
+	}
+
+IL_003d:
+	{
+		return;
+	}
+}
+// UnityEngine.Vector2 GvrPointerInputModule::GetViewportCenter()
+extern "C"  Vector2_t2243707579  GvrPointerInputModule_GetViewportCenter_m724278641 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector2_t2243707579  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	{
+		int32_t L_0 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		int32_t L_3 = V_1;
+		Vector2_t2243707579  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		Vector2__ctor_m3067419446(&L_4, ((float)((float)(0.5f)*(float)(((float)((float)L_2))))), ((float)((float)(0.5f)*(float)(((float)((float)L_3))))), /*hidden argument*/NULL);
+		V_2 = L_4;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		Vector2_t2243707579  L_5 = V_2;
+		return L_5;
+	}
+}
+// System.Boolean GvrPointerInputModule::IsPointerActiveAndAvailable()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerInputModule_IsPointerActiveAndAvailable_m924688728_MetadataUsageId;
+extern "C"  bool GvrPointerInputModule_IsPointerActiveAndAvailable_m924688728 (GvrPointerInputModule_t1603976810 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerInputModule_IsPointerActiveAndAvailable_m924688728_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Transform_t3275118058 * V_1 = NULL;
+	{
+		GvrBasePointer_t2150122635 * L_0 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		V_0 = (bool)0;
+		goto IL_0045;
+	}
+
+IL_0014:
+	{
+		GvrBasePointer_t2150122635 * L_1 = GvrPointerInputModule_get_pointer_m3173654067(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Transform_t3275118058 * L_2 = GvrBasePointer_get_PointerTransform_m3494232690(L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		Transform_t3275118058 * L_3 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		V_0 = (bool)0;
+		goto IL_0045;
+	}
+
+IL_0034:
+	{
+		Transform_t3275118058 * L_5 = V_1;
+		NullCheck(L_5);
+		GameObject_t1756533147 * L_6 = Component_get_gameObject_m3105766835(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		bool L_7 = GameObject_get_activeInHierarchy_m4242915935(L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		goto IL_0045;
+	}
+
+IL_0045:
+	{
+		bool L_8 = V_0;
+		return L_8;
+	}
+}
+// System.Void GvrPointerManager::.ctor()
+extern "C"  void GvrPointerManager__ctor_m2938703452 (GvrPointerManager_t2205699129 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GvrBasePointer GvrPointerManager::get_Pointer()
+extern Il2CppClass* GvrPointerManager_t2205699129_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerManager_get_Pointer_m2011861714_MetadataUsageId;
+extern "C"  GvrBasePointer_t2150122635 * GvrPointerManager_get_Pointer_m2011861714 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerManager_get_Pointer_m2011861714_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GvrBasePointer_t2150122635 * V_0 = NULL;
+	GvrBasePointer_t2150122635 * G_B3_0 = NULL;
+	{
+		GvrPointerManager_t2205699129 * L_0 = ((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		G_B3_0 = ((GvrBasePointer_t2150122635 *)(NULL));
+		goto IL_0021;
+	}
+
+IL_0017:
+	{
+		GvrPointerManager_t2205699129 * L_2 = ((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		NullCheck(L_2);
+		GvrBasePointer_t2150122635 * L_3 = L_2->get_pointer_3();
+		G_B3_0 = L_3;
+	}
+
+IL_0021:
+	{
+		V_0 = G_B3_0;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		GvrBasePointer_t2150122635 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.Void GvrPointerManager::set_Pointer(GvrBasePointer)
+extern Il2CppClass* GvrPointerManager_t2205699129_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerManager_set_Pointer_m2743597351_MetadataUsageId;
+extern "C"  void GvrPointerManager_set_Pointer_m2743597351 (Il2CppObject * __this /* static, unused */, GvrBasePointer_t2150122635 * ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerManager_set_Pointer_m2743597351_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GvrPointerManager_t2205699129 * L_0 = ((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		GvrPointerManager_t2205699129 * L_2 = ((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		NullCheck(L_2);
+		GvrBasePointer_t2150122635 * L_3 = L_2->get_pointer_3();
+		GvrBasePointer_t2150122635 * L_4 = ___value0;
+		if ((!(((Il2CppObject*)(GvrBasePointer_t2150122635 *)L_3) == ((Il2CppObject*)(GvrBasePointer_t2150122635 *)L_4))))
+		{
+			goto IL_0027;
+		}
+	}
+
+IL_0021:
+	{
+		goto IL_0032;
+	}
+
+IL_0027:
+	{
+		GvrPointerManager_t2205699129 * L_5 = ((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		GvrBasePointer_t2150122635 * L_6 = ___value0;
+		NullCheck(L_5);
+		L_5->set_pointer_3(L_6);
+	}
+
+IL_0032:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerManager::OnPointerCreated(GvrBasePointer)
+extern Il2CppClass* GvrPointerManager_t2205699129_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerManager_OnPointerCreated_m1891135371_MetadataUsageId;
+extern "C"  void GvrPointerManager_OnPointerCreated_m1891135371 (Il2CppObject * __this /* static, unused */, GvrBasePointer_t2150122635 * ___createdPointer0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerManager_OnPointerCreated_m1891135371_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GvrPointerManager_t2205699129 * L_0 = ((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_2 = GvrPointerManager_get_Pointer_m2011861714(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		GvrBasePointer_t2150122635 * L_3 = ___createdPointer0;
+		GvrPointerManager_set_Pointer_m2743597351(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+	}
+
+IL_0023:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerManager::Awake()
+extern Il2CppClass* GvrPointerManager_t2205699129_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1482399431;
+extern const uint32_t GvrPointerManager_Awake_m4178990469_MetadataUsageId;
+extern "C"  void GvrPointerManager_Awake_m4178990469 (GvrPointerManager_t2205699129 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerManager_Awake_m4178990469_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GvrPointerManager_t2205699129 * L_0 = ((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral1482399431, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m1796096907(__this, (bool)0, /*hidden argument*/NULL);
+		goto IL_002e;
+	}
+
+IL_0028:
+	{
+		((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->set_instance_2(__this);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerManager::OnDestroy()
+extern Il2CppClass* GvrPointerManager_t2205699129_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerManager_OnDestroy_m3537033295_MetadataUsageId;
+extern "C"  void GvrPointerManager_OnDestroy_m3537033295 (GvrPointerManager_t2205699129 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerManager_OnDestroy_m3537033295_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GvrPointerManager_t2205699129 * L_0 = ((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->get_instance_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, __this, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		((GvrPointerManager_t2205699129_StaticFields*)GvrPointerManager_t2205699129_il2cpp_TypeInfo_var->static_fields)->set_instance_2((GvrPointerManager_t2205699129 *)NULL);
+	}
+
+IL_0019:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerPhysicsRaycaster::.ctor()
+extern "C"  void GvrPointerPhysicsRaycaster__ctor_m3272360300 (GvrPointerPhysicsRaycaster_t2558158517 * __this, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = LayerMask_op_Implicit_m3804506591(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
+		__this->set_raycasterEventMask_5(L_0);
+		GvrBasePointerRaycaster__ctor_m4174019434(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Camera GvrPointerPhysicsRaycaster::get_eventCamera()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern const uint32_t GvrPointerPhysicsRaycaster_get_eventCamera_m449959721_MetadataUsageId;
+extern "C"  Camera_t189460977 * GvrPointerPhysicsRaycaster_get_eventCamera_m449959721 (GvrPointerPhysicsRaycaster_t2558158517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerPhysicsRaycaster_get_eventCamera_m449959721_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Camera_t189460977 * V_0 = NULL;
+	Camera_t189460977 * G_B5_0 = NULL;
+	{
+		Camera_t189460977 * L_0 = __this->get_cachedEventCamera_6();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		Camera_t189460977 * L_2 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		__this->set_cachedEventCamera_6(L_2);
+	}
+
+IL_0020:
+	{
+		Camera_t189460977 * L_3 = __this->get_cachedEventCamera_6();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		Camera_t189460977 * L_5 = __this->get_cachedEventCamera_6();
+		G_B5_0 = L_5;
+		goto IL_0041;
+	}
+
+IL_003c:
+	{
+		Camera_t189460977 * L_6 = Camera_get_main_m475173995(NULL /*static, unused*/, /*hidden argument*/NULL);
+		G_B5_0 = L_6;
+	}
+
+IL_0041:
+	{
+		V_0 = G_B5_0;
+		goto IL_0047;
+	}
+
+IL_0047:
+	{
+		Camera_t189460977 * L_7 = V_0;
+		return L_7;
+	}
+}
+// System.Int32 GvrPointerPhysicsRaycaster::get_finalEventMask()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerPhysicsRaycaster_get_finalEventMask_m2496617043_MetadataUsageId;
+extern "C"  int32_t GvrPointerPhysicsRaycaster_get_finalEventMask_m2496617043 (GvrPointerPhysicsRaycaster_t2558158517 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerPhysicsRaycaster_get_finalEventMask_m2496617043_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		Camera_t189460977 * L_0 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		Camera_t189460977 * L_2 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		NullCheck(L_2);
+		int32_t L_3 = Camera_get_cullingMask_m73686965(L_2, /*hidden argument*/NULL);
+		LayerMask_t3188175821  L_4 = GvrPointerPhysicsRaycaster_get_eventMask_m3993898916(__this, /*hidden argument*/NULL);
+		int32_t L_5 = LayerMask_op_Implicit_m2135076047(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		G_B3_0 = ((int32_t)((int32_t)L_3&(int32_t)L_5));
+		goto IL_002f;
+	}
+
+IL_002e:
+	{
+		G_B3_0 = (-1);
+	}
+
+IL_002f:
+	{
+		V_0 = G_B3_0;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		int32_t L_6 = V_0;
+		return L_6;
+	}
+}
+// UnityEngine.LayerMask GvrPointerPhysicsRaycaster::get_eventMask()
+extern "C"  LayerMask_t3188175821  GvrPointerPhysicsRaycaster_get_eventMask_m3993898916 (GvrPointerPhysicsRaycaster_t2558158517 * __this, const MethodInfo* method)
+{
+	LayerMask_t3188175821  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		LayerMask_t3188175821  L_0 = __this->get_raycasterEventMask_5();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		LayerMask_t3188175821  L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrPointerPhysicsRaycaster::set_eventMask(UnityEngine.LayerMask)
+extern "C"  void GvrPointerPhysicsRaycaster_set_eventMask_m4174666085 (GvrPointerPhysicsRaycaster_t2558158517 * __this, LayerMask_t3188175821  ___value0, const MethodInfo* method)
+{
+	{
+		LayerMask_t3188175821  L_0 = ___value0;
+		__this->set_raycasterEventMask_5(L_0);
+		return;
+	}
+}
+// System.Void GvrPointerPhysicsRaycaster::Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrPointerPhysicsRaycaster_t2558158517_il2cpp_TypeInfo_var;
+extern Il2CppClass* Comparison_1_t1348919171_il2cpp_TypeInfo_var;
+extern Il2CppClass* RaycastResult_t21186376_il2cpp_TypeInfo_var;
+extern const MethodInfo* GvrPointerPhysicsRaycaster_U3CRaycastU3Em__0_m2457964362_MethodInfo_var;
+extern const MethodInfo* Comparison_1__ctor_m1178069812_MethodInfo_var;
+extern const MethodInfo* Array_Sort_TisRaycastHit_t87180320_m3369192280_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m3279745867_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2123823603_MethodInfo_var;
+extern const uint32_t GvrPointerPhysicsRaycaster_Raycast_m1715473476_MetadataUsageId;
+extern "C"  void GvrPointerPhysicsRaycaster_Raycast_m1715473476 (GvrPointerPhysicsRaycaster_t2558158517 * __this, PointerEventData_t1599784723 * ___eventData0, List_1_t3685274804 * ___resultAppendList1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerPhysicsRaycaster_Raycast_m1715473476_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2469606224  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	RaycastHitU5BU5D_t1214023521* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t2243707580  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	RaycastResult_t21186376  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	RaycastResult_t21186376  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	RaycastHitU5BU5D_t1214023521* G_B11_0 = NULL;
+	RaycastHitU5BU5D_t1214023521* G_B10_0 = NULL;
+	{
+		Camera_t189460977 * L_0 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		goto IL_01a3;
+	}
+
+IL_0018:
+	{
+		bool L_2 = GvrBasePointerRaycaster_IsPointerAvailable_m2792971214(__this, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		goto IL_01a3;
+	}
+
+IL_0029:
+	{
+		Ray_t2469606224  L_3 = GvrBasePointerRaycaster_GetRay_m2992454774(__this, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Camera_t189460977 * L_4 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		NullCheck(L_4);
+		float L_5 = Camera_get_farClipPlane_m3137713566(L_4, /*hidden argument*/NULL);
+		Camera_t189460977 * L_6 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		NullCheck(L_6);
+		float L_7 = Camera_get_nearClipPlane_m3536967407(L_6, /*hidden argument*/NULL);
+		V_1 = ((float)((float)L_5-(float)L_7));
+		float L_8 = GvrBasePointerRaycaster_get_PointerRadius_m3443004720(__this, /*hidden argument*/NULL);
+		V_2 = L_8;
+		float L_9 = V_2;
+		if ((!(((float)L_9) > ((float)(0.0f)))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		Ray_t2469606224  L_10 = V_0;
+		float L_11 = V_2;
+		float L_12 = V_1;
+		int32_t L_13 = GvrPointerPhysicsRaycaster_get_finalEventMask_m2496617043(__this, /*hidden argument*/NULL);
+		RaycastHitU5BU5D_t1214023521* L_14 = Physics_SphereCastAll_m3441839003(NULL /*static, unused*/, L_10, L_11, L_12, L_13, /*hidden argument*/NULL);
+		V_3 = L_14;
+		goto IL_0080;
+	}
+
+IL_0070:
+	{
+		Ray_t2469606224  L_15 = V_0;
+		float L_16 = V_1;
+		int32_t L_17 = GvrPointerPhysicsRaycaster_get_finalEventMask_m2496617043(__this, /*hidden argument*/NULL);
+		RaycastHitU5BU5D_t1214023521* L_18 = Physics_RaycastAll_m233036521(NULL /*static, unused*/, L_15, L_16, L_17, /*hidden argument*/NULL);
+		V_3 = L_18;
+	}
+
+IL_0080:
+	{
+		RaycastHitU5BU5D_t1214023521* L_19 = V_3;
+		NullCheck(L_19);
+		if ((((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length)))))
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		goto IL_01a3;
+	}
+
+IL_008e:
+	{
+		RaycastHitU5BU5D_t1214023521* L_20 = V_3;
+		Comparison_1_t1348919171 * L_21 = ((GvrPointerPhysicsRaycaster_t2558158517_StaticFields*)GvrPointerPhysicsRaycaster_t2558158517_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_7();
+		G_B10_0 = L_20;
+		if (L_21)
+		{
+			G_B11_0 = L_20;
+			goto IL_00a7;
+		}
+	}
+	{
+		IntPtr_t L_22;
+		L_22.set_m_value_0((void*)(void*)GvrPointerPhysicsRaycaster_U3CRaycastU3Em__0_m2457964362_MethodInfo_var);
+		Comparison_1_t1348919171 * L_23 = (Comparison_1_t1348919171 *)il2cpp_codegen_object_new(Comparison_1_t1348919171_il2cpp_TypeInfo_var);
+		Comparison_1__ctor_m1178069812(L_23, NULL, L_22, /*hidden argument*/Comparison_1__ctor_m1178069812_MethodInfo_var);
+		((GvrPointerPhysicsRaycaster_t2558158517_StaticFields*)GvrPointerPhysicsRaycaster_t2558158517_il2cpp_TypeInfo_var->static_fields)->set_U3CU3Ef__amU24cache0_7(L_23);
+		G_B11_0 = G_B10_0;
+	}
+
+IL_00a7:
+	{
+		Comparison_1_t1348919171 * L_24 = ((GvrPointerPhysicsRaycaster_t2558158517_StaticFields*)GvrPointerPhysicsRaycaster_t2558158517_il2cpp_TypeInfo_var->static_fields)->get_U3CU3Ef__amU24cache0_7();
+		Array_Sort_TisRaycastHit_t87180320_m3369192280(NULL /*static, unused*/, G_B11_0, L_24, /*hidden argument*/Array_Sort_TisRaycastHit_t87180320_m3369192280_MethodInfo_var);
+		V_4 = 0;
+		RaycastHitU5BU5D_t1214023521* L_25 = V_3;
+		NullCheck(L_25);
+		V_5 = (((int32_t)((int32_t)(((Il2CppArray *)L_25)->max_length))));
+		goto IL_019a;
+	}
+
+IL_00be:
+	{
+		RaycastHitU5BU5D_t1214023521* L_26 = V_3;
+		int32_t L_27 = V_4;
+		NullCheck(L_26);
+		Vector3_t2243707580  L_28 = RaycastHit_get_point_m326143462(((L_26)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_27))), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_29 = Ray_get_origin_m3339262500((&V_0), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_30 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_28, L_29, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_31 = Ray_get_direction_m4059191533((&V_0), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_32 = Vector3_Project_m1396027688(NULL /*static, unused*/, L_30, L_31, /*hidden argument*/NULL);
+		V_6 = L_32;
+		Vector3_t2243707580  L_33 = V_6;
+		Vector3_t2243707580  L_34 = Ray_get_origin_m3339262500((&V_0), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_35 = Vector3_op_Addition_m3146764857(NULL /*static, unused*/, L_33, L_34, /*hidden argument*/NULL);
+		V_7 = L_35;
+		Initobj (RaycastResult_t21186376_il2cpp_TypeInfo_var, (&V_9));
+		RaycastHitU5BU5D_t1214023521* L_36 = V_3;
+		int32_t L_37 = V_4;
+		NullCheck(L_36);
+		Collider_t3497673348 * L_38 = RaycastHit_get_collider_m301198172(((L_36)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_37))), /*hidden argument*/NULL);
+		NullCheck(L_38);
+		GameObject_t1756533147 * L_39 = Component_get_gameObject_m3105766835(L_38, /*hidden argument*/NULL);
+		RaycastResult_set_gameObject_m1138581891((&V_9), L_39, /*hidden argument*/NULL);
+		(&V_9)->set_module_1(__this);
+		RaycastHitU5BU5D_t1214023521* L_40 = V_3;
+		int32_t L_41 = V_4;
+		NullCheck(L_40);
+		float L_42 = RaycastHit_get_distance_m1178709367(((L_40)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_41))), /*hidden argument*/NULL);
+		(&V_9)->set_distance_2(L_42);
+		Vector3_t2243707580  L_43 = V_7;
+		(&V_9)->set_worldPosition_7(L_43);
+		RaycastHitU5BU5D_t1214023521* L_44 = V_3;
+		int32_t L_45 = V_4;
+		NullCheck(L_44);
+		Vector3_t2243707580  L_46 = RaycastHit_get_normal_m817665579(((L_44)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_45))), /*hidden argument*/NULL);
+		(&V_9)->set_worldNormal_8(L_46);
+		Camera_t189460977 * L_47 = VirtFuncInvoker0< Camera_t189460977 * >::Invoke(18 /* UnityEngine.Camera UnityEngine.EventSystems.BaseRaycaster::get_eventCamera() */, __this);
+		Vector3_t2243707580  L_48 = V_7;
+		NullCheck(L_47);
+		Vector3_t2243707580  L_49 = Camera_WorldToScreenPoint_m638747266(L_47, L_48, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_50 = Vector2_op_Implicit_m1064335535(NULL /*static, unused*/, L_49, /*hidden argument*/NULL);
+		(&V_9)->set_screenPosition_9(L_50);
+		List_1_t3685274804 * L_51 = ___resultAppendList1;
+		NullCheck(L_51);
+		int32_t L_52 = List_1_get_Count_m3279745867(L_51, /*hidden argument*/List_1_get_Count_m3279745867_MethodInfo_var);
+		(&V_9)->set_index_3((((float)((float)L_52))));
+		(&V_9)->set_sortingLayer_5(0);
+		(&V_9)->set_sortingOrder_6(0);
+		RaycastResult_t21186376  L_53 = V_9;
+		V_8 = L_53;
+		List_1_t3685274804 * L_54 = ___resultAppendList1;
+		RaycastResult_t21186376  L_55 = V_8;
+		NullCheck(L_54);
+		List_1_Add_m2123823603(L_54, L_55, /*hidden argument*/List_1_Add_m2123823603_MethodInfo_var);
+		int32_t L_56 = V_4;
+		V_4 = ((int32_t)((int32_t)L_56+(int32_t)1));
+	}
+
+IL_019a:
+	{
+		int32_t L_57 = V_4;
+		int32_t L_58 = V_5;
+		if ((((int32_t)L_57) < ((int32_t)L_58)))
+		{
+			goto IL_00be;
+		}
+	}
+
+IL_01a3:
+	{
+		return;
+	}
+}
+// System.Int32 GvrPointerPhysicsRaycaster::<Raycast>m__0(UnityEngine.RaycastHit,UnityEngine.RaycastHit)
+extern "C"  int32_t GvrPointerPhysicsRaycaster_U3CRaycastU3Em__0_m2457964362 (Il2CppObject * __this /* static, unused */, RaycastHit_t87180320  ___r10, RaycastHit_t87180320  ___r21, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	{
+		float L_0 = RaycastHit_get_distance_m1178709367((&___r10), /*hidden argument*/NULL);
+		V_0 = L_0;
+		float L_1 = RaycastHit_get_distance_m1178709367((&___r21), /*hidden argument*/NULL);
+		int32_t L_2 = Single_CompareTo_m1534635028((&V_0), L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		int32_t L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Void GvrPointerScrollInput::.ctor()
+extern Il2CppClass* Dictionary_2_t3691755905_il2cpp_TypeInfo_var;
+extern Il2CppClass* List_1_t1125654279_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m343631251_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m704351054_MethodInfo_var;
+extern const uint32_t GvrPointerScrollInput__ctor_m2028379424_MetadataUsageId;
+extern "C"  void GvrPointerScrollInput__ctor_m2028379424 (GvrPointerScrollInput_t4200958609 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerScrollInput__ctor_m2028379424_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_inertia_2((bool)1);
+		__this->set_decelerationRate_3((0.05f));
+		Dictionary_2_t3691755905 * L_0 = (Dictionary_2_t3691755905 *)il2cpp_codegen_object_new(Dictionary_2_t3691755905_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m343631251(L_0, /*hidden argument*/Dictionary_2__ctor_m343631251_MethodInfo_var);
+		__this->set_scrollHandlers_15(L_0);
+		List_1_t1125654279 * L_1 = (List_1_t1125654279 *)il2cpp_codegen_object_new(List_1_t1125654279_il2cpp_TypeInfo_var);
+		List_1__ctor_m704351054(L_1, /*hidden argument*/List_1__ctor_m704351054_MethodInfo_var);
+		__this->set_scrollingObjects_16(L_1);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPointerScrollInput::HandleScroll(UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData,System.Boolean)
+extern Il2CppClass* ExecuteEvents_t1693084770_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* ExecuteEvents_GetEventHandler_TisIScrollHandler_t3834677510_m1788515243_MethodInfo_var;
+extern const uint32_t GvrPointerScrollInput_HandleScroll_m2772718148_MetadataUsageId;
+extern "C"  void GvrPointerScrollInput_HandleScroll_m2772718148 (GvrPointerScrollInput_t4200958609 * __this, GameObject_t1756533147 * ___currentGameObject0, PointerEventData_t1599784723 * ___pointerData1, bool ___isPointerActiveAndAvailable2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerScrollInput_HandleScroll_m2772718148_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	Vector2_t2243707579  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	GameObject_t1756533147 * V_4 = NULL;
+	{
+		V_0 = (bool)0;
+		V_1 = (bool)0;
+		V_2 = (bool)0;
+		Vector2_t2243707579  L_0 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = L_0;
+		bool L_1 = ___isPointerActiveAndAvailable2;
+		if (L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		V_0 = (bool)0;
+		V_1 = (bool)0;
+		V_2 = (bool)0;
+	}
+
+IL_001b:
+	{
+		GameObject_t1756533147 * L_2 = ___currentGameObject0;
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		GameObject_t1756533147 * L_3 = ExecuteEvents_GetEventHandler_TisIScrollHandler_t3834677510_m1788515243(NULL /*static, unused*/, L_2, /*hidden argument*/ExecuteEvents_GetEventHandler_TisIScrollHandler_t3834677510_m1788515243_MethodInfo_var);
+		V_4 = L_3;
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_5 = V_4;
+		GvrPointerScrollInput_RemoveScrollHandler_m392050987(__this, L_5, /*hidden argument*/NULL);
+	}
+
+IL_0033:
+	{
+		GameObject_t1756533147 * L_6 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_7 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_6, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		bool L_8 = V_0;
+		if (L_8)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		bool L_9 = V_1;
+		if (!L_9)
+		{
+			goto IL_005d;
+		}
+	}
+
+IL_004c:
+	{
+		GameObject_t1756533147 * L_10 = V_4;
+		PointerEventData_t1599784723 * L_11 = ___pointerData1;
+		Vector2_t2243707579  L_12 = V_3;
+		GvrPointerScrollInput_OnTouchingScrollHandler_m4126706409(__this, L_10, L_11, L_12, /*hidden argument*/NULL);
+		goto IL_007a;
+	}
+
+IL_005d:
+	{
+		bool L_13 = V_2;
+		if (!L_13)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_14 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_15 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_14, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_16 = V_4;
+		GvrPointerScrollInput_OnReleaseScrollHandler_m901549917(__this, L_16, /*hidden argument*/NULL);
+	}
+
+IL_007a:
+	{
+		bool L_17 = V_1;
+		GameObject_t1756533147 * L_18 = V_4;
+		GvrPointerScrollInput_StopScrollingIfNecessary_m3011539456(__this, L_17, L_18, /*hidden argument*/NULL);
+		bool L_19 = V_1;
+		GameObject_t1756533147 * L_20 = V_4;
+		PointerEventData_t1599784723 * L_21 = ___pointerData1;
+		GvrPointerScrollInput_UpdateInertiaScrollHandlers_m3158821646(__this, L_19, L_20, L_21, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPointerScrollInput::OnTouchingScrollHandler(UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData,UnityEngine.Vector2)
+extern Il2CppClass* ExecuteEvents_t1693084770_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_ContainsKey_m2291226382_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2672034133_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_ExecuteHierarchy_TisIScrollHandler_t3834677510_m3398003692_MethodInfo_var;
+extern const uint32_t GvrPointerScrollInput_OnTouchingScrollHandler_m4126706409_MetadataUsageId;
+extern "C"  void GvrPointerScrollInput_OnTouchingScrollHandler_m4126706409 (GvrPointerScrollInput_t4200958609 * __this, GameObject_t1756533147 * ___currentScrollHandler0, PointerEventData_t1599784723 * ___pointerData1, Vector2_t2243707579  ___currentScroll2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerScrollInput_OnTouchingScrollHandler_m4126706409_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ScrollInfo_t361410461 * V_0 = NULL;
+	{
+		V_0 = (ScrollInfo_t361410461 *)NULL;
+		Dictionary_2_t3691755905 * L_0 = __this->get_scrollHandlers_15();
+		GameObject_t1756533147 * L_1 = ___currentScrollHandler0;
+		NullCheck(L_0);
+		bool L_2 = Dictionary_2_ContainsKey_m2291226382(L_0, L_1, /*hidden argument*/Dictionary_2_ContainsKey_m2291226382_MethodInfo_var);
+		if (L_2)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_3 = ___currentScrollHandler0;
+		Vector2_t2243707579  L_4 = ___currentScroll2;
+		ScrollInfo_t361410461 * L_5 = GvrPointerScrollInput_AddScrollHandler_m2774143106(__this, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		goto IL_0033;
+	}
+
+IL_0024:
+	{
+		Dictionary_2_t3691755905 * L_6 = __this->get_scrollHandlers_15();
+		GameObject_t1756533147 * L_7 = ___currentScrollHandler0;
+		NullCheck(L_6);
+		ScrollInfo_t361410461 * L_8 = Dictionary_2_get_Item_m2672034133(L_6, L_7, /*hidden argument*/Dictionary_2_get_Item_m2672034133_MethodInfo_var);
+		V_0 = L_8;
+	}
+
+IL_0033:
+	{
+		ScrollInfo_t361410461 * L_9 = V_0;
+		Vector2_t2243707579  L_10 = ___currentScroll2;
+		bool L_11 = GvrPointerScrollInput_CanScrollStart_m4179029950(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		if (!L_11)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		ScrollInfo_t361410461 * L_12 = V_0;
+		NullCheck(L_12);
+		L_12->set_isScrolling_0((bool)1);
+	}
+
+IL_0048:
+	{
+		ScrollInfo_t361410461 * L_13 = V_0;
+		NullCheck(L_13);
+		bool L_14 = L_13->get_isScrolling_0();
+		if (!L_14)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		bool L_15 = __this->get_inertia_2();
+		if (!L_15)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		ScrollInfo_t361410461 * L_16 = V_0;
+		Vector2_t2243707579  L_17 = ___currentScroll2;
+		GvrPointerScrollInput_UpdateVelocity_m4210073505(__this, L_16, L_17, /*hidden argument*/NULL);
+		goto IL_009a;
+	}
+
+IL_006e:
+	{
+		PointerEventData_t1599784723 * L_18 = ___pointerData1;
+		Vector2_t2243707579  L_19 = ___currentScroll2;
+		ScrollInfo_t361410461 * L_20 = V_0;
+		NullCheck(L_20);
+		Vector2_t2243707579  L_21 = L_20->get_lastScroll_2();
+		Vector2_t2243707579  L_22 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_19, L_21, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		PointerEventData_set_scrollDelta_m4002219844(L_18, L_22, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_23 = ___currentScrollHandler0;
+		PointerEventData_t1599784723 * L_24 = ___pointerData1;
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t2331828160 * L_25 = ExecuteEvents_get_scrollHandler_m2797719886(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_ExecuteHierarchy_TisIScrollHandler_t3834677510_m3398003692(NULL /*static, unused*/, L_23, L_24, L_25, /*hidden argument*/ExecuteEvents_ExecuteHierarchy_TisIScrollHandler_t3834677510_m3398003692_MethodInfo_var);
+		PointerEventData_t1599784723 * L_26 = ___pointerData1;
+		Vector2_t2243707579  L_27 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		PointerEventData_set_scrollDelta_m4002219844(L_26, L_27, /*hidden argument*/NULL);
+	}
+
+IL_009a:
+	{
+	}
+
+IL_009b:
+	{
+		ScrollInfo_t361410461 * L_28 = V_0;
+		Vector2_t2243707579  L_29 = ___currentScroll2;
+		NullCheck(L_28);
+		L_28->set_lastScroll_2(L_29);
+		return;
+	}
+}
+// System.Void GvrPointerScrollInput::OnReleaseScrollHandler(UnityEngine.GameObject)
+extern const MethodInfo* Dictionary_2_TryGetValue_m3941663810_MethodInfo_var;
+extern const uint32_t GvrPointerScrollInput_OnReleaseScrollHandler_m901549917_MetadataUsageId;
+extern "C"  void GvrPointerScrollInput_OnReleaseScrollHandler_m901549917 (GvrPointerScrollInput_t4200958609 * __this, GameObject_t1756533147 * ___currentScrollHandler0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerScrollInput_OnReleaseScrollHandler_m901549917_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ScrollInfo_t361410461 * V_0 = NULL;
+	{
+		Dictionary_2_t3691755905 * L_0 = __this->get_scrollHandlers_15();
+		GameObject_t1756533147 * L_1 = ___currentScrollHandler0;
+		NullCheck(L_0);
+		bool L_2 = Dictionary_2_TryGetValue_m3941663810(L_0, L_1, (&V_0), /*hidden argument*/Dictionary_2_TryGetValue_m3941663810_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		ScrollInfo_t361410461 * L_3 = V_0;
+		NullCheck(L_3);
+		bool L_4 = L_3->get_isScrolling_0();
+		if (!L_4)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		ScrollInfo_t361410461 * L_5 = V_0;
+		NullCheck(L_5);
+		Vector2_t2243707579 * L_6 = L_5->get_address_of_scrollVelocity_3();
+		float L_7 = Vector2_get_sqrMagnitude_m1226294581(L_6, /*hidden argument*/NULL);
+		if ((!(((float)L_7) <= ((float)(40000.0f)))))
+		{
+			goto IL_003e;
+		}
+	}
+
+IL_0035:
+	{
+		GameObject_t1756533147 * L_8 = ___currentScrollHandler0;
+		GvrPointerScrollInput_RemoveScrollHandler_m392050987(__this, L_8, /*hidden argument*/NULL);
+	}
+
+IL_003e:
+	{
+	}
+
+IL_003f:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerScrollInput::UpdateVelocity(GvrPointerScrollInput/ScrollInfo,UnityEngine.Vector2)
+extern "C"  void GvrPointerScrollInput_UpdateVelocity_m4210073505 (GvrPointerScrollInput_t4200958609 * __this, ScrollInfo_t361410461 * ___scrollInfo0, Vector2_t2243707579  ___currentScroll1, const MethodInfo* method)
+{
+	Vector2_t2243707579  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector2_t2243707579  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	{
+		Vector2_t2243707579  L_0 = ___currentScroll1;
+		ScrollInfo_t361410461 * L_1 = ___scrollInfo0;
+		NullCheck(L_1);
+		Vector2_t2243707579  L_2 = L_1->get_lastScroll_2();
+		Vector2_t2243707579  L_3 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_0, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Vector2_t2243707579  L_4 = V_0;
+		float L_5 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_6 = Vector2_op_Division_m96580069(NULL /*static, unused*/, L_4, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		float L_7 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_8 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = ((float)((float)L_7/(float)((float)((float)(0.0159154944f)+(float)L_8))));
+		ScrollInfo_t361410461 * L_9 = ___scrollInfo0;
+		ScrollInfo_t361410461 * L_10 = ___scrollInfo0;
+		NullCheck(L_10);
+		Vector2_t2243707579  L_11 = L_10->get_scrollVelocity_3();
+		Vector2_t2243707579  L_12 = V_1;
+		float L_13 = V_2;
+		Vector2_t2243707579  L_14 = Vector2_Lerp_m1511850087(NULL /*static, unused*/, L_11, L_12, L_13, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		L_9->set_scrollVelocity_3(L_14);
+		return;
+	}
+}
+// System.Void GvrPointerScrollInput::StopScrollingIfNecessary(System.Boolean,UnityEngine.GameObject)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_get_Count_m4049479355_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m2764296230_MethodInfo_var;
+extern const MethodInfo* List_1_get_Item_m939767277_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2672034133_MethodInfo_var;
+extern const uint32_t GvrPointerScrollInput_StopScrollingIfNecessary_m3011539456_MetadataUsageId;
+extern "C"  void GvrPointerScrollInput_StopScrollingIfNecessary_m3011539456 (GvrPointerScrollInput_t4200958609 * __this, bool ___touching0, GameObject_t1756533147 * ___currentScrollHandler1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerScrollInput_StopScrollingIfNecessary_m3011539456_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GameObject_t1756533147 * V_1 = NULL;
+	ScrollInfo_t361410461 * V_2 = NULL;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	int32_t G_B6_0 = 0;
+	int32_t G_B9_0 = 0;
+	int32_t G_B15_0 = 0;
+	int32_t G_B17_0 = 0;
+	{
+		Dictionary_2_t3691755905 * L_0 = __this->get_scrollHandlers_15();
+		NullCheck(L_0);
+		int32_t L_1 = Dictionary_2_get_Count_m4049479355(L_0, /*hidden argument*/Dictionary_2_get_Count_m4049479355_MethodInfo_var);
+		if (L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		goto IL_00ca;
+	}
+
+IL_0017:
+	{
+		List_1_t1125654279 * L_2 = __this->get_scrollingObjects_16();
+		NullCheck(L_2);
+		int32_t L_3 = List_1_get_Count_m2764296230(L_2, /*hidden argument*/List_1_get_Count_m2764296230_MethodInfo_var);
+		V_0 = ((int32_t)((int32_t)L_3-(int32_t)1));
+		goto IL_00c3;
+	}
+
+IL_002a:
+	{
+		List_1_t1125654279 * L_4 = __this->get_scrollingObjects_16();
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_6 = List_1_get_Item_m939767277(L_4, L_5, /*hidden argument*/List_1_get_Item_m939767277_MethodInfo_var);
+		V_1 = L_6;
+		Dictionary_2_t3691755905 * L_7 = __this->get_scrollHandlers_15();
+		GameObject_t1756533147 * L_8 = V_1;
+		NullCheck(L_7);
+		ScrollInfo_t361410461 * L_9 = Dictionary_2_get_Item_m2672034133(L_7, L_8, /*hidden argument*/Dictionary_2_get_Item_m2672034133_MethodInfo_var);
+		V_2 = L_9;
+		ScrollInfo_t361410461 * L_10 = V_2;
+		NullCheck(L_10);
+		bool L_11 = L_10->get_isScrolling_0();
+		V_3 = L_11;
+		bool L_12 = V_3;
+		if (!L_12)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		ScrollInfo_t361410461 * L_13 = V_2;
+		NullCheck(L_13);
+		Vector2_t2243707579 * L_14 = L_13->get_address_of_scrollVelocity_3();
+		float L_15 = Vector2_get_sqrMagnitude_m1226294581(L_14, /*hidden argument*/NULL);
+		G_B6_0 = ((((int32_t)((!(((float)L_15) <= ((float)(2500.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_006a;
+	}
+
+IL_0069:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_006a:
+	{
+		V_4 = (bool)G_B6_0;
+		bool L_16 = ___touching0;
+		if (!L_16)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_17 = V_1;
+		GameObject_t1756533147 * L_18 = ___currentScrollHandler1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_19 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		G_B9_0 = ((int32_t)(L_19));
+		goto IL_007c;
+	}
+
+IL_007b:
+	{
+		G_B9_0 = 0;
+	}
+
+IL_007c:
+	{
+		V_5 = (bool)G_B9_0;
+		bool L_20 = __this->get_inertia_2();
+		if (!L_20)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		bool L_21 = V_4;
+		if (L_21)
+		{
+			goto IL_00ab;
+		}
+	}
+
+IL_0090:
+	{
+		bool L_22 = __this->get_inertia_2();
+		if (!L_22)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		bool L_23 = V_3;
+		if (L_23)
+		{
+			goto IL_00a8;
+		}
+	}
+
+IL_00a1:
+	{
+		bool L_24 = V_5;
+		G_B15_0 = ((((int32_t)L_24) == ((int32_t)0))? 1 : 0);
+		goto IL_00a9;
+	}
+
+IL_00a8:
+	{
+		G_B15_0 = 0;
+	}
+
+IL_00a9:
+	{
+		G_B17_0 = G_B15_0;
+		goto IL_00ac;
+	}
+
+IL_00ab:
+	{
+		G_B17_0 = 1;
+	}
+
+IL_00ac:
+	{
+		V_6 = (bool)G_B17_0;
+		bool L_25 = V_6;
+		if (!L_25)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_26 = V_1;
+		GvrPointerScrollInput_RemoveScrollHandler_m392050987(__this, L_26, /*hidden argument*/NULL);
+	}
+
+IL_00be:
+	{
+		int32_t L_27 = V_0;
+		V_0 = ((int32_t)((int32_t)L_27-(int32_t)1));
+	}
+
+IL_00c3:
+	{
+		int32_t L_28 = V_0;
+		if ((((int32_t)L_28) >= ((int32_t)0)))
+		{
+			goto IL_002a;
+		}
+	}
+
+IL_00ca:
+	{
+		return;
+	}
+}
+// System.Void GvrPointerScrollInput::UpdateInertiaScrollHandlers(System.Boolean,UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData)
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppClass* ExecuteEvents_t1693084770_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_get_Item_m939767277_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_get_Item_m2672034133_MethodInfo_var;
+extern const MethodInfo* ExecuteEvents_ExecuteHierarchy_TisIScrollHandler_t3834677510_m3398003692_MethodInfo_var;
+extern const MethodInfo* List_1_get_Count_m2764296230_MethodInfo_var;
+extern const uint32_t GvrPointerScrollInput_UpdateInertiaScrollHandlers_m3158821646_MetadataUsageId;
+extern "C"  void GvrPointerScrollInput_UpdateInertiaScrollHandlers_m3158821646 (GvrPointerScrollInput_t4200958609 * __this, bool ___touching0, GameObject_t1756533147 * ___currentScrollHandler1, PointerEventData_t1599784723 * ___pointerData2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerScrollInput_UpdateInertiaScrollHandlers_m3158821646_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GameObject_t1756533147 * V_1 = NULL;
+	ScrollInfo_t361410461 * V_2 = NULL;
+	{
+		bool L_0 = __this->get_inertia_2();
+		if (!L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_1 = ___pointerData2;
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+
+IL_0012:
+	{
+		goto IL_00c0;
+	}
+
+IL_0018:
+	{
+		V_0 = 0;
+		goto IL_00a4;
+	}
+
+IL_001f:
+	{
+		List_1_t1125654279 * L_2 = __this->get_scrollingObjects_16();
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		GameObject_t1756533147 * L_4 = List_1_get_Item_m939767277(L_2, L_3, /*hidden argument*/List_1_get_Item_m939767277_MethodInfo_var);
+		V_1 = L_4;
+		Dictionary_2_t3691755905 * L_5 = __this->get_scrollHandlers_15();
+		GameObject_t1756533147 * L_6 = V_1;
+		NullCheck(L_5);
+		ScrollInfo_t361410461 * L_7 = Dictionary_2_get_Item_m2672034133(L_5, L_6, /*hidden argument*/Dictionary_2_get_Item_m2672034133_MethodInfo_var);
+		V_2 = L_7;
+		ScrollInfo_t361410461 * L_8 = V_2;
+		NullCheck(L_8);
+		bool L_9 = L_8->get_isScrolling_0();
+		if (!L_9)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		bool L_10 = ___touching0;
+		if (!L_10)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_11 = V_1;
+		GameObject_t1756533147 * L_12 = ___currentScrollHandler1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_13 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_007b;
+		}
+	}
+
+IL_0058:
+	{
+		ScrollInfo_t361410461 * L_14 = V_2;
+		ScrollInfo_t361410461 * L_15 = L_14;
+		NullCheck(L_15);
+		Vector2_t2243707579  L_16 = L_15->get_scrollVelocity_3();
+		float L_17 = __this->get_decelerationRate_3();
+		float L_18 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_19 = powf(L_17, L_18);
+		Vector2_t2243707579  L_20 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_16, L_19, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		L_15->set_scrollVelocity_3(L_20);
+	}
+
+IL_007b:
+	{
+		PointerEventData_t1599784723 * L_21 = ___pointerData2;
+		ScrollInfo_t361410461 * L_22 = V_2;
+		NullCheck(L_22);
+		Vector2_t2243707579  L_23 = L_22->get_scrollVelocity_3();
+		float L_24 = Time_get_deltaTime_m2233168104(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_25 = Vector2_op_Multiply_m4236139442(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		PointerEventData_set_scrollDelta_m4002219844(L_21, L_25, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_26 = V_1;
+		PointerEventData_t1599784723 * L_27 = ___pointerData2;
+		IL2CPP_RUNTIME_CLASS_INIT(ExecuteEvents_t1693084770_il2cpp_TypeInfo_var);
+		EventFunction_1_t2331828160 * L_28 = ExecuteEvents_get_scrollHandler_m2797719886(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecuteEvents_ExecuteHierarchy_TisIScrollHandler_t3834677510_m3398003692(NULL /*static, unused*/, L_26, L_27, L_28, /*hidden argument*/ExecuteEvents_ExecuteHierarchy_TisIScrollHandler_t3834677510_m3398003692_MethodInfo_var);
+	}
+
+IL_009f:
+	{
+		int32_t L_29 = V_0;
+		V_0 = ((int32_t)((int32_t)L_29+(int32_t)1));
+	}
+
+IL_00a4:
+	{
+		int32_t L_30 = V_0;
+		List_1_t1125654279 * L_31 = __this->get_scrollingObjects_16();
+		NullCheck(L_31);
+		int32_t L_32 = List_1_get_Count_m2764296230(L_31, /*hidden argument*/List_1_get_Count_m2764296230_MethodInfo_var);
+		if ((((int32_t)L_30) < ((int32_t)L_32)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		PointerEventData_t1599784723 * L_33 = ___pointerData2;
+		Vector2_t2243707579  L_34 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_33);
+		PointerEventData_set_scrollDelta_m4002219844(L_33, L_34, /*hidden argument*/NULL);
+	}
+
+IL_00c0:
+	{
+		return;
+	}
+}
+// GvrPointerScrollInput/ScrollInfo GvrPointerScrollInput::AddScrollHandler(UnityEngine.GameObject,UnityEngine.Vector2)
+extern Il2CppClass* ScrollInfo_t361410461_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m2390510006_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m3441471442_MethodInfo_var;
+extern const uint32_t GvrPointerScrollInput_AddScrollHandler_m2774143106_MetadataUsageId;
+extern "C"  ScrollInfo_t361410461 * GvrPointerScrollInput_AddScrollHandler_m2774143106 (GvrPointerScrollInput_t4200958609 * __this, GameObject_t1756533147 * ___scrollHandler0, Vector2_t2243707579  ___currentScroll1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerScrollInput_AddScrollHandler_m2774143106_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ScrollInfo_t361410461 * V_0 = NULL;
+	ScrollInfo_t361410461 * V_1 = NULL;
+	{
+		ScrollInfo_t361410461 * L_0 = (ScrollInfo_t361410461 *)il2cpp_codegen_object_new(ScrollInfo_t361410461_il2cpp_TypeInfo_var);
+		ScrollInfo__ctor_m919669038(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		ScrollInfo_t361410461 * L_1 = V_0;
+		Vector2_t2243707579  L_2 = ___currentScroll1;
+		NullCheck(L_1);
+		L_1->set_initScroll_1(L_2);
+		ScrollInfo_t361410461 * L_3 = V_0;
+		Vector2_t2243707579  L_4 = ___currentScroll1;
+		NullCheck(L_3);
+		L_3->set_lastScroll_2(L_4);
+		Dictionary_2_t3691755905 * L_5 = __this->get_scrollHandlers_15();
+		GameObject_t1756533147 * L_6 = ___scrollHandler0;
+		ScrollInfo_t361410461 * L_7 = V_0;
+		NullCheck(L_5);
+		Dictionary_2_set_Item_m2390510006(L_5, L_6, L_7, /*hidden argument*/Dictionary_2_set_Item_m2390510006_MethodInfo_var);
+		List_1_t1125654279 * L_8 = __this->get_scrollingObjects_16();
+		GameObject_t1756533147 * L_9 = ___scrollHandler0;
+		NullCheck(L_8);
+		List_1_Add_m3441471442(L_8, L_9, /*hidden argument*/List_1_Add_m3441471442_MethodInfo_var);
+		ScrollInfo_t361410461 * L_10 = V_0;
+		V_1 = L_10;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		ScrollInfo_t361410461 * L_11 = V_1;
+		return L_11;
+	}
+}
+// System.Void GvrPointerScrollInput::RemoveScrollHandler(UnityEngine.GameObject)
+extern const MethodInfo* Dictionary_2_ContainsKey_m2291226382_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_Remove_m2599737302_MethodInfo_var;
+extern const MethodInfo* List_1_Remove_m2287078133_MethodInfo_var;
+extern const uint32_t GvrPointerScrollInput_RemoveScrollHandler_m392050987_MetadataUsageId;
+extern "C"  void GvrPointerScrollInput_RemoveScrollHandler_m392050987 (GvrPointerScrollInput_t4200958609 * __this, GameObject_t1756533147 * ___scrollHandler0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerScrollInput_RemoveScrollHandler_m392050987_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = ___scrollHandler0;
+		bool L_1 = Object_Equals_m969736273(NULL /*static, unused*/, L_0, NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		goto IL_0044;
+	}
+
+IL_0013:
+	{
+		Dictionary_2_t3691755905 * L_2 = __this->get_scrollHandlers_15();
+		GameObject_t1756533147 * L_3 = ___scrollHandler0;
+		NullCheck(L_2);
+		bool L_4 = Dictionary_2_ContainsKey_m2291226382(L_2, L_3, /*hidden argument*/Dictionary_2_ContainsKey_m2291226382_MethodInfo_var);
+		if (L_4)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		goto IL_0044;
+	}
+
+IL_002a:
+	{
+		Dictionary_2_t3691755905 * L_5 = __this->get_scrollHandlers_15();
+		GameObject_t1756533147 * L_6 = ___scrollHandler0;
+		NullCheck(L_5);
+		Dictionary_2_Remove_m2599737302(L_5, L_6, /*hidden argument*/Dictionary_2_Remove_m2599737302_MethodInfo_var);
+		List_1_t1125654279 * L_7 = __this->get_scrollingObjects_16();
+		GameObject_t1756533147 * L_8 = ___scrollHandler0;
+		NullCheck(L_7);
+		List_1_Remove_m2287078133(L_7, L_8, /*hidden argument*/List_1_Remove_m2287078133_MethodInfo_var);
+	}
+
+IL_0044:
+	{
+		return;
+	}
+}
+// System.Boolean GvrPointerScrollInput::CanScrollStart(GvrPointerScrollInput/ScrollInfo,UnityEngine.Vector2)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPointerScrollInput_CanScrollStart_m4179029950_MetadataUsageId;
+extern "C"  bool GvrPointerScrollInput_CanScrollStart_m4179029950 (Il2CppObject * __this /* static, unused */, ScrollInfo_t361410461 * ___scrollInfo0, Vector2_t2243707579  ___currentScroll1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPointerScrollInput_CanScrollStart_m4179029950_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
+	{
+		ScrollInfo_t361410461 * L_0 = ___scrollInfo0;
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		V_0 = (bool)0;
+		goto IL_005c;
+	}
+
+IL_000f:
+	{
+		float L_1 = (&___currentScroll1)->get_x_0();
+		ScrollInfo_t361410461 * L_2 = ___scrollInfo0;
+		NullCheck(L_2);
+		Vector2_t2243707579 * L_3 = L_2->get_address_of_initScroll_1();
+		float L_4 = L_3->get_x_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_5 = fabsf(((float)((float)L_1-(float)L_4)));
+		if ((((float)L_5) >= ((float)(150.0f))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		float L_6 = (&___currentScroll1)->get_y_1();
+		ScrollInfo_t361410461 * L_7 = ___scrollInfo0;
+		NullCheck(L_7);
+		Vector2_t2243707579 * L_8 = L_7->get_address_of_initScroll_1();
+		float L_9 = L_8->get_y_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_10 = fabsf(((float)((float)L_6-(float)L_9)));
+		G_B5_0 = ((((int32_t)((!(((float)L_10) >= ((float)(165.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0056;
+	}
+
+IL_0055:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_0056:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		bool L_11 = V_0;
+		return L_11;
+	}
+}
+// System.Void GvrPointerScrollInput/ScrollInfo::.ctor()
+extern "C"  void ScrollInfo__ctor_m919669038 (ScrollInfo_t361410461 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_isScrolling_0((bool)0);
+		Vector2_t2243707579  L_0 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_initScroll_1(L_0);
+		Vector2_t2243707579  L_1 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_lastScroll_2(L_1);
+		Vector2_t2243707579  L_2 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_scrollVelocity_3(L_2);
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPostRender::.ctor()
+extern "C"  void GvrPostRender__ctor_m2044349382 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Camera GvrPostRender::get_cam()
+extern "C"  Camera_t189460977 * GvrPostRender_get_cam_m3511957665 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	Camera_t189460977 * V_0 = NULL;
+	{
+		Camera_t189460977 * L_0 = __this->get_U3CcamU3Ek__BackingField_2();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Camera_t189460977 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrPostRender::set_cam(UnityEngine.Camera)
+extern "C"  void GvrPostRender_set_cam_m412675150 (GvrPostRender_t3118402863 * __this, Camera_t189460977 * ___value0, const MethodInfo* method)
+{
+	{
+		Camera_t189460977 * L_0 = ___value0;
+		__this->set_U3CcamU3Ek__BackingField_2(L_0);
+		return;
+	}
+}
+// System.Void GvrPostRender::Reset()
+extern "C"  void GvrPostRender_Reset_m3552744827 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	{
+		Camera_t189460977 * L_0 = GvrPostRender_get_cam_m3511957665(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Camera_set_clearFlags_m4142614199(L_0, 3, /*hidden argument*/NULL);
+		Camera_t189460977 * L_1 = GvrPostRender_get_cam_m3511957665(__this, /*hidden argument*/NULL);
+		Color_t2020392075  L_2 = Color_get_magenta_m3193089961(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Camera_set_backgroundColor_m2927893592(L_1, L_2, /*hidden argument*/NULL);
+		Camera_t189460977 * L_3 = GvrPostRender_get_cam_m3511957665(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Camera_set_orthographic_m2132888580(L_3, (bool)1, /*hidden argument*/NULL);
+		Camera_t189460977 * L_4 = GvrPostRender_get_cam_m3511957665(__this, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Camera_set_orthographicSize_m2708824189(L_4, (0.5f), /*hidden argument*/NULL);
+		Camera_t189460977 * L_5 = GvrPostRender_get_cam_m3511957665(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Camera_set_cullingMask_m2396665826(L_5, 0, /*hidden argument*/NULL);
+		Camera_t189460977 * L_6 = GvrPostRender_get_cam_m3511957665(__this, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Camera_set_useOcclusionCulling_m1109242406(L_6, (bool)0, /*hidden argument*/NULL);
+		Camera_t189460977 * L_7 = GvrPostRender_get_cam_m3511957665(__this, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Camera_set_depth_m1570376177(L_7, (100.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPostRender::Awake()
+extern Il2CppClass* Material_t193706927_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1403905319;
+extern Il2CppCodeGenString* _stringLiteral1717247080;
+extern const uint32_t GvrPostRender_Awake_m2127890511_MetadataUsageId;
+extern "C"  void GvrPostRender_Awake_m2127890511 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPostRender_Awake_m2127890511_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Camera_t189460977 * L_0 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		GvrPostRender_set_cam_m412675150(__this, L_0, /*hidden argument*/NULL);
+		GvrPostRender_Reset_m3552744827(__this, /*hidden argument*/NULL);
+		Shader_t2430389951 * L_1 = Shader_Find_m4179408078(NULL /*static, unused*/, _stringLiteral1403905319, /*hidden argument*/NULL);
+		Material_t193706927 * L_2 = (Material_t193706927 *)il2cpp_codegen_object_new(Material_t193706927_il2cpp_TypeInfo_var);
+		Material__ctor_m1897560860(L_2, L_1, /*hidden argument*/NULL);
+		__this->set_meshMaterial_7(L_2);
+		Shader_t2430389951 * L_3 = Shader_Find_m4179408078(NULL /*static, unused*/, _stringLiteral1717247080, /*hidden argument*/NULL);
+		Material_t193706927 * L_4 = (Material_t193706927 *)il2cpp_codegen_object_new(Material_t193706927_il2cpp_TypeInfo_var);
+		Material__ctor_m1897560860(L_4, L_3, /*hidden argument*/NULL);
+		__this->set_uiMaterial_8(L_4);
+		Material_t193706927 * L_5 = __this->get_uiMaterial_8();
+		Color_t2020392075  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		Color__ctor_m3811852957(&L_6, (0.8f), (0.8f), (0.8f), /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Material_set_color_m577844242(L_5, L_6, /*hidden argument*/NULL);
+		bool L_7 = Application_get_isEditor_m2474583393(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_7)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		GvrPostRender_ComputeUIMatrix_m2561962368(__this, /*hidden argument*/NULL);
+	}
+
+IL_006e:
+	{
+		return;
+	}
+}
+// System.Void GvrPostRender::OnRenderObject()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern Il2CppClass* Graphics_t2412809155_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPostRender_OnRenderObject_m4182735842_MetadataUsageId;
+extern "C"  void GvrPostRender_OnRenderObject_m4182735842 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPostRender_OnRenderObject_m4182735842_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RenderTexture_t2666733923 * V_1 = NULL;
+	{
+		Camera_t189460977 * L_0 = Camera_get_current_m2639890517(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_1 = GvrPostRender_get_cam_m3511957665(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		goto IL_00fc;
+	}
+
+IL_001b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_3 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		GvrViewer_UpdateState_m198584744(L_3, /*hidden argument*/NULL);
+		GvrViewer_t2583885279 * L_4 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		int32_t L_5 = GvrViewer_get_DistortionCorrection_m344197281(L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		GvrViewer_t2583885279 * L_6 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		RenderTexture_t2666733923 * L_7 = GvrViewer_get_StereoScreen_m1411059804(L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
+		RenderTexture_t2666733923 * L_8 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_9 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_8, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (L_9)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		int32_t L_10 = V_0;
+		if (L_10)
+		{
+			goto IL_0053;
+		}
+	}
+
+IL_004d:
+	{
+		goto IL_00fc;
+	}
+
+IL_0053:
+	{
+		int32_t L_11 = V_0;
+		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_12 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		bool L_13 = GvrViewer_get_NativeDistortionCorrectionSupported_m1003708717(L_12, /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_14 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RenderTexture_t2666733923 * L_15 = V_1;
+		NullCheck(L_14);
+		GvrViewer_PostRender_m1925707770(L_14, L_15, /*hidden argument*/NULL);
+		goto IL_00df;
+	}
+
+IL_007b:
+	{
+		Mesh_t1356156583 * L_16 = __this->get_distortionMesh_6();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_17 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_16, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (L_17)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_18 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		bool L_19 = GvrViewer_get_ProfileChanged_m1394279288(L_18, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00a4;
+		}
+	}
+
+IL_009c:
+	{
+		GvrPostRender_RebuildDistortionMesh_m1296171427(__this, /*hidden argument*/NULL);
+	}
+
+IL_00a4:
+	{
+		Material_t193706927 * L_20 = __this->get_meshMaterial_7();
+		RenderTexture_t2666733923 * L_21 = V_1;
+		NullCheck(L_20);
+		Material_set_mainTexture_m3584203343(L_20, L_21, /*hidden argument*/NULL);
+		Material_t193706927 * L_22 = __this->get_meshMaterial_7();
+		NullCheck(L_22);
+		Material_SetPass_m2448940266(L_22, 0, /*hidden argument*/NULL);
+		Mesh_t1356156583 * L_23 = __this->get_distortionMesh_6();
+		Transform_t3275118058 * L_24 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		Vector3_t2243707580  L_25 = Transform_get_position_m1104419803(L_24, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_26 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		Quaternion_t4030073918  L_27 = Transform_get_rotation_m1033555130(L_26, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t2412809155_il2cpp_TypeInfo_var);
+		Graphics_DrawMeshNow_m1246246447(NULL /*static, unused*/, L_23, L_25, L_27, /*hidden argument*/NULL);
+	}
+
+IL_00df:
+	{
+		RenderTexture_t2666733923 * L_28 = V_1;
+		NullCheck(L_28);
+		RenderTexture_DiscardContents_m748499988(L_28, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_29 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		bool L_30 = GvrViewer_get_NativeUILayerSupported_m3446913203(L_29, /*hidden argument*/NULL);
+		if (L_30)
+		{
+			goto IL_00fc;
+		}
+	}
+	{
+		GvrPostRender_DrawUILayer_m4003549693(__this, /*hidden argument*/NULL);
+	}
+
+IL_00fc:
+	{
+		return;
+	}
+}
+// System.Void GvrPostRender::RebuildDistortionMesh()
+extern Il2CppClass* Mesh_t1356156583_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrPostRender_t3118402863_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPostRender_RebuildDistortionMesh_m1296171427_MetadataUsageId;
+extern "C"  void GvrPostRender_RebuildDistortionMesh_m1296171427 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPostRender_RebuildDistortionMesh_m1296171427_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3U5BU5D_t1172311765* V_0 = NULL;
+	Vector2U5BU5D_t686124026* V_1 = NULL;
+	Int32U5BU5D_t3030399641* V_2 = NULL;
+	ColorU5BU5D_t672350442* V_3 = NULL;
+	{
+		Mesh_t1356156583 * L_0 = (Mesh_t1356156583 *)il2cpp_codegen_object_new(Mesh_t1356156583_il2cpp_TypeInfo_var);
+		Mesh__ctor_m2975981674(L_0, /*hidden argument*/NULL);
+		__this->set_distortionMesh_6(L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPostRender_t3118402863_il2cpp_TypeInfo_var);
+		GvrPostRender_ComputeMeshPoints_m2844100249(NULL /*static, unused*/, ((int32_t)40), ((int32_t)40), (bool)1, (&V_0), (&V_1), /*hidden argument*/NULL);
+		Int32U5BU5D_t3030399641* L_1 = GvrPostRender_ComputeMeshIndices_m3806724052(NULL /*static, unused*/, ((int32_t)40), ((int32_t)40), (bool)1, /*hidden argument*/NULL);
+		V_2 = L_1;
+		Vector2U5BU5D_t686124026* L_2 = V_1;
+		Int32U5BU5D_t3030399641* L_3 = V_2;
+		ColorU5BU5D_t672350442* L_4 = GvrPostRender_ComputeMeshColors_m2562327671(NULL /*static, unused*/, ((int32_t)40), ((int32_t)40), L_2, L_3, (bool)1, /*hidden argument*/NULL);
+		V_3 = L_4;
+		Mesh_t1356156583 * L_5 = __this->get_distortionMesh_6();
+		Vector3U5BU5D_t1172311765* L_6 = V_0;
+		NullCheck(L_5);
+		Mesh_set_vertices_m2936804213(L_5, L_6, /*hidden argument*/NULL);
+		Mesh_t1356156583 * L_7 = __this->get_distortionMesh_6();
+		Vector2U5BU5D_t686124026* L_8 = V_1;
+		NullCheck(L_7);
+		Mesh_set_uv_m1497318906(L_7, L_8, /*hidden argument*/NULL);
+		Mesh_t1356156583 * L_9 = __this->get_distortionMesh_6();
+		ColorU5BU5D_t672350442* L_10 = V_3;
+		NullCheck(L_9);
+		Mesh_set_colors_m864557505(L_9, L_10, /*hidden argument*/NULL);
+		Mesh_t1356156583 * L_11 = __this->get_distortionMesh_6();
+		Int32U5BU5D_t3030399641* L_12 = V_2;
+		NullCheck(L_11);
+		Mesh_set_triangles_m3244966865(L_11, L_12, /*hidden argument*/NULL);
+		Mesh_t1356156583 * L_13 = __this->get_distortionMesh_6();
+		NullCheck(L_13);
+		Mesh_UploadMeshData_m3706486265(L_13, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPostRender::ComputeMeshPoints(System.Int32,System.Int32,System.Boolean,UnityEngine.Vector3[]&,UnityEngine.Vector2[]&)
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var;
+extern Il2CppClass* Vector2U5BU5D_t686124026_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPostRender_ComputeMeshPoints_m2844100249_MetadataUsageId;
+extern "C"  void GvrPostRender_ComputeMeshPoints_m2844100249 (Il2CppObject * __this /* static, unused */, int32_t ___width0, int32_t ___height1, bool ___distortVertices2, Vector3U5BU5D_t1172311765** ___vertices3, Vector2U5BU5D_t686124026** ___tex4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPostRender_ComputeMeshPoints_m2844100249_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	SingleU5BU5D_t577127397* V_0 = NULL;
+	SingleU5BU5D_t577127397* V_1 = NULL;
+	Rect_t3681755626  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	GvrProfile_t2070273202 * V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	float V_15 = 0.0f;
+	float V_16 = 0.0f;
+	float V_17 = 0.0f;
+	float V_18 = 0.0f;
+	float V_19 = 0.0f;
+	float V_20 = 0.0f;
+	float V_21 = 0.0f;
+	float V_22 = 0.0f;
+	float V_23 = 0.0f;
+	float V_24 = 0.0f;
+	float V_25 = 0.0f;
+	{
+		V_0 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)4));
+		V_1 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)4));
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_0 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GvrProfile_t2070273202 * L_1 = GvrViewer_get_Profile_m109673263(L_0, /*hidden argument*/NULL);
+		V_3 = L_1;
+		GvrProfile_t2070273202 * L_2 = V_3;
+		SingleU5BU5D_t577127397* L_3 = V_0;
+		NullCheck(L_2);
+		GvrProfile_GetLeftEyeVisibleTanAngles_m163412083(L_2, L_3, /*hidden argument*/NULL);
+		GvrProfile_t2070273202 * L_4 = V_3;
+		SingleU5BU5D_t577127397* L_5 = V_1;
+		NullCheck(L_4);
+		GvrProfile_GetLeftEyeNoLensTanAngles_m1542233222(L_4, L_5, /*hidden argument*/NULL);
+		GvrProfile_t2070273202 * L_6 = V_3;
+		SingleU5BU5D_t577127397* L_7 = V_1;
+		NullCheck(L_6);
+		Rect_t3681755626  L_8 = GvrProfile_GetLeftEyeVisibleScreenRect_m1327064272(L_6, L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
+		Vector3U5BU5D_t1172311765** L_9 = ___vertices3;
+		int32_t L_10 = ___width0;
+		int32_t L_11 = ___height1;
+		*((Il2CppObject **)(L_9)) = (Il2CppObject *)((Vector3U5BU5D_t1172311765*)SZArrayNew(Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_10))*(int32_t)L_11))));
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_9), (Il2CppObject *)((Vector3U5BU5D_t1172311765*)SZArrayNew(Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_10))*(int32_t)L_11)))));
+		Vector2U5BU5D_t686124026** L_12 = ___tex4;
+		int32_t L_13 = ___width0;
+		int32_t L_14 = ___height1;
+		*((Il2CppObject **)(L_12)) = (Il2CppObject *)((Vector2U5BU5D_t686124026*)SZArrayNew(Vector2U5BU5D_t686124026_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_13))*(int32_t)L_14))));
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_12), (Il2CppObject *)((Vector2U5BU5D_t686124026*)SZArrayNew(Vector2U5BU5D_t686124026_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_13))*(int32_t)L_14)))));
+		V_4 = 0;
+		V_5 = 0;
+		goto IL_029d;
+	}
+
+IL_0054:
+	{
+		V_6 = 0;
+		goto IL_023a;
+	}
+
+IL_005d:
+	{
+		V_7 = 0;
+		goto IL_022b;
+	}
+
+IL_0066:
+	{
+		int32_t L_15 = V_7;
+		int32_t L_16 = ___width0;
+		V_8 = ((float)((float)(((float)((float)L_15)))/(float)(((float)((float)((int32_t)((int32_t)L_16-(int32_t)1)))))));
+		int32_t L_17 = V_6;
+		int32_t L_18 = ___height1;
+		V_9 = ((float)((float)(((float)((float)L_17)))/(float)(((float)((float)((int32_t)((int32_t)L_18-(int32_t)1)))))));
+		bool L_19 = ___distortVertices2;
+		if (!L_19)
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		float L_20 = V_8;
+		V_10 = L_20;
+		float L_21 = V_9;
+		V_11 = L_21;
+		SingleU5BU5D_t577127397* L_22 = V_0;
+		NullCheck(L_22);
+		int32_t L_23 = 0;
+		float L_24 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		SingleU5BU5D_t577127397* L_25 = V_0;
+		NullCheck(L_25);
+		int32_t L_26 = 2;
+		float L_27 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		float L_28 = V_8;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_29 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, L_24, L_27, L_28, /*hidden argument*/NULL);
+		V_12 = L_29;
+		SingleU5BU5D_t577127397* L_30 = V_0;
+		NullCheck(L_30);
+		int32_t L_31 = 3;
+		float L_32 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
+		SingleU5BU5D_t577127397* L_33 = V_0;
+		NullCheck(L_33);
+		int32_t L_34 = 1;
+		float L_35 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		float L_36 = V_9;
+		float L_37 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, L_32, L_35, L_36, /*hidden argument*/NULL);
+		V_13 = L_37;
+		float L_38 = V_12;
+		float L_39 = V_12;
+		float L_40 = V_13;
+		float L_41 = V_13;
+		float L_42 = sqrtf(((float)((float)((float)((float)L_38*(float)L_39))+(float)((float)((float)L_40*(float)L_41)))));
+		V_14 = L_42;
+		GvrProfile_t2070273202 * L_43 = V_3;
+		NullCheck(L_43);
+		Viewer_t1642017539 * L_44 = L_43->get_address_of_viewer_1();
+		Distortion_t550060296 * L_45 = L_44->get_address_of_distortion_2();
+		float L_46 = V_14;
+		float L_47 = Distortion_distortInv_m2356602000(L_45, L_46, /*hidden argument*/NULL);
+		V_15 = L_47;
+		float L_48 = V_12;
+		float L_49 = V_15;
+		float L_50 = V_14;
+		V_16 = ((float)((float)((float)((float)L_48*(float)L_49))/(float)L_50));
+		float L_51 = V_13;
+		float L_52 = V_15;
+		float L_53 = V_14;
+		V_17 = ((float)((float)((float)((float)L_51*(float)L_52))/(float)L_53));
+		float L_54 = V_16;
+		SingleU5BU5D_t577127397* L_55 = V_1;
+		NullCheck(L_55);
+		int32_t L_56 = 0;
+		float L_57 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		SingleU5BU5D_t577127397* L_58 = V_1;
+		NullCheck(L_58);
+		int32_t L_59 = 2;
+		float L_60 = (L_58)->GetAt(static_cast<il2cpp_array_size_t>(L_59));
+		SingleU5BU5D_t577127397* L_61 = V_1;
+		NullCheck(L_61);
+		int32_t L_62 = 0;
+		float L_63 = (L_61)->GetAt(static_cast<il2cpp_array_size_t>(L_62));
+		V_8 = ((float)((float)((float)((float)L_54-(float)L_57))/(float)((float)((float)L_60-(float)L_63))));
+		float L_64 = V_17;
+		SingleU5BU5D_t577127397* L_65 = V_1;
+		NullCheck(L_65);
+		int32_t L_66 = 3;
+		float L_67 = (L_65)->GetAt(static_cast<il2cpp_array_size_t>(L_66));
+		SingleU5BU5D_t577127397* L_68 = V_1;
+		NullCheck(L_68);
+		int32_t L_69 = 1;
+		float L_70 = (L_68)->GetAt(static_cast<il2cpp_array_size_t>(L_69));
+		SingleU5BU5D_t577127397* L_71 = V_1;
+		NullCheck(L_71);
+		int32_t L_72 = 3;
+		float L_73 = (L_71)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
+		V_9 = ((float)((float)((float)((float)L_64-(float)L_67))/(float)((float)((float)L_70-(float)L_73))));
+		goto IL_018c;
+	}
+
+IL_0108:
+	{
+		SingleU5BU5D_t577127397* L_74 = V_1;
+		NullCheck(L_74);
+		int32_t L_75 = 0;
+		float L_76 = (L_74)->GetAt(static_cast<il2cpp_array_size_t>(L_75));
+		SingleU5BU5D_t577127397* L_77 = V_1;
+		NullCheck(L_77);
+		int32_t L_78 = 2;
+		float L_79 = (L_77)->GetAt(static_cast<il2cpp_array_size_t>(L_78));
+		float L_80 = V_8;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_81 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, L_76, L_79, L_80, /*hidden argument*/NULL);
+		V_18 = L_81;
+		SingleU5BU5D_t577127397* L_82 = V_1;
+		NullCheck(L_82);
+		int32_t L_83 = 3;
+		float L_84 = (L_82)->GetAt(static_cast<il2cpp_array_size_t>(L_83));
+		SingleU5BU5D_t577127397* L_85 = V_1;
+		NullCheck(L_85);
+		int32_t L_86 = 1;
+		float L_87 = (L_85)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		float L_88 = V_9;
+		float L_89 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, L_84, L_87, L_88, /*hidden argument*/NULL);
+		V_19 = L_89;
+		float L_90 = V_18;
+		float L_91 = V_18;
+		float L_92 = V_19;
+		float L_93 = V_19;
+		float L_94 = sqrtf(((float)((float)((float)((float)L_90*(float)L_91))+(float)((float)((float)L_92*(float)L_93)))));
+		V_20 = L_94;
+		GvrProfile_t2070273202 * L_95 = V_3;
+		NullCheck(L_95);
+		Viewer_t1642017539 * L_96 = L_95->get_address_of_viewer_1();
+		Distortion_t550060296 * L_97 = L_96->get_address_of_distortion_2();
+		float L_98 = V_20;
+		float L_99 = Distortion_distort_m1547245695(L_97, L_98, /*hidden argument*/NULL);
+		V_21 = L_99;
+		float L_100 = V_18;
+		float L_101 = V_21;
+		float L_102 = V_20;
+		V_22 = ((float)((float)((float)((float)L_100*(float)L_101))/(float)L_102));
+		float L_103 = V_19;
+		float L_104 = V_21;
+		float L_105 = V_20;
+		V_23 = ((float)((float)((float)((float)L_103*(float)L_104))/(float)L_105));
+		float L_106 = V_22;
+		SingleU5BU5D_t577127397* L_107 = V_0;
+		NullCheck(L_107);
+		int32_t L_108 = 0;
+		float L_109 = (L_107)->GetAt(static_cast<il2cpp_array_size_t>(L_108));
+		SingleU5BU5D_t577127397* L_110 = V_0;
+		NullCheck(L_110);
+		int32_t L_111 = 2;
+		float L_112 = (L_110)->GetAt(static_cast<il2cpp_array_size_t>(L_111));
+		SingleU5BU5D_t577127397* L_113 = V_0;
+		NullCheck(L_113);
+		int32_t L_114 = 0;
+		float L_115 = (L_113)->GetAt(static_cast<il2cpp_array_size_t>(L_114));
+		float L_116 = Mathf_Clamp01_m3888954684(NULL /*static, unused*/, ((float)((float)((float)((float)L_106-(float)L_109))/(float)((float)((float)L_112-(float)L_115)))), /*hidden argument*/NULL);
+		V_10 = L_116;
+		float L_117 = V_23;
+		SingleU5BU5D_t577127397* L_118 = V_0;
+		NullCheck(L_118);
+		int32_t L_119 = 3;
+		float L_120 = (L_118)->GetAt(static_cast<il2cpp_array_size_t>(L_119));
+		SingleU5BU5D_t577127397* L_121 = V_0;
+		NullCheck(L_121);
+		int32_t L_122 = 1;
+		float L_123 = (L_121)->GetAt(static_cast<il2cpp_array_size_t>(L_122));
+		SingleU5BU5D_t577127397* L_124 = V_0;
+		NullCheck(L_124);
+		int32_t L_125 = 3;
+		float L_126 = (L_124)->GetAt(static_cast<il2cpp_array_size_t>(L_125));
+		float L_127 = Mathf_Clamp01_m3888954684(NULL /*static, unused*/, ((float)((float)((float)((float)L_117-(float)L_120))/(float)((float)((float)L_123-(float)L_126)))), /*hidden argument*/NULL);
+		V_11 = L_127;
+	}
+
+IL_018c:
+	{
+		GvrProfile_t2070273202 * L_128 = V_3;
+		NullCheck(L_128);
+		Screen_t839756045 * L_129 = L_128->get_address_of_screen_0();
+		float L_130 = L_129->get_width_0();
+		GvrProfile_t2070273202 * L_131 = V_3;
+		NullCheck(L_131);
+		Screen_t839756045 * L_132 = L_131->get_address_of_screen_0();
+		float L_133 = L_132->get_height_1();
+		V_24 = ((float)((float)L_130/(float)L_133));
+		float L_134 = Rect_get_x_m1393582490((&V_2), /*hidden argument*/NULL);
+		float L_135 = V_8;
+		float L_136 = Rect_get_width_m1138015702((&V_2), /*hidden argument*/NULL);
+		float L_137 = V_24;
+		V_8 = ((float)((float)((float)((float)((float)((float)L_134+(float)((float)((float)L_135*(float)L_136))))-(float)(0.5f)))*(float)L_137));
+		float L_138 = Rect_get_y_m1393582395((&V_2), /*hidden argument*/NULL);
+		float L_139 = V_9;
+		float L_140 = Rect_get_height_m3128694305((&V_2), /*hidden argument*/NULL);
+		V_9 = ((float)((float)((float)((float)L_138+(float)((float)((float)L_139*(float)L_140))))-(float)(0.5f)));
+		Vector3U5BU5D_t1172311765** L_141 = ___vertices3;
+		int32_t L_142 = V_5;
+		NullCheck((*((Vector3U5BU5D_t1172311765**)L_141)));
+		float L_143 = V_8;
+		float L_144 = V_9;
+		Vector3_t2243707580  L_145;
+		memset(&L_145, 0, sizeof(L_145));
+		Vector3__ctor_m2638739322(&L_145, L_143, L_144, (1.0f), /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)(((*((Vector3U5BU5D_t1172311765**)L_141)))->GetAddressAt(static_cast<il2cpp_array_size_t>(L_142)))) = L_145;
+		float L_146 = V_10;
+		int32_t L_147 = V_4;
+		V_10 = ((float)((float)((float)((float)L_146+(float)(((float)((float)L_147)))))/(float)(2.0f)));
+		Vector2U5BU5D_t686124026** L_148 = ___tex4;
+		int32_t L_149 = V_5;
+		NullCheck((*((Vector2U5BU5D_t686124026**)L_148)));
+		float L_150 = V_10;
+		float L_151 = V_11;
+		Vector2_t2243707579  L_152;
+		memset(&L_152, 0, sizeof(L_152));
+		Vector2__ctor_m3067419446(&L_152, L_150, L_151, /*hidden argument*/NULL);
+		(*(Vector2_t2243707579 *)(((*((Vector2U5BU5D_t686124026**)L_148)))->GetAddressAt(static_cast<il2cpp_array_size_t>(L_149)))) = L_152;
+		int32_t L_153 = V_7;
+		V_7 = ((int32_t)((int32_t)L_153+(int32_t)1));
+		int32_t L_154 = V_5;
+		V_5 = ((int32_t)((int32_t)L_154+(int32_t)1));
+	}
+
+IL_022b:
+	{
+		int32_t L_155 = V_7;
+		int32_t L_156 = ___width0;
+		if ((((int32_t)L_155) < ((int32_t)L_156)))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		int32_t L_157 = V_6;
+		V_6 = ((int32_t)((int32_t)L_157+(int32_t)1));
+	}
+
+IL_023a:
+	{
+		int32_t L_158 = V_6;
+		int32_t L_159 = ___height1;
+		if ((((int32_t)L_158) < ((int32_t)L_159)))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		SingleU5BU5D_t577127397* L_160 = V_0;
+		NullCheck(L_160);
+		int32_t L_161 = 2;
+		float L_162 = (L_160)->GetAt(static_cast<il2cpp_array_size_t>(L_161));
+		SingleU5BU5D_t577127397* L_163 = V_0;
+		NullCheck(L_163);
+		int32_t L_164 = 0;
+		float L_165 = (L_163)->GetAt(static_cast<il2cpp_array_size_t>(L_164));
+		V_25 = ((float)((float)L_162-(float)L_165));
+		SingleU5BU5D_t577127397* L_166 = V_0;
+		float L_167 = V_25;
+		SingleU5BU5D_t577127397* L_168 = V_0;
+		NullCheck(L_168);
+		int32_t L_169 = 0;
+		float L_170 = (L_168)->GetAt(static_cast<il2cpp_array_size_t>(L_169));
+		NullCheck(L_166);
+		(L_166)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)((-((float)((float)L_167+(float)L_170)))));
+		SingleU5BU5D_t577127397* L_171 = V_0;
+		float L_172 = V_25;
+		SingleU5BU5D_t577127397* L_173 = V_0;
+		NullCheck(L_173);
+		int32_t L_174 = 2;
+		float L_175 = (L_173)->GetAt(static_cast<il2cpp_array_size_t>(L_174));
+		NullCheck(L_171);
+		(L_171)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)((float)L_172-(float)L_175)));
+		SingleU5BU5D_t577127397* L_176 = V_1;
+		NullCheck(L_176);
+		int32_t L_177 = 2;
+		float L_178 = (L_176)->GetAt(static_cast<il2cpp_array_size_t>(L_177));
+		SingleU5BU5D_t577127397* L_179 = V_1;
+		NullCheck(L_179);
+		int32_t L_180 = 0;
+		float L_181 = (L_179)->GetAt(static_cast<il2cpp_array_size_t>(L_180));
+		V_25 = ((float)((float)L_178-(float)L_181));
+		SingleU5BU5D_t577127397* L_182 = V_1;
+		float L_183 = V_25;
+		SingleU5BU5D_t577127397* L_184 = V_1;
+		NullCheck(L_184);
+		int32_t L_185 = 0;
+		float L_186 = (L_184)->GetAt(static_cast<il2cpp_array_size_t>(L_185));
+		NullCheck(L_182);
+		(L_182)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)((-((float)((float)L_183+(float)L_186)))));
+		SingleU5BU5D_t577127397* L_187 = V_1;
+		float L_188 = V_25;
+		SingleU5BU5D_t577127397* L_189 = V_1;
+		NullCheck(L_189);
+		int32_t L_190 = 2;
+		float L_191 = (L_189)->GetAt(static_cast<il2cpp_array_size_t>(L_190));
+		NullCheck(L_187);
+		(L_187)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)((float)((float)L_188-(float)L_191)));
+		float L_192 = Rect_get_x_m1393582490((&V_2), /*hidden argument*/NULL);
+		float L_193 = Rect_get_width_m1138015702((&V_2), /*hidden argument*/NULL);
+		Rect_set_x_m3783700513((&V_2), ((float)((float)(1.0f)-(float)((float)((float)L_192+(float)L_193)))), /*hidden argument*/NULL);
+		int32_t L_194 = V_4;
+		V_4 = ((int32_t)((int32_t)L_194+(int32_t)1));
+	}
+
+IL_029d:
+	{
+		int32_t L_195 = V_4;
+		if ((((int32_t)L_195) < ((int32_t)2)))
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		return;
+	}
+}
+// UnityEngine.Color[] GvrPostRender::ComputeMeshColors(System.Int32,System.Int32,UnityEngine.Vector2[],System.Int32[],System.Boolean)
+extern Il2CppClass* ColorU5BU5D_t672350442_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPostRender_ComputeMeshColors_m2562327671_MetadataUsageId;
+extern "C"  ColorU5BU5D_t672350442* GvrPostRender_ComputeMeshColors_m2562327671 (Il2CppObject * __this /* static, unused */, int32_t ___width0, int32_t ___height1, Vector2U5BU5D_t686124026* ___tex2, Int32U5BU5D_t3030399641* ___indices3, bool ___distortVertices4, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPostRender_ComputeMeshColors_m2562327671_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ColorU5BU5D_t672350442* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Vector2_t2243707579  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	ColorU5BU5D_t672350442* V_6 = NULL;
+	{
+		int32_t L_0 = ___width0;
+		int32_t L_1 = ___height1;
+		V_0 = ((ColorU5BU5D_t672350442*)SZArrayNew(ColorU5BU5D_t672350442_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)L_0))*(int32_t)L_1))));
+		V_1 = 0;
+		V_2 = 0;
+		goto IL_0123;
+	}
+
+IL_0015:
+	{
+		V_3 = 0;
+		goto IL_0117;
+	}
+
+IL_001d:
+	{
+		V_4 = 0;
+		goto IL_010a;
+	}
+
+IL_0026:
+	{
+		ColorU5BU5D_t672350442* L_2 = V_0;
+		int32_t L_3 = V_2;
+		NullCheck(L_2);
+		Color_t2020392075  L_4 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		(*(Color_t2020392075 *)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))) = L_4;
+		bool L_5 = ___distortVertices4;
+		if (!L_5)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		int32_t L_6 = V_4;
+		if (!L_6)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		int32_t L_7 = V_3;
+		if (!L_7)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		int32_t L_8 = V_4;
+		int32_t L_9 = ___width0;
+		if ((((int32_t)L_8) == ((int32_t)((int32_t)((int32_t)L_9-(int32_t)1)))))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		int32_t L_10 = V_3;
+		int32_t L_11 = ___height1;
+		if ((!(((uint32_t)L_10) == ((uint32_t)((int32_t)((int32_t)L_11-(int32_t)1))))))
+		{
+			goto IL_0073;
+		}
+	}
+
+IL_0060:
+	{
+		ColorU5BU5D_t672350442* L_12 = V_0;
+		int32_t L_13 = V_2;
+		NullCheck(L_12);
+		Color_t2020392075  L_14 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
+		(*(Color_t2020392075 *)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))) = L_14;
+	}
+
+IL_0073:
+	{
+		goto IL_00ff;
+	}
+
+IL_0079:
+	{
+		Vector2U5BU5D_t686124026* L_15 = ___tex2;
+		int32_t L_16 = V_2;
+		NullCheck(L_15);
+		V_5 = (*(Vector2_t2243707579 *)((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_16))));
+		float L_17 = (&V_5)->get_x_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_18 = fabsf(((float)((float)((float)((float)L_17*(float)(2.0f)))-(float)(1.0f))));
+		(&V_5)->set_x_0(L_18);
+		float L_19 = (&V_5)->get_x_0();
+		if ((((float)L_19) <= ((float)(0.0f))))
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		float L_20 = (&V_5)->get_y_1();
+		if ((((float)L_20) <= ((float)(0.0f))))
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		float L_21 = (&V_5)->get_x_0();
+		if ((((float)L_21) >= ((float)(1.0f))))
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		float L_22 = (&V_5)->get_y_1();
+		if ((!(((float)L_22) >= ((float)(1.0f)))))
+		{
+			goto IL_00fe;
+		}
+	}
+
+IL_00eb:
+	{
+		ColorU5BU5D_t672350442* L_23 = V_0;
+		int32_t L_24 = V_2;
+		NullCheck(L_23);
+		Color_t2020392075  L_25 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
+		(*(Color_t2020392075 *)((L_23)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_24)))) = L_25;
+	}
+
+IL_00fe:
+	{
+	}
+
+IL_00ff:
+	{
+		int32_t L_26 = V_4;
+		V_4 = ((int32_t)((int32_t)L_26+(int32_t)1));
+		int32_t L_27 = V_2;
+		V_2 = ((int32_t)((int32_t)L_27+(int32_t)1));
+	}
+
+IL_010a:
+	{
+		int32_t L_28 = V_4;
+		int32_t L_29 = ___width0;
+		if ((((int32_t)L_28) < ((int32_t)L_29)))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		int32_t L_30 = V_3;
+		V_3 = ((int32_t)((int32_t)L_30+(int32_t)1));
+	}
+
+IL_0117:
+	{
+		int32_t L_31 = V_3;
+		int32_t L_32 = ___height1;
+		if ((((int32_t)L_31) < ((int32_t)L_32)))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_33 = V_1;
+		V_1 = ((int32_t)((int32_t)L_33+(int32_t)1));
+	}
+
+IL_0123:
+	{
+		int32_t L_34 = V_1;
+		if ((((int32_t)L_34) < ((int32_t)2)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		ColorU5BU5D_t672350442* L_35 = V_0;
+		V_6 = L_35;
+		goto IL_0132;
+	}
+
+IL_0132:
+	{
+		ColorU5BU5D_t672350442* L_36 = V_6;
+		return L_36;
+	}
+}
+// System.Int32[] GvrPostRender::ComputeMeshIndices(System.Int32,System.Int32,System.Boolean)
+extern Il2CppClass* Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPostRender_ComputeMeshIndices_m3806724052_MetadataUsageId;
+extern "C"  Int32U5BU5D_t3030399641* GvrPostRender_ComputeMeshIndices_m3806724052 (Il2CppObject * __this /* static, unused */, int32_t ___width0, int32_t ___height1, bool ___distortVertices2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPostRender_ComputeMeshIndices_m3806724052_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Int32U5BU5D_t3030399641* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	Int32U5BU5D_t3030399641* V_8 = NULL;
+	{
+		int32_t L_0 = ___width0;
+		int32_t L_1 = ___height1;
+		V_0 = ((Int32U5BU5D_t3030399641*)SZArrayNew(Int32U5BU5D_t3030399641_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)2*(int32_t)((int32_t)((int32_t)L_0-(int32_t)1))))*(int32_t)((int32_t)((int32_t)L_1-(int32_t)1))))*(int32_t)6))));
+		int32_t L_2 = ___width0;
+		V_1 = ((int32_t)((int32_t)L_2/(int32_t)2));
+		int32_t L_3 = ___height1;
+		V_2 = ((int32_t)((int32_t)L_3/(int32_t)2));
+		V_3 = 0;
+		V_4 = 0;
+		V_5 = 0;
+		goto IL_0130;
+	}
+
+IL_0027:
+	{
+		V_6 = 0;
+		goto IL_0123;
+	}
+
+IL_0030:
+	{
+		V_7 = 0;
+		goto IL_0114;
+	}
+
+IL_0039:
+	{
+		int32_t L_4 = V_7;
+		if (!L_4)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		int32_t L_5 = V_6;
+		if (L_5)
+		{
+			goto IL_004d;
+		}
+	}
+
+IL_0048:
+	{
+		goto IL_0108;
+	}
+
+IL_004d:
+	{
+		int32_t L_6 = V_7;
+		int32_t L_7 = V_1;
+		int32_t L_8 = V_6;
+		int32_t L_9 = V_2;
+		if ((!(((uint32_t)((((int32_t)((((int32_t)L_6) > ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0)) == ((uint32_t)((((int32_t)((((int32_t)L_8) > ((int32_t)L_9))? 1 : 0)) == ((int32_t)0))? 1 : 0)))))
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		Int32U5BU5D_t3030399641* L_10 = V_0;
+		int32_t L_11 = V_5;
+		int32_t L_12 = L_11;
+		V_5 = ((int32_t)((int32_t)L_12+(int32_t)1));
+		int32_t L_13 = V_4;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_12), (int32_t)L_13);
+		Int32U5BU5D_t3030399641* L_14 = V_0;
+		int32_t L_15 = V_5;
+		int32_t L_16 = L_15;
+		V_5 = ((int32_t)((int32_t)L_16+(int32_t)1));
+		int32_t L_17 = V_4;
+		int32_t L_18 = ___width0;
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_16), (int32_t)((int32_t)((int32_t)L_17-(int32_t)L_18)));
+		Int32U5BU5D_t3030399641* L_19 = V_0;
+		int32_t L_20 = V_5;
+		int32_t L_21 = L_20;
+		V_5 = ((int32_t)((int32_t)L_21+(int32_t)1));
+		int32_t L_22 = V_4;
+		int32_t L_23 = ___width0;
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(L_21), (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_22-(int32_t)L_23))-(int32_t)1)));
+		Int32U5BU5D_t3030399641* L_24 = V_0;
+		int32_t L_25 = V_5;
+		int32_t L_26 = L_25;
+		V_5 = ((int32_t)((int32_t)L_26+(int32_t)1));
+		int32_t L_27 = V_4;
+		int32_t L_28 = ___width0;
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_27-(int32_t)L_28))-(int32_t)1)));
+		Int32U5BU5D_t3030399641* L_29 = V_0;
+		int32_t L_30 = V_5;
+		int32_t L_31 = L_30;
+		V_5 = ((int32_t)((int32_t)L_31+(int32_t)1));
+		int32_t L_32 = V_4;
+		NullCheck(L_29);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (int32_t)((int32_t)((int32_t)L_32-(int32_t)1)));
+		Int32U5BU5D_t3030399641* L_33 = V_0;
+		int32_t L_34 = V_5;
+		int32_t L_35 = L_34;
+		V_5 = ((int32_t)((int32_t)L_35+(int32_t)1));
+		int32_t L_36 = V_4;
+		NullCheck(L_33);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(L_35), (int32_t)L_36);
+		goto IL_0107;
+	}
+
+IL_00b7:
+	{
+		Int32U5BU5D_t3030399641* L_37 = V_0;
+		int32_t L_38 = V_5;
+		int32_t L_39 = L_38;
+		V_5 = ((int32_t)((int32_t)L_39+(int32_t)1));
+		int32_t L_40 = V_4;
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_39), (int32_t)((int32_t)((int32_t)L_40-(int32_t)1)));
+		Int32U5BU5D_t3030399641* L_41 = V_0;
+		int32_t L_42 = V_5;
+		int32_t L_43 = L_42;
+		V_5 = ((int32_t)((int32_t)L_43+(int32_t)1));
+		int32_t L_44 = V_4;
+		NullCheck(L_41);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(L_43), (int32_t)L_44);
+		Int32U5BU5D_t3030399641* L_45 = V_0;
+		int32_t L_46 = V_5;
+		int32_t L_47 = L_46;
+		V_5 = ((int32_t)((int32_t)L_47+(int32_t)1));
+		int32_t L_48 = V_4;
+		int32_t L_49 = ___width0;
+		NullCheck(L_45);
+		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(L_47), (int32_t)((int32_t)((int32_t)L_48-(int32_t)L_49)));
+		Int32U5BU5D_t3030399641* L_50 = V_0;
+		int32_t L_51 = V_5;
+		int32_t L_52 = L_51;
+		V_5 = ((int32_t)((int32_t)L_52+(int32_t)1));
+		int32_t L_53 = V_4;
+		int32_t L_54 = ___width0;
+		NullCheck(L_50);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(L_52), (int32_t)((int32_t)((int32_t)L_53-(int32_t)L_54)));
+		Int32U5BU5D_t3030399641* L_55 = V_0;
+		int32_t L_56 = V_5;
+		int32_t L_57 = L_56;
+		V_5 = ((int32_t)((int32_t)L_57+(int32_t)1));
+		int32_t L_58 = V_4;
+		int32_t L_59 = ___width0;
+		NullCheck(L_55);
+		(L_55)->SetAt(static_cast<il2cpp_array_size_t>(L_57), (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_58-(int32_t)L_59))-(int32_t)1)));
+		Int32U5BU5D_t3030399641* L_60 = V_0;
+		int32_t L_61 = V_5;
+		int32_t L_62 = L_61;
+		V_5 = ((int32_t)((int32_t)L_62+(int32_t)1));
+		int32_t L_63 = V_4;
+		NullCheck(L_60);
+		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(L_62), (int32_t)((int32_t)((int32_t)L_63-(int32_t)1)));
+	}
+
+IL_0107:
+	{
+	}
+
+IL_0108:
+	{
+		int32_t L_64 = V_7;
+		V_7 = ((int32_t)((int32_t)L_64+(int32_t)1));
+		int32_t L_65 = V_4;
+		V_4 = ((int32_t)((int32_t)L_65+(int32_t)1));
+	}
+
+IL_0114:
+	{
+		int32_t L_66 = V_7;
+		int32_t L_67 = ___width0;
+		if ((((int32_t)L_66) < ((int32_t)L_67)))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		int32_t L_68 = V_6;
+		V_6 = ((int32_t)((int32_t)L_68+(int32_t)1));
+	}
+
+IL_0123:
+	{
+		int32_t L_69 = V_6;
+		int32_t L_70 = ___height1;
+		if ((((int32_t)L_69) < ((int32_t)L_70)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		int32_t L_71 = V_3;
+		V_3 = ((int32_t)((int32_t)L_71+(int32_t)1));
+	}
+
+IL_0130:
+	{
+		int32_t L_72 = V_3;
+		if ((((int32_t)L_72) < ((int32_t)2)))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		Int32U5BU5D_t3030399641* L_73 = V_0;
+		V_8 = L_73;
+		goto IL_013f;
+	}
+
+IL_013f:
+	{
+		Int32U5BU5D_t3030399641* L_74 = V_8;
+		return L_74;
+	}
+}
+// System.Void GvrPostRender::DrawUILayer()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPostRender_DrawUILayer_m4003549693_MetadataUsageId;
+extern "C"  void GvrPostRender_DrawUILayer_m4003549693 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPostRender_DrawUILayer_m4003549693_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_0 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = GvrViewer_get_VRModeEnabled_m213246717(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		bool L_2 = Application_get_isEditor_m2474583393(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		GvrPostRender_ComputeUIMatrix_m2561962368(__this, /*hidden argument*/NULL);
+	}
+
+IL_001e:
+	{
+		Material_t193706927 * L_3 = __this->get_uiMaterial_8();
+		NullCheck(L_3);
+		Material_SetPass_m2448940266(L_3, 0, /*hidden argument*/NULL);
+		GvrPostRender_DrawSettingsButton_m3721258801(__this, /*hidden argument*/NULL);
+		GvrPostRender_DrawAlignmentMarker_m1134591431(__this, /*hidden argument*/NULL);
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		GvrPostRender_DrawVRBackButton_m1863050027(__this, /*hidden argument*/NULL);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+// System.Void GvrPostRender::ComputeUIMatrix()
+extern "C"  void GvrPostRender_ComputeUIMatrix_m2561962368 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = Screen_get_dpi_m3345126327(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_centerWidthPx_9(((float)((float)((float)((float)(0.025f)*(float)L_0))/(float)(2.0f))));
+		float L_1 = Screen_get_dpi_m3345126327(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_buttonWidthPx_10(((float)((float)((float)((float)(0.175f)*(float)L_1))/(float)(2.0f))));
+		float L_2 = __this->get_buttonWidthPx_10();
+		int32_t L_3 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_xScale_11(((float)((float)L_2/(float)(((float)((float)L_3))))));
+		float L_4 = __this->get_buttonWidthPx_10();
+		int32_t L_5 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set_yScale_12(((float)((float)L_4/(float)(((float)((float)L_5))))));
+		float L_6 = __this->get_yScale_12();
+		Vector3_t2243707580  L_7;
+		memset(&L_7, 0, sizeof(L_7));
+		Vector3__ctor_m2638739322(&L_7, (0.5f), L_6, (0.0f), /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_8 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_9 = __this->get_xScale_11();
+		float L_10 = __this->get_yScale_12();
+		Vector3_t2243707580  L_11;
+		memset(&L_11, 0, sizeof(L_11));
+		Vector3__ctor_m2638739322(&L_11, L_9, L_10, (1.0f), /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_12 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_7, L_8, L_11, /*hidden argument*/NULL);
+		__this->set_xfm_13(L_12);
+		return;
+	}
+}
+// System.Void GvrPostRender::DrawSettingsButton()
+extern Il2CppClass* GvrPostRender_t3118402863_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPostRender_DrawSettingsButton_m3721258801_MetadataUsageId;
+extern "C"  void GvrPostRender_DrawSettingsButton_m3721258801 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPostRender_DrawSettingsButton_m3721258801_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	{
+		GL_PushMatrix_m1979053131(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GL_LoadOrtho_m3764403102(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_0 = __this->get_xfm_13();
+		GL_MultMatrix_m767401141(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		GL_Begin_m3874173032(NULL /*static, unused*/, 5, /*hidden argument*/NULL);
+		V_0 = 0;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPostRender_t3118402863_il2cpp_TypeInfo_var);
+		SingleU5BU5D_t577127397* L_1 = ((GvrPostRender_t3118402863_StaticFields*)GvrPostRender_t3118402863_il2cpp_TypeInfo_var->static_fields)->get_Angles_23();
+		NullCheck(L_1);
+		V_1 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_1)->max_length))))*(int32_t)6));
+		goto IL_00d0;
+	}
+
+IL_002d:
+	{
+		int32_t L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrPostRender_t3118402863_il2cpp_TypeInfo_var);
+		SingleU5BU5D_t577127397* L_3 = ((GvrPostRender_t3118402863_StaticFields*)GvrPostRender_t3118402863_il2cpp_TypeInfo_var->static_fields)->get_Angles_23();
+		NullCheck(L_3);
+		SingleU5BU5D_t577127397* L_4 = ((GvrPostRender_t3118402863_StaticFields*)GvrPostRender_t3118402863_il2cpp_TypeInfo_var->static_fields)->get_Angles_23();
+		int32_t L_5 = V_0;
+		SingleU5BU5D_t577127397* L_6 = ((GvrPostRender_t3118402863_StaticFields*)GvrPostRender_t3118402863_il2cpp_TypeInfo_var->static_fields)->get_Angles_23();
+		NullCheck(L_6);
+		NullCheck(L_4);
+		int32_t L_7 = ((int32_t)((int32_t)L_5%(int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length))))));
+		float L_8 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		V_2 = ((float)((float)((float)((float)(((float)((float)((int32_t)((int32_t)L_2/(int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length)))))))))*(float)(60.0f)))+(float)L_8));
+		float L_9 = V_2;
+		V_3 = ((float)((float)((float)((float)(90.0f)-(float)L_9))*(float)(0.0174532924f)));
+		float L_10 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_11 = cosf(L_10);
+		V_4 = L_11;
+		float L_12 = V_3;
+		float L_13 = sinf(L_12);
+		V_5 = L_13;
+		float L_14 = V_2;
+		float L_15 = Mathf_PingPong_m2539699755(NULL /*static, unused*/, L_14, (30.0f), /*hidden argument*/NULL);
+		V_6 = L_15;
+		float L_16 = V_6;
+		V_7 = ((float)((float)((float)((float)L_16-(float)(12.0f)))/(float)(8.0f)));
+		float L_17 = V_7;
+		float L_18 = Mathf_Lerp_m1686556575(NULL /*static, unused*/, (1.0f), (0.75f), L_17, /*hidden argument*/NULL);
+		V_8 = L_18;
+		float L_19 = V_4;
+		float L_20 = V_5;
+		GL_Vertex3_m3998822656(NULL /*static, unused*/, ((float)((float)(0.3125f)*(float)L_19)), ((float)((float)(0.3125f)*(float)L_20)), (0.0f), /*hidden argument*/NULL);
+		float L_21 = V_8;
+		float L_22 = V_4;
+		float L_23 = V_8;
+		float L_24 = V_5;
+		GL_Vertex3_m3998822656(NULL /*static, unused*/, ((float)((float)L_21*(float)L_22)), ((float)((float)L_23*(float)L_24)), (0.0f), /*hidden argument*/NULL);
+		int32_t L_25 = V_0;
+		V_0 = ((int32_t)((int32_t)L_25+(int32_t)1));
+	}
+
+IL_00d0:
+	{
+		int32_t L_26 = V_0;
+		int32_t L_27 = V_1;
+		if ((((int32_t)L_26) <= ((int32_t)L_27)))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		GL_End_m2374230645(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GL_PopMatrix_m856033754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPostRender::DrawAlignmentMarker()
+extern "C"  void GvrPostRender_DrawAlignmentMarker_m1134591431 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		int32_t L_0 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = ((int32_t)((int32_t)L_0/(int32_t)2));
+		float L_1 = __this->get_centerWidthPx_9();
+		V_1 = (((int32_t)((int32_t)L_1)));
+		float L_2 = __this->get_buttonWidthPx_10();
+		V_2 = (((int32_t)((int32_t)((float)((float)(3.0f)*(float)L_2)))));
+		GL_PushMatrix_m1979053131(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GL_LoadPixelMatrix_m3215450731(NULL /*static, unused*/, (0.0f), (((float)((float)L_3))), (0.0f), (((float)((float)L_4))), /*hidden argument*/NULL);
+		GL_Begin_m3874173032(NULL /*static, unused*/, 7, /*hidden argument*/NULL);
+		int32_t L_5 = V_0;
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_2;
+		GL_Vertex3_m3998822656(NULL /*static, unused*/, (((float)((float)((int32_t)((int32_t)L_5-(int32_t)L_6))))), (((float)((float)L_7))), (0.0f), /*hidden argument*/NULL);
+		int32_t L_8 = V_0;
+		int32_t L_9 = V_1;
+		int32_t L_10 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_11 = V_2;
+		GL_Vertex3_m3998822656(NULL /*static, unused*/, (((float)((float)((int32_t)((int32_t)L_8-(int32_t)L_9))))), (((float)((float)((int32_t)((int32_t)L_10-(int32_t)L_11))))), (0.0f), /*hidden argument*/NULL);
+		int32_t L_12 = V_0;
+		int32_t L_13 = V_1;
+		int32_t L_14 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_15 = V_2;
+		GL_Vertex3_m3998822656(NULL /*static, unused*/, (((float)((float)((int32_t)((int32_t)L_12+(int32_t)L_13))))), (((float)((float)((int32_t)((int32_t)L_14-(int32_t)L_15))))), (0.0f), /*hidden argument*/NULL);
+		int32_t L_16 = V_0;
+		int32_t L_17 = V_1;
+		int32_t L_18 = V_2;
+		GL_Vertex3_m3998822656(NULL /*static, unused*/, (((float)((float)((int32_t)((int32_t)L_16+(int32_t)L_17))))), (((float)((float)L_18))), (0.0f), /*hidden argument*/NULL);
+		GL_End_m2374230645(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GL_PopMatrix_m856033754(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPostRender::DrawVRBackButton()
+extern "C"  void GvrPostRender_DrawVRBackButton_m1863050027 (GvrPostRender_t3118402863 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GvrPostRender::.cctor()
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrPostRender_t3118402863_il2cpp_TypeInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D51B2AA051AFFF21EBC28102EA2F57BEF007038AE_0_FieldInfo_var;
+extern const uint32_t GvrPostRender__cctor_m3740051429_MetadataUsageId;
+extern "C"  void GvrPostRender__cctor_m3740051429 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPostRender__cctor_m3740051429_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SingleU5BU5D_t577127397* L_0 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)5));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D51B2AA051AFFF21EBC28102EA2F57BEF007038AE_0_FieldInfo_var), /*hidden argument*/NULL);
+		((GvrPostRender_t3118402863_StaticFields*)GvrPostRender_t3118402863_il2cpp_TypeInfo_var->static_fields)->set_Angles_23(L_0);
+		return;
+	}
+}
+// System.Void GvrPreRender::.ctor()
+extern "C"  void GvrPreRender__ctor_m153254533 (GvrPreRender_t2074710158 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Camera GvrPreRender::get_cam()
+extern "C"  Camera_t189460977 * GvrPreRender_get_cam_m3004057272 (GvrPreRender_t2074710158 * __this, const MethodInfo* method)
+{
+	Camera_t189460977 * V_0 = NULL;
+	{
+		Camera_t189460977 * L_0 = __this->get_U3CcamU3Ek__BackingField_2();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Camera_t189460977 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void GvrPreRender::set_cam(UnityEngine.Camera)
+extern "C"  void GvrPreRender_set_cam_m2938274209 (GvrPreRender_t2074710158 * __this, Camera_t189460977 * ___value0, const MethodInfo* method)
+{
+	{
+		Camera_t189460977 * L_0 = ___value0;
+		__this->set_U3CcamU3Ek__BackingField_2(L_0);
+		return;
+	}
+}
+// System.Void GvrPreRender::Awake()
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern const uint32_t GvrPreRender_Awake_m3818568794_MetadataUsageId;
+extern "C"  void GvrPreRender_Awake_m3818568794 (GvrPreRender_t2074710158 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPreRender_Awake_m3818568794_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Camera_t189460977 * L_0 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		GvrPreRender_set_cam_m2938274209(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPreRender::Start()
+extern "C"  void GvrPreRender_Start_m905170573 (GvrPreRender_t2074710158 * __this, const MethodInfo* method)
+{
+	{
+		GvrPreRender_SetShaderGlobals_m2858290622(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPreRender::Reset()
+extern "C"  void GvrPreRender_Reset_m986287390 (GvrPreRender_t2074710158 * __this, const MethodInfo* method)
+{
+	{
+		Camera_t189460977 * L_0 = GvrPreRender_get_cam_m3004057272(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Camera_set_clearFlags_m4142614199(L_0, 2, /*hidden argument*/NULL);
+		Camera_t189460977 * L_1 = GvrPreRender_get_cam_m3004057272(__this, /*hidden argument*/NULL);
+		Color_t2020392075  L_2 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Camera_set_backgroundColor_m2927893592(L_1, L_2, /*hidden argument*/NULL);
+		Camera_t189460977 * L_3 = GvrPreRender_get_cam_m3004057272(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Camera_set_cullingMask_m2396665826(L_3, 0, /*hidden argument*/NULL);
+		Camera_t189460977 * L_4 = GvrPreRender_get_cam_m3004057272(__this, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Camera_set_useOcclusionCulling_m1109242406(L_4, (bool)0, /*hidden argument*/NULL);
+		Camera_t189460977 * L_5 = GvrPreRender_get_cam_m3004057272(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Camera_set_depth_m1570376177(L_5, (-100.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPreRender::OnPreCull()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern const uint32_t GvrPreRender_OnPreCull_m3143821353_MetadataUsageId;
+extern "C"  void GvrPreRender_OnPreCull_m3143821353 (GvrPreRender_t2074710158 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPreRender_OnPreCull_m3143821353_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Camera_t189460977 * G_B4_0 = NULL;
+	Camera_t189460977 * G_B3_0 = NULL;
+	int32_t G_B5_0 = 0;
+	Camera_t189460977 * G_B5_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_0 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GvrViewer_UpdateState_m198584744(L_0, /*hidden argument*/NULL);
+		GvrViewer_t2583885279 * L_1 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_2 = GvrViewer_get_ProfileChanged_m1394279288(L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		GvrPreRender_SetShaderGlobals_m2858290622(__this, /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		Camera_t189460977 * L_3 = GvrPreRender_get_cam_m3004057272(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_4 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		bool L_5 = GvrViewer_get_VRModeEnabled_m213246717(L_4, /*hidden argument*/NULL);
+		G_B3_0 = L_3;
+		if (!L_5)
+		{
+			G_B4_0 = L_3;
+			goto IL_003d;
+		}
+	}
+	{
+		G_B5_0 = 2;
+		G_B5_1 = G_B3_0;
+		goto IL_003e;
+	}
+
+IL_003d:
+	{
+		G_B5_0 = 4;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_003e:
+	{
+		NullCheck(G_B5_1);
+		Camera_set_clearFlags_m4142614199(G_B5_1, G_B5_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GvrPreRender::SetShaderGlobals()
+extern Il2CppClass* GvrViewer_t2583885279_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* Matrix4x4_t2933234003_il2cpp_TypeInfo_var;
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral100155763;
+extern Il2CppCodeGenString* _stringLiteral963463419;
+extern Il2CppCodeGenString* _stringLiteral4216327046;
+extern const uint32_t GvrPreRender_SetShaderGlobals_m2858290622_MetadataUsageId;
+extern "C"  void GvrPreRender_SetShaderGlobals_m2858290622 (GvrPreRender_t2074710158 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrPreRender_SetShaderGlobals_m2858290622_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GvrProfile_t2070273202 * V_0 = NULL;
+	Matrix4x4_t2933234003  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	SingleU5BU5D_t577127397* V_3 = NULL;
+	float V_4 = 0.0f;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_0 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = GvrViewer_get_VRModeEnabled_m213246717(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_2 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		int32_t L_3 = GvrViewer_get_DistortionCorrection_m344197281(L_2, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrViewer_t2583885279_il2cpp_TypeInfo_var);
+		GvrViewer_t2583885279 * L_4 = GvrViewer_get_Instance_m33197522(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		GvrProfile_t2070273202 * L_5 = GvrViewer_get_Profile_m109673263(L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		GvrProfile_t2070273202 * L_6 = V_0;
+		NullCheck(L_6);
+		Viewer_t1642017539 * L_7 = L_6->get_address_of_viewer_1();
+		Distortion_t550060296 * L_8 = L_7->get_address_of_inverse_3();
+		SingleU5BU5D_t577127397* L_9 = Distortion_get_Coef_m3046001801(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_9)->max_length))))) <= ((int32_t)6)))
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral100155763, /*hidden argument*/NULL);
+	}
+
+IL_004f:
+	{
+		Initobj (Matrix4x4_t2933234003_il2cpp_TypeInfo_var, (&V_1));
+		V_2 = 0;
+		goto IL_007e;
+	}
+
+IL_005e:
+	{
+		int32_t L_10 = V_2;
+		GvrProfile_t2070273202 * L_11 = V_0;
+		NullCheck(L_11);
+		Viewer_t1642017539 * L_12 = L_11->get_address_of_viewer_1();
+		Distortion_t550060296 * L_13 = L_12->get_address_of_inverse_3();
+		SingleU5BU5D_t577127397* L_14 = Distortion_get_Coef_m3046001801(L_13, /*hidden argument*/NULL);
+		int32_t L_15 = V_2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		float L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		Matrix4x4_set_Item_m870949794((&V_1), L_10, L_17, /*hidden argument*/NULL);
+		int32_t L_18 = V_2;
+		V_2 = ((int32_t)((int32_t)L_18+(int32_t)1));
+	}
+
+IL_007e:
+	{
+		int32_t L_19 = V_2;
+		GvrProfile_t2070273202 * L_20 = V_0;
+		NullCheck(L_20);
+		Viewer_t1642017539 * L_21 = L_20->get_address_of_viewer_1();
+		Distortion_t550060296 * L_22 = L_21->get_address_of_inverse_3();
+		SingleU5BU5D_t577127397* L_23 = Distortion_get_Coef_m3046001801(L_22, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		if ((((int32_t)L_19) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_23)->max_length)))))))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		Matrix4x4_t2933234003  L_24 = V_1;
+		Shader_SetGlobalMatrix_m2171879200(NULL /*static, unused*/, _stringLiteral963463419, L_24, /*hidden argument*/NULL);
+		V_3 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)4));
+		GvrProfile_t2070273202 * L_25 = V_0;
+		SingleU5BU5D_t577127397* L_26 = V_3;
+		NullCheck(L_25);
+		GvrProfile_GetLeftEyeVisibleTanAngles_m163412083(L_25, L_26, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_27 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		float L_28 = GvrProfile_GetMaxRadius_m505799712(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+		V_4 = L_28;
+		float L_29 = V_4;
+		float L_30 = V_4;
+		Shader_SetGlobalFloat_m3177582908(NULL /*static, unused*/, _stringLiteral4216327046, ((float)((float)L_29*(float)L_30)), /*hidden argument*/NULL);
+	}
+
+IL_00c7:
+	{
+		return;
+	}
+}
+// System.Void GvrProfile::.ctor()
+extern "C"  void GvrProfile__ctor_m675593615 (GvrProfile_t2070273202 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// GvrProfile GvrProfile::Clone()
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern const uint32_t GvrProfile_Clone_m2256084799_MetadataUsageId;
+extern "C"  GvrProfile_t2070273202 * GvrProfile_Clone_m2256084799 (GvrProfile_t2070273202 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile_Clone_m2256084799_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GvrProfile_t2070273202 * V_0 = NULL;
+	GvrProfile_t2070273202 * V_1 = NULL;
+	{
+		GvrProfile_t2070273202 * L_0 = (GvrProfile_t2070273202 *)il2cpp_codegen_object_new(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		GvrProfile__ctor_m675593615(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		GvrProfile_t2070273202 * L_1 = V_0;
+		Screen_t839756045  L_2 = __this->get_screen_0();
+		NullCheck(L_1);
+		L_1->set_screen_0(L_2);
+		GvrProfile_t2070273202 * L_3 = V_0;
+		Viewer_t1642017539  L_4 = __this->get_viewer_1();
+		NullCheck(L_3);
+		L_3->set_viewer_1(L_4);
+		GvrProfile_t2070273202 * L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		GvrProfile_t2070273202 * L_6 = V_1;
+		return L_6;
+	}
+}
+// System.Single GvrProfile::get_VerticalLensOffset()
+extern "C"  float GvrProfile_get_VerticalLensOffset_m4082146679 (GvrProfile_t2070273202 * __this, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	{
+		Viewer_t1642017539 * L_0 = __this->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_1 = L_0->get_address_of_lenses_0();
+		float L_2 = L_1->get_offset_1();
+		Screen_t839756045 * L_3 = __this->get_address_of_screen_0();
+		float L_4 = L_3->get_border_2();
+		Screen_t839756045 * L_5 = __this->get_address_of_screen_0();
+		float L_6 = L_5->get_height_1();
+		Viewer_t1642017539 * L_7 = __this->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_8 = L_7->get_address_of_lenses_0();
+		int32_t L_9 = L_8->get_alignment_3();
+		V_0 = ((float)((float)((float)((float)((float)((float)L_2-(float)L_4))-(float)((float)((float)L_6/(float)(2.0f)))))*(float)(((float)((float)L_9)))));
+		goto IL_0047;
+	}
+
+IL_0047:
+	{
+		float L_10 = V_0;
+		return L_10;
+	}
+}
+// GvrProfile GvrProfile::GetKnownProfile(GvrProfile/ScreenSizes,GvrProfile/ViewerTypes)
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern const uint32_t GvrProfile_GetKnownProfile_m2626990345_MetadataUsageId;
+extern "C"  GvrProfile_t2070273202 * GvrProfile_GetKnownProfile_m2626990345 (Il2CppObject * __this /* static, unused */, int32_t ___screenSize0, int32_t ___deviceType1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile_GetKnownProfile_m2626990345_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Screen_t839756045  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Viewer_t1642017539  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	GvrProfile_t2070273202 * V_2 = NULL;
+	GvrProfile_t2070273202 * V_3 = NULL;
+	{
+		int32_t L_0 = ___screenSize0;
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 0)
+		{
+			goto IL_002e;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 1)
+		{
+			goto IL_0039;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 2)
+		{
+			goto IL_0044;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 3)
+		{
+			goto IL_004f;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 4)
+		{
+			goto IL_005a;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 5)
+		{
+			goto IL_0065;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 6)
+		{
+			goto IL_0070;
+		}
+		if (((int32_t)((int32_t)L_0-(int32_t)1)) == 7)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		goto IL_0086;
+	}
+
+IL_002e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Screen_t839756045  L_1 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_Nexus6_3();
+		V_0 = L_1;
+		goto IL_0091;
+	}
+
+IL_0039:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Screen_t839756045  L_2 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_GalaxyS6_4();
+		V_0 = L_2;
+		goto IL_0091;
+	}
+
+IL_0044:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Screen_t839756045  L_3 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_GalaxyNote4_5();
+		V_0 = L_3;
+		goto IL_0091;
+	}
+
+IL_004f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Screen_t839756045  L_4 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_LGG3_6();
+		V_0 = L_4;
+		goto IL_0091;
+	}
+
+IL_005a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Screen_t839756045  L_5 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_iPhone4_7();
+		V_0 = L_5;
+		goto IL_0091;
+	}
+
+IL_0065:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Screen_t839756045  L_6 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_iPhone5_8();
+		V_0 = L_6;
+		goto IL_0091;
+	}
+
+IL_0070:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Screen_t839756045  L_7 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_iPhone6_9();
+		V_0 = L_7;
+		goto IL_0091;
+	}
+
+IL_007b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Screen_t839756045  L_8 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_iPhone6p_10();
+		V_0 = L_8;
+		goto IL_0091;
+	}
+
+IL_0086:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Screen_t839756045  L_9 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_Nexus5_2();
+		V_0 = L_9;
+		goto IL_0091;
+	}
+
+IL_0091:
+	{
+		int32_t L_10 = ___deviceType1;
+		if ((((int32_t)L_10) == ((int32_t)1)))
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		int32_t L_11 = ___deviceType1;
+		if ((((int32_t)L_11) == ((int32_t)2)))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		goto IL_00ba;
+	}
+
+IL_00a4:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Viewer_t1642017539  L_12 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_CardboardMay2015_12();
+		V_1 = L_12;
+		goto IL_00c5;
+	}
+
+IL_00af:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Viewer_t1642017539  L_13 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_GoggleTechC1Glass_13();
+		V_1 = L_13;
+		goto IL_00c5;
+	}
+
+IL_00ba:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Viewer_t1642017539  L_14 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_CardboardJun2014_11();
+		V_1 = L_14;
+		goto IL_00c5;
+	}
+
+IL_00c5:
+	{
+		GvrProfile_t2070273202 * L_15 = (GvrProfile_t2070273202 *)il2cpp_codegen_object_new(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		GvrProfile__ctor_m675593615(L_15, /*hidden argument*/NULL);
+		V_2 = L_15;
+		GvrProfile_t2070273202 * L_16 = V_2;
+		Screen_t839756045  L_17 = V_0;
+		NullCheck(L_16);
+		L_16->set_screen_0(L_17);
+		GvrProfile_t2070273202 * L_18 = V_2;
+		Viewer_t1642017539  L_19 = V_1;
+		NullCheck(L_18);
+		L_18->set_viewer_1(L_19);
+		GvrProfile_t2070273202 * L_20 = V_2;
+		V_3 = L_20;
+		goto IL_00e0;
+	}
+
+IL_00e0:
+	{
+		GvrProfile_t2070273202 * L_21 = V_3;
+		return L_21;
+	}
+}
+// System.Void GvrProfile::GetLeftEyeVisibleTanAngles(System.Single[])
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrProfile_GetLeftEyeVisibleTanAngles_m163412083_MetadataUsageId;
+extern "C"  void GvrProfile_GetLeftEyeVisibleTanAngles_m163412083 (GvrProfile_t2070273202 * __this, SingleU5BU5D_t577127397* ___result0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile_GetLeftEyeVisibleTanAngles_m163412083_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	{
+		Viewer_t1642017539 * L_0 = __this->get_address_of_viewer_1();
+		MaxFOV_t1743211906 * L_1 = L_0->get_address_of_maxFOV_1();
+		float L_2 = L_1->get_outer_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_3 = tanf(((float)((float)((-L_2))*(float)(0.0174532924f))));
+		V_0 = L_3;
+		Viewer_t1642017539 * L_4 = __this->get_address_of_viewer_1();
+		MaxFOV_t1743211906 * L_5 = L_4->get_address_of_maxFOV_1();
+		float L_6 = L_5->get_upper_2();
+		float L_7 = tanf(((float)((float)L_6*(float)(0.0174532924f))));
+		V_1 = L_7;
+		Viewer_t1642017539 * L_8 = __this->get_address_of_viewer_1();
+		MaxFOV_t1743211906 * L_9 = L_8->get_address_of_maxFOV_1();
+		float L_10 = L_9->get_inner_1();
+		float L_11 = tanf(((float)((float)L_10*(float)(0.0174532924f))));
+		V_2 = L_11;
+		Viewer_t1642017539 * L_12 = __this->get_address_of_viewer_1();
+		MaxFOV_t1743211906 * L_13 = L_12->get_address_of_maxFOV_1();
+		float L_14 = L_13->get_lower_3();
+		float L_15 = tanf(((float)((float)((-L_14))*(float)(0.0174532924f))));
+		V_3 = L_15;
+		Screen_t839756045 * L_16 = __this->get_address_of_screen_0();
+		float L_17 = L_16->get_width_0();
+		V_4 = ((float)((float)L_17/(float)(4.0f)));
+		Screen_t839756045 * L_18 = __this->get_address_of_screen_0();
+		float L_19 = L_18->get_height_1();
+		V_5 = ((float)((float)L_19/(float)(2.0f)));
+		Viewer_t1642017539 * L_20 = __this->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_21 = L_20->get_address_of_lenses_0();
+		float L_22 = L_21->get_separation_0();
+		float L_23 = V_4;
+		V_6 = ((float)((float)((float)((float)L_22/(float)(2.0f)))-(float)L_23));
+		float L_24 = GvrProfile_get_VerticalLensOffset_m4082146679(__this, /*hidden argument*/NULL);
+		V_7 = ((-L_24));
+		Viewer_t1642017539 * L_25 = __this->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_26 = L_25->get_address_of_lenses_0();
+		float L_27 = L_26->get_screenDistance_2();
+		V_8 = L_27;
+		Viewer_t1642017539 * L_28 = __this->get_address_of_viewer_1();
+		Distortion_t550060296 * L_29 = L_28->get_address_of_distortion_2();
+		float L_30 = V_6;
+		float L_31 = V_4;
+		float L_32 = V_8;
+		float L_33 = Distortion_distort_m1547245695(L_29, ((float)((float)((float)((float)L_30-(float)L_31))/(float)L_32)), /*hidden argument*/NULL);
+		V_9 = L_33;
+		Viewer_t1642017539 * L_34 = __this->get_address_of_viewer_1();
+		Distortion_t550060296 * L_35 = L_34->get_address_of_distortion_2();
+		float L_36 = V_7;
+		float L_37 = V_5;
+		float L_38 = V_8;
+		float L_39 = Distortion_distort_m1547245695(L_35, ((float)((float)((float)((float)L_36+(float)L_37))/(float)L_38)), /*hidden argument*/NULL);
+		V_10 = L_39;
+		Viewer_t1642017539 * L_40 = __this->get_address_of_viewer_1();
+		Distortion_t550060296 * L_41 = L_40->get_address_of_distortion_2();
+		float L_42 = V_6;
+		float L_43 = V_4;
+		float L_44 = V_8;
+		float L_45 = Distortion_distort_m1547245695(L_41, ((float)((float)((float)((float)L_42+(float)L_43))/(float)L_44)), /*hidden argument*/NULL);
+		V_11 = L_45;
+		Viewer_t1642017539 * L_46 = __this->get_address_of_viewer_1();
+		Distortion_t550060296 * L_47 = L_46->get_address_of_distortion_2();
+		float L_48 = V_7;
+		float L_49 = V_5;
+		float L_50 = V_8;
+		float L_51 = Distortion_distort_m1547245695(L_47, ((float)((float)((float)((float)L_48-(float)L_49))/(float)L_50)), /*hidden argument*/NULL);
+		V_12 = L_51;
+		SingleU5BU5D_t577127397* L_52 = ___result0;
+		float L_53 = V_0;
+		float L_54 = V_9;
+		float L_55 = Math_Max_m3360711905(NULL /*static, unused*/, L_53, L_54, /*hidden argument*/NULL);
+		NullCheck(L_52);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_55);
+		SingleU5BU5D_t577127397* L_56 = ___result0;
+		float L_57 = V_1;
+		float L_58 = V_10;
+		float L_59 = Math_Min_m105057611(NULL /*static, unused*/, L_57, L_58, /*hidden argument*/NULL);
+		NullCheck(L_56);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)L_59);
+		SingleU5BU5D_t577127397* L_60 = ___result0;
+		float L_61 = V_2;
+		float L_62 = V_11;
+		float L_63 = Math_Min_m105057611(NULL /*static, unused*/, L_61, L_62, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)L_63);
+		SingleU5BU5D_t577127397* L_64 = ___result0;
+		float L_65 = V_3;
+		float L_66 = V_12;
+		float L_67 = Math_Max_m3360711905(NULL /*static, unused*/, L_65, L_66, /*hidden argument*/NULL);
+		NullCheck(L_64);
+		(L_64)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_67);
+		return;
+	}
+}
+// System.Void GvrProfile::GetLeftEyeNoLensTanAngles(System.Single[])
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrProfile_GetLeftEyeNoLensTanAngles_m1542233222_MetadataUsageId;
+extern "C"  void GvrProfile_GetLeftEyeNoLensTanAngles_m1542233222 (GvrProfile_t2070273202 * __this, SingleU5BU5D_t577127397* ___result0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile_GetLeftEyeNoLensTanAngles_m1542233222_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	{
+		Viewer_t1642017539 * L_0 = __this->get_address_of_viewer_1();
+		Distortion_t550060296 * L_1 = L_0->get_address_of_distortion_2();
+		Viewer_t1642017539 * L_2 = __this->get_address_of_viewer_1();
+		MaxFOV_t1743211906 * L_3 = L_2->get_address_of_maxFOV_1();
+		float L_4 = L_3->get_outer_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_5 = tanf(((float)((float)((-L_4))*(float)(0.0174532924f))));
+		float L_6 = Distortion_distortInv_m2356602000(L_1, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		Viewer_t1642017539 * L_7 = __this->get_address_of_viewer_1();
+		Distortion_t550060296 * L_8 = L_7->get_address_of_distortion_2();
+		Viewer_t1642017539 * L_9 = __this->get_address_of_viewer_1();
+		MaxFOV_t1743211906 * L_10 = L_9->get_address_of_maxFOV_1();
+		float L_11 = L_10->get_upper_2();
+		float L_12 = tanf(((float)((float)L_11*(float)(0.0174532924f))));
+		float L_13 = Distortion_distortInv_m2356602000(L_8, L_12, /*hidden argument*/NULL);
+		V_1 = L_13;
+		Viewer_t1642017539 * L_14 = __this->get_address_of_viewer_1();
+		Distortion_t550060296 * L_15 = L_14->get_address_of_distortion_2();
+		Viewer_t1642017539 * L_16 = __this->get_address_of_viewer_1();
+		MaxFOV_t1743211906 * L_17 = L_16->get_address_of_maxFOV_1();
+		float L_18 = L_17->get_inner_1();
+		float L_19 = tanf(((float)((float)L_18*(float)(0.0174532924f))));
+		float L_20 = Distortion_distortInv_m2356602000(L_15, L_19, /*hidden argument*/NULL);
+		V_2 = L_20;
+		Viewer_t1642017539 * L_21 = __this->get_address_of_viewer_1();
+		Distortion_t550060296 * L_22 = L_21->get_address_of_distortion_2();
+		Viewer_t1642017539 * L_23 = __this->get_address_of_viewer_1();
+		MaxFOV_t1743211906 * L_24 = L_23->get_address_of_maxFOV_1();
+		float L_25 = L_24->get_lower_3();
+		float L_26 = tanf(((float)((float)((-L_25))*(float)(0.0174532924f))));
+		float L_27 = Distortion_distortInv_m2356602000(L_22, L_26, /*hidden argument*/NULL);
+		V_3 = L_27;
+		Screen_t839756045 * L_28 = __this->get_address_of_screen_0();
+		float L_29 = L_28->get_width_0();
+		V_4 = ((float)((float)L_29/(float)(4.0f)));
+		Screen_t839756045 * L_30 = __this->get_address_of_screen_0();
+		float L_31 = L_30->get_height_1();
+		V_5 = ((float)((float)L_31/(float)(2.0f)));
+		Viewer_t1642017539 * L_32 = __this->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_33 = L_32->get_address_of_lenses_0();
+		float L_34 = L_33->get_separation_0();
+		float L_35 = V_4;
+		V_6 = ((float)((float)((float)((float)L_34/(float)(2.0f)))-(float)L_35));
+		float L_36 = GvrProfile_get_VerticalLensOffset_m4082146679(__this, /*hidden argument*/NULL);
+		V_7 = ((-L_36));
+		Viewer_t1642017539 * L_37 = __this->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_38 = L_37->get_address_of_lenses_0();
+		float L_39 = L_38->get_screenDistance_2();
+		V_8 = L_39;
+		float L_40 = V_6;
+		float L_41 = V_4;
+		float L_42 = V_8;
+		V_9 = ((float)((float)((float)((float)L_40-(float)L_41))/(float)L_42));
+		float L_43 = V_7;
+		float L_44 = V_5;
+		float L_45 = V_8;
+		V_10 = ((float)((float)((float)((float)L_43+(float)L_44))/(float)L_45));
+		float L_46 = V_6;
+		float L_47 = V_4;
+		float L_48 = V_8;
+		V_11 = ((float)((float)((float)((float)L_46+(float)L_47))/(float)L_48));
+		float L_49 = V_7;
+		float L_50 = V_5;
+		float L_51 = V_8;
+		V_12 = ((float)((float)((float)((float)L_49-(float)L_50))/(float)L_51));
+		SingleU5BU5D_t577127397* L_52 = ___result0;
+		float L_53 = V_0;
+		float L_54 = V_9;
+		float L_55 = Math_Max_m3360711905(NULL /*static, unused*/, L_53, L_54, /*hidden argument*/NULL);
+		NullCheck(L_52);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)L_55);
+		SingleU5BU5D_t577127397* L_56 = ___result0;
+		float L_57 = V_1;
+		float L_58 = V_10;
+		float L_59 = Math_Min_m105057611(NULL /*static, unused*/, L_57, L_58, /*hidden argument*/NULL);
+		NullCheck(L_56);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)L_59);
+		SingleU5BU5D_t577127397* L_60 = ___result0;
+		float L_61 = V_2;
+		float L_62 = V_11;
+		float L_63 = Math_Min_m105057611(NULL /*static, unused*/, L_61, L_62, /*hidden argument*/NULL);
+		NullCheck(L_60);
+		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)L_63);
+		SingleU5BU5D_t577127397* L_64 = ___result0;
+		float L_65 = V_3;
+		float L_66 = V_12;
+		float L_67 = Math_Max_m3360711905(NULL /*static, unused*/, L_65, L_66, /*hidden argument*/NULL);
+		NullCheck(L_64);
+		(L_64)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)L_67);
+		return;
+	}
+}
+// UnityEngine.Rect GvrProfile::GetLeftEyeVisibleScreenRect(System.Single[])
+extern "C"  Rect_t3681755626  GvrProfile_GetLeftEyeVisibleScreenRect_m1327064272 (GvrProfile_t2070273202 * __this, SingleU5BU5D_t577127397* ___undistortedFrustum0, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	Rect_t3681755626  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	{
+		Viewer_t1642017539 * L_0 = __this->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_1 = L_0->get_address_of_lenses_0();
+		float L_2 = L_1->get_screenDistance_2();
+		V_0 = L_2;
+		Screen_t839756045 * L_3 = __this->get_address_of_screen_0();
+		float L_4 = L_3->get_width_0();
+		Viewer_t1642017539 * L_5 = __this->get_address_of_viewer_1();
+		Lenses_t2112994543 * L_6 = L_5->get_address_of_lenses_0();
+		float L_7 = L_6->get_separation_0();
+		V_1 = ((float)((float)((float)((float)L_4-(float)L_7))/(float)(2.0f)));
+		float L_8 = GvrProfile_get_VerticalLensOffset_m4082146679(__this, /*hidden argument*/NULL);
+		Screen_t839756045 * L_9 = __this->get_address_of_screen_0();
+		float L_10 = L_9->get_height_1();
+		V_2 = ((float)((float)L_8+(float)((float)((float)L_10/(float)(2.0f)))));
+		SingleU5BU5D_t577127397* L_11 = ___undistortedFrustum0;
+		NullCheck(L_11);
+		int32_t L_12 = 0;
+		float L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		float L_14 = V_0;
+		float L_15 = V_1;
+		Screen_t839756045 * L_16 = __this->get_address_of_screen_0();
+		float L_17 = L_16->get_width_0();
+		V_3 = ((float)((float)((float)((float)((float)((float)L_13*(float)L_14))+(float)L_15))/(float)L_17));
+		SingleU5BU5D_t577127397* L_18 = ___undistortedFrustum0;
+		NullCheck(L_18);
+		int32_t L_19 = 1;
+		float L_20 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		float L_21 = V_0;
+		float L_22 = V_2;
+		Screen_t839756045 * L_23 = __this->get_address_of_screen_0();
+		float L_24 = L_23->get_height_1();
+		V_4 = ((float)((float)((float)((float)((float)((float)L_20*(float)L_21))+(float)L_22))/(float)L_24));
+		SingleU5BU5D_t577127397* L_25 = ___undistortedFrustum0;
+		NullCheck(L_25);
+		int32_t L_26 = 2;
+		float L_27 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		float L_28 = V_0;
+		float L_29 = V_1;
+		Screen_t839756045 * L_30 = __this->get_address_of_screen_0();
+		float L_31 = L_30->get_width_0();
+		V_5 = ((float)((float)((float)((float)((float)((float)L_27*(float)L_28))+(float)L_29))/(float)L_31));
+		SingleU5BU5D_t577127397* L_32 = ___undistortedFrustum0;
+		NullCheck(L_32);
+		int32_t L_33 = 3;
+		float L_34 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
+		float L_35 = V_0;
+		float L_36 = V_2;
+		Screen_t839756045 * L_37 = __this->get_address_of_screen_0();
+		float L_38 = L_37->get_height_1();
+		V_6 = ((float)((float)((float)((float)((float)((float)L_34*(float)L_35))+(float)L_36))/(float)L_38));
+		float L_39 = V_3;
+		float L_40 = V_6;
+		float L_41 = V_5;
+		float L_42 = V_3;
+		float L_43 = V_4;
+		float L_44 = V_6;
+		Rect_t3681755626  L_45;
+		memset(&L_45, 0, sizeof(L_45));
+		Rect__ctor_m1220545469(&L_45, L_39, L_40, ((float)((float)L_41-(float)L_42)), ((float)((float)L_43-(float)L_44)), /*hidden argument*/NULL);
+		V_7 = L_45;
+		goto IL_00b9;
+	}
+
+IL_00b9:
+	{
+		Rect_t3681755626  L_46 = V_7;
+		return L_46;
+	}
+}
+// System.Single GvrProfile::GetMaxRadius(System.Single[])
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t GvrProfile_GetMaxRadius_m505799712_MetadataUsageId;
+extern "C"  float GvrProfile_GetMaxRadius_m505799712 (Il2CppObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___tanAngleRect0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile_GetMaxRadius_m505799712_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	{
+		SingleU5BU5D_t577127397* L_0 = ___tanAngleRect0;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		float L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_3 = fabsf(L_2);
+		SingleU5BU5D_t577127397* L_4 = ___tanAngleRect0;
+		NullCheck(L_4);
+		int32_t L_5 = 2;
+		float L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		float L_7 = fabsf(L_6);
+		float L_8 = Mathf_Max_m2564622569(NULL /*static, unused*/, L_3, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+		SingleU5BU5D_t577127397* L_9 = ___tanAngleRect0;
+		NullCheck(L_9);
+		int32_t L_10 = 1;
+		float L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		float L_12 = fabsf(L_11);
+		SingleU5BU5D_t577127397* L_13 = ___tanAngleRect0;
+		NullCheck(L_13);
+		int32_t L_14 = 3;
+		float L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		float L_16 = fabsf(L_15);
+		float L_17 = Mathf_Max_m2564622569(NULL /*static, unused*/, L_12, L_16, /*hidden argument*/NULL);
+		V_1 = L_17;
+		float L_18 = V_0;
+		float L_19 = V_0;
+		float L_20 = V_1;
+		float L_21 = V_1;
+		float L_22 = sqrtf(((float)((float)((float)((float)L_18*(float)L_19))+(float)((float)((float)L_20*(float)L_21)))));
+		V_2 = L_22;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		float L_23 = V_2;
+		return L_23;
+	}
+}
+// System.Double[] GvrProfile::solveLinear(System.Double[0...,0...],System.Double[])
+extern Il2CppClass* DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var;
+extern const uint32_t GvrProfile_solveLinear_m1840689786_MetadataUsageId;
+extern "C"  DoubleU5BU5D_t1889952540* GvrProfile_solveLinear_m1840689786 (Il2CppObject * __this /* static, unused */, DoubleU5B0___U2C0___U5D_t1889952541* ___a0, DoubleU5BU5D_t1889952540* ___y1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile_solveLinear_m1840689786_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	double V_3 = 0.0;
+	int32_t V_4 = 0;
+	DoubleU5BU5D_t1889952540* V_5 = NULL;
+	int32_t V_6 = 0;
+	double V_7 = 0.0;
+	int32_t V_8 = 0;
+	DoubleU5BU5D_t1889952540* V_9 = NULL;
+	{
+		DoubleU5B0___U2C0___U5D_t1889952541* L_0 = ___a0;
+		NullCheck((Il2CppArray *)(Il2CppArray *)L_0);
+		int32_t L_1 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_0, 0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_0080;
+	}
+
+IL_0010:
+	{
+		int32_t L_2 = V_1;
+		V_2 = ((int32_t)((int32_t)L_2+(int32_t)1));
+		goto IL_0074;
+	}
+
+IL_001a:
+	{
+		DoubleU5B0___U2C0___U5D_t1889952541* L_3 = ___a0;
+		int32_t L_4 = V_2;
+		int32_t L_5 = V_1;
+		NullCheck(L_3);
+		double L_6 = (L_3)->GetAt(L_4, L_5);
+		DoubleU5B0___U2C0___U5D_t1889952541* L_7 = ___a0;
+		int32_t L_8 = V_1;
+		int32_t L_9 = V_1;
+		NullCheck(L_7);
+		double L_10 = (L_7)->GetAt(L_8, L_9);
+		V_3 = ((double)((double)L_6/(double)L_10));
+		int32_t L_11 = V_1;
+		V_4 = ((int32_t)((int32_t)L_11+(int32_t)1));
+		goto IL_0057;
+	}
+
+IL_0037:
+	{
+		DoubleU5B0___U2C0___U5D_t1889952541* L_12 = ___a0;
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_4;
+		NullCheck(L_12);
+		double* L_15 = (L_12)->GetAddressAt(L_13, L_14);
+		double* L_16 = L_15;
+		double L_17 = V_3;
+		DoubleU5B0___U2C0___U5D_t1889952541* L_18 = ___a0;
+		int32_t L_19 = V_1;
+		int32_t L_20 = V_4;
+		NullCheck(L_18);
+		double L_21 = (L_18)->GetAt(L_19, L_20);
+		*((double*)(L_16)) = (double)((double)((double)(*((double*)L_16))-(double)((double)((double)L_17*(double)L_21))));
+		int32_t L_22 = V_4;
+		V_4 = ((int32_t)((int32_t)L_22+(int32_t)1));
+	}
+
+IL_0057:
+	{
+		int32_t L_23 = V_4;
+		int32_t L_24 = V_0;
+		if ((((int32_t)L_23) < ((int32_t)L_24)))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		DoubleU5BU5D_t1889952540* L_25 = ___y1;
+		int32_t L_26 = V_2;
+		NullCheck(L_25);
+		double* L_27 = ((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)));
+		double L_28 = V_3;
+		DoubleU5BU5D_t1889952540* L_29 = ___y1;
+		int32_t L_30 = V_1;
+		NullCheck(L_29);
+		int32_t L_31 = L_30;
+		double L_32 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
+		*((double*)(L_27)) = (double)((double)((double)(*((double*)L_27))-(double)((double)((double)L_28*(double)L_32))));
+		int32_t L_33 = V_2;
+		V_2 = ((int32_t)((int32_t)L_33+(int32_t)1));
+	}
+
+IL_0074:
+	{
+		int32_t L_34 = V_2;
+		int32_t L_35 = V_0;
+		if ((((int32_t)L_34) < ((int32_t)L_35)))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_36 = V_1;
+		V_1 = ((int32_t)((int32_t)L_36+(int32_t)1));
+	}
+
+IL_0080:
+	{
+		int32_t L_37 = V_1;
+		int32_t L_38 = V_0;
+		if ((((int32_t)L_37) < ((int32_t)((int32_t)((int32_t)L_38-(int32_t)1)))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		int32_t L_39 = V_0;
+		V_5 = ((DoubleU5BU5D_t1889952540*)SZArrayNew(DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var, (uint32_t)L_39));
+		int32_t L_40 = V_0;
+		V_6 = ((int32_t)((int32_t)L_40-(int32_t)1));
+		goto IL_00eb;
+	}
+
+IL_009b:
+	{
+		DoubleU5BU5D_t1889952540* L_41 = ___y1;
+		int32_t L_42 = V_6;
+		NullCheck(L_41);
+		int32_t L_43 = L_42;
+		double L_44 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		V_7 = L_44;
+		int32_t L_45 = V_6;
+		V_8 = ((int32_t)((int32_t)L_45+(int32_t)1));
+		goto IL_00ca;
+	}
+
+IL_00ad:
+	{
+		double L_46 = V_7;
+		DoubleU5B0___U2C0___U5D_t1889952541* L_47 = ___a0;
+		int32_t L_48 = V_6;
+		int32_t L_49 = V_8;
+		NullCheck(L_47);
+		double L_50 = (L_47)->GetAt(L_48, L_49);
+		DoubleU5BU5D_t1889952540* L_51 = V_5;
+		int32_t L_52 = V_8;
+		NullCheck(L_51);
+		int32_t L_53 = L_52;
+		double L_54 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		V_7 = ((double)((double)L_46-(double)((double)((double)L_50*(double)L_54))));
+		int32_t L_55 = V_8;
+		V_8 = ((int32_t)((int32_t)L_55+(int32_t)1));
+	}
+
+IL_00ca:
+	{
+		int32_t L_56 = V_8;
+		int32_t L_57 = V_0;
+		if ((((int32_t)L_56) < ((int32_t)L_57)))
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		DoubleU5BU5D_t1889952540* L_58 = V_5;
+		int32_t L_59 = V_6;
+		double L_60 = V_7;
+		DoubleU5B0___U2C0___U5D_t1889952541* L_61 = ___a0;
+		int32_t L_62 = V_6;
+		int32_t L_63 = V_6;
+		NullCheck(L_61);
+		double L_64 = (L_61)->GetAt(L_62, L_63);
+		NullCheck(L_58);
+		(L_58)->SetAt(static_cast<il2cpp_array_size_t>(L_59), (double)((double)((double)L_60/(double)L_64)));
+		int32_t L_65 = V_6;
+		V_6 = ((int32_t)((int32_t)L_65-(int32_t)1));
+	}
+
+IL_00eb:
+	{
+		int32_t L_66 = V_6;
+		if ((((int32_t)L_66) >= ((int32_t)0)))
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		DoubleU5BU5D_t1889952540* L_67 = V_5;
+		V_9 = L_67;
+		goto IL_00fc;
+	}
+
+IL_00fc:
+	{
+		DoubleU5BU5D_t1889952540* L_68 = V_9;
+		return L_68;
+	}
+}
+// System.Double[] GvrProfile::solveLeastSquares(System.Double[0...,0...],System.Double[])
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* DoubleU5B0___U2C0___U5D_t1889952541_il2cpp_TypeInfo_var;
+extern Il2CppClass* DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2105425129;
+extern const uint32_t GvrProfile_solveLeastSquares_m2766370624_MetadataUsageId;
+extern "C"  DoubleU5BU5D_t1889952540* GvrProfile_solveLeastSquares_m2766370624 (Il2CppObject * __this /* static, unused */, DoubleU5B0___U2C0___U5D_t1889952541* ___matA0, DoubleU5BU5D_t1889952540* ___vecY1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile_solveLeastSquares_m2766370624_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	DoubleU5BU5D_t1889952540* V_2 = NULL;
+	DoubleU5B0___U2C0___U5D_t1889952541* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	double V_6 = 0.0;
+	int32_t V_7 = 0;
+	DoubleU5BU5D_t1889952540* V_8 = NULL;
+	int32_t V_9 = 0;
+	double V_10 = 0.0;
+	int32_t V_11 = 0;
+	{
+		DoubleU5B0___U2C0___U5D_t1889952541* L_0 = ___matA0;
+		NullCheck((Il2CppArray *)(Il2CppArray *)L_0);
+		int32_t L_1 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_0, 0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		DoubleU5B0___U2C0___U5D_t1889952541* L_2 = ___matA0;
+		NullCheck((Il2CppArray *)(Il2CppArray *)L_2);
+		int32_t L_3 = Array_GetLength_m2083296647((Il2CppArray *)(Il2CppArray *)L_2, 1, /*hidden argument*/NULL);
+		V_1 = L_3;
+		int32_t L_4 = V_0;
+		DoubleU5BU5D_t1889952540* L_5 = ___vecY1;
+		NullCheck(L_5);
+		if ((((int32_t)L_4) == ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_5)->max_length)))))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral2105425129, /*hidden argument*/NULL);
+		V_2 = (DoubleU5BU5D_t1889952540*)NULL;
+		goto IL_0119;
+	}
+
+IL_002c:
+	{
+		int32_t L_6 = V_1;
+		int32_t L_7 = V_1;
+		il2cpp_array_size_t L_9[] = { (il2cpp_array_size_t)L_6, (il2cpp_array_size_t)L_7 };
+		DoubleU5B0___U2C0___U5D_t1889952541* L_8 = (DoubleU5B0___U2C0___U5D_t1889952541*)GenArrayNew(DoubleU5B0___U2C0___U5D_t1889952541_il2cpp_TypeInfo_var, L_9);
+		V_3 = L_8;
+		V_4 = 0;
+		goto IL_00a5;
+	}
+
+IL_003c:
+	{
+		V_5 = 0;
+		goto IL_0096;
+	}
+
+IL_0045:
+	{
+		V_6 = (0.0);
+		V_7 = 0;
+		goto IL_007b;
+	}
+
+IL_0059:
+	{
+		double L_10 = V_6;
+		DoubleU5B0___U2C0___U5D_t1889952541* L_11 = ___matA0;
+		int32_t L_12 = V_7;
+		int32_t L_13 = V_5;
+		NullCheck(L_11);
+		double L_14 = (L_11)->GetAt(L_12, L_13);
+		DoubleU5B0___U2C0___U5D_t1889952541* L_15 = ___matA0;
+		int32_t L_16 = V_7;
+		int32_t L_17 = V_4;
+		NullCheck(L_15);
+		double L_18 = (L_15)->GetAt(L_16, L_17);
+		V_6 = ((double)((double)L_10+(double)((double)((double)L_14*(double)L_18))));
+		int32_t L_19 = V_7;
+		V_7 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_007b:
+	{
+		int32_t L_20 = V_7;
+		int32_t L_21 = V_0;
+		if ((((int32_t)L_20) < ((int32_t)L_21)))
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		DoubleU5B0___U2C0___U5D_t1889952541* L_22 = V_3;
+		int32_t L_23 = V_5;
+		int32_t L_24 = V_4;
+		double L_25 = V_6;
+		NullCheck(L_22);
+		(L_22)->SetAt(L_23, L_24, L_25);
+		int32_t L_26 = V_5;
+		V_5 = ((int32_t)((int32_t)L_26+(int32_t)1));
+	}
+
+IL_0096:
+	{
+		int32_t L_27 = V_5;
+		int32_t L_28 = V_1;
+		if ((((int32_t)L_27) < ((int32_t)L_28)))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		int32_t L_29 = V_4;
+		V_4 = ((int32_t)((int32_t)L_29+(int32_t)1));
+	}
+
+IL_00a5:
+	{
+		int32_t L_30 = V_4;
+		int32_t L_31 = V_1;
+		if ((((int32_t)L_30) < ((int32_t)L_31)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		int32_t L_32 = V_1;
+		V_8 = ((DoubleU5BU5D_t1889952540*)SZArrayNew(DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var, (uint32_t)L_32));
+		V_9 = 0;
+		goto IL_0103;
+	}
+
+IL_00bd:
+	{
+		V_10 = (0.0);
+		V_11 = 0;
+		goto IL_00ed;
+	}
+
+IL_00d1:
+	{
+		double L_33 = V_10;
+		DoubleU5B0___U2C0___U5D_t1889952541* L_34 = ___matA0;
+		int32_t L_35 = V_11;
+		int32_t L_36 = V_9;
+		NullCheck(L_34);
+		double L_37 = (L_34)->GetAt(L_35, L_36);
+		DoubleU5BU5D_t1889952540* L_38 = ___vecY1;
+		int32_t L_39 = V_11;
+		NullCheck(L_38);
+		int32_t L_40 = L_39;
+		double L_41 = (L_38)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+		V_10 = ((double)((double)L_33+(double)((double)((double)L_37*(double)L_41))));
+		int32_t L_42 = V_11;
+		V_11 = ((int32_t)((int32_t)L_42+(int32_t)1));
+	}
+
+IL_00ed:
+	{
+		int32_t L_43 = V_11;
+		int32_t L_44 = V_0;
+		if ((((int32_t)L_43) < ((int32_t)L_44)))
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		DoubleU5BU5D_t1889952540* L_45 = V_8;
+		int32_t L_46 = V_9;
+		double L_47 = V_10;
+		NullCheck(L_45);
+		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(L_46), (double)L_47);
+		int32_t L_48 = V_9;
+		V_9 = ((int32_t)((int32_t)L_48+(int32_t)1));
+	}
+
+IL_0103:
+	{
+		int32_t L_49 = V_9;
+		int32_t L_50 = V_1;
+		if ((((int32_t)L_49) < ((int32_t)L_50)))
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		DoubleU5B0___U2C0___U5D_t1889952541* L_51 = V_3;
+		DoubleU5BU5D_t1889952540* L_52 = V_8;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		DoubleU5BU5D_t1889952540* L_53 = GvrProfile_solveLinear_m1840689786(NULL /*static, unused*/, L_51, L_52, /*hidden argument*/NULL);
+		V_2 = L_53;
+		goto IL_0119;
+	}
+
+IL_0119:
+	{
+		DoubleU5BU5D_t1889952540* L_54 = V_2;
+		return L_54;
+	}
+}
+// GvrProfile/Distortion GvrProfile::ApproximateInverse(System.Single[],System.Single,System.Int32)
+extern Il2CppClass* Distortion_t550060296_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern const uint32_t GvrProfile_ApproximateInverse_m766132967_MetadataUsageId;
+extern "C"  Distortion_t550060296  GvrProfile_ApproximateInverse_m766132967 (Il2CppObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___coef0, float ___maxRadius1, int32_t ___numSamples2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile_ApproximateInverse_m766132967_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Distortion_t550060296  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Distortion_t550060296  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Initobj (Distortion_t550060296_il2cpp_TypeInfo_var, (&V_0));
+		SingleU5BU5D_t577127397* L_0 = ___coef0;
+		Distortion_set_Coef_m586170824((&V_0), L_0, /*hidden argument*/NULL);
+		Distortion_t550060296  L_1 = V_0;
+		float L_2 = ___maxRadius1;
+		int32_t L_3 = ___numSamples2;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		Distortion_t550060296  L_4 = GvrProfile_ApproximateInverse_m2815142958(NULL /*static, unused*/, L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		Distortion_t550060296  L_5 = V_1;
+		return L_5;
+	}
+}
+// GvrProfile/Distortion GvrProfile::ApproximateInverse(GvrProfile/Distortion,System.Single,System.Int32)
+extern Il2CppClass* DoubleU5B0___U2C0___U5D_t1889952541_il2cpp_TypeInfo_var;
+extern Il2CppClass* DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppClass* Distortion_t550060296_il2cpp_TypeInfo_var;
+extern const uint32_t GvrProfile_ApproximateInverse_m2815142958_MetadataUsageId;
+extern "C"  Distortion_t550060296  GvrProfile_ApproximateInverse_m2815142958 (Il2CppObject * __this /* static, unused */, Distortion_t550060296  ___distort0, float ___maxRadius1, int32_t ___numSamples2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile_ApproximateInverse_m2815142958_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	DoubleU5B0___U2C0___U5D_t1889952541* V_0 = NULL;
+	DoubleU5BU5D_t1889952540* V_1 = NULL;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	double V_4 = 0.0;
+	double V_5 = 0.0;
+	int32_t V_6 = 0;
+	DoubleU5BU5D_t1889952540* V_7 = NULL;
+	SingleU5BU5D_t577127397* V_8 = NULL;
+	int32_t V_9 = 0;
+	Distortion_t550060296  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	Distortion_t550060296  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	{
+		int32_t L_0 = ___numSamples2;
+		il2cpp_array_size_t L_2[] = { (il2cpp_array_size_t)L_0, (il2cpp_array_size_t)6 };
+		DoubleU5B0___U2C0___U5D_t1889952541* L_1 = (DoubleU5B0___U2C0___U5D_t1889952541*)GenArrayNew(DoubleU5B0___U2C0___U5D_t1889952541_il2cpp_TypeInfo_var, L_2);
+		V_0 = L_1;
+		int32_t L_3 = ___numSamples2;
+		V_1 = ((DoubleU5BU5D_t1889952540*)SZArrayNew(DoubleU5BU5D_t1889952540_il2cpp_TypeInfo_var, (uint32_t)L_3));
+		V_2 = 0;
+		goto IL_006b;
+	}
+
+IL_0017:
+	{
+		float L_4 = ___maxRadius1;
+		int32_t L_5 = V_2;
+		int32_t L_6 = ___numSamples2;
+		V_3 = ((float)((float)((float)((float)L_4*(float)(((float)((float)((int32_t)((int32_t)L_5+(int32_t)1)))))))/(float)(((float)((float)L_6)))));
+		float L_7 = V_3;
+		float L_8 = Distortion_distort_m1547245695((&___distort0), L_7, /*hidden argument*/NULL);
+		V_4 = (((double)((double)L_8)));
+		double L_9 = V_4;
+		V_5 = L_9;
+		V_6 = 0;
+		goto IL_0056;
+	}
+
+IL_0039:
+	{
+		double L_10 = V_5;
+		double L_11 = V_4;
+		double L_12 = V_4;
+		V_5 = ((double)((double)L_10*(double)((double)((double)L_11*(double)L_12))));
+		DoubleU5B0___U2C0___U5D_t1889952541* L_13 = V_0;
+		int32_t L_14 = V_2;
+		int32_t L_15 = V_6;
+		double L_16 = V_5;
+		NullCheck(L_13);
+		(L_13)->SetAt(L_14, L_15, L_16);
+		int32_t L_17 = V_6;
+		V_6 = ((int32_t)((int32_t)L_17+(int32_t)1));
+	}
+
+IL_0056:
+	{
+		int32_t L_18 = V_6;
+		if ((((int32_t)L_18) < ((int32_t)6)))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		DoubleU5BU5D_t1889952540* L_19 = V_1;
+		int32_t L_20 = V_2;
+		float L_21 = V_3;
+		double L_22 = V_4;
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(L_20), (double)((double)((double)(((double)((double)L_21)))-(double)L_22)));
+		int32_t L_23 = V_2;
+		V_2 = ((int32_t)((int32_t)L_23+(int32_t)1));
+	}
+
+IL_006b:
+	{
+		int32_t L_24 = V_2;
+		int32_t L_25 = ___numSamples2;
+		if ((((int32_t)L_24) < ((int32_t)L_25)))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		DoubleU5B0___U2C0___U5D_t1889952541* L_26 = V_0;
+		DoubleU5BU5D_t1889952540* L_27 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		DoubleU5BU5D_t1889952540* L_28 = GvrProfile_solveLeastSquares_m2766370624(NULL /*static, unused*/, L_26, L_27, /*hidden argument*/NULL);
+		V_7 = L_28;
+		DoubleU5BU5D_t1889952540* L_29 = V_7;
+		NullCheck(L_29);
+		V_8 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_29)->max_length))))));
+		V_9 = 0;
+		goto IL_00a1;
+	}
+
+IL_008e:
+	{
+		SingleU5BU5D_t577127397* L_30 = V_8;
+		int32_t L_31 = V_9;
+		DoubleU5BU5D_t1889952540* L_32 = V_7;
+		int32_t L_33 = V_9;
+		NullCheck(L_32);
+		int32_t L_34 = L_33;
+		double L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (float)(((float)((float)L_35))));
+		int32_t L_36 = V_9;
+		V_9 = ((int32_t)((int32_t)L_36+(int32_t)1));
+	}
+
+IL_00a1:
+	{
+		int32_t L_37 = V_9;
+		DoubleU5BU5D_t1889952540* L_38 = V_7;
+		NullCheck(L_38);
+		if ((((int32_t)L_37) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_38)->max_length)))))))
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		Initobj (Distortion_t550060296_il2cpp_TypeInfo_var, (&V_10));
+		SingleU5BU5D_t577127397* L_39 = V_8;
+		Distortion_set_Coef_m586170824((&V_10), L_39, /*hidden argument*/NULL);
+		Distortion_t550060296  L_40 = V_10;
+		V_11 = L_40;
+		goto IL_00c6;
+	}
+
+IL_00c6:
+	{
+		Distortion_t550060296  L_41 = V_11;
+		return L_41;
+	}
+}
+// System.Void GvrProfile::.cctor()
+extern Il2CppClass* Screen_t839756045_il2cpp_TypeInfo_var;
+extern Il2CppClass* GvrProfile_t2070273202_il2cpp_TypeInfo_var;
+extern Il2CppClass* Viewer_t1642017539_il2cpp_TypeInfo_var;
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern const uint32_t GvrProfile__cctor_m2741598956_MetadataUsageId;
+extern "C"  void GvrProfile__cctor_m2741598956 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GvrProfile__cctor_m2741598956_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Screen_t839756045  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Screen_t839756045  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Screen_t839756045  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Screen_t839756045  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Screen_t839756045  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Screen_t839756045  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Screen_t839756045  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Screen_t839756045  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Screen_t839756045  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	Viewer_t1642017539  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Viewer_t1642017539  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	Viewer_t1642017539  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	GvrProfile_t2070273202 * V_12 = NULL;
+	{
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_0));
+		(&V_0)->set_width_0((0.11f));
+		(&V_0)->set_height_1((0.062f));
+		(&V_0)->set_border_2((0.004f));
+		Screen_t839756045  L_0 = V_0;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_Nexus5_2(L_0);
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_1));
+		(&V_1)->set_width_0((0.133f));
+		(&V_1)->set_height_1((0.074f));
+		(&V_1)->set_border_2((0.004f));
+		Screen_t839756045  L_1 = V_1;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_Nexus6_3(L_1);
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_2));
+		(&V_2)->set_width_0((0.114f));
+		(&V_2)->set_height_1((0.0635f));
+		(&V_2)->set_border_2((0.0035f));
+		Screen_t839756045  L_2 = V_2;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_GalaxyS6_4(L_2);
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_3));
+		(&V_3)->set_width_0((0.125f));
+		(&V_3)->set_height_1((0.0705f));
+		(&V_3)->set_border_2((0.0045f));
+		Screen_t839756045  L_3 = V_3;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_GalaxyNote4_5(L_3);
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_4));
+		(&V_4)->set_width_0((0.121f));
+		(&V_4)->set_height_1((0.068f));
+		(&V_4)->set_border_2((0.003f));
+		Screen_t839756045  L_4 = V_4;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_LGG3_6(L_4);
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_5));
+		(&V_5)->set_width_0((0.075f));
+		(&V_5)->set_height_1((0.05f));
+		(&V_5)->set_border_2((0.0045f));
+		Screen_t839756045  L_5 = V_5;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_iPhone4_7(L_5);
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_6));
+		(&V_6)->set_width_0((0.089f));
+		(&V_6)->set_height_1((0.05f));
+		(&V_6)->set_border_2((0.0045f));
+		Screen_t839756045  L_6 = V_6;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_iPhone5_8(L_6);
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_7));
+		(&V_7)->set_width_0((0.104f));
+		(&V_7)->set_height_1((0.058f));
+		(&V_7)->set_border_2((0.005f));
+		Screen_t839756045  L_7 = V_7;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_iPhone6_9(L_7);
+		Initobj (Screen_t839756045_il2cpp_TypeInfo_var, (&V_8));
+		(&V_8)->set_width_0((0.112f));
+		(&V_8)->set_height_1((0.068f));
+		(&V_8)->set_border_2((0.005f));
+		Screen_t839756045  L_8 = V_8;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_iPhone6p_10(L_8);
+		Initobj (Viewer_t1642017539_il2cpp_TypeInfo_var, (&V_9));
+		Lenses_t2112994543 * L_9 = (&V_9)->get_address_of_lenses_0();
+		L_9->set_separation_0((0.06f));
+		Lenses_t2112994543 * L_10 = (&V_9)->get_address_of_lenses_0();
+		L_10->set_offset_1((0.035f));
+		Lenses_t2112994543 * L_11 = (&V_9)->get_address_of_lenses_0();
+		L_11->set_screenDistance_2((0.042f));
+		Lenses_t2112994543 * L_12 = (&V_9)->get_address_of_lenses_0();
+		L_12->set_alignment_3(1);
+		MaxFOV_t1743211906 * L_13 = (&V_9)->get_address_of_maxFOV_1();
+		L_13->set_outer_0((40.0f));
+		MaxFOV_t1743211906 * L_14 = (&V_9)->get_address_of_maxFOV_1();
+		L_14->set_inner_1((40.0f));
+		MaxFOV_t1743211906 * L_15 = (&V_9)->get_address_of_maxFOV_1();
+		L_15->set_upper_2((40.0f));
+		MaxFOV_t1743211906 * L_16 = (&V_9)->get_address_of_maxFOV_1();
+		L_16->set_lower_3((40.0f));
+		Distortion_t550060296 * L_17 = (&V_9)->get_address_of_distortion_2();
+		SingleU5BU5D_t577127397* L_18 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)2));
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.441f));
+		SingleU5BU5D_t577127397* L_19 = L_18;
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.156f));
+		Distortion_set_Coef_m586170824(L_17, L_19, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_20 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)2));
+		NullCheck(L_20);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.441f));
+		SingleU5BU5D_t577127397* L_21 = L_20;
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.156f));
+		Distortion_t550060296  L_22 = GvrProfile_ApproximateInverse_m766132967(NULL /*static, unused*/, L_21, (1.0f), ((int32_t)100), /*hidden argument*/NULL);
+		(&V_9)->set_inverse_3(L_22);
+		Viewer_t1642017539  L_23 = V_9;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_CardboardJun2014_11(L_23);
+		Initobj (Viewer_t1642017539_il2cpp_TypeInfo_var, (&V_10));
+		Lenses_t2112994543 * L_24 = (&V_10)->get_address_of_lenses_0();
+		L_24->set_separation_0((0.064f));
+		Lenses_t2112994543 * L_25 = (&V_10)->get_address_of_lenses_0();
+		L_25->set_offset_1((0.035f));
+		Lenses_t2112994543 * L_26 = (&V_10)->get_address_of_lenses_0();
+		L_26->set_screenDistance_2((0.039f));
+		Lenses_t2112994543 * L_27 = (&V_10)->get_address_of_lenses_0();
+		L_27->set_alignment_3(1);
+		MaxFOV_t1743211906 * L_28 = (&V_10)->get_address_of_maxFOV_1();
+		L_28->set_outer_0((60.0f));
+		MaxFOV_t1743211906 * L_29 = (&V_10)->get_address_of_maxFOV_1();
+		L_29->set_inner_1((60.0f));
+		MaxFOV_t1743211906 * L_30 = (&V_10)->get_address_of_maxFOV_1();
+		L_30->set_upper_2((60.0f));
+		MaxFOV_t1743211906 * L_31 = (&V_10)->get_address_of_maxFOV_1();
+		L_31->set_lower_3((60.0f));
+		Distortion_t550060296 * L_32 = (&V_10)->get_address_of_distortion_2();
+		SingleU5BU5D_t577127397* L_33 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)2));
+		NullCheck(L_33);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.34f));
+		SingleU5BU5D_t577127397* L_34 = L_33;
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.55f));
+		Distortion_set_Coef_m586170824(L_32, L_34, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_35 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)2));
+		NullCheck(L_35);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.34f));
+		SingleU5BU5D_t577127397* L_36 = L_35;
+		NullCheck(L_36);
+		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(0.55f));
+		Distortion_t550060296  L_37 = GvrProfile_ApproximateInverse_m766132967(NULL /*static, unused*/, L_36, (1.0f), ((int32_t)100), /*hidden argument*/NULL);
+		(&V_10)->set_inverse_3(L_37);
+		Viewer_t1642017539  L_38 = V_10;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_CardboardMay2015_12(L_38);
+		Initobj (Viewer_t1642017539_il2cpp_TypeInfo_var, (&V_11));
+		Lenses_t2112994543 * L_39 = (&V_11)->get_address_of_lenses_0();
+		L_39->set_separation_0((0.065f));
+		Lenses_t2112994543 * L_40 = (&V_11)->get_address_of_lenses_0();
+		L_40->set_offset_1((0.036f));
+		Lenses_t2112994543 * L_41 = (&V_11)->get_address_of_lenses_0();
+		L_41->set_screenDistance_2((0.058f));
+		Lenses_t2112994543 * L_42 = (&V_11)->get_address_of_lenses_0();
+		L_42->set_alignment_3(1);
+		MaxFOV_t1743211906 * L_43 = (&V_11)->get_address_of_maxFOV_1();
+		L_43->set_outer_0((50.0f));
+		MaxFOV_t1743211906 * L_44 = (&V_11)->get_address_of_maxFOV_1();
+		L_44->set_inner_1((50.0f));
+		MaxFOV_t1743211906 * L_45 = (&V_11)->get_address_of_maxFOV_1();
+		L_45->set_upper_2((50.0f));
+		MaxFOV_t1743211906 * L_46 = (&V_11)->get_address_of_maxFOV_1();
+		L_46->set_lower_3((50.0f));
+		Distortion_t550060296 * L_47 = (&V_11)->get_address_of_distortion_2();
+		SingleU5BU5D_t577127397* L_48 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)2));
+		NullCheck(L_48);
+		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.3f));
+		Distortion_set_Coef_m586170824(L_47, L_48, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_49 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)2));
+		NullCheck(L_49);
+		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(0.3f));
+		Distortion_t550060296  L_50 = GvrProfile_ApproximateInverse_m766132967(NULL /*static, unused*/, L_49, (1.0f), ((int32_t)100), /*hidden argument*/NULL);
+		(&V_11)->set_inverse_3(L_50);
+		Viewer_t1642017539  L_51 = V_11;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_GoggleTechC1Glass_13(L_51);
+		GvrProfile_t2070273202 * L_52 = (GvrProfile_t2070273202 *)il2cpp_codegen_object_new(GvrProfile_t2070273202_il2cpp_TypeInfo_var);
+		GvrProfile__ctor_m675593615(L_52, /*hidden argument*/NULL);
+		V_12 = L_52;
+		GvrProfile_t2070273202 * L_53 = V_12;
+		Screen_t839756045  L_54 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_Nexus5_2();
+		NullCheck(L_53);
+		L_53->set_screen_0(L_54);
+		GvrProfile_t2070273202 * L_55 = V_12;
+		Viewer_t1642017539  L_56 = ((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->get_CardboardJun2014_11();
+		NullCheck(L_55);
+		L_55->set_viewer_1(L_56);
+		GvrProfile_t2070273202 * L_57 = V_12;
+		((GvrProfile_t2070273202_StaticFields*)GvrProfile_t2070273202_il2cpp_TypeInfo_var->static_fields)->set_Default_14(L_57);
+		return;
+	}
+}
+// System.Single[] GvrProfile/Distortion::get_Coef()
+extern "C"  SingleU5BU5D_t577127397* Distortion_get_Coef_m3046001801 (Distortion_t550060296 * __this, const MethodInfo* method)
+{
+	SingleU5BU5D_t577127397* V_0 = NULL;
+	{
+		SingleU5BU5D_t577127397* L_0 = __this->get_coef_0();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		SingleU5BU5D_t577127397* L_1 = V_0;
+		return L_1;
+	}
+}
+extern "C"  SingleU5BU5D_t577127397* Distortion_get_Coef_m3046001801_AdjustorThunk (Il2CppObject * __this, const MethodInfo* method)
+{
+	Distortion_t550060296 * _thisAdjusted = reinterpret_cast<Distortion_t550060296 *>(__this + 1);
+	return Distortion_get_Coef_m3046001801(_thisAdjusted, method);
+}
+// System.Void GvrProfile/Distortion::set_Coef(System.Single[])
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern const uint32_t Distortion_set_Coef_m586170824_MetadataUsageId;
+extern "C"  void Distortion_set_Coef_m586170824 (Distortion_t550060296 * __this, SingleU5BU5D_t577127397* ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Distortion_set_Coef_m586170824_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		SingleU5BU5D_t577127397* L_0 = ___value0;
+		if (!L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		SingleU5BU5D_t577127397* L_1 = ___value0;
+		NullCheck((Il2CppArray *)(Il2CppArray *)L_1);
+		Il2CppObject * L_2 = Array_Clone_m768574314((Il2CppArray *)(Il2CppArray *)L_1, /*hidden argument*/NULL);
+		__this->set_coef_0(((SingleU5BU5D_t577127397*)Castclass(L_2, SingleU5BU5D_t577127397_il2cpp_TypeInfo_var)));
+		goto IL_0028;
+	}
+
+IL_001f:
+	{
+		__this->set_coef_0((SingleU5BU5D_t577127397*)NULL);
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+extern "C"  void Distortion_set_Coef_m586170824_AdjustorThunk (Il2CppObject * __this, SingleU5BU5D_t577127397* ___value0, const MethodInfo* method)
+{
+	Distortion_t550060296 * _thisAdjusted = reinterpret_cast<Distortion_t550060296 *>(__this + 1);
+	Distortion_set_Coef_m586170824(_thisAdjusted, ___value0, method);
+}
+// System.Single GvrProfile/Distortion::distort(System.Single)
+extern "C"  float Distortion_distort_m1547245695 (Distortion_t550060296 * __this, float ___r0, const MethodInfo* method)
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	{
+		float L_0 = ___r0;
+		float L_1 = ___r0;
+		V_0 = ((float)((float)L_0*(float)L_1));
+		V_1 = (0.0f);
+		SingleU5BU5D_t577127397* L_2 = __this->get_coef_0();
+		NullCheck(L_2);
+		V_2 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_2)->max_length))))-(int32_t)1));
+		goto IL_002e;
+	}
+
+IL_001b:
+	{
+		float L_3 = V_0;
+		float L_4 = V_1;
+		SingleU5BU5D_t577127397* L_5 = __this->get_coef_0();
+		int32_t L_6 = V_2;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		float L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		V_1 = ((float)((float)L_3*(float)((float)((float)L_4+(float)L_8))));
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)((int32_t)L_9-(int32_t)1));
+	}
+
+IL_002e:
+	{
+		int32_t L_10 = V_2;
+		if ((((int32_t)L_10) >= ((int32_t)0)))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		float L_11 = V_1;
+		float L_12 = ___r0;
+		V_3 = ((float)((float)((float)((float)L_11+(float)(1.0f)))*(float)L_12));
+		goto IL_0044;
+	}
+
+IL_0044:
+	{
+		float L_13 = V_3;
+		return L_13;
+	}
+}
+extern "C"  float Distortion_distort_m1547245695_AdjustorThunk (Il2CppObject * __this, float ___r0, const MethodInfo* method)
+{
+	Distortion_t550060296 * _thisAdjusted = reinterpret_cast<Distortion_t550060296 *>(__this + 1);
+	return Distortion_distort_m1547245695(_thisAdjusted, ___r0, method);
+}
+// System.Single GvrProfile/Distortion::distortInv(System.Single)
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern const uint32_t Distortion_distortInv_m2356602000_MetadataUsageId;
+extern "C"  float Distortion_distortInv_m2356602000 (Distortion_t550060296 * __this, float ___radius0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Distortion_distortInv_m2356602000_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	{
+		V_0 = (0.0f);
+		V_1 = (1.0f);
+		float L_0 = ___radius0;
+		float L_1 = V_0;
+		float L_2 = Distortion_distort_m1547245695(__this, L_1, /*hidden argument*/NULL);
+		V_2 = ((float)((float)L_0-(float)L_2));
+		goto IL_003c;
+	}
+
+IL_001c:
+	{
+		float L_3 = ___radius0;
+		float L_4 = V_1;
+		float L_5 = Distortion_distort_m1547245695(__this, L_4, /*hidden argument*/NULL);
+		V_3 = ((float)((float)L_3-(float)L_5));
+		float L_6 = V_1;
+		float L_7 = V_3;
+		float L_8 = V_1;
+		float L_9 = V_0;
+		float L_10 = V_3;
+		float L_11 = V_2;
+		V_4 = ((float)((float)L_6-(float)((float)((float)L_7*(float)((float)((float)((float)((float)L_8-(float)L_9))/(float)((float)((float)L_10-(float)L_11))))))));
+		float L_12 = V_1;
+		V_0 = L_12;
+		float L_13 = V_4;
+		V_1 = L_13;
+		float L_14 = V_3;
+		V_2 = L_14;
+	}
+
+IL_003c:
+	{
+		float L_15 = V_1;
+		float L_16 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_17 = fabsf(((float)((float)L_15-(float)L_16)));
+		if ((((float)L_17) > ((float)(0.0001f))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		float L_18 = V_1;
+		V_5 = L_18;
+		goto IL_0056;
+	}
+
+IL_0056:
+	{
+		float L_19 = V_5;
+		return L_19;
+	}
+}
+extern "C"  float Distortion_distortInv_m2356602000_AdjustorThunk (Il2CppObject * __this, float ___radius0, const MethodInfo* method)
+{
+	Distortion_t550060296 * _thisAdjusted = reinterpret_cast<Distortion_t550060296 *>(__this + 1);
+	return Distortion_distortInv_m2356602000(_thisAdjusted, ___radius0, method);
+}
+// Conversion methods for marshalling of: GvrProfile/Distortion
+extern "C" void Distortion_t550060296_marshal_pinvoke(const Distortion_t550060296& unmarshaled, Distortion_t550060296_marshaled_pinvoke& marshaled)
+{
+	if (unmarshaled.get_coef_0() != NULL)
+	{
+		int32_t _unmarshaled_coef_Length = (unmarshaled.get_coef_0())->max_length;
+		marshaled.___coef_0 = il2cpp_codegen_marshal_allocate_array<float>(_unmarshaled_coef_Length);
+		for (int32_t i = 0; i < _unmarshaled_coef_Length; i++)
+		{
+			(marshaled.___coef_0)[i] = (unmarshaled.get_coef_0())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+	else
+	{
+		marshaled.___coef_0 = NULL;
+	}
+}
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern const uint32_t Distortion_t550060296_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+extern "C" void Distortion_t550060296_marshal_pinvoke_back(const Distortion_t550060296_marshaled_pinvoke& marshaled, Distortion_t550060296& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Distortion_t550060296_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	if (marshaled.___coef_0 != NULL)
+	{
+		if (unmarshaled.get_coef_0() == NULL)
+		{
+			unmarshaled.set_coef_0(reinterpret_cast<SingleU5BU5D_t577127397*>(SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, 1)));
+		}
+		int32_t _arrayLength = (unmarshaled.get_coef_0())->max_length;
+		for (int32_t i = 0; i < _arrayLength; i++)
+		{
+			(unmarshaled.get_coef_0())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___coef_0)[i]);
+		}
+	}
+}
+// Conversion method for clean up from marshalling of: GvrProfile/Distortion
+extern "C" void Distortion_t550060296_marshal_pinvoke_cleanup(Distortion_t550060296_marshaled_pinvoke& marshaled)
+{
+	if (marshaled.___coef_0 != NULL)
+	{
+		il2cpp_codegen_marshal_free(marshaled.___coef_0);
+		marshaled.___coef_0 = NULL;
+	}
+}
+// Conversion methods for marshalling of: GvrProfile/Distortion
+extern "C" void Distortion_t550060296_marshal_com(const Distortion_t550060296& unmarshaled, Distortion_t550060296_marshaled_com& marshaled)
+{
+	if (unmarshaled.get_coef_0() != NULL)
+	{
+		int32_t _unmarshaled_coef_Length = (unmarshaled.get_coef_0())->max_length;
+		marshaled.___coef_0 = il2cpp_codegen_marshal_allocate_array<float>(_unmarshaled_coef_Length);
+		for (int32_t i = 0; i < _unmarshaled_coef_Length; i++)
+		{
+			(marshaled.___coef_0)[i] = (unmarshaled.get_coef_0())->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i));
+		}
+	}
+	else
+	{
+		marshaled.___coef_0 = NULL;
+	}
+}
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern const uint32_t Distortion_t550060296_com_FromNativeMethodDefinition_MetadataUsageId;
+extern "C" void Distortion_t550060296_marshal_com_back(const Distortion_t550060296_marshaled_com& marshaled, Distortion_t550060296& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Distortion_t550060296_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	if (marshaled.___coef_0 != NULL)
+	{
+		if (unmarshaled.get_coef_0() == NULL)
+		{
+			unmarshaled.set_coef_0(reinterpret_cast<SingleU5BU5D_t577127397*>(SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, 1)));
+		}
+		int32_t _arrayLength = (unmarshaled.get_coef_0())->max_length;
+		for (int32_t i = 0; i < _arrayLength; i++)
+		{
+			(unmarshaled.get_coef_0())->SetAtUnchecked(static_cast<il2cpp_array_size_t>(i), (marshaled.___coef_0)[i]);
+		}
+	}
+}
+// Conversion method for clean up from marshalling of: GvrProfile/Distortion
+extern "C" void Distortion_t550060296_marshal_com_cleanup(Distortion_t550060296_marshaled_com& marshaled)
+{
+	if (marshaled.___coef_0 != NULL)
+	{
+		il2cpp_codegen_marshal_free(marshaled.___coef_0);
+		marshaled.___coef_0 = NULL;
+	}
+}
+// Conversion methods for marshalling of: GvrProfile/Viewer
+extern "C" void Viewer_t1642017539_marshal_pinvoke(const Viewer_t1642017539& unmarshaled, Viewer_t1642017539_marshaled_pinvoke& marshaled)
+{
+	marshaled.___lenses_0 = unmarshaled.get_lenses_0();
+	marshaled.___maxFOV_1 = unmarshaled.get_maxFOV_1();
+	Distortion_t550060296_marshal_pinvoke(unmarshaled.get_distortion_2(), marshaled.___distortion_2);
+	Distortion_t550060296_marshal_pinvoke(unmarshaled.get_inverse_3(), marshaled.___inverse_3);
+}
+extern "C" void Viewer_t1642017539_marshal_pinvoke_back(const Viewer_t1642017539_marshaled_pinvoke& marshaled, Viewer_t1642017539& unmarshaled)
+{
+	Lenses_t2112994543  unmarshaled_lenses_temp_0;
+	memset(&unmarshaled_lenses_temp_0, 0, sizeof(unmarshaled_lenses_temp_0));
+	unmarshaled_lenses_temp_0 = marshaled.___lenses_0;
+	unmarshaled.set_lenses_0(unmarshaled_lenses_temp_0);
+	MaxFOV_t1743211906  unmarshaled_maxFOV_temp_1;
+	memset(&unmarshaled_maxFOV_temp_1, 0, sizeof(unmarshaled_maxFOV_temp_1));
+	unmarshaled_maxFOV_temp_1 = marshaled.___maxFOV_1;
+	unmarshaled.set_maxFOV_1(unmarshaled_maxFOV_temp_1);
+	Distortion_t550060296  unmarshaled_distortion_temp_2;
+	memset(&unmarshaled_distortion_temp_2, 0, sizeof(unmarshaled_distortion_temp_2));
+	Distortion_t550060296_marshal_pinvoke_back(marshaled.___distortion_2, unmarshaled_distortion_temp_2);
+	unmarshaled.set_distortion_2(unmarshaled_distortion_temp_2);
+	Distortion_t550060296  unmarshaled_inverse_temp_3;
+	memset(&unmarshaled_inverse_temp_3, 0, sizeof(unmarshaled_inverse_temp_3));
+	Distortion_t550060296_marshal_pinvoke_back(marshaled.___inverse_3, unmarshaled_inverse_temp_3);
+	unmarshaled.set_inverse_3(unmarshaled_inverse_temp_3);
+}
+// Conversion method for clean up from marshalling of: GvrProfile/Viewer
+extern "C" void Viewer_t1642017539_marshal_pinvoke_cleanup(Viewer_t1642017539_marshaled_pinvoke& marshaled)
+{
+	Distortion_t550060296_marshal_pinvoke_cleanup(marshaled.___distortion_2);
+	Distortion_t550060296_marshal_pinvoke_cleanup(marshaled.___inverse_3);
+}
+// Conversion methods for marshalling of: GvrProfile/Viewer
+extern "C" void Viewer_t1642017539_marshal_com(const Viewer_t1642017539& unmarshaled, Viewer_t1642017539_marshaled_com& marshaled)
+{
+	marshaled.___lenses_0 = unmarshaled.get_lenses_0();
+	marshaled.___maxFOV_1 = unmarshaled.get_maxFOV_1();
+	Distortion_t550060296_marshal_com(unmarshaled.get_distortion_2(), marshaled.___distortion_2);
+	Distortion_t550060296_marshal_com(unmarshaled.get_inverse_3(), marshaled.___inverse_3);
+}
+extern "C" void Viewer_t1642017539_marshal_com_back(const Viewer_t1642017539_marshaled_com& marshaled, Viewer_t1642017539& unmarshaled)
+{
+	Lenses_t2112994543  unmarshaled_lenses_temp_0;
+	memset(&unmarshaled_lenses_temp_0, 0, sizeof(unmarshaled_lenses_temp_0));
+	unmarshaled_lenses_temp_0 = marshaled.___lenses_0;
+	unmarshaled.set_lenses_0(unmarshaled_lenses_temp_0);
+	MaxFOV_t1743211906  unmarshaled_maxFOV_temp_1;
+	memset(&unmarshaled_maxFOV_temp_1, 0, sizeof(unmarshaled_maxFOV_temp_1));
+	unmarshaled_maxFOV_temp_1 = marshaled.___maxFOV_1;
+	unmarshaled.set_maxFOV_1(unmarshaled_maxFOV_temp_1);
+	Distortion_t550060296  unmarshaled_distortion_temp_2;
+	memset(&unmarshaled_distortion_temp_2, 0, sizeof(unmarshaled_distortion_temp_2));
+	Distortion_t550060296_marshal_com_back(marshaled.___distortion_2, unmarshaled_distortion_temp_2);
+	unmarshaled.set_distortion_2(unmarshaled_distortion_temp_2);
+	Distortion_t550060296  unmarshaled_inverse_temp_3;
+	memset(&unmarshaled_inverse_temp_3, 0, sizeof(unmarshaled_inverse_temp_3));
+	Distortion_t550060296_marshal_com_back(marshaled.___inverse_3, unmarshaled_inverse_temp_3);
+	unmarshaled.set_inverse_3(unmarshaled_inverse_temp_3);
+}
+// Conversion method for clean up from marshalling of: GvrProfile/Viewer
+extern "C" void Viewer_t1642017539_marshal_com_cleanup(Viewer_t1642017539_marshaled_com& marshaled)
+{
+	Distortion_t550060296_marshal_com_cleanup(marshaled.___distortion_2);
+	Distortion_t550060296_marshal_com_cleanup(marshaled.___inverse_3);
+}
+// System.Void GvrRecenterOnlyController::.ctor()
+extern "C"  void GvrRecenterOnlyController__ctor_m675220662 (GvrRecenterOnlyController_t2745329441 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
